@@ -1,0 +1,203 @@
+{
+  "complete": true,
+  "groups": [
+    {
+      "condition": "Omniscient-Vision",
+      "completed": 4,
+      "success": 4,
+      "total": 4,
+      "perception": {
+        "player": {
+          "correct": 34,
+          "total": 34,
+          "accuracy": 1
+        },
+        "robotVisible": {
+          "correct": 34,
+          "total": 34,
+          "accuracy": 1
+        },
+        "visibleRobotJoint": {
+          "correct": 34,
+          "total": 34,
+          "accuracy": 1
+        }
+      },
+      "prediction": {
+        "visible": {
+          "correct": 32,
+          "total": 34,
+          "accuracy": 0.9411764705882353
+        },
+        "occluded": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "age": {
+          "1": {
+            "correct": 0,
+            "total": 0,
+            "accuracy": null
+          },
+          "2": {
+            "correct": 0,
+            "total": 0,
+            "accuracy": null
+          },
+          "3": {
+            "correct": 0,
+            "total": 0,
+            "accuracy": null
+          },
+          "4+": {
+            "correct": 0,
+            "total": 0,
+            "accuracy": null
+          }
+        }
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0,
+        "Prediction Error": 0,
+        "Action/Planning Error": 0
+      },
+      "fourClasses": {
+        "format": 0,
+        "perception": 0,
+        "prediction": 0,
+        "planning": 0
+      },
+      "textBaseline": {
+        "success": 4,
+        "total": 4,
+        "perception": "N/A: structured truth input; no perception task",
+        "visiblePrediction": {
+          "correct": 34,
+          "total": 34,
+          "accuracy": 1
+        },
+        "occludedPrediction": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "requests": 34,
+        "costRMB": 1.4004660000000002,
+        "failures": 0
+      },
+      "requests": 34,
+      "costRMB": 1.4721659999999999
+    },
+    {
+      "condition": "Partial-known-Vision",
+      "completed": 4,
+      "success": 3,
+      "total": 4,
+      "perception": {
+        "player": {
+          "correct": 29,
+          "total": 29,
+          "accuracy": 1
+        },
+        "robotVisible": {
+          "correct": 29,
+          "total": 29,
+          "accuracy": 1
+        },
+        "visibleRobotJoint": {
+          "correct": 4,
+          "total": 4,
+          "accuracy": 1
+        }
+      },
+      "prediction": {
+        "visible": {
+          "correct": 4,
+          "total": 4,
+          "accuracy": 1
+        },
+        "occluded": {
+          "correct": 25,
+          "total": 25,
+          "accuracy": 1
+        },
+        "age": {
+          "1": {
+            "correct": 4,
+            "total": 4,
+            "accuracy": 1
+          },
+          "2": {
+            "correct": 4,
+            "total": 4,
+            "accuracy": 1
+          },
+          "3": {
+            "correct": 4,
+            "total": 4,
+            "accuracy": 1
+          },
+          "4+": {
+            "correct": 13,
+            "total": 13,
+            "accuracy": 1
+          }
+        }
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0,
+        "Prediction Error": 0,
+        "Action/Planning Error": 1
+      },
+      "fourClasses": {
+        "format": 0,
+        "perception": 0,
+        "prediction": 0,
+        "planning": 1
+      },
+      "textBaseline": {
+        "success": 4,
+        "total": 4,
+        "perception": "N/A: structured truth input; no perception task",
+        "visiblePrediction": {
+          "correct": 4,
+          "total": 4,
+          "accuracy": 1
+        },
+        "occludedPrediction": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1
+        },
+        "requests": 34,
+        "costRMB": 1.500808,
+        "failures": 0
+      },
+      "requests": 29,
+      "costRMB": 1.3914499999999999
+    }
+  ],
+  "ledger": {
+    "costRMB": 2.863616,
+    "physicalRequests": 63,
+    "completed": 63,
+    "unpriced": 0
+  },
+  "failures": [
+    {
+      "id": "partial-known-vision-phase-0",
+      "outcome": "vision",
+      "category": "Action/Planning Error",
+      "frame": "partial-known-vision-phase-0/frames/tick-03.png"
+    }
+  ],
+  "perceptionErrors": [],
+  "interruptions": [],
+  "unstarted": [],
+  "method": "Same period-8 phase2-v1 environment, user-confirmed correction from requested period14. Immediate attribution only; does not exclude earlier risk-management errors. Hidden images omit robot AND vision. Current images alone supplied, text memory only model-owned outputs."
+}

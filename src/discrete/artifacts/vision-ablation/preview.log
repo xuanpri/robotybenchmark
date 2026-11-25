@@ -1,0 +1,16 @@
+✔ deterministic PNG preview, pixel-level hidden-state noninterference, legal images (2353.589335ms)
+✔ text contains static rules and model-owned memory only; no phase or backend scores (1.263752ms)
+✔ strict schema rejects invalid JSON, PEEK and inconsistent visibility (0.563155ms)
+✔ all five immediate counterfactual branches (0.532713ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2646.019947
+(node:239009) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:238957) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

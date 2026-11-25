@@ -1,0 +1,1196 @@
+{
+  "id": "omniscient-vision-phase-4",
+  "condition": "Omniscient-Vision",
+  "phase": 4,
+  "states": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 1
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 4,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 5,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 6,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 7,
+      "player": [
+        5,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 1
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 8,
+      "player": [
+        6,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 9,
+      "player": [
+        7,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 10,
+      "player": [
+        8,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "success"
+    }
+  ],
+  "steps": [
+    {
+      "before": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "frame": "omniscient-vision-phase-4/frames/tick-00.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            1,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            4
+          ],
+          "robot_heading": "N"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east toward the goal; the robot moves north to [5,3], and the player at [2,3] avoids collision and its north-facing vision."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[1,3],\"robot_visible\":true,\"robot_pos\":[5,4],\"robot_heading\":\"N\"},\"predicted_next\":{\"pos\":[5,3],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Move east toward the goal; the robot moves north to [5,3], and the player at [2,3] avoids collision and its north-facing vision.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 743,
+          "completion_tokens": 211,
+          "total_tokens": 954,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 117
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.035702"
+        },
+        "latency": 4.551425206000014,
+        "wire": "omniscient-vision-phase-4/wire/tick-00.json",
+        "image": {
+          "path": "frames/tick-00.png",
+          "sha256": "7da6ff5ce55adc0de239c611ca50c775896c3522f23a6beaeba84a91f616cfbd",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "frame": "omniscient-vision-phase-4/frames/tick-01.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            2,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            3
+          ],
+          "robot_heading": "N"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Advance east toward the goal while the robot moves north; its next forward vision ray points away from the player."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[2,3],\"robot_visible\":true,\"robot_pos\":[5,3],\"robot_heading\":\"N\"},\"predicted_next\":{\"pos\":[5,2],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Advance east toward the goal while the robot moves north; its next forward vision ray points away from the player.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 776,
+          "completion_tokens": 179,
+          "total_tokens": 955,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 96
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.03318"
+        },
+        "latency": 4.611016713999998,
+        "wire": "omniscient-vision-phase-4/wire/tick-01.json",
+        "image": {
+          "path": "frames/tick-01.png",
+          "sha256": "8e59848b49ee44ba0a558d85253c204852fd805923b120096deaf100fdc18eb6",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "frame": "omniscient-vision-phase-4/frames/tick-02.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            3,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            2
+          ],
+          "robot_heading": "N"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east to (4,3). The robot moves north to (5,1), so there is no collision, edge swap, or forward-vision exposure."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[3,3],\"robot_visible\":true,\"robot_pos\":[5,2],\"robot_heading\":\"N\"},\"predicted_next\":{\"pos\":[5,1],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Move east to (4,3). The robot moves north to (5,1), so there is no collision, edge swap, or forward-vision exposure.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 809,
+          "completion_tokens": 318,
+          "total_tokens": 1127,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 224
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.047634"
+        },
+        "latency": 8.868755940000003,
+        "wire": "omniscient-vision-phase-4/wire/tick-02.json",
+        "image": {
+          "path": "frames/tick-02.png",
+          "sha256": "e131b4b15aee102d44e187d98cf20e9054081dd2edb43615302556ab1dd18db3",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 4,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "frame": "omniscient-vision-phase-4/frames/tick-03.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            4,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            1
+          ],
+          "robot_heading": "N"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "The robot will pause at the north endpoint and reverse south; moving RIGHT to (5,3) would enter its new south-facing vision ray."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[4,3],\"robot_visible\":true,\"robot_pos\":[5,1],\"robot_heading\":\"N\"},\"predicted_next\":{\"pos\":[5,1],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"The robot will pause at the north endpoint and reverse south; moving RIGHT to (5,3) would enter its new south-facing vision ray.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 842,
+          "completion_tokens": 520,
+          "total_tokens": 1362,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 430
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.068344"
+        },
+        "latency": 8.991574159000011,
+        "wire": "omniscient-vision-phase-4/wire/tick-03.json",
+        "image": {
+          "path": "frames/tick-03.png",
+          "sha256": "f69f6f5975db75ddc07d4d8fbe2b1b97898d80b38d43f57f9be54bb42cd5cc86",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 4,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "frame": "omniscient-vision-phase-4/frames/tick-04.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            4,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            1
+          ],
+          "robot_heading": "S"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "Moving RIGHT would place the player at (5,3), directly in the robot's new southward vision from (5,2). Waiting is safe and lets the robot pass toward (5,3)."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[4,3],\"robot_visible\":true,\"robot_pos\":[5,1],\"robot_heading\":\"S\"},\"predicted_next\":{\"pos\":[5,2],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"Moving RIGHT would place the player at (5,3), directly in the robot's new southward vision from (5,2). Waiting is safe and lets the robot pass toward (5,3).\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 875,
+          "completion_tokens": 439,
+          "total_tokens": 1314,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 337
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.060958"
+        },
+        "latency": 7.91823296600001,
+        "wire": "omniscient-vision-phase-4/wire/tick-04.json",
+        "image": {
+          "path": "frames/tick-04.png",
+          "sha256": "d8840bc69b088807eb1ae2311fc1e33ff8e6e1ccd3d4ee633b64caddcf6283b6",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 6,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "frame": "omniscient-vision-phase-4/frames/tick-05.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            4,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            2
+          ],
+          "robot_heading": "S"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "The robot will move into (5,3), so crossing now would cause a same-cell collision. Waiting at (4,3) is safe because its new southward vision does not include the player."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[4,3],\"robot_visible\":true,\"robot_pos\":[5,2],\"robot_heading\":\"S\"},\"predicted_next\":{\"pos\":[5,3],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"The robot will move into (5,3), so crossing now would cause a same-cell collision. Waiting at (4,3) is safe because its new southward vision does not include the player.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 908,
+          "completion_tokens": 383,
+          "total_tokens": 1291,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 281
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.056054"
+        },
+        "latency": 7.500265213000006,
+        "wire": "omniscient-vision-phase-4/wire/tick-05.json",
+        "image": {
+          "path": "frames/tick-05.png",
+          "sha256": "c8f6f535b0f89b859f784f7ed03ee8c1914bc6cdefe030f8c0c70dbade325411",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 6,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 7,
+        "player": [
+          5,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "frame": "omniscient-vision-phase-4/frames/tick-06.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            4,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            3
+          ],
+          "robot_heading": "S"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "Move through the opaque door into (5,3) as the robot moves south to (5,4); there is no collision, edge swap, or forward-vision exposure."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[4,3],\"robot_visible\":true,\"robot_pos\":[5,3],\"robot_heading\":\"S\"},\"predicted_next\":{\"pos\":[5,4],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"Move through the opaque door into (5,3) as the robot moves south to (5,4); there is no collision, edge swap, or forward-vision exposure.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 941,
+          "completion_tokens": 234,
+          "total_tokens": 1175,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 137
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.041916"
+        },
+        "latency": 4.043213441,
+        "wire": "omniscient-vision-phase-4/wire/tick-06.json",
+        "image": {
+          "path": "frames/tick-06.png",
+          "sha256": "132a4d04246e7fc7f328b3c32337baf4cba993d93b3089e602e0075864138d0d",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 7,
+        "player": [
+          5,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 8,
+        "player": [
+          6,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "frame": "omniscient-vision-phase-4/frames/tick-07.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            5,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            4
+          ],
+          "robot_heading": "S"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east to (6,3). The robot pauses at its south endpoint and reverses to N; its forward vision is along x=5, so (6,3) is safe and advances toward the goal."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[5,3],\"robot_visible\":true,\"robot_pos\":[5,4],\"robot_heading\":\"S\"},\"predicted_next\":{\"pos\":[5,4],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Move east to (6,3). The robot pauses at its south endpoint and reverses to N; its forward vision is along x=5, so (6,3) is safe and advances toward the goal.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 974,
+          "completion_tokens": 201,
+          "total_tokens": 1175,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 96
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.039296"
+        },
+        "latency": 4.9656373580000075,
+        "wire": "omniscient-vision-phase-4/wire/tick-07.json",
+        "image": {
+          "path": "frames/tick-07.png",
+          "sha256": "a1d7488b9800e95c3bcdd78fb8b11dadfa3ef8470d819ac5a20a2a7ee8bff2e8",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 8,
+        "player": [
+          6,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 9,
+        "player": [
+          7,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "frame": "omniscient-vision-phase-4/frames/tick-08.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            6,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            4
+          ],
+          "robot_heading": "N"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east to (7,3), avoiding collision and the robot's north-facing vision ray; this advances toward the goal at (8,3)."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[6,3],\"robot_visible\":true,\"robot_pos\":[5,4],\"robot_heading\":\"N\"},\"predicted_next\":{\"pos\":[5,3],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Move east to (7,3), avoiding collision and the robot's north-facing vision ray; this advances toward the goal at (8,3).\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 1007,
+          "completion_tokens": 160,
+          "total_tokens": 1167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 69
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.03588"
+        },
+        "latency": 4.240663969999994,
+        "wire": "omniscient-vision-phase-4/wire/tick-08.json",
+        "image": {
+          "path": "frames/tick-08.png",
+          "sha256": "6bac56fa2844c95329d02f8c05b56bf86dbeb98bca7a67dbf08ea67ab846b636",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 9,
+        "player": [
+          7,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 10,
+        "player": [
+          8,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "success"
+      },
+      "frame": "omniscient-vision-phase-4/frames/tick-09.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            7,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            3
+          ],
+          "robot_heading": "N"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east onto GOAL at (8,3); the robot moves north to (5,2), so there is no collision, edge swap, or vision exposure."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[7,3],\"robot_visible\":true,\"robot_pos\":[5,3],\"robot_heading\":\"N\"},\"predicted_next\":{\"pos\":[5,2],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Move east onto GOAL at (8,3); the robot moves north to (5,2), so there is no collision, edge swap, or vision exposure.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 1040,
+          "completion_tokens": 172,
+          "total_tokens": 1212,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 77
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.037726"
+        },
+        "latency": 3.7136878670000004,
+        "wire": "omniscient-vision-phase-4/wire/tick-09.json",
+        "image": {
+          "path": "frames/tick-09.png",
+          "sha256": "f8a8e5fe16ffcec7a60aa4c171913ed4221fe5e5a7b6d39cb970447317a73e3b",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    }
+  ],
+  "outcome": "success"
+}

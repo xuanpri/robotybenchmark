@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "complete": true,
+  "episodes": 8,
+  "requests": 63,
+  "uniqueResponseIDs": 63,
+  "imagePayloadsPerRequest": 1,
+  "allPNG640x384": true,
+  "allPNGsRerenderMatch": true,
+  "wireHasNoBase64": true,
+  "payloadHashesReconstructed": true,
+  "onlyModelOwnedTextHistory": true,
+  "protectedFiles": 2540,
+  "totalTests": 74,
+  "typescript": "passed",
+  "costRMB": 2.863616
+}

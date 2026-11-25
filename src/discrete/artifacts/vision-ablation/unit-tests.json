@@ -1,0 +1,5 @@
+{
+  "status": 0,
+  "stdout": "✔ deterministic PNG preview, pixel-level hidden-state noninterference, legal images (2693.811233ms)\n✔ text contains static rules and model-owned memory only; no phase or backend scores (1.364879ms)\n✔ strict schema rejects invalid JSON, PEEK and inconsistent visibility (0.711369ms)\n✔ all five immediate counterfactual branches (0.710801ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 2960.267667\n",
+  "stderr": "(node:245183) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n"
+}

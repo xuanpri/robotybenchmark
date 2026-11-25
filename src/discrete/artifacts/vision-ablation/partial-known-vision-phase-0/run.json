@@ -1,0 +1,486 @@
+{
+  "id": "partial-known-vision-phase-0",
+  "condition": "Partial-known-Vision",
+  "phase": 0,
+  "states": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 1
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 4,
+      "player": [
+        5,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "vision"
+    }
+  ],
+  "steps": [
+    {
+      "before": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "frame": "partial-known-vision-phase-0/frames/tick-00.png",
+      "visible": true,
+      "age": 0,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            1,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            1
+          ],
+          "robot_heading": "S"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "Move east toward the goal while remaining outside the robot's next forward vision ray on x=5."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[1,3],\"robot_visible\":true,\"robot_pos\":[5,1],\"robot_heading\":\"S\"},\"predicted_next\":{\"pos\":[5,2],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"Move east toward the goal while remaining outside the robot's next forward vision ray on x=5.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 763,
+          "completion_tokens": 168,
+          "total_tokens": 931,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 87
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.03183"
+        },
+        "latency": 4.154408848999999,
+        "wire": "partial-known-vision-phase-0/wire/tick-00.json",
+        "image": {
+          "path": "frames/tick-00.png",
+          "sha256": "cd4c2966d306c44a6ae20be758a275f7929a387bd00afb7952ab091c0debb845",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "frame": "partial-known-vision-phase-0/frames/tick-01.png",
+      "visible": false,
+      "age": 1,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            2,
+            3
+          ],
+          "robot_visible": false,
+          "robot_pos": null,
+          "robot_heading": null
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "Robot is hidden but inferred at (5,2) heading south; it will move to (5,3). Moving right to (3,3) avoids collision and its south-facing vision."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": null,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[2,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,3],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"Robot is hidden but inferred at (5,2) heading south; it will move to (5,3). Moving right to (3,3) avoids collision and its south-facing vision.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 796,
+          "completion_tokens": 261,
+          "total_tokens": 1057,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 164
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.041718"
+        },
+        "latency": 5.714911108,
+        "wire": "partial-known-vision-phase-0/wire/tick-01.json",
+        "image": {
+          "path": "frames/tick-01.png",
+          "sha256": "6a74330901783c2044c17019de759fbcc7f2656342f994959adc75f81218ca7a",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "frame": "partial-known-vision-phase-0/frames/tick-02.png",
+      "visible": false,
+      "age": 2,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            3,
+            3
+          ],
+          "robot_visible": false,
+          "robot_pos": null,
+          "robot_heading": null
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "Move onto the opaque door at (4,3). The inferred robot reaches (5,4) heading south, so its forward vision is blocked by the wall at (5,5), and there is no collision or edge swap."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": null,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[3,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,4],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"Move onto the opaque door at (4,3). The inferred robot reaches (5,4) heading south, so its forward vision is blocked by the wall at (5,5), and there is no collision or edge swap.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 824,
+          "completion_tokens": 248,
+          "total_tokens": 1072,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 143
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.040982"
+        },
+        "latency": 6.465835029000009,
+        "wire": "partial-known-vision-phase-0/wire/tick-02.json",
+        "image": {
+          "path": "frames/tick-02.png",
+          "sha256": "cdee184c4baec715bd29ce0250bf707cff344390947bb7e15228fcf5333cf13f",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 4,
+        "player": [
+          5,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "vision"
+      },
+      "frame": "partial-known-vision-phase-0/frames/tick-03.png",
+      "visible": false,
+      "age": 3,
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            4,
+            3
+          ],
+          "robot_visible": false,
+          "robot_pos": null,
+          "robot_heading": null
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Enter the opaque door at (5,3). The inferred robot stays at (5,4) and reverses north; the door blocks its forward vision."
+      },
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": null,
+        "all": true
+      },
+      "answer": {
+        "content": "{\"perceived_current\":{\"player_pos\":[4,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,4],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Enter the opaque door at (5,3). The inferred robot stays at (5,4) and reverses north; the door blocks its forward vision.\"}",
+        "model": "gpt-5.6-sol-2026-07-09",
+        "usage": {
+          "prompt_tokens": 852,
+          "completion_tokens": 374,
+          "total_tokens": 1226,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 284
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.054048"
+        },
+        "latency": 6.696050611999992,
+        "wire": "partial-known-vision-phase-0/wire/tick-03.json",
+        "image": {
+          "path": "frames/tick-03.png",
+          "sha256": "cfaa1b2f71867dc155cfa179ecc20e38485ae493e01584c086c034f8f89e2867",
+          "mimeType": "image/png"
+        }
+      },
+      "predictionCorrect": true
+    }
+  ],
+  "outcome": "vision",
+  "category": "Action/Planning Error"
+}
