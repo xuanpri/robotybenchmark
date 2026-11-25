@@ -1,0 +1,198 @@
+{
+  "attempt": 1,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 1,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 2,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 3,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 4,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 5,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 6,
+      "player": [
+        6,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 7,
+      "player": [
+        7,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 8,
+      "player": [
+        8,
+        3
+      ],
+      "outcome": "success",
+      "robot": null,
+      "source": "occluded"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "Wait at the window at [1,3] to observe the robot's patrol pattern and movement behavior from [5,5] heading S before advancing."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The robot remained stationary at [5,5] facing S from tick 0 to tick 1, so it is safe to advance east toward the exit at [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-remained-stationary-at [5,5] facing-S-during-initial-window-observations, so-continue-advancing-east-toward-the-door-at [4,3] and-exit-at [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-remained-stationary-at [5,5] facing-S-during-ticks 0 and 1, so-continue-moving-RIGHT-to [4,3] before-the-opaque-door."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-was-observed-stationary-at [5,5] facing-S-across-ticks 0 and 1, so-step-RIGHT-through-the-door-to [5,3] toward-the-exit-at [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-remained-stationary-at [5,5] facing-S-during-ticks 0 and 1, and-passing-through-[5,3]-succeeded-safely, so-continue-moving-RIGHT-to [6,3] toward-the-exit-at [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-was-observed-stationary-at [5,5] facing-S-across-ticks 0 and 1, and-crossing-the-junction-at [5,3] to [6,3] succeeded-safely, so-continue-moving-RIGHT-to [7,3] toward-the-exit-at [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-was-observed-stationary-at [5,5] facing-S-during-ticks 0 and 1, so-step-RIGHT-from [7,3] to-reach-the-exit-at [8,3]."
+    }
+  ],
+  "failureReason": null
+}

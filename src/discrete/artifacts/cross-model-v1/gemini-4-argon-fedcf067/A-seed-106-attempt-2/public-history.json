@@ -1,0 +1,441 @@
+{
+  "attempt": 2,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 1,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 2,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 3,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 4,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 5,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 6,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 7,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 8,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 9,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 10,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 11,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 12,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 13,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 14,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 15,
+      "player": [
+        6,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 16,
+      "player": [
+        7,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 17,
+      "player": [
+        8,
+        3
+      ],
+      "outcome": "success",
+      "robot": null,
+      "source": "occluded"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "Wait-at-the-window [1,3] to-observe-the-robot's-patrol-cycle-through-the-southern-turnaround, since-attempt 1 failed-due-to-vision-at-tick 10."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Wait-at-the-window [1,3] to-observe-the-robot's-patrol-cycle-past-tick 6 and-see-how-it-behaves-at-the-southern-end."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Wait-at-the-window [1,3] to-observe-the-robot-past-tick 6 and-see-its-actual-turnaround-behavior-at-the-southern-end."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Wait-at-the-window [1,3] to-observe-the-robot's-patrol-cycle-past-tick 6 and-verify-its-exact-southern-turnaround-timing."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Wait-at-the-window [1,3] to-observe-the-robot-past-tick 6 and-see-its-exact-turnaround-behavior-at-the-southern-end."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Wait-at-the-window [1,3] to-observe-the-robot's-patrol-cycle-past-tick 6 and-see-its-exact-turnaround-behavior-at-the-southern-end."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "Wait-at-the-window [1,3] to-directly-observe-the-robot's-position-and-heading-at-tick 7 during-the-southern-turnaround."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "Wait-at-the-window [1,3] to-observe-how-the-robot-turns-from [5,5] heading-S-at-tick 7 and-confirm-its-exact-southern-turnaround-timing."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "Wait-at-the-window [1,3] to-observe-when-the-robot-turns-around-or-moves-from [5,5] heading-S."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "Wait-at-the-window [1,3] to-observe-how-many-ticks-the-robot-pauses-at [5,5] heading-S-before-turning-north-and-confirm-its-full-patrol-cycle."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-just-turned-north-at [5,5] at-tick 10 and-will-move-north-to [5,4] at-tick 11, [5,3] at-tick 12, and [5,2] at-tick 13. Moving-RIGHT-now-reaches [4,3] at-tick 13 and-safely-crosses [5,3] at-tick 14 while-the-robot-is-at [5,1] facing-north."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-was-observed-at [5,5] heading-north-at-tick 10, so-it-moved-to [5,4] at-tick 11 and-will-move-north-to [5,3] at-tick 12. Moving-RIGHT-to [3,3] keeps-the-player-on-pace-to-reach [4,3] at-tick 13 and-cross [5,3] at-tick 14 while-the-robot-is-at [5,1] facing-north."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-moves-north-from [5,3] to [5,2] at-tick 13. Moving-RIGHT-advances-the-player-to [4,3] behind-the-opaque-door, ready-to-safely-cross [5,3] at-tick 14 when-the-robot-is-at [5,1] facing-north."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-moves-north-from [5,2] to [5,1] facing-north-at-tick 14. Crossing-the-door-to [5,3] via-RIGHT-is-safe-because-the-robot-is-at [5,1] looking-north-away-from [5,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-moves-north-from [5,1] to [5,0] and-turns-south-at-tick 15, matching-its-observed-behavior-from-tick 1 to-tick 2. Moving-RIGHT-advances-the-player-from [5,3] to [6,3] out-of-column 5 and-closer-to-the-exit-at [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-was-at [5,0] heading-south-at-tick 15, so-it-moves-south-to [5,1] at-tick 16, matching-its-observed-transition-from-tick 2 to-tick 3. Moving-RIGHT-advances-the-player-from [6,3] to [7,3] toward-the-exit-at [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The-robot-continues-moving-south-from [5,1] to [5,2] at-tick 17, matching-its-observed-transition-from-tick 3 to-tick 4. Moving-RIGHT-from [7,3] reaches-the-exit-at [8,3] safely."
+    }
+  ],
+  "failureReason": null
+}

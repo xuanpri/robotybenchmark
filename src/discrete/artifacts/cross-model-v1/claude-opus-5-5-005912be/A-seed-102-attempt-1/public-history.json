@@ -1,0 +1,255 @@
+{
+  "attempt": 1,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 3,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 4,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 5,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 6,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 7,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 8,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 9,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 10,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 11,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "collision",
+      "robot": null,
+      "source": "occluded"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The robot is at the south end of the x=5 corridor facing S, so I expect it to turn around to N next tick. The player at [2,3] will be far from its sight line, and walking east along z=3 is the only route to the exit. I'll keep tracking the robot while crossing the x=5 junction at [5,3], where the door blocks sight from the west side."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "At tick 0 the robot was at [5,5] facing S, and I assumed it turned N there at tick 1. If it patrols the x=5 corridor, it should now step north to [5,4]. Moving RIGHT to [3,3] keeps me in the west corridor, hidden behind the door and outside its sight line. By tick 4 I expect the robot at [5,2] facing N while I enter [5,3] behind it, then reach [6,3] at tick 5 before it turns back south."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "Tick 0 sighting was [5,5] facing S, and I assume the robot patrols the x=5 corridor, turning north at the south end. That puts it at [5,4] at tick 2 and [5,3] facing N at tick 3. Waiting at [3,3] keeps me out of its path while it passes the junction. I can then step to [4,3] and [5,3] behind it as it heads north, and clear x=5 to [6,3] before it turns back south. There is plenty of time left, since only 5 more cells are needed and 28 ticks remain."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "The last sighting was tick 0 at [5,5] facing S, and since then I have only had occluded observations, so the robot's position is an inference rather than something I have seen. My working model is that it patrols the x=5 corridor, turning at the south end and moving north: [5,4] at tick 2, [5,3] at tick 3, so [5,2] facing N at tick 4. The door at [4,3]-[5,3] blocks sight, so waiting at [3,3] is safe, and the robot cannot reach me here. I will keep waiting until the robot has most likely gone north past the junction and before it comes back south, then move east. Only 5 cells remain and 27 ticks are left, so there is time to be patient, but my estimate is unverified and I will stay cautious if the timing looks off."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "The only sighting was at tick 0, with the robot at [5,5] facing S. Everything since is occluded, so my track of it is an inference. My working model is a patrol of the x=5 corridor: it turned north at the south end and moved up the corridor, which puts it at [5,2] at tick 4 and [5,1] facing N at tick 5. The corridor is walled at x=4 and x=6 except through the door cell at [5,3], so it may reach [5,0] and turn back south. If it does, it would pass back through [5,3] around ticks 8 to 10. I can't see it, so I am staying at [3,3], where the door blocks its sight line. I'll wait until I judge it has gone back south and cleared the junction, then cross [4,3], [5,3] and [6,3] to the exit at [8,3]. That needs 5 moves and I have plenty of ticks left, so waiting costs little. The estimate is unverified and the timing could be off, so I'll stay cautious."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "Only sighting was tick 0 at [5,5] facing S; everything since is occluded, so this is inference. Assuming a patrol of the x=5 corridor, it turned N at the south end and reached [5,1] at tick 5, so [5,0] facing N at tick 6, the north end of the corridor. It may then turn S and return through [5,3] around ticks 9 to 10. Staying at [3,3] is safe because the door blocks sight along z=3. I will keep waiting until it has likely passed back south of the junction, then cross [4,3], [5,3], [6,3] to the exit at [8,3], which needs 5 moves with plenty of ticks left."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Last sighting was tick 0 at [5,5] facing S; everything since is occluded, so this is inference. Assuming a patrol of the x=5 corridor, the robot reached the north end [5,0] at tick 6 and turns around, so at tick 7 it should be at [5,1] facing S. It would then pass [5,3] around ticks 9 to 10 and reach the south end near tick 12. Staying at [3,3] is safe because the door blocks sight along z=3. I will keep waiting until it has likely cleared [5,3] heading south, then cross [4,3], [5,3] and [6,3] toward the exit at [8,3]. That takes 5 moves, with plenty of ticks left."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The only sighting was at tick 0, with the robot at [5,5] facing S, so everything since is inference. Assuming a patrol of the x=5 corridor, it turned N at the south end, reached [5,0] at tick 6, and turned back at tick 7 to [5,1] facing S. That puts it at [5,2] facing S at tick 8, [5,3] at tick 9, [5,4] at tick 10 and [5,5] at tick 11. Waiting at [3,3] is safe because the door blocks sight along z=3. I plan to wait one more tick, step to [4,3] around tick 10 and enter [5,3] at tick 11 once it has passed heading south. Then I continue to [6,3] and on to the exit at [8,3], which leaves plenty of ticks. This timing is unverified, so I will recheck it if anything looks off."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Only the tick 0 sighting (robot at [5,5] facing S) is real; everything since is occluded, so my track is inference. Assuming a patrol of the x=5 corridor, it reached [5,0] at tick 6, turned S, and was at [5,2] facing S at tick 8, so [5,3] facing S at tick 9, then [5,4] at tick 10 and [5,5] at tick 11. I'm waiting at [3,3] because the door blocks sight along z=3. I'll step to [4,3] around tick 10 and enter [5,3] only after it has passed south. If it heads south and is at [5,4] when I'm at [5,3], I'd be in its forward ray, so I'll time the crossing carefully. The robot would be at the south end by tick 11 and turn north around tick 12, so the safest crossing window is tight. There are 21 ticks left and only 5 moves needed, so I can afford to wait for a full patrol cycle if this timing looks uncertain."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Only the tick 0 sighting is real, so the robot's track is inference. Assuming it patrols the x=5 corridor, it should be at [5,3] facing S at tick 9 and at [5,4] facing S at tick 10. Stepping to [4,3] is safe because the door blocks sight along z=3 and the robot's southward ray does not touch x=4. The plan is to enter [5,3] at tick 11, when the robot should be at [5,5] still facing S, then leave to [6,3] at tick 12 before it can turn north and sweep the column. If the timing looks off after this step, I will back off to [3,3] and wait out another cycle."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The only real sighting was tick 0 (robot at [5,5] facing S); everything since is occluded, so my track is inference. Assuming a patrol of the x=5 corridor, the robot should be at [5,4] facing S at tick 10 and reach the south end [5,5] facing S at tick 11. If I step to [5,3] now, its southward ray points away from me. It should then turn north in place at the south end, around tick 12. By then I plan to be at [6,3], outside the x=5 column. The timing is unverified, but the move is safe if the robot is at [5,4] or further south. 20 ticks remain, which is plenty for the 4 moves left."
+    }
+  ],
+  "failureReason": "collision"
+}

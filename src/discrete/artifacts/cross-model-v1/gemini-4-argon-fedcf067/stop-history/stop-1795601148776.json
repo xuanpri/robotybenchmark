@@ -1,0 +1,10 @@
+{
+  "reason": "budget_reserve_stop",
+  "budgetStop": true,
+  "cost": {
+    "actualRMB": 14.504894,
+    "unpriced": 0,
+    "requests": 129,
+    "billing": "gateway response cost; unknown pricing stops new requests until configured"
+  }
+}

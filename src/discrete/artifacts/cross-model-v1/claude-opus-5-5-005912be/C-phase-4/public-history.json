@@ -1,0 +1,14 @@
+{
+  "own_history": [
+    "t=0: perceived=P(1,3) R(5,4)N | pred=R(5,3)N | act=RIGHT",
+    "t=1: perceived=P(2,3) Rhidden | pred=R(5,2)N | act=RIGHT",
+    "t=2: perceived=P(3,3) Rhidden | pred=R(5,1)N | act=RIGHT",
+    "t=3: perceived=P(4,3) Rhidden | pred=R(5,1)S | act=WAIT",
+    "t=4: perceived=P(4,3) Rhidden | pred=R(5,2)S | act=WAIT",
+    "t=5: perceived=P(4,3) Rhidden | pred=R(5,3)S | act=WAIT",
+    "t=6: perceived=P(4,3) Rhidden | pred=R(5,4)S | act=RIGHT",
+    "t=7: perceived=P(5,3) Rhidden | pred=R(5,4)N | act=RIGHT",
+    "t=8: perceived=P(6,3) Rhidden | pred=R(5,3)N | act=RIGHT",
+    "t=9: perceived=P(7,3) Rhidden | pred=R(5,2)N | act=RIGHT"
+  ]
+}

@@ -1,0 +1,1426 @@
+{
+  "id": "A-seed-101-attempt-1",
+  "slice": "A",
+  "model": "gemini-4-argon",
+  "seed": 101,
+  "attempt": 1,
+  "mode": "identical_loop",
+  "condition": "Partial-unknown-passive",
+  "instance": {
+    "mode": "identical_loop",
+    "seed": 101,
+    "attempt": 1,
+    "params": {
+      "min": 0,
+      "max": 5,
+      "southSpeed": 1,
+      "northSpeed": 1,
+      "northPause": 0,
+      "southPause": 3,
+      "alt": false,
+      "stutter": false
+    },
+    "pattern": null,
+    "phase": 4,
+    "period": 13,
+    "robots": [
+      {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 3,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 3,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 3,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      }
+    ]
+  },
+  "states": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 1,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 3,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 2,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 3,
+      "player": [
+        2,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 4,
+      "player": [
+        3,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 5,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 6,
+      "player": [
+        5,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "collision"
+    }
+  ],
+  "steps": [
+    {
+      "before": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 3,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      "output": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "Wait at the window [1,3] to observe the robot's patrol pattern. The robot at [5,4] heading S should move to [5,5]."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"Wait at the window [1,3] to observe the robot's patrol pattern. The robot at [5,4] heading S should move to [5,5].\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"Wait at the window [1,3] to observe the robot's patrol pattern. The robot at [5,4] heading S should move to [5,5].\"}",
+        "usage": {
+          "prompt_tokens": 9434,
+          "completion_tokens": 62,
+          "total_tokens": 9496,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 9434,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 62,
+              "totalTokenCount": 9496,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 6438,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 6438,
+            "text_tokens": 9434,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.03628"
+        },
+        "model": "gemini-4-argon",
+        "latency": 5.738129783999997,
+        "wire": "A-seed-101-attempt-1/wire/tick-00.json",
+        "responseID": "chatcmpl-20261125093239565485263c14228f5jRgfgmly"
+      },
+      "visible": true,
+      "ticks_since_last_seen": 0,
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 3,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 2,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      "output": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "action": "WAIT",
+        "reason": "Wait at the window [1,3] to confirm how the robot reverses at the southern boundary [5,5]; expecting it to turn N and move to [5,4] (or turn in place at [5,5])."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,4],\"heading\":\"N\"},\"action\":\"WAIT\",\"reason\":\"Wait at the window [1,3] to confirm how the robot reverses at the southern boundary [5,5]; expecting it to turn N and move to [5,4] (or turn in place at [5,5]).\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,4],\"heading\":\"N\"},\"action\":\"WAIT\",\"reason\":\"Wait at the window [1,3] to confirm how the robot reverses at the southern boundary [5,5]; expecting it to turn N and move to [5,4] (or turn in place at [5,5]).\"}",
+        "usage": {
+          "prompt_tokens": 9536,
+          "completion_tokens": 74,
+          "total_tokens": 9610,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 9536,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 74,
+              "totalTokenCount": 9610,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 9536,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.09906"
+        },
+        "model": "gemini-4-argon",
+        "latency": 7.078127603,
+        "wire": "A-seed-101-attempt-1/wire/tick-01.json",
+        "responseID": "chatcmpl-20261125093245389119852c14228f5pI73Dncs"
+      },
+      "visible": true,
+      "ticks_since_last_seen": 0,
+      "predictionCorrect": false
+    },
+    {
+      "before": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 2,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 3,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 1,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      "output": {
+        "tick": 3,
+        "player": [
+          2,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-has-remained-stationary-at-[5,5]-facing-S- after-hitting-the-southern-boundary,-where-its-vision-ray-points-south-out-of-bounds-and-away-from-row-z=3.-Since-[5,3]-is-completely-clear-of-both-collision-and-vision,-begin-moving-east-along-row-3-toward-the-exit-[8,3]."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-has-remained-stationary-at-[5,5]-facing-S- after-hitting-the-southern-boundary,-where-its-vision-ray-points-south-out-of-bounds-and-away-from-row-z=3.-Since-[5,3]-is-completely-clear-of-both-collision-and-vision,-begin-moving-east-along-row-3-toward-the-exit-[8,3].\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-has-remained-stationary-at-[5,5]-facing-S- after-hitting-the-southern-boundary,-where-its-vision-ray-points-south-out-of-bounds-and-away-from-row-z=3.-Since-[5,3]-is-completely-clear-of-both-collision-and-vision,-begin-moving-east-along-row-3-toward-the-exit-[8,3].\"}",
+        "usage": {
+          "prompt_tokens": 9659,
+          "completion_tokens": 131,
+          "total_tokens": 9790,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 9659,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 131,
+              "totalTokenCount": 9790,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 9659,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.10314"
+        },
+        "model": "gemini-4-argon",
+        "latency": 6.6328154910000015,
+        "wire": "A-seed-101-attempt-1/wire/tick-02.json",
+        "responseID": "chatcmpl-20261125093252541777679c14228f5MPKqaeFU"
+      },
+      "visible": true,
+      "ticks_since_last_seen": 0,
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 3,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 1,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 4,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 3,
+        "player": [
+          2,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 4,
+        "player": [
+          3,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-appears-to-remain-at-[5,5]-facing-S-against-the-southern-boundary.-Even-if-it-were-moving,-[3,3]-is-west-of-the-opaque-door-[4,3]-[5,3]-and-completely-safe.-Continue-moving-east-to-[3,3]-on-the-way-to-exit-[8,3]."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-appears-to-remain-at-[5,5]-facing-S-against-the-southern-boundary.-Even-if-it-were-moving,-[3,3]-is-west-of-the-opaque-door-[4,3]-[5,3]-and-completely-safe.-Continue-moving-east-to-[3,3]-on-the-way-to-exit-[8,3].\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-appears-to-remain-at-[5,5]-facing-S-against-the-southern-boundary.-Even-if-it-were-moving,-[3,3]-is-west-of-the-opaque-door-[4,3]-[5,3]-and-completely-safe.-Continue-moving-east-to-[3,3]-on-the-way-to-exit-[8,3].\"}",
+        "usage": {
+          "prompt_tokens": 9801,
+          "completion_tokens": 121,
+          "total_tokens": 9922,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 9801,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 121,
+              "totalTokenCount": 9922,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 9801,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.10406"
+        },
+        "model": "gemini-4-argon",
+        "latency": 6.192199377999997,
+        "wire": "A-seed-101-attempt-1/wire/tick-03.json",
+        "responseID": "chatcmpl-20261125093259268591983c14228f54hK64gZZ"
+      },
+      "visible": false,
+      "ticks_since_last_seen": 1,
+      "predictionCorrect": false
+    },
+    {
+      "before": {
+        "tick": 4,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 4,
+        "player": [
+          3,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-was-observed-staying-stationary-at-[5,5]-facing-S-against-the-southern-boundary.-Cell-[4,3]-is-still-west-of-the-opaque-door-[4,3]-[5,3]-and-completely-safe,-so-move-RIGHT-to-[4,3]-toward-the-exit-[8,3]."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-was-observed-staying-stationary-at-[5,5]-facing-S-against-the-southern-boundary.-Cell-[4,3]-is-still-west-of-the-opaque-door-[4,3]-[5,3]-and-completely-safe,-so-move-RIGHT-to-[4,3]-toward-the-exit-[8,3].\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-was-observed-staying-stationary-at-[5,5]-facing-S-against-the-southern-boundary.-Cell-[4,3]-is-still-west-of-the-opaque-door-[4,3]-[5,3]-and-completely-safe,-so-move-RIGHT-to-[4,3]-toward-the-exit-[8,3].\"}",
+        "usage": {
+          "prompt_tokens": 9940,
+          "completion_tokens": 113,
+          "total_tokens": 10053,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 9940,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 113,
+              "totalTokenCount": 10053,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 9940,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.10505"
+        },
+        "model": "gemini-4-argon",
+        "latency": 6.3876563259999966,
+        "wire": "A-seed-101-attempt-1/wire/tick-04.json",
+        "responseID": "chatcmpl-20261125093305503334952c14228f5r6PArBKc"
+      },
+      "visible": false,
+      "ticks_since_last_seen": 2,
+      "predictionCorrect": false
+    },
+    {
+      "before": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 6,
+        "player": [
+          5,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "collision"
+      },
+      "input": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 6,
+        "player": [
+          5,
+          3
+        ],
+        "outcome": "collision",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-was-observed-stationary-at-[5,5]-facing-S-against-the-southern-boundary,-leaving-[5,3]-unoccupied-and-out-of-its-southward-vision-ray.-Move-RIGHT-through-the-door-to-[5,3]-toward-exit-[8,3]."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-was-observed-stationary-at-[5,5]-facing-S-against-the-southern-boundary,-leaving-[5,3]-unoccupied-and-out-of-its-southward-vision-ray.-Move-RIGHT-through-the-door-to-[5,3]-toward-exit-[8,3].\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-was-observed-stationary-at-[5,5]-facing-S-against-the-southern-boundary,-leaving-[5,3]-unoccupied-and-out-of-its-southward-vision-ray.-Move-RIGHT-through-the-door-to-[5,3]-toward-exit-[8,3].\"}",
+        "usage": {
+          "prompt_tokens": 10071,
+          "completion_tokens": 102,
+          "total_tokens": 10173,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10071,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 102,
+              "totalTokenCount": 10173,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10071,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.10581"
+        },
+        "model": "gemini-4-argon",
+        "latency": 6.921315317,
+        "wire": "A-seed-101-attempt-1/wire/tick-05.json",
+        "responseID": "chatcmpl-20261125093311976672133c14228f5A4rh4Jjk"
+      },
+      "visible": false,
+      "ticks_since_last_seen": 3,
+      "predictionCorrect": false
+    }
+  ],
+  "outcome": "collision",
+  "public": {
+    "attempt": 1,
+    "observations": [
+      {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      {
+        "tick": 3,
+        "player": [
+          2,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 4,
+        "player": [
+          3,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 6,
+        "player": [
+          5,
+          3
+        ],
+        "outcome": "collision",
+        "robot": null,
+        "source": "occluded"
+      }
+    ],
+    "decisions": [
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "Wait at the window [1,3] to observe the robot's patrol pattern. The robot at [5,4] heading S should move to [5,5]."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "action": "WAIT",
+        "reason": "Wait at the window [1,3] to confirm how the robot reverses at the southern boundary [5,5]; expecting it to turn N and move to [5,4] (or turn in place at [5,5])."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-has-remained-stationary-at-[5,5]-facing-S- after-hitting-the-southern-boundary,-where-its-vision-ray-points-south-out-of-bounds-and-away-from-row-z=3.-Since-[5,3]-is-completely-clear-of-both-collision-and-vision,-begin-moving-east-along-row-3-toward-the-exit-[8,3]."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-appears-to-remain-at-[5,5]-facing-S-against-the-southern-boundary.-Even-if-it-were-moving,-[3,3]-is-west-of-the-opaque-door-[4,3]-[5,3]-and-completely-safe.-Continue-moving-east-to-[3,3]-on-the-way-to-exit-[8,3]."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-was-observed-staying-stationary-at-[5,5]-facing-S-against-the-southern-boundary.-Cell-[4,3]-is-still-west-of-the-opaque-door-[4,3]-[5,3]-and-completely-safe,-so-move-RIGHT-to-[4,3]-toward-the-exit-[8,3]."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-was-observed-stationary-at-[5,5]-facing-S-against-the-southern-boundary,-leaving-[5,3]-unoccupied-and-out-of-its-southward-vision-ray.-Move-RIGHT-through-the-door-to-[5,3]-toward-exit-[8,3]."
+      }
+    ],
+    "failureReason": "collision"
+  },
+  "attribution": {
+    "category": "Prediction Error",
+    "evidence": "Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action."
+  },
+  "category": "Prediction Error",
+  "executionStatus": "complete"
+}

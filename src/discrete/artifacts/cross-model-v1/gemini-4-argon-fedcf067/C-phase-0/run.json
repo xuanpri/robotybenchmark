@@ -1,0 +1,673 @@
+{
+  "id": "C-phase-0",
+  "slice": "C",
+  "model": "gemini-4-argon",
+  "phase": 0,
+  "attempt": 1,
+  "condition": "Partial-known-Vision",
+  "states": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 1
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 4,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 5,
+      "player": [
+        5,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "collision"
+    }
+  ],
+  "steps": [
+    {
+      "before": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            1,
+            3
+          ],
+          "robot_visible": true,
+          "robot_pos": [
+            5,
+            1
+          ],
+          "robot_heading": "S"
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "Robot is at [5,1] facing S, which means it has already reversed at z=1 and will move to [5,2] facing S on tick 1. Moving RIGHT advances player toward the door at [4,3]."
+      },
+      "answer": {
+        "rawContent": "{\"perceived_current\":{\"player_pos\":[1,3],\"robot_visible\":true,\"robot_pos\":[5,1],\"robot_heading\":\"S\"},\"predicted_next\":{\"pos\":[5,2],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"Robot is at [5,1] facing S, which means it has already reversed at z=1 and will move to [5,2] facing S on tick 1. Moving RIGHT advances player toward the door at [4,3].\"}\n",
+        "content": "{\"perceived_current\":{\"player_pos\":[1,3],\"robot_visible\":true,\"robot_pos\":[5,1],\"robot_heading\":\"S\"},\"predicted_next\":{\"pos\":[5,2],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"Robot is at [5,1] facing S, which means it has already reversed at z=1 and will move to [5,2] facing S on tick 1. Moving RIGHT advances player toward the door at [4,3].\"}",
+        "usage": {
+          "prompt_tokens": 10473,
+          "completion_tokens": 108,
+          "total_tokens": 10581,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10473,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 108,
+              "totalTokenCount": 10581,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10473,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.11013"
+        },
+        "model": "gemini-4-argon",
+        "latency": 12.053548640000008,
+        "wire": "C-phase-0/wire/tick-00.json",
+        "responseID": "chatcmpl-20261125100732186082363c14228f5D3wFffOk"
+      },
+      "visible": true,
+      "age": 0,
+      "frame": "C-phase-0/frames/tick-00.png",
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": true,
+        "all": true
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            2,
+            3
+          ],
+          "robot_visible": false,
+          "robot_pos": null,
+          "robot_heading": null
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "At t=0 robot was at (5,1) heading S, so at t=1 it is at (5,2) heading S and at t=2 it will move to (5,3) heading S. Moving RIGHT to (3,3) safely advances toward the door before crossing when clear."
+      },
+      "answer": {
+        "rawContent": "{\"perceived_current\":{\"player_pos\":[2,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,3],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"At t=0 robot was at (5,1) heading S, so at t=1 it is at (5,2) heading S and at t=2 it will move to (5,3) heading S. Moving RIGHT to (3,3) safely advances toward the door before crossing when clear.\"}\n",
+        "content": "{\"perceived_current\":{\"player_pos\":[2,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,3],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"At t=0 robot was at (5,1) heading S, so at t=1 it is at (5,2) heading S and at t=2 it will move to (5,3) heading S. Moving RIGHT to (3,3) safely advances toward the door before crossing when clear.\"}",
+        "usage": {
+          "prompt_tokens": 10506,
+          "completion_tokens": 120,
+          "total_tokens": 10626,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10506,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 120,
+              "totalTokenCount": 10626,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10506,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.11106"
+        },
+        "model": "gemini-4-argon",
+        "latency": 8.299141374,
+        "wire": "C-phase-0/wire/tick-01.json",
+        "responseID": "chatcmpl-20261125100744564469221c14228f5j9cVl9ae"
+      },
+      "visible": false,
+      "age": 1,
+      "frame": "C-phase-0/frames/tick-01.png",
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": null,
+        "all": true
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            3,
+            3
+          ],
+          "robot_visible": false,
+          "robot_pos": null,
+          "robot_heading": null
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "Player is at (3,3) and robot is hidden. From t=0 sighting at (5,1)S, the robot moved to (5,2)S at t=1, is currently at (5,3)S at t=2, and will move to (5,4)S at t=3. Moving RIGHT to (4,3) is safe behind the opaque door, preparing to cross (5,3) at t=4 when the robot turns North at (5,4)N."
+      },
+      "answer": {
+        "rawContent": "{\"perceived_current\":{\"player_pos\":[3,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,4],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"Player is at (3,3) and robot is hidden. From t=0 sighting at (5,1)S, the robot moved to (5,2)S at t=1, is currently at (5,3)S at t=2, and will move to (5,4)S at t=3. Moving RIGHT to (4,3) is safe behind the opaque door, preparing to cross (5,3) at t=4 when the robot turns North at (5,4)N.\"}\n",
+        "content": "{\"perceived_current\":{\"player_pos\":[3,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,4],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"Player is at (3,3) and robot is hidden. From t=0 sighting at (5,1)S, the robot moved to (5,2)S at t=1, is currently at (5,3)S at t=2, and will move to (5,4)S at t=3. Moving RIGHT to (4,3) is safe behind the opaque door, preparing to cross (5,3) at t=4 when the robot turns North at (5,4)N.\"}",
+        "usage": {
+          "prompt_tokens": 10536,
+          "completion_tokens": 165,
+          "total_tokens": 10701,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10536,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 165,
+              "totalTokenCount": 10701,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10536,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.11361"
+        },
+        "model": "gemini-4-argon",
+        "latency": 9.125320594000005,
+        "wire": "C-phase-0/wire/tick-02.json",
+        "responseID": "chatcmpl-20261125100753234471443c14228f5uVaCXTbS"
+      },
+      "visible": false,
+      "age": 2,
+      "frame": "C-phase-0/frames/tick-02.png",
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": null,
+        "all": true
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 4,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            4,
+            3
+          ],
+          "robot_visible": false,
+          "robot_pos": null,
+          "robot_heading": null
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "action": "WAIT",
+        "reason": "At t=3 the robot is at (5,4) heading S. At t=4 it stays at (5,4) and reverses heading to N, looking north across (5,3). Moving RIGHT to (5,3) now would place P in the robot's vision ray, so WAIT at (4,3) behind the opaque door."
+      },
+      "answer": {
+        "rawContent": "{\"perceived_current\":{\"player_pos\":[4,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,4],\"heading\":\"N\"},\"action\":\"WAIT\",\"reason\":\"At t=3 the robot is at (5,4) heading S. At t=4 it stays at (5,4) and reverses heading to N, looking north across (5,3). Moving RIGHT to (5,3) now would place P in the robot's vision ray, so WAIT at (4,3) behind the opaque door.\"}\n",
+        "content": "{\"perceived_current\":{\"player_pos\":[4,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,4],\"heading\":\"N\"},\"action\":\"WAIT\",\"reason\":\"At t=3 the robot is at (5,4) heading S. At t=4 it stays at (5,4) and reverses heading to N, looking north across (5,3). Moving RIGHT to (5,3) now would place P in the robot's vision ray, so WAIT at (4,3) behind the opaque door.\"}",
+        "usage": {
+          "prompt_tokens": 10565,
+          "completion_tokens": 130,
+          "total_tokens": 10695,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10565,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 130,
+              "totalTokenCount": 10695,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10565,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.11215"
+        },
+        "model": "gemini-4-argon",
+        "latency": 12.327881617000006,
+        "wire": "C-phase-0/wire/tick-03.json",
+        "responseID": "chatcmpl-20261125100802586484020c14228f5TypZEgHh"
+      },
+      "visible": false,
+      "age": 3,
+      "frame": "C-phase-0/frames/tick-03.png",
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": null,
+        "all": true
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 4,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 5,
+        "player": [
+          5,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "collision"
+      },
+      "decision": {
+        "perceived_current": {
+          "player_pos": [
+            4,
+            3
+          ],
+          "robot_visible": false,
+          "robot_pos": null,
+          "robot_heading": null
+        },
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "At t=4, the robot is at (5,3) heading N. On the next tick (t=5), the robot moves to (5,2) heading N, whose vision ray faces N towards z=1 and does not cover (5,3). Moving RIGHT to (5,3) safely crosses the patrol corridor."
+      },
+      "answer": {
+        "rawContent": "{\"perceived_current\":{\"player_pos\":[4,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,2],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"At t=4, the robot is at (5,3) heading N. On the next tick (t=5), the robot moves to (5,2) heading N, whose vision ray faces N towards z=1 and does not cover (5,3). Moving RIGHT to (5,3) safely crosses the patrol corridor.\"}\n",
+        "content": "{\"perceived_current\":{\"player_pos\":[4,3],\"robot_visible\":false,\"robot_pos\":null,\"robot_heading\":null},\"predicted_next\":{\"pos\":[5,2],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"At t=4, the robot is at (5,3) heading N. On the next tick (t=5), the robot moves to (5,2) heading N, whose vision ray faces N towards z=1 and does not cover (5,3). Moving RIGHT to (5,3) safely crosses the patrol corridor.\"}",
+        "usage": {
+          "prompt_tokens": 10594,
+          "completion_tokens": 125,
+          "total_tokens": 10719,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10594,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 125,
+              "totalTokenCount": 10719,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10594,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.11219"
+        },
+        "model": "gemini-4-argon",
+        "latency": 9.843791056000017,
+        "wire": "C-phase-0/wire/tick-04.json",
+        "responseID": "chatcmpl-20261125100815090805923c14228f5SyEXKrNo"
+      },
+      "visible": false,
+      "age": 4,
+      "frame": "C-phase-0/frames/tick-04.png",
+      "perception": {
+        "player": true,
+        "visible": true,
+        "robot": null,
+        "all": true
+      },
+      "predictionCorrect": false
+    }
+  ],
+  "outcome": "collision",
+  "public": {
+    "own_history": [
+      "t=0: perceived=P(1,3) R(5,1)S | pred=R(5,2)S | act=RIGHT",
+      "t=1: perceived=P(2,3) Rhidden | pred=R(5,3)S | act=RIGHT",
+      "t=2: perceived=P(3,3) Rhidden | pred=R(5,4)S | act=RIGHT",
+      "t=3: perceived=P(4,3) Rhidden | pred=R(5,4)N | act=WAIT",
+      "t=4: perceived=P(4,3) Rhidden | pred=R(5,2)N | act=RIGHT"
+    ]
+  },
+  "category": "Prediction Error",
+  "executionStatus": "complete"
+}

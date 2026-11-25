@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "selectedSlices": [
+    "A",
+    "C"
+  ],
+  "models": [
+    "claude-opus-5-5",
+    "gemini-4-argon"
+  ],
+  "gpt": "read-only baseline only",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "phases": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "operationalTextAttemptCap": 3,
+  "originalPromptMaxAttempts": 5,
+  "visionAttemptCap": 1,
+  "budgetPerModelRMB": 25,
+  "reserveRMB": 0.5,
+  "video": false,
+  "sources": [
+    {
+      "file": "provider.ts",
+      "sha256": "d5cefe45136340d4e7c6d3ce918e5502626233432b05602ff419c087a267f626"
+    },
+    {
+      "file": "experiment.ts",
+      "sha256": "b32fb2e3e4d08952a4d259fafb126f29a9daa8bee907877a40a917935898803f"
+    }
+  ],
+  "normalization": "Strip whole Markdown JSON fences only; no other repairs",
+  "preflightCallsPerNewModel": 2,
+  "fingerprint": "8f0de70dd99b13ac55ec92c6803332e7213c8aadfd5f100f63abb4c7951dcf35"
+}

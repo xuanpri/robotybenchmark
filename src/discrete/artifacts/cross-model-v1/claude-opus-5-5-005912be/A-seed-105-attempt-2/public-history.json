@@ -1,0 +1,468 @@
+{
+  "attempt": 2,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 1,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 2,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 3,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 4,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 5,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 6,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 7,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 8,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 9,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 10,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 11,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 12,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 13,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 14,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 15,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 16,
+      "player": [
+        6,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 17,
+      "player": [
+        7,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 18,
+      "player": [
+        8,
+        3
+      ],
+      "outcome": "success",
+      "robot": null,
+      "source": "occluded"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "At tick 0 the window shows the robot at [5,3] facing N, the same start as the previous attempt. Last time it moved one cell per tick: [5,2] at tick 1, [5,1] at tick 2, [5,0] at tick 3 where it turned S, then back down column 5. I predict it at [5,2] facing N at tick 1, though its behavior may differ between attempts, so I will confirm this through the window. Waiting at the spawn [1,3] is safe: the door blocks sight along row 3 and I am far outside column 5. Last time I was hit at [5,3] at tick 11, which means the robot's timing was off from my model after it went out of view at tick 6. This time I will keep watching the window to refine the cycle before crossing."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "At tick 1 the window shows the robot at [5,2] facing N, matching the first attempt, so it is moving north one cell per tick. I predict [5,1] facing N at the next tick, and it should turn south at [5,0]. I'm staying at the spawn [1,3] because the door blocks its sight along row 3 and I'm outside its 3-cell range. Last time my cycle model failed once the robot left the window's view, so this time I'll keep watching it from the window for longer. That should show how far south it sweeps and when it returns, before I commit to crossing column 5. There is plenty of time, since the route to [8,3] takes only 7 moves."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The window shows the robot at [5,1] facing N at tick 2, moving north one cell per tick as in the previous attempt. Next tick I expect it at [5,0], where it turned to face S last time. I stay at the spawn [1,3] because the door blocks sight along row 3 and I am outside its range. I will keep watching the window to see whether the sweep timing repeats, since my cycle model after it left view caused the earlier death."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "At tick 3 the window shows the robot at [5,0] facing S, so it reversed at the north end of column 5, matching the first attempt. It has moved one cell per tick, so I predict [5,1] facing S next tick. I stay at the spawn [1,3] because the door blocks sight along row 3 and I am beyond its 3-cell range. Last attempt I died at [5,3] at tick 11, so my model of its cycle after it left the window was wrong. I will keep watching through the window, which shows the robot only while it is in view, and avoid committing to column 5 until I can confirm its timing and heading."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "At tick 4 the window shows the robot at [5,1] facing S, and it has moved one cell per tick since tick 3, when it turned at [5,0]. This matches attempt 1, so I predict [5,2] facing S next tick. I stay at the spawn [1,3]. The door blocks sight along row 3 and I am outside the robot's column and its 3-cell ray. In attempt 1 my cycle model failed after the robot left the window and I died at [5,3] at tick 11. This time I will keep observing through the window, which shows the robot only while I stand at [1,3], and I will not commit to the corridor until its timing is confirmed."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The window shows the robot at [5,2] facing S at tick 5. It has moved one cell per tick since turning at [5,0] on tick 3, so I predict [5,3] facing S next tick. Last attempt I died at [5,3] at tick 11, so my model of its cycle after it left the window was wrong. It may pause or turn at the south end, which would change when it returns. I stay at the spawn [1,3] because the door blocks sight along row 3 and I am outside its 3-cell range. Waiting keeps the window open, so I can watch it pass [5,3] and the south end and learn the real timing before crossing. I have time, since the route to [8,3] takes only 7 moves."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "At tick 6 the window shows the robot at [5,3] facing S, still moving one cell per tick down column 5, so I predict [5,4] facing S next. In attempt 1 I left the window at tick 6 and was killed entering [5,3] at tick 11. That means my model of the robot's south-end turn and timing was wrong, because a robot facing north from [5,2] would not have hit me there. I stay at [1,3], where the door blocks sight along row 3 and the robot is out of range. The window only shows the robot while I am here, so waiting lets me watch the real south-end turn and return timing before I cross."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "The window at tick 7 shows the robot at [5,4] facing S, moving one cell per tick down column 5. At the north end it showed up at [5,0] already facing S, so it flips heading on arrival at an end. By that rule I predict it reaches [5,5] at tick 8 facing N. My attempt-1 model said it would be heading north through [5,3] at tick 10 and then [5,2] at tick 11, which would not have hit me, but I died at [5,3] at tick 11. So the south end probably involves a pause or a different turn timing, and I will not trust the 10-tick cycle. I stay at the spawn [1,3], where the window still shows the robot, the door blocks sight along row 3, and I am far outside column 5 and its 3-cell ray. I will keep watching the window to see how long it stays at the south end and when it comes back north through [5,3] before I cross."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "At tick 8 the window shows the robot at [5,5] facing S, so it has reached the south end of column 5. Given the north end behavior (it appeared at [5,0] already facing S at tick 3), it flips heading on arrival, but the window now shows it still facing S at [5,5]. That suggests the turn happens on the next update, so I predict it moves to [5,4] facing N at tick 9. I stay at the spawn [1,3], where the door blocks sight along row 3 and I am far outside column 5 and its 3-cell ray. I will keep watching the window to confirm the south-end turn and the return timing before I cross."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "The window shows the robot at [5,5] facing S at both tick 8 and tick 9, so it stopped for one tick at the south end instead of turning on arrival as it did at [5,0]. That matches attempt 1. There I stood at [4,3] and was killed entering [5,3] at tick 11, which fits the robot facing N at [5,4] or [5,5], with its ray covering [5,3]. So I predict it turns north in place at [5,5] at tick 10, then moves to [5,4] at tick 11 and [5,3] at tick 12. Staying at the spawn [1,3] is safe: the door blocks sight along row 3 and the robot is outside its 3-cell range. I'll keep watching through the window to confirm the south-end timing and the northward sweep before I cross column 5."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "The window shows the robot at [5,5] facing S on ticks 8, 9 and 10, so it has paused at the south end of column 5 for three ticks instead of turning on arrival as it did at [5,0]. In attempt 1 I stepped into [5,3] at tick 10 and was killed at tick 11. That fits the robot facing N at [5,5] or [5,4] at tick 11, with its ray covering [5,3]. I therefore predict it turns north in place at [5,5] next tick, then moves to [5,4] at tick 12 and [5,3] at tick 13. I stay at the spawn [1,3]. The door blocks sight along row 3, I am outside column 5, and the window keeps showing the robot, so I can confirm its northward timing before crossing."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The window shows the robot at [5,5] facing N at tick 11. It stayed there facing S on ticks 8 to 10 and has now turned north in place, which matches the failure in attempt 1. I predict it moves to [5,4] facing N at tick 12, then [5,3] at tick 13, [5,2] at tick 14 and [5,1] at tick 15. It should reach [5,0] at tick 16 and turn south on arrival, as it did at tick 3. I move RIGHT now to [2,3], then [3,3] at tick 13 and [4,3] at tick 14, where the door blocks sight along row 3 and I am outside column 5. I step into [5,3] at tick 15, when the robot is at [5,1] facing N and its ray covers only [5,0]. At tick 16 I move to [6,3] as it turns south at [5,0], so its ray never covers me. Then I go on to [8,3] by tick 18. The robot is far from row 3 and its ray stays in column 5, so [2,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "At tick 11 the window showed the robot at [5,5] facing N after its three-tick pause at the south end. I predicted it at [5,4] facing N at tick 12, so at tick 13 it should be at [5,3] facing N, moving one cell per tick. It should reach [5,2] at tick 14 and [5,1] at tick 15. At the north end it turned to face S on arrival at [5,0] in the earlier ticks, so I expect it at [5,0] facing S at tick 16. I move RIGHT to [3,3], which is far from column 5 and outside its 3-cell ray, and the door blocks sight along row 3. I reach the door cell [4,3] at tick 14 and step into [5,3] at tick 15, when the robot is at [5,1] facing N and its ray covers only [5,0]. At tick 16 I move to [6,3], out of column 5, while it turns south at [5,0]. Then I continue to [8,3] by tick 18."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The robot was at [5,5] facing N at tick 11 after its three-tick pause. It moves one cell per tick, so I expect it at [5,4] at tick 12 and [5,3] facing N at tick 13, which is now hidden from me. Next tick it should be at [5,2] facing N, and its ray from there covers only [5,1] and [5,0]. I move RIGHT to the door cell [4,3]. It is not in column 5, and the door blocks sight along row 3, so I am safe from the robot's ray and cannot collide with it. The robot should reach [5,1] at tick 15 and [5,0] at tick 16, where it turns south. I plan to step into [5,3] at tick 15, when its ray covers only [5,0]. At tick 16 I move to [6,3], out of column 5, and then continue to [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The robot was at [5,5] facing N at tick 11 after its three-tick pause at the south end. Moving one cell per tick, it should be at [5,4] at tick 12, [5,3] at tick 13 and [5,2] facing N at tick 14, so I predict [5,1] facing N at tick 15. Its updated ray from [5,1] covers only [5,0], so [5,3] is outside it. We do not share a cell and do not swap edges, since it moves north along column 5 while I move east from [4,3]. It should reach [5,0] at tick 16 and turn south on arrival, as it did at tick 3. Its ray would then cover [5,1] to [5,3], but I plan to step on to [6,3] at tick 16, out of column 5. After that I continue along row 3 to [8,3] by tick 18."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The robot was at [5,5] facing N at tick 11 after its three-tick pause. It has moved one cell per tick since then, so I estimate it at [5,1] facing N at tick 15. At tick 16 I predict it reaches [5,0] and turns to face S on arrival, as it did at tick 3. Its ray would then cover [5,1] to [5,3], which would hit me if I stayed in column 5. I move RIGHT to [6,3], which is open and outside column 5, so the ray cannot reach me. We cannot collide or swap edges because the robot moves along column 5 while I move east. After that I continue along row 3 to [7,3] and then [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The robot was at [5,5] facing N at tick 11 after its three-tick pause, then moved one cell per tick up column 5. That puts it at [5,0] at tick 16, where it should turn S on arrival as it did at tick 3. Next tick I predict it moves to [5,1] facing S. Its ray stays in column 5, and I'm at [6,3], outside it. Moving RIGHT to [7,3] is safe because there's no shared cell and no edge swap, since the robot moves along column 5 while I move east. I then step to [8,3] at tick 18 and reach the exit."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The robot was last seen at [5,5] facing N at tick 11. It then moved one cell per tick up column 5, reaching [5,0] at tick 16, where it turned S on arrival as it did at tick 3. That puts it at [5,1] facing S at tick 17, so I predict [5,2] facing S at tick 18. Its ray runs only along column 5, and I am at [7,3], outside that column. Moving RIGHT to [8,3] cannot cause a shared cell or an edge swap, and it reaches the exit."
+    }
+  ],
+  "failureReason": null
+}

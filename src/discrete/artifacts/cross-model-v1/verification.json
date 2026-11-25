@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "complete": true,
+  "selectedSlices": [
+    "A",
+    "C"
+  ],
+  "deferredSlices": [
+    "B"
+  ],
+  "episodes": 31,
+  "verifiedEpisodeRequests": 330,
+  "uniqueResponseIDs": 330,
+  "preflightRequests": 4,
+  "reusedHistoricalReceipts": 252,
+  "historicalReceiptsByteIdentical": true,
+  "modelIds": [
+    "claude-opus-5-5",
+    "gemini-4-argon"
+  ],
+  "gptNewRequests": 0,
+  "tests": 82,
+  "typescript": "passed",
+  "protectedFiles": 2692,
+  "exactOriginalPromptFactories": true,
+  "exactPRNGWorlds": true,
+  "exactOriginalVisionRenderer": true,
+  "interruptedEpisodesNotFailures": true
+}

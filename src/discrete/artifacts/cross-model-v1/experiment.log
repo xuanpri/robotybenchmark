@@ -1,0 +1,1299 @@
+✔ read-only GPT baseline cap3 exactly matches A 2/5/6, B 4/5/6, C 3/4 (62.622608ms)
+✔ all original selected text requests reconstruct exactly; new family changes model only (54.150216ms)
+✔ all selected visual text and image bytes match original payloads (8.065888ms)
+✔ fences, strict schemas, budget boundary and model cache keys (1.593244ms)
+✔ same context in distinct model/slice/seed/attempt paths samples independently; resume caches; GPT denied (72.829367ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 458.28653
+(node:312705) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Selected exact model IDs: ["claude-opus-5-5","gemini-4-argon"]
+Preflight passed {"passed":true,"model":"claude-opus-5-5","returnedModels":["claude-opus-5-5","claude-opus-5-5"],"textSchema":true,"visionSchema":true,"visionPerception":{"player":true,"visible":true,"robot":true,"all":true},"cost":{"actualRMB":0.09344,"unpriced":0,"requests":2,"billing":"gateway response cost; unknown pricing stops new requests until configured"}}
+Preflight passed {"passed":true,"model":"gemini-4-argon","returnedModels":["gemini-4-argon","gemini-4-argon"],"textSchema":true,"visionSchema":true,"visionPerception":{"player":true,"visible":true,"robot":true,"all":true},"cost":{"actualRMB":0.20601999999999998,"unpriced":0,"requests":2,"billing":"gateway response cost; unknown pricing stops new requests until configured"}}
+claude-opus-5-5 A 101 1 0 WAIT running 0.1407
+gemini-4-argon A 101 1 0 WAIT running 0.2423
+gemini-4-argon A 101 1 1 WAIT running 0.3414
+claude-opus-5-5 A 101 1 1 WAIT running 0.1897
+gemini-4-argon A 101 1 2 RIGHT running 0.4445
+claude-opus-5-5 A 101 1 2 WAIT running 0.2517
+gemini-4-argon A 101 1 3 RIGHT running 0.5486
+claude-opus-5-5 A 101 1 3 WAIT running 0.3137
+gemini-4-argon A 101 1 4 RIGHT running 0.6536
+claude-opus-5-5 A 101 1 4 RIGHT running 0.3773
+gemini-4-argon A 101 1 5 RIGHT collision 0.7594
+claude-opus-5-5 A 101 1 5 RIGHT running 0.4476
+gemini-4-argon A 101 2 0 WAIT running 0.8688
+gemini-4-argon A 101 2 1 WAIT running 0.9796
+gemini-4-argon A 101 2 2 WAIT running 1.0918
+claude-opus-5-5 A 101 1 6 WAIT running 0.5380
+gemini-4-argon A 101 2 3 WAIT running 1.2060
+claude-opus-5-5 A 101 1 7 WAIT running 0.6354
+gemini-4-argon A 101 2 4 WAIT running 1.3224
+claude-opus-5-5 A 101 1 8 RIGHT running 0.7380
+gemini-4-argon A 101 2 5 WAIT running 1.4393
+claude-opus-5-5 A 101 1 9 RIGHT vision 0.8391
+gemini-4-argon A 101 2 6 RIGHT running 1.5599
+claude-opus-5-5 A 101 2 0 WAIT running 0.9508
+claude-opus-5-5 A 101 2 1 WAIT running 1.0660
+claude-opus-5-5 A 101 2 2 WAIT running 1.1882
+gemini-4-argon A 101 2 7 RIGHT running 1.6808
+claude-opus-5-5 A 101 2 3 WAIT running 1.3138
+gemini-4-argon A 101 2 8 RIGHT running 1.8177
+claude-opus-5-5 A 101 2 4 WAIT running 1.4459
+gemini-4-argon A 101 2 9 RIGHT vision 1.9418
+claude-opus-5-5 A 101 2 5 WAIT running 1.5872
+gemini-4-argon A 101 3 0 RIGHT running 2.0723
+claude-opus-5-5 A 101 2 6 WAIT running 1.7413
+claude-opus-5-5 A 101 2 7 WAIT running 1.8959
+gemini-4-argon A 101 3 1 RIGHT running 2.2006
+claude-opus-5-5 A 101 2 8 WAIT running 2.0626
+gemini-4-argon A 101 3 2 RIGHT running 2.3306
+claude-opus-5-5 A 101 2 9 WAIT running 2.2396
+gemini-4-argon A 101 3 3 WAIT running 2.4634
+claude-opus-5-5 A 101 2 10 RIGHT running 2.4304
+gemini-4-argon A 101 3 4 WAIT running 2.5980
+claude-opus-5-5 A 101 2 11 RIGHT running 2.6285
+gemini-4-argon A 101 3 5 WAIT running 2.7349
+claude-opus-5-5 A 101 2 12 RIGHT running 2.8383
+gemini-4-argon A 101 3 6 RIGHT running 2.8718
+claude-opus-5-5 A 101 2 13 RIGHT running 3.0443
+gemini-4-argon A 101 3 7 RIGHT running 3.0133
+claude-opus-5-5 A 101 2 14 RIGHT running 3.2562
+claude-opus-5-5 A 101 2 15 RIGHT running 3.4725
+gemini-4-argon A 101 3 8 RIGHT running 3.1559
+claude-opus-5-5 A 101 2 16 RIGHT success 3.6981
+gemini-4-argon A 101 3 9 RIGHT success 3.3004
+claude-opus-5-5 A 102 1 0 RIGHT running 3.7344
+claude-opus-5-5 A 102 1 1 RIGHT running 3.7790
+gemini-4-argon A 102 1 0 WAIT running 3.4093
+gemini-4-argon A 102 1 1 RIGHT running 3.5081
+claude-opus-5-5 A 102 1 2 WAIT running 3.8303
+claude-opus-5-5 A 102 1 3 WAIT running 3.8957
+gemini-4-argon A 102 1 2 RIGHT running 3.6090
+claude-opus-5-5 A 102 1 4 WAIT running 3.9762
+claude-opus-5-5 A 102 1 5 WAIT running 4.0530
+gemini-4-argon A 102 1 3 RIGHT running 3.7111
+claude-opus-5-5 A 102 1 6 WAIT running 4.1367
+claude-opus-5-5 A 102 1 7 WAIT running 4.2329
+claude-opus-5-5 A 102 1 8 WAIT running 4.3417
+claude-opus-5-5 A 102 1 9 RIGHT running 4.4467
+gemini-4-argon A 102 1 4 RIGHT collision 3.8142
+claude-opus-5-5 A 102 1 10 RIGHT collision 4.5588
+claude-opus-5-5 A 102 2 0 RIGHT running 4.6787
+claude-opus-5-5 A 102 2 1 RIGHT running 4.8013
+gemini-4-argon A 102 2 0 WAIT running 3.9445
+claude-opus-5-5 A 102 2 2 WAIT running 4.9337
+claude-opus-5-5 A 102 2 3 WAIT running 5.0763
+gemini-4-argon A 102 2 1 WAIT running 4.0496
+gemini-4-argon A 102 2 2 WAIT running 4.1590
+claude-opus-5-5 A 102 2 4 WAIT running 5.2366
+gemini-4-argon A 102 2 3 WAIT running 4.2697
+gemini-4-argon A 102 2 4 RIGHT running 4.3828
+claude-opus-5-5 A 102 2 5 WAIT running 5.4057
+gemini-4-argon A 102 2 5 RIGHT running 4.4964
+claude-opus-5-5 A 102 2 6 WAIT running 5.5744
+gemini-4-argon A 102 2 6 RIGHT running 4.6102
+claude-opus-5-5 A 102 2 7 RIGHT running 5.7553
+claude-opus-5-5 A 102 2 8 RIGHT vision 5.9451
+gemini-4-argon A 102 2 7 RIGHT vision 4.7250
+gemini-4-argon A 102 3 0 WAIT running 4.8405
+gemini-4-argon A 102 3 1 WAIT running 4.9569
+claude-opus-5-5 A 102 3 0 RIGHT running 6.1362
+gemini-4-argon A 102 3 2 WAIT running 5.0751
+claude-opus-5-5 A 102 3 1 RIGHT running 6.3411
+gemini-4-argon A 102 3 3 WAIT running 5.1941
+gemini-4-argon A 102 3 4 WAIT running 5.3150
+gemini-4-argon A 102 3 5 WAIT running 5.4473
+claude-opus-5-5 A 102 3 2 RIGHT running 6.5511
+gemini-4-argon A 102 3 6 WAIT running 5.5700
+claude-opus-5-5 A 102 3 3 RIGHT vision 6.7648
+gemini-4-argon A 102 3 7 WAIT running 5.6975
+claude-opus-5-5 A 103 1 0 RIGHT running 6.8162
+claude-opus-5-5 A 103 1 1 RIGHT running 6.8646
+gemini-4-argon A 102 3 8 WAIT running 5.8627
+claude-opus-5-5 A 103 1 2 RIGHT running 6.9233
+gemini-4-argon A 102 3 9 RIGHT running 6.0270
+claude-opus-5-5 A 103 1 3 WAIT running 6.9826
+gemini-4-argon A 102 3 10 RIGHT running 6.1594
+claude-opus-5-5 A 103 1 4 LEFT running 7.0501
+gemini-4-argon A 102 3 11 RIGHT running 6.2937
+claude-opus-5-5 A 103 1 5 LEFT running 7.1336
+claude-opus-5-5 A 103 1 6 LEFT running 7.2209
+gemini-4-argon A 102 3 12 RIGHT running 6.4296
+gemini-4-argon A 102 3 13 RIGHT running 6.5650
+claude-opus-5-5 A 103 1 7 RIGHT running 7.3163
+gemini-4-argon A 102 3 14 RIGHT running 6.7016
+claude-opus-5-5 A 103 1 8 RIGHT running 7.4193
+gemini-4-argon A 102 3 15 RIGHT success 6.8411
+gemini-4-argon A 103 1 0 WAIT running 6.9383
+claude-opus-5-5 A 103 1 9 RIGHT running 7.5253
+gemini-4-argon A 103 1 1 RIGHT running 7.0368
+gemini-4-argon A 103 1 2 RIGHT running 7.1373
+claude-opus-5-5 A 103 1 10 WAIT running 7.6395
+gemini-4-argon A 103 1 3 RIGHT running 7.2384
+claude-opus-5-5 A 103 1 11 RIGHT running 7.7551
+gemini-4-argon A 103 1 4 RIGHT running 7.3409
+claude-opus-5-5 A 103 1 12 RIGHT running 7.8780
+gemini-4-argon A 103 1 5 RIGHT running 7.4449
+claude-opus-5-5 A 103 1 13 RIGHT running 8.0087
+gemini-4-argon A 103 1 6 RIGHT running 7.5506
+gemini-4-argon A 103 1 7 RIGHT success 7.6563
+claude-opus-5-5 A 103 1 14 RIGHT success 8.1439
+claude-opus-5-5 A 104 1 0 WAIT running 8.1989
+gemini-4-argon A 104 1 0 WAIT running 7.7531
+claude-opus-5-5 A 104 1 1 WAIT running 8.2556
+gemini-4-argon A 104 1 1 WAIT running 7.8509
+claude-opus-5-5 A 104 1 2 WAIT running 8.3071
+gemini-4-argon A 104 1 2 WAIT running 7.9509
+claude-opus-5-5 A 104 1 3 WAIT running 8.3722
+gemini-4-argon A 104 1 3 WAIT running 8.0515
+gemini-4-argon A 104 1 4 WAIT running 8.0911
+claude-opus-5-5 A 104 1 4 RIGHT running 8.4469
+gemini-4-argon A 104 1 5 RIGHT running 8.1968
+claude-opus-5-5 A 104 1 5 RIGHT running 8.5260
+gemini-4-argon A 104 1 6 RIGHT running 8.2300
+gemini-4-argon A 104 1 7 RIGHT running 8.3352
+claude-opus-5-5 A 104 1 6 RIGHT running 8.6102
+gemini-4-argon A 104 1 8 WAIT running 8.4425
+claude-opus-5-5 A 104 1 7 RIGHT running 8.6970
+gemini-4-argon A 104 1 9 WAIT running 8.5500
+claude-opus-5-5 A 104 1 8 RIGHT running 8.7876
+claude-opus-5-5 A 104 1 9 RIGHT running 8.8883
+claude-opus-5-5 A 104 1 10 RIGHT success 8.9933
+gemini-4-argon A 104 1 10 WAIT running 8.6757
+claude-opus-5-5 A 105 1 0 WAIT running 9.0377
+claude-opus-5-5 A 105 1 1 WAIT running 9.0854
+gemini-4-argon A 104 1 11 RIGHT vision 8.7851
+claude-opus-5-5 A 105 1 2 WAIT running 9.1424
+gemini-4-argon A 104 2 0 WAIT running 8.8963
+claude-opus-5-5 A 105 1 3 WAIT running 9.2001
+claude-opus-5-5 A 105 1 4 WAIT running 9.2685
+gemini-4-argon A 104 2 1 WAIT running 9.0085
+gemini-4-argon A 104 2 2 WAIT running 9.1218
+claude-opus-5-5 A 105 1 5 RIGHT running 9.3568
+gemini-4-argon A 104 2 3 WAIT running 9.2365
+gemini-4-argon A 104 2 4 WAIT running 9.3519
+claude-opus-5-5 A 105 1 6 RIGHT running 9.4445
+gemini-4-argon A 104 2 5 WAIT running 9.4680
+claude-opus-5-5 A 105 1 7 RIGHT running 9.5382
+gemini-4-argon A 104 2 6 WAIT running 9.5224
+claude-opus-5-5 A 105 1 8 WAIT running 9.6406
+gemini-4-argon A 104 2 7 WAIT running 9.6406
+claude-opus-5-5 A 105 1 9 WAIT running 9.7493
+gemini-4-argon A 104 2 8 WAIT running 9.7605
+gemini-4-argon A 104 2 9 WAIT running 9.8808
+claude-opus-5-5 A 105 1 10 RIGHT vision 9.8658
+claude-opus-5-5 A 105 2 0 WAIT running 9.9904
+gemini-4-argon A 104 2 10 WAIT running 10.0206
+claude-opus-5-5 A 105 2 1 WAIT running 10.1191
+claude-opus-5-5 A 105 2 2 WAIT running 10.2463
+gemini-4-argon A 104 2 11 WAIT running 10.1427
+claude-opus-5-5 A 105 2 3 WAIT running 10.3850
+gemini-4-argon A 104 2 12 RIGHT running 10.2708
+claude-opus-5-5 A 105 2 4 WAIT running 10.5322
+gemini-4-argon A 104 2 13 RIGHT running 10.3184
+claude-opus-5-5 A 105 2 5 WAIT running 10.6867
+gemini-4-argon A 104 2 14 RIGHT running 10.4466
+gemini-4-argon A 104 2 15 RIGHT running 10.5753
+claude-opus-5-5 A 105 2 6 WAIT running 10.8458
+gemini-4-argon A 104 2 16 RIGHT running 10.7068
+claude-opus-5-5 A 105 2 7 WAIT running 11.0210
+claude-opus-5-5 A 105 2 8 WAIT running 11.1955
+gemini-4-argon A 104 2 17 RIGHT running 10.8388
+gemini-4-argon A 104 2 18 RIGHT success 10.9806
+gemini-4-argon A 105 1 0 WAIT running 11.0776
+gemini-4-argon A 105 1 1 WAIT running 11.1758
+claude-opus-5-5 A 105 2 9 WAIT running 11.3823
+gemini-4-argon A 105 1 2 WAIT running 11.2137
+claude-opus-5-5 A 105 2 10 WAIT running 11.5755
+gemini-4-argon A 105 1 3 WAIT running 11.3150
+claude-opus-5-5 A 105 2 11 RIGHT running 11.7859
+gemini-4-argon A 105 1 4 WAIT running 11.4172
+claude-opus-5-5 A 105 2 12 RIGHT running 12.0026
+claude-opus-5-5 A 105 2 13 RIGHT running 12.2232
+gemini-4-argon A 105 1 5 WAIT running 11.5799
+gemini-4-argon A 105 1 6 WAIT running 11.6842
+gemini-4-argon A 105 1 7 WAIT running 11.7900
+gemini-4-argon A 105 1 8 WAIT running 11.8985
+claude-opus-5-5 A 105 2 14 RIGHT running 12.4505
+gemini-4-argon A 105 1 9 WAIT running 12.0068
+claude-opus-5-5 A 105 2 15 RIGHT running 12.6809
+gemini-4-argon A 105 1 10 RIGHT running 12.1164
+claude-opus-5-5 A 105 2 16 RIGHT running 12.9142
+gemini-4-argon A 105 1 11 RIGHT running 12.2260
+claude-opus-5-5 A 105 2 17 RIGHT success 13.1515
+gemini-4-argon A 105 1 12 RIGHT running 12.3363
+claude-opus-5-5 A 106 1 0 RIGHT running 13.1864
+claude-opus-5-5 A 106 1 1 RIGHT running 13.2365
+gemini-4-argon A 105 1 13 RIGHT running 12.4475
+gemini-4-argon A 105 1 14 RIGHT running 12.5600
+claude-opus-5-5 A 106 1 2 WAIT running 13.2913
+claude-opus-5-5 A 106 1 3 WAIT running 13.3600
+claude-opus-5-5 A 106 1 4 WAIT running 13.4310
+gemini-4-argon A 105 1 15 RIGHT running 12.6733
+claude-opus-5-5 A 106 1 5 WAIT running 13.5149
+gemini-4-argon A 105 1 16 RIGHT success 12.7874
+claude-opus-5-5 A 106 1 6 WAIT running 13.6008
+gemini-4-argon A 106 1 0 WAIT running 12.8844
+claude-opus-5-5 A 106 1 7 RIGHT running 13.6899
+gemini-4-argon A 106 1 1 WAIT running 12.9824
+claude-opus-5-5 A 106 1 8 WAIT running 13.7892
+gemini-4-argon A 106 1 2 WAIT running 13.0829
+claude-opus-5-5 A 106 1 9 RIGHT vision 13.8932
+gemini-4-argon A 106 1 3 WAIT running 13.1836
+claude-opus-5-5 A 106 2 0 WAIT running 14.0147
+gemini-4-argon A 106 1 4 WAIT running 13.2993
+claude-opus-5-5 A 106 2 1 WAIT running 14.1356
+claude-opus-5-5 A 106 2 2 WAIT running 14.2759
+gemini-4-argon A 106 1 5 WAIT running 13.4022
+claude-opus-5-5 A 106 2 3 WAIT running 14.4106
+gemini-4-argon A 106 1 6 RIGHT running 13.5076
+gemini-4-argon A 106 1 7 RIGHT running 13.6149
+gemini-4-argon A 106 1 8 RIGHT running 13.7233
+claude-opus-5-5 A 106 2 4 WAIT running 14.5518
+Stopped model claude-opus-5-5 budget_reserve_stop
+gemini-4-argon A 106 1 9 RIGHT vision 13.8325
+gemini-4-argon A 106 2 0 WAIT running 13.9423
+gemini-4-argon A 106 2 1 WAIT running 14.0530
+gemini-4-argon A 106 2 2 WAIT running 14.1644
+gemini-4-argon A 106 2 3 WAIT running 14.2768
+gemini-4-argon A 106 2 4 WAIT running 14.3902
+gemini-4-argon A 106 2 5 WAIT running 14.5049
+Stopped model gemini-4-argon budget_reserve_stop
+{
+  "complete": false,
+  "models": [
+    "gpt-5.6-sol",
+    "claude-opus-5-5",
+    "gemini-4-argon"
+  ],
+  "groups": [
+    {
+      "model": "gpt-5.6-sol",
+      "slice": "A",
+      "complete": true,
+      "completedCases": 6,
+      "total": 6,
+      "pass": [
+        {
+          "k": 1,
+          "success": 2,
+          "total": 6
+        },
+        {
+          "k": 2,
+          "success": 5,
+          "total": 6
+        },
+        {
+          "k": 3,
+          "success": 6,
+          "total": 6
+        }
+      ],
+      "restrictedMeanAtCap": 1.8333333333333333,
+      "visible": {
+        "correct": 11,
+        "total": 16,
+        "accuracy": 0.6875
+      },
+      "occluded": {
+        "correct": 30,
+        "total": 75,
+        "accuracy": 0.4
+      },
+      "age": {
+        "1": {
+          "correct": 5,
+          "total": 11,
+          "accuracy": 0.45454545454545453
+        },
+        "2": {
+          "correct": 5,
+          "total": 11,
+          "accuracy": 0.45454545454545453
+        },
+        "3": {
+          "correct": 3,
+          "total": 11,
+          "accuracy": 0.2727272727272727
+        },
+        "4+": {
+          "correct": 17,
+          "total": 42,
+          "accuracy": 0.40476190476190477
+        }
+      },
+      "perception": null,
+      "peek": {
+        "count": 0,
+        "meanPerEpisode": 0,
+        "atDoor": 0,
+        "doorFraction": null
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Prediction Error": 5,
+        "Action/Planning Error": 0,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0
+      },
+      "requests": 91,
+      "historicalCostRMB": 5.742762000000003,
+      "newCostRMB": 0,
+      "cases": [
+        {
+          "key": 101,
+          "firstSuccess": 2,
+          "complete": true,
+          "attempts": 2
+        },
+        {
+          "key": 102,
+          "firstSuccess": 3,
+          "complete": true,
+          "attempts": 3
+        },
+        {
+          "key": 103,
+          "firstSuccess": 2,
+          "complete": true,
+          "attempts": 2
+        },
+        {
+          "key": 104,
+          "firstSuccess": 2,
+          "complete": true,
+          "attempts": 2
+        },
+        {
+          "key": 105,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 106,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "slice": "B",
+      "complete": true,
+      "completedCases": 6,
+      "total": 6,
+      "pass": [
+        {
+          "k": 1,
+          "success": 4,
+          "total": 6
+        },
+        {
+          "k": 2,
+          "success": 5,
+          "total": 6
+        },
+        {
+          "k": 3,
+          "success": 6,
+          "total": 6
+        }
+      ],
+      "restrictedMeanAtCap": 1.5,
+      "visible": {
+        "correct": 17,
+        "total": 22,
+        "accuracy": 0.7727272727272727
+      },
+      "occluded": {
+        "correct": 22,
+        "total": 51,
+        "accuracy": 0.43137254901960786
+      },
+      "age": {
+        "1": {
+          "correct": 7,
+          "total": 15,
+          "accuracy": 0.4666666666666667
+        },
+        "2": {
+          "correct": 5,
+          "total": 14,
+          "accuracy": 0.35714285714285715
+        },
+        "3": {
+          "correct": 4,
+          "total": 12,
+          "accuracy": 0.3333333333333333
+        },
+        "4+": {
+          "correct": 6,
+          "total": 10,
+          "accuracy": 0.6
+        }
+      },
+      "perception": null,
+      "peek": {
+        "count": 13,
+        "meanPerEpisode": 1.4444444444444444,
+        "atDoor": 11,
+        "doorFraction": 0.8461538461538461
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Prediction Error": 3,
+        "Action/Planning Error": 0,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0
+      },
+      "requests": 73,
+      "historicalCostRMB": 4.130272,
+      "newCostRMB": 0,
+      "cases": [
+        {
+          "key": 101,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 102,
+          "firstSuccess": 3,
+          "complete": true,
+          "attempts": 3
+        },
+        {
+          "key": 103,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 104,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 105,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 106,
+          "firstSuccess": 2,
+          "complete": true,
+          "attempts": 2
+        }
+      ]
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "slice": "C",
+      "complete": true,
+      "completedCases": 4,
+      "total": 4,
+      "pass": [
+        {
+          "k": 1,
+          "success": 3,
+          "total": 4
+        }
+      ],
+      "restrictedMeanAtCap": 1,
+      "visible": {
+        "correct": 4,
+        "total": 4,
+        "accuracy": 1
+      },
+      "occluded": {
+        "correct": 25,
+        "total": 25,
+        "accuracy": 1
+      },
+      "age": {
+        "1": {
+          "correct": 4,
+          "total": 4,
+          "accuracy": 1
+        },
+        "2": {
+          "correct": 4,
+          "total": 4,
+          "accuracy": 1
+        },
+        "3": {
+          "correct": 4,
+          "total": 4,
+          "accuracy": 1
+        },
+        "4+": {
+          "correct": 13,
+          "total": 13,
+          "accuracy": 1
+        }
+      },
+      "perception": {
+        "player": {
+          "correct": 29,
+          "total": 29,
+          "accuracy": 1
+        },
+        "robotVisible": {
+          "correct": 29,
+          "total": 29,
+          "accuracy": 1
+        },
+        "robotJoint": {
+          "correct": 4,
+          "total": 4,
+          "accuracy": 1
+        }
+      },
+      "peek": {
+        "count": 0,
+        "meanPerEpisode": 0,
+        "atDoor": 0,
+        "doorFraction": null
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Prediction Error": 0,
+        "Action/Planning Error": 1,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0
+      },
+      "requests": 29,
+      "historicalCostRMB": 1.3914499999999999,
+      "newCostRMB": 0,
+      "cases": [
+        {
+          "key": 0,
+          "firstSuccess": null,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 1,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 2,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 4,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "model": "claude-opus-5-5",
+      "slice": "A",
+      "complete": false,
+      "completedCases": 5,
+      "total": 6,
+      "pass": [
+        {
+          "k": 1,
+          "success": 2,
+          "total": 6
+        },
+        {
+          "k": 2,
+          "success": 4,
+          "total": 6
+        },
+        {
+          "k": 3,
+          "success": 4,
+          "total": 6
+        }
+      ],
+      "restrictedMeanAtCap": 2,
+      "visible": {
+        "correct": 33,
+        "total": 45,
+        "accuracy": 0.7333333333333333
+      },
+      "occluded": {
+        "correct": 29,
+        "total": 71,
+        "accuracy": 0.4084507042253521
+      },
+      "age": {
+        "1": {
+          "correct": 7,
+          "total": 11,
+          "accuracy": 0.6363636363636364
+        },
+        "2": {
+          "correct": 6,
+          "total": 11,
+          "accuracy": 0.5454545454545454
+        },
+        "3": {
+          "correct": 6,
+          "total": 11,
+          "accuracy": 0.5454545454545454
+        },
+        "4+": {
+          "correct": 10,
+          "total": 38,
+          "accuracy": 0.2631578947368421
+        }
+      },
+      "perception": null,
+      "peek": {
+        "count": 0,
+        "meanPerEpisode": 0,
+        "atDoor": 0,
+        "doorFraction": null
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Prediction Error": 6,
+        "Action/Planning Error": 0,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0
+      },
+      "requests": 116,
+      "historicalCostRMB": 13.799760000000001,
+      "newCostRMB": 13.799760000000001,
+      "cases": [
+        {
+          "key": 101,
+          "firstSuccess": 2,
+          "complete": true,
+          "attempts": 2
+        },
+        {
+          "key": 102,
+          "firstSuccess": null,
+          "complete": true,
+          "attempts": 3
+        },
+        {
+          "key": 103,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 104,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 105,
+          "firstSuccess": 2,
+          "complete": true,
+          "attempts": 2
+        },
+        {
+          "key": 106,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "model": "claude-opus-5-5",
+      "slice": "B",
+      "complete": false,
+      "completedCases": 0,
+      "total": 6,
+      "pass": [
+        {
+          "k": 1,
+          "success": 0,
+          "total": 6
+        },
+        {
+          "k": 2,
+          "success": 0,
+          "total": 6
+        },
+        {
+          "k": 3,
+          "success": 0,
+          "total": 6
+        }
+      ],
+      "restrictedMeanAtCap": 3,
+      "visible": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "occluded": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "age": {
+        "1": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "2": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "3": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "4+": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        }
+      },
+      "perception": null,
+      "peek": {
+        "count": 0,
+        "meanPerEpisode": null,
+        "atDoor": 0,
+        "doorFraction": null
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Prediction Error": 0,
+        "Action/Planning Error": 0,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0
+      },
+      "requests": 0,
+      "historicalCostRMB": 0,
+      "newCostRMB": 0,
+      "cases": [
+        {
+          "key": 101,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 102,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 103,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 104,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 105,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 106,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        }
+      ]
+    },
+    {
+      "model": "claude-opus-5-5",
+      "slice": "C",
+      "complete": false,
+      "completedCases": 0,
+      "total": 4,
+      "pass": [
+        {
+          "k": 1,
+          "success": 0,
+          "total": 4
+        }
+      ],
+      "restrictedMeanAtCap": 1,
+      "visible": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "occluded": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "age": {
+        "1": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "2": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "3": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "4+": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        }
+      },
+      "perception": {
+        "player": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "robotVisible": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "robotJoint": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        }
+      },
+      "peek": {
+        "count": 0,
+        "meanPerEpisode": null,
+        "atDoor": 0,
+        "doorFraction": null
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Prediction Error": 0,
+        "Action/Planning Error": 0,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0
+      },
+      "requests": 0,
+      "historicalCostRMB": 0,
+      "newCostRMB": 0,
+      "cases": [
+        {
+          "key": 0,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 1,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 2,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 4,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        }
+      ]
+    },
+    {
+      "model": "gemini-4-argon",
+      "slice": "A",
+      "complete": false,
+      "completedCases": 5,
+      "total": 6,
+      "pass": [
+        {
+          "k": 1,
+          "success": 2,
+          "total": 6
+        },
+        {
+          "k": 2,
+          "success": 3,
+          "total": 6
+        },
+        {
+          "k": 3,
+          "success": 5,
+          "total": 6
+        }
+      ],
+      "restrictedMeanAtCap": 2.1666666666666665,
+      "visible": {
+        "correct": 47,
+        "total": 67,
+        "accuracy": 0.7014925373134329
+      },
+      "occluded": {
+        "correct": 24,
+        "total": 54,
+        "accuracy": 0.4444444444444444
+      },
+      "age": {
+        "1": {
+          "correct": 6,
+          "total": 11,
+          "accuracy": 0.5454545454545454
+        },
+        "2": {
+          "correct": 5,
+          "total": 11,
+          "accuracy": 0.45454545454545453
+        },
+        "3": {
+          "correct": 3,
+          "total": 11,
+          "accuracy": 0.2727272727272727
+        },
+        "4+": {
+          "correct": 10,
+          "total": 21,
+          "accuracy": 0.47619047619047616
+        }
+      },
+      "perception": null,
+      "peek": {
+        "count": 0,
+        "meanPerEpisode": 0,
+        "atDoor": 0,
+        "doorFraction": null
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Prediction Error": 6,
+        "Action/Planning Error": 0,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0
+      },
+      "requests": 121,
+      "historicalCostRMB": 13.626484000000001,
+      "newCostRMB": 13.626484000000001,
+      "cases": [
+        {
+          "key": 101,
+          "firstSuccess": 3,
+          "complete": true,
+          "attempts": 3
+        },
+        {
+          "key": 102,
+          "firstSuccess": 3,
+          "complete": true,
+          "attempts": 3
+        },
+        {
+          "key": 103,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 104,
+          "firstSuccess": 2,
+          "complete": true,
+          "attempts": 2
+        },
+        {
+          "key": 105,
+          "firstSuccess": 1,
+          "complete": true,
+          "attempts": 1
+        },
+        {
+          "key": 106,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "model": "gemini-4-argon",
+      "slice": "B",
+      "complete": false,
+      "completedCases": 0,
+      "total": 6,
+      "pass": [
+        {
+          "k": 1,
+          "success": 0,
+          "total": 6
+        },
+        {
+          "k": 2,
+          "success": 0,
+          "total": 6
+        },
+        {
+          "k": 3,
+          "success": 0,
+          "total": 6
+        }
+      ],
+      "restrictedMeanAtCap": 3,
+      "visible": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "occluded": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "age": {
+        "1": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "2": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "3": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "4+": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        }
+      },
+      "perception": null,
+      "peek": {
+        "count": 0,
+        "meanPerEpisode": null,
+        "atDoor": 0,
+        "doorFraction": null
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Prediction Error": 0,
+        "Action/Planning Error": 0,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0
+      },
+      "requests": 0,
+      "historicalCostRMB": 0,
+      "newCostRMB": 0,
+      "cases": [
+        {
+          "key": 101,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 102,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 103,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 104,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 105,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 106,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        }
+      ]
+    },
+    {
+      "model": "gemini-4-argon",
+      "slice": "C",
+      "complete": false,
+      "completedCases": 0,
+      "total": 4,
+      "pass": [
+        {
+          "k": 1,
+          "success": 0,
+          "total": 4
+        }
+      ],
+      "restrictedMeanAtCap": 1,
+      "visible": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "occluded": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "age": {
+        "1": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "2": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "3": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "4+": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        }
+      },
+      "perception": {
+        "player": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "robotVisible": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "robotJoint": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        }
+      },
+      "peek": {
+        "count": 0,
+        "meanPerEpisode": null,
+        "atDoor": 0,
+        "doorFraction": null
+      },
+      "attribution": {
+        "Format Error": 0,
+        "Prediction Error": 0,
+        "Action/Planning Error": 0,
+        "Perception Error (Immediate)": 0,
+        "Perception Error (Upstream Sighting)": 0
+      },
+      "requests": 0,
+      "historicalCostRMB": 0,
+      "newCostRMB": 0,
+      "cases": [
+        {
+          "key": 0,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 1,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 2,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        },
+        {
+          "key": 4,
+          "firstSuccess": null,
+          "complete": false,
+          "attempts": 0
+        }
+      ]
+    }
+  ],
+  "budgets": [
+    {
+      "model": "claude-opus-5-5",
+      "actualRMB": 14.551820000000003,
+      "unpriced": 0,
+      "requests": 123,
+      "billing": "gateway response cost; unknown pricing stops new requests until configured"
+    },
+    {
+      "model": "gemini-4-argon",
+      "actualRMB": 14.504894,
+      "unpriced": 0,
+      "requests": 129,
+      "billing": "gateway response cost; unknown pricing stops new requests until configured"
+    }
+  ],
+  "gptNewRequests": 0,
+  "gptNewCostRMB": 0,
+  "interruptions": [
+    {
+      "model": "claude-opus-5-5",
+      "id": "A-seed-106-attempt-2",
+      "reason": "budget_reserve_stop"
+    },
+    {
+      "model": "gemini-4-argon",
+      "id": "A-seed-106-attempt-2",
+      "reason": "budget_reserve_stop"
+    }
+  ],
+  "method": "Operational cap3 for A/B; original prompt maxAttempts=5 unchanged for exact protocol equivalence. GPT is truncated read-only, no new calls. Markdown fences normalized for new models; other schema errors remain Format Error. Costs include separate preflight in model totals; table episode costs exclude preflight. Incomplete cases are not model failures; displayed pass counts are lower bounds until complete."
+}

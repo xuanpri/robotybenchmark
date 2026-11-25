@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "model": "claude-opus-5-5",
+  "returnedModels": [
+    "claude-opus-5-5",
+    "claude-opus-5-5"
+  ],
+  "textSchema": true,
+  "visionSchema": true,
+  "visionPerception": {
+    "player": true,
+    "visible": true,
+    "robot": true,
+    "all": true
+  },
+  "cost": {
+    "actualRMB": 14.551820000000003,
+    "unpriced": 0,
+    "requests": 123,
+    "billing": "gateway response cost; unknown pricing stops new requests until configured"
+  }
+}

@@ -1,0 +1,13 @@
+✔ all 252 historical receipts are byte-identical and resume checkpoint prices exact (12.389307ms)
+✔ all 252 historical requests replay from cache without invoking fetch (44.306928ms)
+✔ manifest selects only A,C and cumulative budget25; protocol core sources remain frozen (0.497976ms)
+(node:7) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 331.481875

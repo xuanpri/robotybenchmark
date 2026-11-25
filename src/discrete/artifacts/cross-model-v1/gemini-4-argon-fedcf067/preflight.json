@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "model": "gemini-4-argon",
+  "returnedModels": [
+    "gemini-4-argon",
+    "gemini-4-argon"
+  ],
+  "textSchema": true,
+  "visionSchema": true,
+  "visionPerception": {
+    "player": true,
+    "visible": true,
+    "robot": true,
+    "all": true
+  },
+  "cost": {
+    "actualRMB": 14.504894,
+    "unpriced": 0,
+    "requests": 129,
+    "billing": "gateway response cost; unknown pricing stops new requests until configured"
+  }
+}

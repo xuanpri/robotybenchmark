@@ -1,0 +1,5 @@
+{
+  "status": 0,
+  "stdout": "✔ read-only GPT baseline cap3 exactly matches A 2/5/6, B 4/5/6, C 3/4 (40.855656ms)\n✔ all original selected text requests reconstruct exactly; new family changes model only (45.228395ms)\n✔ all selected visual text and image bytes match original payloads (6.433574ms)\n✔ fences, strict schemas, budget boundary and model cache keys (1.335682ms)\n✔ same context in distinct model/slice/seed/attempt paths samples independently; resume caches; GPT denied (56.779052ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 384.071225\n",
+  "stderr": "(node:404152) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n"
+}

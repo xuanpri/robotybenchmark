@@ -1,0 +1,1782 @@
+{
+  "id": "A-seed-102-attempt-2",
+  "slice": "A",
+  "model": "gemini-4-argon",
+  "seed": 102,
+  "attempt": 2,
+  "mode": "identical_loop",
+  "condition": "Partial-unknown-passive",
+  "instance": {
+    "mode": "identical_loop",
+    "seed": 102,
+    "attempt": 2,
+    "params": {
+      "min": 0,
+      "max": 5,
+      "southSpeed": 1,
+      "northSpeed": 1,
+      "northPause": 0,
+      "southPause": 3,
+      "alt": false,
+      "stutter": false
+    },
+    "pattern": null,
+    "phase": 5,
+    "period": 13,
+    "robots": [
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 3,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 3,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 3,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      }
+    ]
+  },
+  "states": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 3,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 1,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 2,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 3,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 4,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 5,
+      "player": [
+        2,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 6,
+      "player": [
+        3,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 7,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 8,
+      "player": [
+        5,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "outcome": "vision"
+    }
+  ],
+  "steps": [
+    {
+      "before": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 3,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 2,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      "output": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "Wait-at-the-window-at [1,3] to-observe-the-robot's-multi-tick-turnaround-and-movement-cycle-since-attempt-1-showed-it-staying-at [5,5] facing-S-at-tick-1-before-reaching [5,3] at-tick-5."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"Wait-at-the-window-at [1,3] to-observe-the-robot's-multi-tick-turnaround-and-movement-cycle-since-attempt-1-showed-it-staying-at [5,5] facing-S-at-tick-1-before-reaching [5,3] at-tick-5.\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"Wait-at-the-window-at [1,3] to-observe-the-robot's-multi-tick-turnaround-and-movement-cycle-since-attempt-1-showed-it-staying-at [5,5] facing-S-at-tick-1-before-reaching [5,3] at-tick-5.\"}",
+        "usage": {
+          "prompt_tokens": 10010,
+          "completion_tokens": 605,
+          "total_tokens": 10615,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10010,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 106,
+              "totalTokenCount": 10615,
+              "thoughtsTokenCount": 499,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10010,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 499
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.13035"
+        },
+        "model": "gemini-4-argon",
+        "latency": 21.728420393000007,
+        "wire": "A-seed-102-attempt-2/wire/tick-00.json",
+        "responseID": "chatcmpl-20261125093744883859742c14228f512IVowgN"
+      },
+      "visible": true,
+      "ticks_since_last_seen": 0,
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 2,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 1,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      "output": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N"
+        },
+        "action": "WAIT",
+        "reason": "Wait-at-the-window-at [1,3] to-observe-when-the-robot-turns-around-and-starts-moving-north-from [5,5] toward [5,3]."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"N\"},\"action\":\"WAIT\",\"reason\":\"Wait-at-the-window-at [1,3] to-observe-when-the-robot-turns-around-and-starts-moving-north-from [5,5] toward [5,3].\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"N\"},\"action\":\"WAIT\",\"reason\":\"Wait-at-the-window-at [1,3] to-observe-when-the-robot-turns-around-and-starts-moving-north-from [5,5] toward [5,3].\"}",
+        "usage": {
+          "prompt_tokens": 10142,
+          "completion_tokens": 74,
+          "total_tokens": 10216,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10142,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 74,
+              "totalTokenCount": 10216,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10142,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.10512"
+        },
+        "model": "gemini-4-argon",
+        "latency": 15.445679715999985,
+        "wire": "A-seed-102-attempt-2/wire/tick-01.json",
+        "responseID": "chatcmpl-20261125093806525878609c14228f5kTwRhqM7"
+      },
+      "visible": true,
+      "ticks_since_last_seen": 0,
+      "predictionCorrect": false
+    },
+    {
+      "before": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 1,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 3,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      "output": {
+        "tick": 3,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N"
+        },
+        "source": "window"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N"
+        },
+        "action": "WAIT",
+        "reason": "The-robot-has-remained-at [5,5] facing-S-through-tick 2, and-in-attempt 1-it-reached [5,3] at-tick 5, implying-it-must-turn-north-at-tick 3 and-move-north-to [5,4] at-tick 4 and [5,3] at-tick 5; wait-at-the-window-at [1,3] to-verify-this-turnaround."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"N\"},\"action\":\"WAIT\",\"reason\":\"The-robot-has-remained-at [5,5] facing-S-through-tick 2, and-in-attempt 1-it-reached [5,3] at-tick 5, implying-it-must-turn-north-at-tick 3 and-move-north-to [5,4] at-tick 4 and [5,3] at-tick 5; wait-at-the-window-at [1,3] to-verify-this-turnaround.\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,5],\"heading\":\"N\"},\"action\":\"WAIT\",\"reason\":\"The-robot-has-remained-at [5,5] facing-S-through-tick 2, and-in-attempt 1-it-reached [5,3] at-tick 5, implying-it-must-turn-north-at-tick 3 and-move-north-to [5,4] at-tick 4 and [5,3] at-tick 5; wait-at-the-window-at [1,3] to-verify-this-turnaround.\"}",
+        "usage": {
+          "prompt_tokens": 10242,
+          "completion_tokens": 139,
+          "total_tokens": 10381,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10242,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 139,
+              "totalTokenCount": 10381,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10242,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.10937"
+        },
+        "model": "gemini-4-argon",
+        "latency": 6.921966844000039,
+        "wire": "A-seed-102-attempt-2/wire/tick-02.json",
+        "responseID": "chatcmpl-20261125093822042025455c14228f5kGldGI3i"
+      },
+      "visible": true,
+      "ticks_since_last_seen": 0,
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 3,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 4,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 3,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N"
+        },
+        "source": "window"
+      },
+      "output": {
+        "tick": 4,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "source": "window"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "action": "WAIT",
+        "reason": "The-robot-just-turned-north-at [5,5] on-tick 3, matching-the-attempt 1-timeline-where-it-moves-north-to [5,4] at-tick 4 and [5,3] at-tick 5. Wait-at-the-window-at [1,3] to-observe-its-northward-movement-past [5,3] so-we-can-time-a-safe-crossing."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,4],\"heading\":\"N\"},\"action\":\"WAIT\",\"reason\":\"The-robot-just-turned-north-at [5,5] on-tick 3, matching-the-attempt 1-timeline-where-it-moves-north-to [5,4] at-tick 4 and [5,3] at-tick 5. Wait-at-the-window-at [1,3] to-observe-its-northward-movement-past [5,3] so-we-can-time-a-safe-crossing.\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,4],\"heading\":\"N\"},\"action\":\"WAIT\",\"reason\":\"The-robot-just-turned-north-at [5,5] on-tick 3, matching-the-attempt 1-timeline-where-it-moves-north-to [5,4] at-tick 4 and [5,3] at-tick 5. Wait-at-the-window-at [1,3] to-observe-its-northward-movement-past [5,3] so-we-can-time-a-safe-crossing.\"}",
+        "usage": {
+          "prompt_tokens": 10406,
+          "completion_tokens": 133,
+          "total_tokens": 10539,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10406,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 133,
+              "totalTokenCount": 10539,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10406,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.11071"
+        },
+        "model": "gemini-4-argon",
+        "latency": 14.875377679999977,
+        "wire": "A-seed-102-attempt-2/wire/tick-03.json",
+        "responseID": "chatcmpl-20261125093829034411913c14228f5GsJDI5I3"
+      },
+      "visible": true,
+      "ticks_since_last_seen": 0,
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 4,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 5,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 4,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "source": "window"
+      },
+      "output": {
+        "tick": 5,
+        "player": [
+          2,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-is-at [5,4] facing-N-on-tick 4 and-moves-one-cell-north-per-tick-to [5,3] at-tick 5, [5,2] at-tick 6, [5,1] at-tick 7, and [5,0] at-tick 8; moving-RIGHT-from [1,3] now-reaches [5,3] at-tick 8 while-the-robot-is-at [5,0] facing-N."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,3],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-is-at [5,4] facing-N-on-tick 4 and-moves-one-cell-north-per-tick-to [5,3] at-tick 5, [5,2] at-tick 6, [5,1] at-tick 7, and [5,0] at-tick 8; moving-RIGHT-from [1,3] now-reaches [5,3] at-tick 8 while-the-robot-is-at [5,0] facing-N.\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,3],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-is-at [5,4] facing-N-on-tick 4 and-moves-one-cell-north-per-tick-to [5,3] at-tick 5, [5,2] at-tick 6, [5,1] at-tick 7, and [5,0] at-tick 8; moving-RIGHT-from [1,3] now-reaches [5,3] at-tick 8 while-the-robot-is-at [5,0] facing-N.\"}",
+        "usage": {
+          "prompt_tokens": 10565,
+          "completion_tokens": 148,
+          "total_tokens": 10713,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10565,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 148,
+              "totalTokenCount": 10713,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10565,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.11305"
+        },
+        "model": "gemini-4-argon",
+        "latency": 7.53136151399999,
+        "wire": "A-seed-102-attempt-2/wire/tick-04.json",
+        "responseID": "chatcmpl-20261125093843998737730c14228f5KmJutOt2"
+      },
+      "visible": true,
+      "ticks_since_last_seen": 0,
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 5,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 6,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 5,
+        "player": [
+          2,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 6,
+        "player": [
+          3,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-moved-north-from [5,4] at-tick 4 to [5,3] at-tick 5 and-continues-north-to [5,2] facing-N-at-tick 6; continue-moving-RIGHT-to [3,3] so-we-cross [5,3] at-tick 8 while-the-robot-is-at-the-northern-end-of-its-corridor."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,2],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-moved-north-from [5,4] at-tick 4 to [5,3] at-tick 5 and-continues-north-to [5,2] facing-N-at-tick 6; continue-moving-RIGHT-to [3,3] so-we-cross [5,3] at-tick 8 while-the-robot-is-at-the-northern-end-of-its-corridor.\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,2],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-moved-north-from [5,4] at-tick 4 to [5,3] at-tick 5 and-continues-north-to [5,2] facing-N-at-tick 6; continue-moving-RIGHT-to [3,3] so-we-cross [5,3] at-tick 8 while-the-robot-is-at-the-northern-end-of-its-corridor.\"}",
+        "usage": {
+          "prompt_tokens": 10725,
+          "completion_tokens": 127,
+          "total_tokens": 10852,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10725,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 127,
+              "totalTokenCount": 10852,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10725,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.1136"
+        },
+        "model": "gemini-4-argon",
+        "latency": 13.775887170000003,
+        "wire": "A-seed-102-attempt-2/wire/tick-05.json",
+        "responseID": "chatcmpl-20261125093851581215496c14228f5PjIPYVNN"
+      },
+      "visible": false,
+      "ticks_since_last_seen": 1,
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 6,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 7,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 6,
+        "player": [
+          3,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 7,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-continues-moving-north-along-column-5-from [5,2] at-tick 6 to [5,1] facing-N-at-tick 7; move-RIGHT-to [4,3] just-before-the-opaque-door-to-cross [5,3] at-tick 8."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,1],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-continues-moving-north-along-column-5-from [5,2] at-tick 6 to [5,1] facing-N-at-tick 7; move-RIGHT-to [4,3] just-before-the-opaque-door-to-cross [5,3] at-tick 8.\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,1],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-continues-moving-north-along-column-5-from [5,2] at-tick 6 to [5,1] facing-N-at-tick 7; move-RIGHT-to [4,3] just-before-the-opaque-door-to-cross [5,3] at-tick 8.\"}",
+        "usage": {
+          "prompt_tokens": 10871,
+          "completion_tokens": 102,
+          "total_tokens": 10973,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10871,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 102,
+              "totalTokenCount": 10973,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10871,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.11381"
+        },
+        "model": "gemini-4-argon",
+        "latency": 10.335604680999998,
+        "wire": "A-seed-102-attempt-2/wire/tick-06.json",
+        "responseID": "chatcmpl-20261125093905404234888c14228f5dcrXtHFn"
+      },
+      "visible": false,
+      "ticks_since_last_seen": 2,
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 7,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 8,
+        "player": [
+          5,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            0
+          ],
+          "heading": "S",
+          "pauseRemaining": 0,
+          "cooldown": 0,
+          "stutterRemaining": 0,
+          "altNext": 0
+        },
+        "outcome": "vision"
+      },
+      "input": {
+        "tick": 7,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 8,
+        "player": [
+          5,
+          3
+        ],
+        "outcome": "vision",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            0
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-continues-moving-north-along-column-5-from [5,1] at-tick 7 to [5,0] facing-N-at-tick 8; step-RIGHT-through-the-opaque-door-to [5,3] safely-behind-the-north-facing-robot."
+      },
+      "answer": {
+        "rawContent": "{\"predicted_next\":{\"pos\":[5,0],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-continues-moving-north-along-column-5-from [5,1] at-tick 7 to [5,0] facing-N-at-tick 8; step-RIGHT-through-the-opaque-door-to [5,3] safely-behind-the-north-facing-robot.\"}\n",
+        "content": "{\"predicted_next\":{\"pos\":[5,0],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"The-robot-continues-moving-north-along-column-5-from [5,1] at-tick 7 to [5,0] facing-N-at-tick 8; step-RIGHT-through-the-opaque-door-to [5,3] safely-behind-the-north-facing-robot.\"}",
+        "usage": {
+          "prompt_tokens": 10992,
+          "completion_tokens": 98,
+          "total_tokens": 11090,
+          "billing_usage": {
+            "source": "gemini_chat",
+            "semantic": "gemini",
+            "gemini_usage_metadata": {
+              "promptTokenCount": 10992,
+              "toolUsePromptTokenCount": 0,
+              "candidatesTokenCount": 98,
+              "totalTokenCount": 11090,
+              "thoughtsTokenCount": 0,
+              "cachedContentTokenCount": 0,
+              "promptTokensDetails": [],
+              "toolUsePromptTokensDetails": [],
+              "candidatesTokensDetails": []
+            }
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 10992,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          },
+          "completion_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "input_tokens_details": null,
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0,
+          "cost": "¥0.11482"
+        },
+        "model": "gemini-4-argon",
+        "latency": 10.563881410999981,
+        "wire": "A-seed-102-attempt-2/wire/tick-07.json",
+        "responseID": "chatcmpl-20261125093915889334881c14228f59sxj8ff1"
+      },
+      "visible": false,
+      "ticks_since_last_seen": 3,
+      "predictionCorrect": false
+    }
+  ],
+  "outcome": "vision",
+  "public": {
+    "attempt": 2,
+    "observations": [
+      {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "source": "window"
+      },
+      {
+        "tick": 3,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N"
+        },
+        "source": "window"
+      },
+      {
+        "tick": 4,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "source": "window"
+      },
+      {
+        "tick": 5,
+        "player": [
+          2,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 6,
+        "player": [
+          3,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 7,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 8,
+        "player": [
+          5,
+          3
+        ],
+        "outcome": "vision",
+        "robot": null,
+        "source": "occluded"
+      }
+    ],
+    "decisions": [
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "Wait-at-the-window-at [1,3] to-observe-the-robot's-multi-tick-turnaround-and-movement-cycle-since-attempt-1-showed-it-staying-at [5,5] facing-S-at-tick-1-before-reaching [5,3] at-tick-5."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N"
+        },
+        "action": "WAIT",
+        "reason": "Wait-at-the-window-at [1,3] to-observe-when-the-robot-turns-around-and-starts-moving-north-from [5,5] toward [5,3]."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            5
+          ],
+          "heading": "N"
+        },
+        "action": "WAIT",
+        "reason": "The-robot-has-remained-at [5,5] facing-S-through-tick 2, and-in-attempt 1-it-reached [5,3] at-tick 5, implying-it-must-turn-north-at-tick 3 and-move-north-to [5,4] at-tick 4 and [5,3] at-tick 5; wait-at-the-window-at [1,3] to-verify-this-turnaround."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "action": "WAIT",
+        "reason": "The-robot-just-turned-north-at [5,5] on-tick 3, matching-the-attempt 1-timeline-where-it-moves-north-to [5,4] at-tick 4 and [5,3] at-tick 5. Wait-at-the-window-at [1,3] to-observe-its-northward-movement-past [5,3] so-we-can-time-a-safe-crossing."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-is-at [5,4] facing-N-on-tick 4 and-moves-one-cell-north-per-tick-to [5,3] at-tick 5, [5,2] at-tick 6, [5,1] at-tick 7, and [5,0] at-tick 8; moving-RIGHT-from [1,3] now-reaches [5,3] at-tick 8 while-the-robot-is-at [5,0] facing-N."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-moved-north-from [5,4] at-tick 4 to [5,3] at-tick 5 and-continues-north-to [5,2] facing-N-at-tick 6; continue-moving-RIGHT-to [3,3] so-we-cross [5,3] at-tick 8 while-the-robot-is-at-the-northern-end-of-its-corridor."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-continues-moving-north-along-column-5-from [5,2] at-tick 6 to [5,1] facing-N-at-tick 7; move-RIGHT-to [4,3] just-before-the-opaque-door-to-cross [5,3] at-tick 8."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            0
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "The-robot-continues-moving-north-along-column-5-from [5,1] at-tick 7 to [5,0] facing-N-at-tick 8; step-RIGHT-through-the-opaque-door-to [5,3] safely-behind-the-north-facing-robot."
+      }
+    ],
+    "failureReason": "vision"
+  },
+  "attribution": {
+    "category": "Prediction Error",
+    "evidence": "Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action."
+  },
+  "category": "Prediction Error",
+  "executionStatus": "complete"
+}

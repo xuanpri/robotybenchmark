@@ -1,0 +1,234 @@
+{
+  "attempt": 1,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 3,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 4,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 5,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 6,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 7,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 8,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 9,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 10,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "vision",
+      "robot": null,
+      "source": "occluded"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The robot appears to patrol the open x=5 column, so I predict it keeps heading N and moves one cell to [5,1]. The player at [1,3] is far from that column, so moving RIGHT to [2,3] is safe. I'll watch the window and time the crossing of [5,3] when the robot is away from it."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "At tick 0 the robot was at [5,2] heading N, and my prediction of [5,1] at tick 1 is unverified because the robot is now occluded. The open column x=5 runs from z=0 to z=5, so it likely keeps patrolling north and reaches [5,0] at tick 2, then turns around at the boundary. I'm at [2,3] in the corridor west of the door, and the door at [4,3]-[5,3] blocks sight. Moving RIGHT to [3,3] is safe, since the robot cannot be in my row west of the door and its vision cannot pass through the door. I'll stop at [3,3] and wait for a safe gap before crossing [5,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The robot was last seen at [5,2] heading N at tick 0 and has been hidden since. I estimate it reached the north end of the x=5 column at [5,0] by tick 2, so at tick 3 it should reverse and move S to [5,1] heading S. This is an unverified inference. I'm at [3,3], west of the opaque door, so its sight line along row 3 is blocked and waiting here is safe. Stepping into the door cell [4,3] now risks a collision or a sight-line hit near [5,3], so I'll wait one tick, then cross once the robot is likely moving away from row 3."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The last sighting was at tick 0: robot at [5,2] heading N. If it patrols the x=5 column at one cell per tick, it reached [5,1] at tick 1, [5,0] at tick 2, and turned south to [5,1] at tick 3. At tick 4 it should be at [5,2] heading S, with [5,3] next. This is an unverified inference, since I have seen nothing since tick 0. Its southward ray from [5,2] covers [5,3], [5,4] and [5,5], and it never covers row 3 west of the door. The door blocks sight in any case, so [3,3] is safe. If I stepped to [4,3] now, I would be one cell from the robot's path just as it comes south to row 3. I'll wait again and cross when the robot has gone past row 3 and is heading away."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The last sighting was at tick 0, with the robot at [5,2] heading N. I assume it patrols the open x=5 column at one cell per tick and turns at the boundaries. That puts it at [5,1] at tick 1, [5,0] at tick 2, [5,1] heading S at tick 3, and [5,2] heading S at tick 4. At tick 5 it should be at [5,3] heading S, which is an unverified inference. I stay at [3,3], where the opaque door blocks its sight and it cannot reach me, so waiting is safe. I'll cross [5,3] only when the robot is near the south end heading S or at the north end, so the x=5 column is clear."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The last sighting was at tick 0, with the robot at [5,2] heading N. I assume it patrols the x=5 column at one cell per tick and turns at the boundaries. Under that model it was at [5,3] heading S at tick 5, and at tick 6 it should be at [5,4] heading S. This is an unverified inference. The column runs z=0 to z=5 (the walls at z=4 and z=5 are only on x=4 and x=6), so it should continue to [5,5] at tick 7, turn at the boundary, and head back north. I'm at [3,3], west of the opaque door, so its sight line along row 3 is blocked and waiting is safe. Entering the door cell [4,3] now would put me next to [5,3], which the robot has just left. I'll wait one more tick so it moves further south, then cross [5,3] while it is heading away and its ray is not pointed at me."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "This is an unverified inference. The last sighting was at tick 0 (robot at [5,2] heading N). Assuming it patrols the x=5 column at one cell per tick, it should be at [5,5] heading S at tick 7 and then turn north. Heading north it would reach [5,4] at tick 8 and [5,3] at tick 9, and it would sweep [5,3] with its ray while it climbs. I should not step into [5,3] before then. I'm at [3,3], behind the opaque door, so waiting is safe. I plan to enter [4,3] around tick 8 and step to [5,3] once the robot has passed row 3 heading north, around tick 10. Then I'll run along row 3 to [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Inference only, since the robot has been hidden since tick 0. Assuming it patrols the x=5 column one cell per tick, it should be at [5,5] at tick 7 and turn north, reaching [5,4] heading N at tick 8. I step into the door cell [4,3], which is not in the robot's column, so its northward ray cannot hit me and the door blocks sight along row 3. At tick 9 I expect it at [5,3] and I hold at [4,3]. Once it has moved on to [5,2] heading N at tick 10, I cross [5,3] behind it and run east along row 3 to [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "Inference only, since the robot has been hidden since tick 0. Assuming it patrols the x=5 column one cell per tick and reverses at the ends, it was at [5,5] at tick 7 and [5,4] heading N at tick 8, so at tick 9 it should be at [5,3] heading N. I'm at [4,3], the door cell, which is not in its column. If I stepped RIGHT into [5,3] now, I would collide with it, so I hold here. The door blocks its sight along row 3, and its northward ray runs along x=5, so waiting at [4,3] is safe. Next tick I expect it at [5,2] heading N, and I can cross [5,3] behind it and then run east to [8,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "This is an inference, since the robot has been hidden since tick 0. Assuming it patrols the x=5 column one cell per tick, it was at [5,4] heading N at tick 8 and should be at [5,3] heading N at tick 9. At tick 10 it should move to [5,2] heading N, so its ray covers [5,1] and [5,0] and points away from row 3. If I step RIGHT into [5,3] now, I enter the cell it is leaving, so there is no same-cell collision or edge swap. I end up behind the robot, outside its northward ray. I then continue east along row 3 to [8,3], which needs 4 moves and leaves plenty of ticks."
+    }
+  ],
+  "failureReason": "vision"
+}
