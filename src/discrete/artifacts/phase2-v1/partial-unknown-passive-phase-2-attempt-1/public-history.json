@@ -1,0 +1,171 @@
+{
+  "attempt": 1,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 4,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 5,
+      "player": [
+        6,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 6,
+      "player": [
+        7,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 7,
+      "player": [
+        8,
+        3
+      ],
+      "outcome": "success",
+      "robot": null,
+      "source": "occluded"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Advance toward the exit while the robot moves south into the dead end; its south-facing vision is blocked immediately by the boundary wall."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Advance to [3,3]. The robot is estimated to turn north at the blocked south end while remaining at [5,4]; its northward vision stays on x=5, so [3,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Move to [4,3] at the opaque door. The robot is estimated to advance north from [5,4] to [5,3]; its north-facing vision extends along x=5 and the door blocks sight toward [4,3], so no collision or vision exposure occurs."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Cross the opaque door into [5,3] as the robot is estimated to move north to [5,2]. There is no same-cell or edge-swap collision, and its north-facing vision ray extends away from the player."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Move east to [6,3] toward the exit. The robot is estimated to continue north from [5,2] to [5,1], with its forward vision extending north along x=5, leaving [6,3] safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Move east to [7,3], one step from the exit. The robot is estimated to turn south while remaining at [5,1] because the north cell is blocked; its south-facing vision remains along x=5 and does not reach [7,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Move east into the exit at [8,3]. The robot is estimated to advance south from [5,1] to [5,2]; its south-facing vision remains on x=5, so the exit is safe."
+    }
+  ],
+  "failureReason": null
+}

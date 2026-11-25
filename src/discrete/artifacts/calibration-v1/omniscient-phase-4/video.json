@@ -1,0 +1,9 @@
+{
+  "frames": 120,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "renderer": "Three.js / Chromium / SwiftShader",
+  "semantics": "one exact integer world state per 15 frames",
+  "states": 8
+}

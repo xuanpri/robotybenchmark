@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "attempts": 26,
+  "modelRequests": 215,
+  "predictions": 215,
+  "occludedRequestsVerified": 139,
+  "checks": [
+    "identical phase reset",
+    "integer state replay",
+    "strict schemas",
+    "exact original wire and model",
+    "public-only cross-attempt reconstruction",
+    "hidden-state mutation noninterference",
+    "PEEK observation lifetime",
+    "visibility and last-seen metrics",
+    "counterfactual attribution"
+  ]
+}

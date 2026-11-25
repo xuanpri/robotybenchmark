@@ -1,6 +1,6 @@
 {
-  "passed": false,
-  "complete": false,
+  "passed": true,
+  "complete": true,
   "summary": [
     {
       "condition": "Oracle",
@@ -22,11 +22,11 @@
     },
     {
       "condition": "Omniscient",
-      "completed": 1,
-      "success": 1,
+      "completed": 5,
+      "success": 5,
       "total": 5,
-      "predictionCorrect": 10,
-      "predictionTotal": 10,
+      "predictionCorrect": 43,
+      "predictionTotal": 43,
       "predictionAccuracy": 1
     }
   ],

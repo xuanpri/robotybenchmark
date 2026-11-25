@@ -1,12 +1,12 @@
 # Discrete calibration
 
-Status: INCOMPLETE. Model: gpt-5.6-sol. Fixed phases: 0, 1, 4, 6, 10.
+Status: PASS. Model: gpt-5.6-sol. Fixed phases: 0, 1, 4, 6, 10.
 
 | Condition | Success | Prediction accuracy |
 |---|---:|---:|
 | Oracle | 5/5 | — |
 | Future-known | 5/5 | — |
-| Omniscient | 1/5 | 10/10 (100.00%) |
+| Omniscient | 5/5 | 43/43 (100.00%) |
 
 ## Per-run report
 
@@ -23,6 +23,10 @@ Status: INCOMPLETE. Model: gpt-5.6-sol. Fixed phases: 0, 1, 4, 6, 10.
 | future-known-phase-6 | success | 10 | — | [video](future-known-phase-6/replay.mp4), [interactive](future-known-phase-6/replay.html) |
 | future-known-phase-10 | success | 7 | — | [video](future-known-phase-10/replay.mp4), [interactive](future-known-phase-10/replay.html) |
 | omniscient-phase-0 | success | 10 | — | [video](omniscient-phase-0/replay.mp4), [interactive](omniscient-phase-0/replay.html) |
+| omniscient-phase-1 | success | 9 | — | [video](omniscient-phase-1/replay.mp4), [interactive](omniscient-phase-1/replay.html) |
+| omniscient-phase-4 | success | 7 | — | [video](omniscient-phase-4/replay.mp4), [interactive](omniscient-phase-4/replay.html) |
+| omniscient-phase-6 | success | 10 | — | [video](omniscient-phase-6/replay.mp4), [interactive](omniscient-phase-6/replay.html) |
+| omniscient-phase-10 | success | 7 | — | [video](omniscient-phase-10/replay.mp4), [interactive](omniscient-phase-10/replay.html) |
 
 ## Oracle shortest safe action sequences
 

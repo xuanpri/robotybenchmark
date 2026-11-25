@@ -1,0 +1,1250 @@
+{
+  "id": "partial-known-phase-5-attempt-1",
+  "condition": "Partial-known",
+  "phase": 5,
+  "attempt": 1,
+  "states": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 1
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 4,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 5,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 6,
+      "player": [
+        5,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 1
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 7,
+      "player": [
+        6,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 8,
+      "player": [
+        7,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 9,
+      "player": [
+        8,
+        3
+      ],
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "success"
+    }
+  ],
+  "steps": [
+    {
+      "before": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N"
+        },
+        "source": "window"
+      },
+      "output": {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Advance toward the door; the robot moves north to [5,2], so [2,3] is safe."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[5,2],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Advance toward the door; the robot moves north to [5,2], so [2,3] is safe.\"}",
+      "wireName": "tick-00",
+      "visible": true,
+      "ticks_since_last_seen": 0,
+      "latency": 6.383709380999993,
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 779,
+        "completion_tokens": 409,
+        "total_tokens": 1188,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 353
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.056074"
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Continue east to [3,3]. From the tick-0 sighting, the robot advances north from [5,2] to [5,1], where its north-facing vision cannot reach the corridor."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[5,1],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Continue east to [3,3]. From the tick-0 sighting, the robot advances north from [5,2] to [5,1], where its north-facing vision cannot reach the corridor.\"}",
+      "wireName": "tick-01",
+      "visible": false,
+      "ticks_since_last_seen": 1,
+      "latency": 3.369703898000007,
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 842,
+        "completion_tokens": 146,
+        "total_tokens": 988,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 72
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.031214"
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "Move to [4,3]. The robot stays at [5,1] and reverses to S; its forward ray is on x=5, so [4,3] is safe."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[5,1],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"Move to [4,3]. The robot stays at [5,1] and reverses to S; its forward ray is on x=5, so [4,3] is safe.\"}",
+      "wireName": "tick-02",
+      "visible": false,
+      "ticks_since_last_seen": 2,
+      "latency": 2.9788381840000073,
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 930,
+        "completion_tokens": 197,
+        "total_tokens": 1127,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 125
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.038024"
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 4,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 4,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "Crossing now would enter the robot's new south-facing vision ray from [5,2]. Wait safely at [4,3] for a later crossing opportunity."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[5,2],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"Crossing now would enter the robot's new south-facing vision ray from [5,2]. Wait safely at [4,3] for a later crossing opportunity.\"}",
+      "wireName": "tick-03",
+      "visible": false,
+      "ticks_since_last_seen": 3,
+      "latency": 4.497754303000009,
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 1016,
+        "completion_tokens": 295,
+        "total_tokens": 1311,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 230
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.049462"
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 4,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 4,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "Wait at [4,3]; moving right would collide with the robot as it reaches [5,3]. Its south-facing vision remains on x=5, while the opaque door protects [4,3]."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[5,3],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"Wait at [4,3]; moving right would collide with the robot as it reaches [5,3]. Its south-facing vision remains on x=5, while the opaque door protects [4,3].\"}",
+      "wireName": "tick-04",
+      "visible": false,
+      "ticks_since_last_seen": 4,
+      "latency": 4.479973499,
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 1095,
+        "completion_tokens": 262,
+        "total_tokens": 1357,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1092,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 188
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.053174"
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 6,
+        "player": [
+          5,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 6,
+        "player": [
+          5,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "Cross the opaque door to [5,3] as the robot moves south to [5,4]. Its new south-facing vision is blocked by the boundary wall at [5,5], so [5,3] is safe."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[5,4],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"Cross the opaque door to [5,3] as the robot moves south to [5,4]. Its new south-facing vision is blocked by the boundary wall at [5,5], so [5,3] is safe.\"}",
+      "wireName": "tick-05",
+      "visible": false,
+      "ticks_since_last_seen": 5,
+      "latency": 4.246596145000003,
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 1183,
+        "completion_tokens": 285,
+        "total_tokens": 1468,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1180,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 206
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.057642"
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 6,
+        "player": [
+          5,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 1
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 7,
+        "player": [
+          6,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 6,
+        "player": [
+          5,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 7,
+        "player": [
+          6,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east to [6,3]. The robot stays at [5,4] and reverses to N; its vision ray runs north along x=5, so [6,3] is safe."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[5,4],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Move east to [6,3]. The robot stays at [5,4] and reverses to N; its vision ray runs north along x=5, so [6,3] is safe.\"}",
+      "wireName": "tick-06",
+      "visible": false,
+      "ticks_since_last_seen": 6,
+      "latency": 5.532968767000013,
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 166,
+        "total_tokens": 1442,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1273,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 92
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.048136"
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 7,
+        "player": [
+          6,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 8,
+        "player": [
+          7,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "input": {
+        "tick": 7,
+        "player": [
+          6,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 8,
+        "player": [
+          7,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east to [7,3]. The robot moves north to [5,3], and its forward vision remains on x=5, so [7,3] is safe."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[5,3],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Move east to [7,3]. The robot moves north to [5,3], and its forward vision remains on x=5, so [7,3] is safe.\"}",
+      "wireName": "tick-07",
+      "visible": false,
+      "ticks_since_last_seen": 7,
+      "latency": 2.7868608860000097,
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 1364,
+        "completion_tokens": 162,
+        "total_tokens": 1526,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1361,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 93
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.049922"
+      },
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 8,
+        "player": [
+          7,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 9,
+        "player": [
+          8,
+          3
+        ],
+        "robot": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "success"
+      },
+      "input": {
+        "tick": 8,
+        "player": [
+          7,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      "output": {
+        "tick": 9,
+        "player": [
+          8,
+          3
+        ],
+        "outcome": "success",
+        "robot": null,
+        "source": "occluded"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east onto the exit at [8,3]. The robot moves north to [5,2], and its forward vision remains on x=5, so the exit is safe."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[5,2],\"heading\":\"N\"},\"action\":\"RIGHT\",\"reason\":\"Move east onto the exit at [8,3]. The robot moves north to [5,2], and its forward vision remains on x=5, so the exit is safe.\"}",
+      "wireName": "tick-08",
+      "visible": false,
+      "ticks_since_last_seen": 8,
+      "latency": 2.603081516999984,
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 1447,
+        "completion_tokens": 100,
+        "total_tokens": 1547,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1444,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 31
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.045828"
+      },
+      "predictionCorrect": true
+    }
+  ],
+  "outcome": "success",
+  "public": {
+    "attempt": 1,
+    "observations": [
+      {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "outcome": "running",
+        "robot": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N"
+        },
+        "source": "window"
+      },
+      {
+        "tick": 1,
+        "player": [
+          2,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 2,
+        "player": [
+          3,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 3,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 4,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 6,
+        "player": [
+          5,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 7,
+        "player": [
+          6,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 8,
+        "player": [
+          7,
+          3
+        ],
+        "outcome": "running",
+        "robot": null,
+        "source": "occluded"
+      },
+      {
+        "tick": 9,
+        "player": [
+          8,
+          3
+        ],
+        "outcome": "success",
+        "robot": null,
+        "source": "occluded"
+      }
+    ],
+    "decisions": [
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Advance toward the door; the robot moves north to [5,2], so [2,3] is safe."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Continue east to [3,3]. From the tick-0 sighting, the robot advances north from [5,2] to [5,1], where its north-facing vision cannot reach the corridor."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            1
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "Move to [4,3]. The robot stays at [5,1] and reverses to S; its forward ray is on x=5, so [4,3] is safe."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "Crossing now would enter the robot's new south-facing vision ray from [5,2]. Wait safely at [4,3] for a later crossing opportunity."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "Wait at [4,3]; moving right would collide with the robot as it reaches [5,3]. Its south-facing vision remains on x=5, while the opaque door protects [4,3]."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "Cross the opaque door to [5,3] as the robot moves south to [5,4]. Its new south-facing vision is blocked by the boundary wall at [5,5], so [5,3] is safe."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            4
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east to [6,3]. The robot stays at [5,4] and reverses to N; its vision ray runs north along x=5, so [6,3] is safe."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            3
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east to [7,3]. The robot moves north to [5,3], and its forward vision remains on x=5, so [7,3] is safe."
+      },
+      {
+        "predicted_next": {
+          "pos": [
+            5,
+            2
+          ],
+          "heading": "N"
+        },
+        "action": "RIGHT",
+        "reason": "Move east onto the exit at [8,3]. The robot moves north to [5,2], and its forward vision remains on x=5, so the exit is safe."
+      }
+    ],
+    "failureReason": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "policy": "Every model failure and one representative success per condition; interactive representative prefers most PEEK use.",
+  "ids": [
+    "partial-unknown-passive-phase-5-attempt-1",
+    "partial-unknown-interactive-phase-1-attempt-1",
+    "omniscient-phase-0-attempt-1",
+    "partial-known-phase-0-attempt-1",
+    "partial-unknown-passive-phase-0-attempt-1",
+    "partial-unknown-interactive-phase-0-attempt-1"
+  ]
+}

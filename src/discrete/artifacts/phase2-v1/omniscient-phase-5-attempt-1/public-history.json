@@ -1,0 +1,267 @@
+{
+  "attempt": 1,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 4,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 5,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 6,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 7,
+      "player": [
+        6,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 8,
+      "player": [
+        7,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 9,
+      "player": [
+        8,
+        3
+      ],
+      "outcome": "success",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Advance toward the door while the robot moves north; its next north-facing vision ray cannot reach the player at [2,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Move to [3,3] toward the opaque door. The robot reaches [5,1] facing north, so its vision points away and cannot detect the player."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Move to [4,3] beside the opaque door. The robot stays at [5,1] and reverses to S; its vision ray is along x=5, so [4,3] remains safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Crossing now to [5,3] would enter the robot's new south-facing vision ray from [5,2]. Stay at [4,3], safely hidden across the opaque door."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The robot moves south into [5,3], so crossing the door would cause a same-cell collision. Remain at [4,3], protected from its vision by the opaque door."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Cross the opaque door to [5,3] as the robot moves south to [5,4]. There is no collision or edge swap, and its south-facing vision is immediately blocked by the wall at [5,5]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Move east to [6,3] while the robot stays at [5,4] and reverses to north. Its new vision ray runs north along x=5, so [6,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Move east to [7,3] toward the exit while the robot moves north to [5,3]. Its north-facing vision ray remains on x=5, so [7,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Move east onto the exit at [8,3]. The robot moves north to [5,2], and its north-facing vision ray remains on x=5, so arrival is safe and succeeds."
+    }
+  ],
+  "failureReason": null
+}

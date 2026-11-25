@@ -1,0 +1,225 @@
+{
+  "attempt": 1,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 4,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "source": "peek"
+    },
+    {
+      "tick": 5,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "source": "peek"
+    },
+    {
+      "tick": 6,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 7,
+      "player": [
+        6,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 8,
+      "player": [
+        7,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 9,
+      "player": [
+        8,
+        3
+      ],
+      "outcome": "success",
+      "robot": null,
+      "source": "occluded"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Advance toward the exit while staying outside the robot's predicted south-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Continue east to [3,3]; the robot is estimated to advance south to [5,3], whose forward ray extends south and does not cover [3,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Move to [4,3] while the robot is estimated to continue south to [5,4]; its south-facing ray is blocked immediately by the wall at [5,5]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "PEEK",
+      "reason": "The robot is estimated to be at the south dead end and reverse to face north. Remaining at [4,3] is outside its vertical vision ray, while PEEK provides a current sighting before crossing the opaque door."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "action": "PEEK",
+      "reason": "Do not cross into [5,3] as the robot is predicted to enter that cell. Staying at [4,3] is safe behind the opaque door, and PEEK confirms its state before crossing."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Cross the opaque door into [5,3] as the robot moves north to [5,2]. Its new north-facing vision ray extends toward [5,1], so [5,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "Move east to [6,3] toward the exit. The robot is estimated to continue north to [5,1], and its north-facing vision ray cannot cover [6,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Move east to [7,3]. The robot is estimated to remain at the north dead end [5,1] and reverse south; its vision ray stays along x=5 and does not cover [7,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Move east into the exit at [8,3]. The robot is predicted to move south to [5,2], and its south-facing vision ray remains on x=5, so the exit is safe."
+    }
+  ],
+  "failureReason": null
+}

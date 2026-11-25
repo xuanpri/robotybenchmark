@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "videos": 6,
+  "decodedFrames": 795,
+  "statePNGs": 53,
+  "runs": [
+    {
+      "id": "partial-unknown-passive-phase-5-attempt-1",
+      "frames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "partial-unknown-interactive-phase-1-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "omniscient-phase-0-attempt-1",
+      "frames": 150,
+      "pngStates": 10,
+      "passed": true
+    },
+    {
+      "id": "partial-known-phase-0-attempt-1",
+      "frames": 150,
+      "pngStates": 10,
+      "passed": true
+    },
+    {
+      "id": "partial-unknown-passive-phase-0-attempt-1",
+      "frames": 150,
+      "pngStates": 10,
+      "passed": true
+    },
+    {
+      "id": "partial-unknown-interactive-phase-0-attempt-1",
+      "frames": 150,
+      "pngStates": 10,
+      "passed": true
+    }
+  ]
+}

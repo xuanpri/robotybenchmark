@@ -4,6 +4,7 @@ import {resolve,join} from 'node:path'
 import {manifest,oracleRuns,modelRun,report,save} from '../src/discrete/calibrate'
 import {phases} from '../src/discrete/environment'
 import {exportRuns} from '../src/discrete/export'
+import {audit} from '../src/discrete/audit'
 import type {Run} from '../src/discrete/records'
 
 async function main(){
@@ -30,6 +31,7 @@ async function main(){
     }catch(e){report(root,runs);throw e}
   }
   const summary=report(root,runs);console.log(JSON.stringify(summary,null,2))
+  console.log('Audit',JSON.stringify(audit(root,runs)))
   if(!args.includes('--no-video'))await exportRuns(root,runs)
   if(!args.includes('--oracle-only') && !args.includes('--render-only') && !summary.passed)process.exitCode=2
 }

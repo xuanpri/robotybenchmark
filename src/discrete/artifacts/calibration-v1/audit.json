@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "runs": 15,
+  "executedSteps": 129,
+  "modelRequests": 86,
+  "predictions": 43,
+  "checks": [
+    "integer-state replay",
+    "recorded actions",
+    "wire request hash",
+    "exact prompt reconstruction without Oracle input",
+    "six-step future truth",
+    "original response",
+    "requested and returned model",
+    "prediction metric"
+  ]
+}

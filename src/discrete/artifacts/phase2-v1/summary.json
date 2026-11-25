@@ -1,0 +1,1142 @@
+{
+  "complete": true,
+  "preflight": {
+    "programmatic": {
+      "Oracle": 6,
+      "Blind-Rush": 1,
+      "Memoryless-Reactive": 1
+    },
+    "passed": true,
+    "omniscientCompleted": 6,
+    "omniscientSuccess": 6,
+    "omniscientPassed": true
+  },
+  "phases": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6
+  ],
+  "summary": [
+    {
+      "condition": "Omniscient",
+      "maxAttempts": 1,
+      "completedCases": 6,
+      "pass": {
+        "Pass@1": {
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        "Pass@2": null,
+        "Pass@3": null
+      },
+      "visiblePrediction": {
+        "correct": 51,
+        "total": 51,
+        "accuracy": 1
+      },
+      "occludedPrediction": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "occludedRunupPrediction": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "predictionByAttempt": [
+        {
+          "attempt": 1,
+          "episodes": 6,
+          "visible": {
+            "correct": 51,
+            "total": 51,
+            "accuracy": 1
+          },
+          "occluded": {
+            "correct": 0,
+            "total": 0,
+            "accuracy": null
+          },
+          "occludedByAge": {
+            "1": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            },
+            "2": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            },
+            "3": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            },
+            "4+": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            }
+          }
+        }
+      ],
+      "occludedByAge": {
+        "1": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "2": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "3": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "4+": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        }
+      },
+      "failures": {
+        "Format Error": 0,
+        "Prediction Error": 0,
+        "Action/Planning Error": 0
+      },
+      "peek": {
+        "count": 0,
+        "locations": {},
+        "perAttempt": [
+          {
+            "id": "omniscient-phase-0-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "omniscient-phase-1-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "omniscient-phase-2-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "omniscient-phase-4-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "omniscient-phase-5-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "omniscient-phase-6-attempt-1",
+            "count": 0
+          }
+        ],
+        "perPhase": [
+          {
+            "phase": 0,
+            "count": 0
+          },
+          {
+            "phase": 1,
+            "count": 0
+          },
+          {
+            "phase": 2,
+            "count": 0
+          },
+          {
+            "phase": 4,
+            "count": 0
+          },
+          {
+            "phase": 5,
+            "count": 0
+          },
+          {
+            "phase": 6,
+            "count": 0
+          }
+        ]
+      },
+      "cases": [
+        {
+          "phase": 0,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "omniscient-phase-0-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 1,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "omniscient-phase-1-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "omniscient-phase-2-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 4,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "omniscient-phase-4-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 5,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "omniscient-phase-5-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 6,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "omniscient-phase-6-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "Partial-known",
+      "maxAttempts": 1,
+      "completedCases": 6,
+      "pass": {
+        "Pass@1": {
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        "Pass@2": null,
+        "Pass@3": null
+      },
+      "visiblePrediction": {
+        "correct": 6,
+        "total": 6,
+        "accuracy": 1
+      },
+      "occludedPrediction": {
+        "correct": 45,
+        "total": 45,
+        "accuracy": 1
+      },
+      "occludedRunupPrediction": {
+        "correct": 27,
+        "total": 27,
+        "accuracy": 1
+      },
+      "predictionByAttempt": [
+        {
+          "attempt": 1,
+          "episodes": 6,
+          "visible": {
+            "correct": 6,
+            "total": 6,
+            "accuracy": 1
+          },
+          "occluded": {
+            "correct": 45,
+            "total": 45,
+            "accuracy": 1
+          },
+          "occludedByAge": {
+            "1": {
+              "correct": 6,
+              "total": 6,
+              "accuracy": 1
+            },
+            "2": {
+              "correct": 6,
+              "total": 6,
+              "accuracy": 1
+            },
+            "3": {
+              "correct": 6,
+              "total": 6,
+              "accuracy": 1
+            },
+            "4+": {
+              "correct": 27,
+              "total": 27,
+              "accuracy": 1
+            }
+          }
+        }
+      ],
+      "occludedByAge": {
+        "1": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 1
+        },
+        "2": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 1
+        },
+        "3": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 1
+        },
+        "4+": {
+          "correct": 27,
+          "total": 27,
+          "accuracy": 1
+        }
+      },
+      "failures": {
+        "Format Error": 0,
+        "Prediction Error": 0,
+        "Action/Planning Error": 0
+      },
+      "peek": {
+        "count": 0,
+        "locations": {},
+        "perAttempt": [
+          {
+            "id": "partial-known-phase-0-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-known-phase-1-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-known-phase-2-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-known-phase-4-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-known-phase-5-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-known-phase-6-attempt-1",
+            "count": 0
+          }
+        ],
+        "perPhase": [
+          {
+            "phase": 0,
+            "count": 0
+          },
+          {
+            "phase": 1,
+            "count": 0
+          },
+          {
+            "phase": 2,
+            "count": 0
+          },
+          {
+            "phase": 4,
+            "count": 0
+          },
+          {
+            "phase": 5,
+            "count": 0
+          },
+          {
+            "phase": 6,
+            "count": 0
+          }
+        ]
+      },
+      "cases": [
+        {
+          "phase": 0,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-known-phase-0-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 1,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-known-phase-1-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-known-phase-2-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 4,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-known-phase-4-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 5,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-known-phase-5-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 6,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-known-phase-6-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "Partial-unknown-passive",
+      "maxAttempts": 3,
+      "completedCases": 6,
+      "pass": {
+        "Pass@1": {
+          "success": 5,
+          "total": 6,
+          "rate": 0.8333333333333334
+        },
+        "Pass@2": {
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        "Pass@3": {
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        }
+      },
+      "visiblePrediction": {
+        "correct": 7,
+        "total": 7,
+        "accuracy": 1
+      },
+      "occludedPrediction": {
+        "correct": 47,
+        "total": 51,
+        "accuracy": 0.9215686274509803
+      },
+      "occludedRunupPrediction": {
+        "correct": 29,
+        "total": 33,
+        "accuracy": 0.8787878787878788
+      },
+      "predictionByAttempt": [
+        {
+          "attempt": 1,
+          "episodes": 6,
+          "visible": {
+            "correct": 6,
+            "total": 6,
+            "accuracy": 1
+          },
+          "occluded": {
+            "correct": 41,
+            "total": 43,
+            "accuracy": 0.9534883720930233
+          },
+          "occludedByAge": {
+            "1": {
+              "correct": 6,
+              "total": 6,
+              "accuracy": 1
+            },
+            "2": {
+              "correct": 6,
+              "total": 6,
+              "accuracy": 1
+            },
+            "3": {
+              "correct": 6,
+              "total": 6,
+              "accuracy": 1
+            },
+            "4+": {
+              "correct": 23,
+              "total": 25,
+              "accuracy": 0.92
+            }
+          }
+        },
+        {
+          "attempt": 2,
+          "episodes": 1,
+          "visible": {
+            "correct": 1,
+            "total": 1,
+            "accuracy": 1
+          },
+          "occluded": {
+            "correct": 6,
+            "total": 8,
+            "accuracy": 0.75
+          },
+          "occludedByAge": {
+            "1": {
+              "correct": 1,
+              "total": 1,
+              "accuracy": 1
+            },
+            "2": {
+              "correct": 0,
+              "total": 1,
+              "accuracy": 0
+            },
+            "3": {
+              "correct": 0,
+              "total": 1,
+              "accuracy": 0
+            },
+            "4+": {
+              "correct": 5,
+              "total": 5,
+              "accuracy": 1
+            }
+          }
+        },
+        {
+          "attempt": 3,
+          "episodes": 0,
+          "visible": {
+            "correct": 0,
+            "total": 0,
+            "accuracy": null
+          },
+          "occluded": {
+            "correct": 0,
+            "total": 0,
+            "accuracy": null
+          },
+          "occludedByAge": {
+            "1": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            },
+            "2": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            },
+            "3": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            },
+            "4+": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            }
+          }
+        }
+      ],
+      "occludedByAge": {
+        "1": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 1
+        },
+        "2": {
+          "correct": 6,
+          "total": 7,
+          "accuracy": 0.8571428571428571
+        },
+        "3": {
+          "correct": 6,
+          "total": 7,
+          "accuracy": 0.8571428571428571
+        },
+        "4+": {
+          "correct": 28,
+          "total": 30,
+          "accuracy": 0.9333333333333333
+        }
+      },
+      "failures": {
+        "Format Error": 0,
+        "Prediction Error": 1,
+        "Action/Planning Error": 0
+      },
+      "peek": {
+        "count": 0,
+        "locations": {},
+        "perAttempt": [
+          {
+            "id": "partial-unknown-passive-phase-0-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-unknown-passive-phase-1-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-unknown-passive-phase-2-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-unknown-passive-phase-4-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-unknown-passive-phase-5-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-unknown-passive-phase-5-attempt-2",
+            "count": 0
+          },
+          {
+            "id": "partial-unknown-passive-phase-6-attempt-1",
+            "count": 0
+          }
+        ],
+        "perPhase": [
+          {
+            "phase": 0,
+            "count": 0
+          },
+          {
+            "phase": 1,
+            "count": 0
+          },
+          {
+            "phase": 2,
+            "count": 0
+          },
+          {
+            "phase": 4,
+            "count": 0
+          },
+          {
+            "phase": 5,
+            "count": 0
+          },
+          {
+            "phase": 6,
+            "count": 0
+          }
+        ]
+      },
+      "cases": [
+        {
+          "phase": 0,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-passive-phase-0-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 1,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-passive-phase-1-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-passive-phase-2-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 4,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-passive-phase-4-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 5,
+          "firstSuccessAttempt": 2,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-passive-phase-5-attempt-1",
+              "attempt": 1,
+              "outcome": "vision",
+              "attribution": {
+                "category": "Prediction Error",
+                "evidence": "Wrong terminal next-state prediction; replacing the actual next robot with that prediction removes immediate death for the identical action."
+              },
+              "peekCount": 0
+            },
+            {
+              "id": "partial-unknown-passive-phase-5-attempt-2",
+              "attempt": 2,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 6,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-passive-phase-6-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "Partial-unknown-interactive",
+      "maxAttempts": 3,
+      "completedCases": 6,
+      "pass": {
+        "Pass@1": {
+          "success": 5,
+          "total": 6,
+          "rate": 0.8333333333333334
+        },
+        "Pass@2": {
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        "Pass@3": {
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        }
+      },
+      "visiblePrediction": {
+        "correct": 12,
+        "total": 12,
+        "accuracy": 1
+      },
+      "occludedPrediction": {
+        "correct": 39,
+        "total": 43,
+        "accuracy": 0.9069767441860465
+      },
+      "occludedRunupPrediction": {
+        "correct": 22,
+        "total": 25,
+        "accuracy": 0.88
+      },
+      "predictionByAttempt": [
+        {
+          "attempt": 1,
+          "episodes": 6,
+          "visible": {
+            "correct": 10,
+            "total": 10,
+            "accuracy": 1
+          },
+          "occluded": {
+            "correct": 33,
+            "total": 37,
+            "accuracy": 0.8918918918918919
+          },
+          "occludedByAge": {
+            "1": {
+              "correct": 9,
+              "total": 9,
+              "accuracy": 1
+            },
+            "2": {
+              "correct": 8,
+              "total": 9,
+              "accuracy": 0.8888888888888888
+            },
+            "3": {
+              "correct": 7,
+              "total": 9,
+              "accuracy": 0.7777777777777778
+            },
+            "4+": {
+              "correct": 9,
+              "total": 10,
+              "accuracy": 0.9
+            }
+          }
+        },
+        {
+          "attempt": 2,
+          "episodes": 1,
+          "visible": {
+            "correct": 2,
+            "total": 2,
+            "accuracy": 1
+          },
+          "occluded": {
+            "correct": 6,
+            "total": 6,
+            "accuracy": 1
+          },
+          "occludedByAge": {
+            "1": {
+              "correct": 1,
+              "total": 1,
+              "accuracy": 1
+            },
+            "2": {
+              "correct": 1,
+              "total": 1,
+              "accuracy": 1
+            },
+            "3": {
+              "correct": 1,
+              "total": 1,
+              "accuracy": 1
+            },
+            "4+": {
+              "correct": 3,
+              "total": 3,
+              "accuracy": 1
+            }
+          }
+        },
+        {
+          "attempt": 3,
+          "episodes": 0,
+          "visible": {
+            "correct": 0,
+            "total": 0,
+            "accuracy": null
+          },
+          "occluded": {
+            "correct": 0,
+            "total": 0,
+            "accuracy": null
+          },
+          "occludedByAge": {
+            "1": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            },
+            "2": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            },
+            "3": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            },
+            "4+": {
+              "correct": 0,
+              "total": 0,
+              "accuracy": null
+            }
+          }
+        }
+      ],
+      "occludedByAge": {
+        "1": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "2": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 0.9
+        },
+        "3": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 0.8
+        },
+        "4+": {
+          "correct": 12,
+          "total": 13,
+          "accuracy": 0.9230769230769231
+        }
+      },
+      "failures": {
+        "Format Error": 0,
+        "Prediction Error": 1,
+        "Action/Planning Error": 0
+      },
+      "peek": {
+        "count": 5,
+        "locations": {
+          "4,3": 4,
+          "1,3": 1
+        },
+        "perAttempt": [
+          {
+            "id": "partial-unknown-interactive-phase-0-attempt-1",
+            "count": 2
+          },
+          {
+            "id": "partial-unknown-interactive-phase-1-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-unknown-interactive-phase-1-attempt-2",
+            "count": 1
+          },
+          {
+            "id": "partial-unknown-interactive-phase-2-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-unknown-interactive-phase-4-attempt-1",
+            "count": 1
+          },
+          {
+            "id": "partial-unknown-interactive-phase-5-attempt-1",
+            "count": 0
+          },
+          {
+            "id": "partial-unknown-interactive-phase-6-attempt-1",
+            "count": 1
+          }
+        ],
+        "perPhase": [
+          {
+            "phase": 0,
+            "count": 2
+          },
+          {
+            "phase": 1,
+            "count": 1
+          },
+          {
+            "phase": 2,
+            "count": 0
+          },
+          {
+            "phase": 4,
+            "count": 1
+          },
+          {
+            "phase": 5,
+            "count": 0
+          },
+          {
+            "phase": 6,
+            "count": 1
+          }
+        ]
+      },
+      "cases": [
+        {
+          "phase": 0,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-interactive-phase-0-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 2
+            }
+          ]
+        },
+        {
+          "phase": 1,
+          "firstSuccessAttempt": 2,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-interactive-phase-1-attempt-1",
+              "attempt": 1,
+              "outcome": "collision",
+              "attribution": {
+                "category": "Prediction Error",
+                "evidence": "Wrong terminal next-state prediction; replacing the actual next robot with that prediction removes immediate death for the identical action."
+              },
+              "peekCount": 0
+            },
+            {
+              "id": "partial-unknown-interactive-phase-1-attempt-2",
+              "attempt": 2,
+              "outcome": "success",
+              "peekCount": 1
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-interactive-phase-2-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 4,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-interactive-phase-4-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 1
+            }
+          ]
+        },
+        {
+          "phase": 5,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-interactive-phase-5-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 0
+            }
+          ]
+        },
+        {
+          "phase": 6,
+          "firstSuccessAttempt": 1,
+          "completed": true,
+          "attempts": [
+            {
+              "id": "partial-unknown-interactive-phase-6-attempt-1",
+              "attempt": 1,
+              "outcome": "success",
+              "peekCount": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "attempts": 26,
+  "metrics": {
+    "prediction": "Exact position AND heading at next tick, scored against private truth; visibility is the current input observation, before action. Only schema-valid executed actions enter prediction denominators.",
+    "age": "Current input tick minus last legally seen tick in this attempt. Window and post-PEEK sightings reset age. Hidden steps at all non-window cells enter the main hidden metric; run-up-only metric is also reported.",
+    "pass": "Cumulative first-success rate across the fixed six phases. Pass@k is null (not tested) when k exceeds the condition attempt cap. Successful cases stop early; failures reset the identical phase.",
+    "attribution": "Wrong terminal prediction counts as Prediction Error only when substituting the predicted next robot state removes the immediate fatal event. Otherwise Action/Planning Error; invalid JSON/schema is Format Error. Infrastructure errors remain incomplete."
+  }
+}

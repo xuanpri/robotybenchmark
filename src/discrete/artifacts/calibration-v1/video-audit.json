@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "videos": 15,
+  "totalDecodedFrames": 2160,
+  "totalStatePNGs": 144,
+  "checks": [
+    "full MP4 decode",
+    "1920x1080 dimensions",
+    "frame count",
+    "every state matches PNG within lossy encoding tolerance"
+  ],
+  "runs": [
+    {
+      "id": "future-known-phase-0",
+      "decodedFrames": 165,
+      "pngStates": 11,
+      "passed": true
+    },
+    {
+      "id": "future-known-phase-1",
+      "decodedFrames": 150,
+      "pngStates": 10,
+      "passed": true
+    },
+    {
+      "id": "future-known-phase-10",
+      "decodedFrames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "future-known-phase-4",
+      "decodedFrames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "future-known-phase-6",
+      "decodedFrames": 165,
+      "pngStates": 11,
+      "passed": true
+    },
+    {
+      "id": "omniscient-phase-0",
+      "decodedFrames": 165,
+      "pngStates": 11,
+      "passed": true
+    },
+    {
+      "id": "omniscient-phase-1",
+      "decodedFrames": 150,
+      "pngStates": 10,
+      "passed": true
+    },
+    {
+      "id": "omniscient-phase-10",
+      "decodedFrames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "omniscient-phase-4",
+      "decodedFrames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "omniscient-phase-6",
+      "decodedFrames": 165,
+      "pngStates": 11,
+      "passed": true
+    },
+    {
+      "id": "oracle-phase-0",
+      "decodedFrames": 165,
+      "pngStates": 11,
+      "passed": true
+    },
+    {
+      "id": "oracle-phase-1",
+      "decodedFrames": 150,
+      "pngStates": 10,
+      "passed": true
+    },
+    {
+      "id": "oracle-phase-10",
+      "decodedFrames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "oracle-phase-4",
+      "decodedFrames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "oracle-phase-6",
+      "decodedFrames": 165,
+      "pngStates": 11,
+      "passed": true
+    }
+  ]
+}
