@@ -1,0 +1,298 @@
+{
+  "id": "omniscient-phase-1",
+  "condition": "Omniscient",
+  "phase": 1,
+  "states": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 1,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 2,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 3,
+      "player": [
+        2,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    }
+  ],
+  "steps": [
+    {
+      "before": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            1
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            2,
+            2
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "The robot moves south to [2,2], and its new vision covers [2,3] and [2,4], so entering [2,3] now would be fatal. Waiting at [1,3] is safe."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[2,2],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"The robot moves south to [2,2], and its new vision covers [2,3] and [2,4], so entering [2,3] now would be fatal. Waiting at [1,3] is safe.\"}",
+      "wireName": "tick-00",
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 591,
+        "completion_tokens": 308,
+        "total_tokens": 899,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 228
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.042314"
+      },
+      "latency": 4.349296991999989,
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            2,
+            3
+          ],
+          "heading": "S"
+        },
+        "action": "WAIT",
+        "reason": "The robot moves to [2,3], so moving RIGHT would cause a same-cell collision. Waiting at [1,3] remains outside its south-facing vision."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[2,3],\"heading\":\"S\"},\"action\":\"WAIT\",\"reason\":\"The robot moves to [2,3], so moving RIGHT would cause a same-cell collision. Waiting at [1,3] remains outside its south-facing vision.\"}",
+      "wireName": "tick-01",
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 704,
+        "completion_tokens": 175,
+        "total_tokens": 879,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 110
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.031352"
+      },
+      "latency": 3.1228393800000194,
+      "predictionCorrect": true
+    },
+    {
+      "before": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 3,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "predicted_next": {
+          "pos": [
+            2,
+            4
+          ],
+          "heading": "S"
+        },
+        "action": "RIGHT",
+        "reason": "The robot moves south to [2,4]. Moving RIGHT places the player at [2,3], with no same-cell collision or edge swap, and outside the robot's new south-facing vision at [2,5]."
+      },
+      "raw": "{\"predicted_next\":{\"pos\":[2,4],\"heading\":\"S\"},\"action\":\"RIGHT\",\"reason\":\"The robot moves south to [2,4]. Moving RIGHT places the player at [2,3], with no same-cell collision or edge swap, and outside the robot's new south-facing vision at [2,5].\"}",
+      "wireName": "tick-02",
+      "model": "gpt-5.6-sol-2026-07-09",
+      "usage": {
+        "prompt_tokens": 802,
+        "completion_tokens": 216,
+        "total_tokens": 1018,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 139
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0,
+        "cost": "¥0.037368"
+      },
+      "latency": 3.061685853000003,
+      "predictionCorrect": true
+    }
+  ],
+  "actions": [
+    "WAIT",
+    "WAIT",
+    "RIGHT"
+  ],
+  "outcome": "running"
+}

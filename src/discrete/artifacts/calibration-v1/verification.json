@@ -1,0 +1,13 @@
+{
+  "new_unit_tests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "existing_regression_tests": {
+    "passed": 36,
+    "failed": 0,
+    "command": "node --import tsx --test --test-isolation=none tests/*.test.ts"
+  },
+  "typescript": "tsc --noEmit passed",
+  "protected_paths_modified": false
+}
