@@ -1,0 +1,147 @@
+{
+  "E0_end_to_end": {
+    "answer": "{\"choice\":\"B\"}",
+    "usage": {
+      "completion_tokens": 648,
+      "prompt_tokens": 2420,
+      "total_tokens": 3068,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 628,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.112384"
+    }
+  },
+  "E1_prediction": {
+    "answer": "{\"predictions\":[{\"time\":2.2,\"position\":[3.1,6.33475],\"heading\":-1.5707963267948966,\"phase\":\"move\"},{\"time\":2.4,\"position\":[3.1,6.2],\"heading\":-1.5707963267948966,\"phase\":\"pause\"},{\"time\":2.5,\"position\":[3.1,6.2],\"heading\":-1.5707963267948966,\"phase\":\"pause\"},{\"time\":2.56,\"position\":[3.1,6.2],\"heading\":-1.5707963267948966,\"phase\":\"pause\"}]}",
+    "usage": {
+      "completion_tokens": 257,
+      "prompt_tokens": 2400,
+      "total_tokens": 2657,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 113,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.07317"
+    }
+  },
+  "E2_risk_evaluation": {
+    "answer": "{\"A\":\"safe\",\"B\":\"safe\",\"C\":\"unsafe\",\"D\":\"safe\"}",
+    "usage": {
+      "completion_tokens": 768,
+      "prompt_tokens": 2958,
+      "total_tokens": 3726,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 736,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.134982"
+    }
+  },
+  "E3_prediction_oracle": {
+    "answer": "{\"choice\":\"B\"}",
+    "usage": {
+      "completion_tokens": 553,
+      "prompt_tokens": 2939,
+      "total_tokens": 3492,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 536,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.113258"
+    }
+  },
+  "E4_risk_oracle": {
+    "answer": "{\"choice\":\"B\"}",
+    "usage": {
+      "completion_tokens": 8,
+      "prompt_tokens": 2961,
+      "total_tokens": 2969,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.059588"
+    }
+  }
+}

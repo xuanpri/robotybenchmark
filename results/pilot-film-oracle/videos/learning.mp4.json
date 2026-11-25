@@ -1,0 +1,22 @@
+{
+  "input": "results/pilot-film-oracle/replay.json",
+  "layout": "split",
+  "timing": "simulation",
+  "frames": 401,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "seed": [
+    1
+  ],
+  "encoder": "OpenCV FFmpeg CPU mp4v",
+  "renderer": "Chromium ANGLE SwiftShader",
+  "command": [
+    "/home/jiaxuanren/interview/MultiRobotStealthArena/scripts/video.cjs",
+    "results/pilot-film-oracle/replay.json",
+    "results/pilot-film-oracle/videos/learning.mp4",
+    "split",
+    "simulation",
+    "parts"
+  ]
+}

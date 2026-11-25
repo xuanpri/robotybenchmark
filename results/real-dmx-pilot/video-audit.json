@@ -1,0 +1,85 @@
+{
+  "A": {
+    "frames": 365,
+    "seconds": 12.166666666666666,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "layout": "omniscient",
+    "attempts": [
+      {
+        "id": "exploration-1",
+        "frames": 365,
+        "reflectionCards": 0
+      }
+    ],
+    "mp4SHA256": "e820695aaf357bbbb6e9521c27f18103b95713cf9b3f63a60a17f677506db274",
+    "replaySHA256": "7d7cec4f37cfd830367e9b2d15c6b24bb9148d080920524bac24f88b644fec04"
+  },
+  "B": {
+    "frames": 5182,
+    "seconds": 172.73333333333332,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "layout": "split",
+    "attempts": [
+      {
+        "id": "exploration-1",
+        "frames": 564,
+        "reflectionCards": 4
+      },
+      {
+        "id": "exploration-2",
+        "frames": 489,
+        "reflectionCards": 4
+      },
+      {
+        "id": "exploration-3",
+        "frames": 450,
+        "reflectionCards": 0
+      },
+      {
+        "id": "exploration-4",
+        "frames": 663,
+        "reflectionCards": 4
+      },
+      {
+        "id": "exploration-5",
+        "frames": 762,
+        "reflectionCards": 4
+      },
+      {
+        "id": "exploration-6",
+        "frames": 729,
+        "reflectionCards": 4
+      },
+      {
+        "id": "exploration-7",
+        "frames": 387,
+        "reflectionCards": 0
+      },
+      {
+        "id": "exploration-8",
+        "frames": 381,
+        "reflectionCards": 0
+      },
+      {
+        "id": "exploration-9",
+        "frames": 372,
+        "reflectionCards": 0
+      },
+      {
+        "id": "exploration-10",
+        "frames": 385,
+        "reflectionCards": 0
+      }
+    ],
+    "mp4SHA256": "92d9e3a6c8e21b381cd5ae4b45139c460385b4ecb0fa1c8f7ae8b47900e4c88c",
+    "replaySHA256": "bfa5ef73343b9e56be9f93f16739984a668bc13644d4f8aef42312753544209b"
+  }
+}

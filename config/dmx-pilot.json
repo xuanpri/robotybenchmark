@@ -1,0 +1,19 @@
+{
+  "agent_id": "dmx-gpt-5.6-sol",
+  "model": "gpt-5.6-sol",
+  "key_env": "DMXAPI_API_KEY",
+  "base_env": "DMXAPI_BASE_URL",
+  "seed": 1,
+  "seconds": [
+    0.2,
+    0.5,
+    1
+  ],
+  "history": 4,
+  "actionLimit": 60,
+  "smokeLimit": 5,
+  "experimentLimit": 200,
+  "maxRetries": 1,
+  "attemptTokenBudget": 32000,
+  "acceptedSnapshot": "gpt-5.6-sol-2026-07-09"
+}

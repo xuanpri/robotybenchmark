@@ -1,0 +1,1 @@
+{"id":"exploration-1","condition":"M2","generated":{"observations":"Terminal position [11.875000000000103,1.4999999999999454]","failure":"escaped","next":"Avoid repeating MOVE_EAST near [9.50000000000007,1.4999999999999454]","uncertainty":"Only locally observed positions are known."},"error":null}

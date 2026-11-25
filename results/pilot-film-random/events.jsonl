@@ -1,0 +1,2 @@
+{"id":"exploration-1","result":"timeout","hpBefore":100,"hpAfter":90,"at":{"time":3,"player":[0.7600000025,13.250000000000068],"heading":1.5707963267948966,"outcome":"timeout","robots":[]}}
+{"id":"exploration-2","result":"timeout","hpBefore":90,"hpAfter":80,"at":{"time":3,"player":[3.2600000024999924,6.999999999999979],"heading":-1.5707963267948966,"outcome":"timeout","robots":[{"id":"R1","position":[3.1,6.2],"heading":-1.0930124440614484}]}}

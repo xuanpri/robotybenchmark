@@ -1,0 +1,6 @@
+{
+  "seed":1,"agent":"heuristic","memory":"M2","protocol":"Same","initialHP":100,"failureCost":10,
+  "maxAttempts":10,"maxTime":90,"maxActions":180,"tokenBudget":32000,"memoryBudget":600,
+  "durations":[0.1,0.2,0.5,1],"masteryTrials":3,"transfer":["PhaseShift","FreshDynamics"],
+  "currentHistory":4,"modelOutput":128
+}

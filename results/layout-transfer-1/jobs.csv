@@ -1,0 +1,16 @@
+id,n,group,layout,arm,status,pause,first,budget,hpUsed,decisions,memoryOut,requests,knownCNY,costUnknown,inputTokens,outputTokens,latencySeconds,failuresBeforeFirstSuccess,formalFailures,acquired
+A-N0-G1-source,0,G1,A,source,deferred_full_memory,,,10,,,,0,0.0,0,0,0,0,,0,
+A-N0-G2-source,0,G2,A,source,deferred_full_memory,,,10,,,,0,0.0,0,0,0,0,,0,
+A-N0-G3-source,0,G3,A,source,acquired,,1,10,0,9,397,10,0.34419,0,9389,1514,33.22,0,0,True
+B-N0-G3-transfer,0,G3,B,transfer,acquired,,1,1,0,9,793,10,0.365768,0,10611,1199,25.03,0,0,True
+B-N0-G3-scratch,0,G3,B,scratch,acquired,,1,1,0,9,433,10,0.382176,0,9690,1576,38.83,0,0,True
+A-N2-G1-source,2,G1,A,source,deferred_full_memory,,,10,,,,0,0.0,0,0,0,0,,0,
+A-N2-G2-source,2,G2,A,source,deferred_full_memory,,,10,,,,0,0.0,0,0,0,0,,0,
+A-N2-G3-source,2,G3,A,source,not_acquired,,,10,100,152,5913,162,12.0698,0,321527,41458,792.15,,10,False
+B-N2-G3-transfer,2,G3,B,transfer,source_not_acquired,,,,,,,0,0.0,0,0,0,0,,0,
+B-N2-G3-scratch,2,G3,B,scratch,source_not_acquired,,,,,,,0,0.0,0,0,0,0,,0,
+A-N4-G1-source,4,G1,A,source,deferred_full_memory,,,10,,,,0,0.0,0,0,0,0,,0,
+A-N4-G2-source,4,G2,A,source,deferred_full_memory,,,10,,,,0,0.0,0,0,0,0,,0,
+A-N4-G3-source,4,G3,A,source,not_acquired,,,10,100,102,5233,112,7.698154,0,215960,23901,460.3,,10,False
+B-N4-G3-transfer,4,G3,B,transfer,source_not_acquired,,,,,,,0,0.0,0,0,0,0,,0,
+B-N4-G3-scratch,4,G3,B,scratch,source_not_acquired,,,,,,,0,0.0,0,0,0,0,,0,

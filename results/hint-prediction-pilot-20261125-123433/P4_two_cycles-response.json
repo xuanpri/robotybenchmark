@@ -1,0 +1,54 @@
+{
+  "id": "chatcmpl-Enz0mXrOaROV7Sl0lfMu9amLs5H56",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"predictions\":[{\"time\":0.5,\"z\":2.5},{\"time\":1.5,\"z\":2.0},{\"time\":2.5,\"z\":2.5},{\"time\":5.0,\"z\":5.0},{\"time\":6.5,\"z\":6.0},{\"time\":8.5,\"z\":5.0},{\"time\":10.5,\"z\":2.5}],\"inferred_dynamics\":\"The robot patrols between z=2 and z=6 at 1 unit per second, pausing for 1 second at each endpoint before reversing. The full cycle repeats every 10 seconds.\",\"uncertainty\":\"Low; the ordered history shows two consistent patrol cycles and fixes the current phase.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795581308,
+  "model": "gpt-5.6-sol-2026-07-09",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 574,
+    "prompt_tokens": 530,
+    "total_tokens": 1104,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 409,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0,
+    "cost": "¥0.06751"
+  },
+  "routing": {
+    "serving_pipereplica": "d20261117143756-4dce1499-prefill-r2-dp0-prefill"
+  }
+}

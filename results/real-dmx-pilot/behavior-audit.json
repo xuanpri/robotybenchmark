@@ -1,0 +1,475 @@
+[
+  {
+    "track": "smoke",
+    "id": "exploration-1",
+    "result": "seen",
+    "decisions": 2,
+    "moves": 2,
+    "blockedActive": 0,
+    "pathLength": 2.525000000000036,
+    "closestOnPath": 11.875421045167185,
+    "waits": [],
+    "returnedAfterOneMeterExcursion": false,
+    "seeingAtTerminal": [
+      "R1"
+    ],
+    "mostVisitsToQuarterMeterCell": 2,
+    "firstDifferentAction": null,
+    "terminal": {
+      "clock": 101,
+      "player": [
+        1.5,
+        5.974999999999964
+      ],
+      "heading": -1.5707963267948966,
+      "outcome": "seen"
+    }
+  },
+  {
+    "track": "A",
+    "id": "exploration-1",
+    "result": "seen",
+    "decisions": 13,
+    "moves": 11,
+    "blockedActive": 2,
+    "pathLength": 20.359999995000017,
+    "closestOnPath": 4.836941184281653,
+    "waits": [
+      {
+        "firstTurn": 3,
+        "start": 1.2,
+        "end": 3.2,
+        "reason": "Let R1 pass northward so its sight faces away before advancing.",
+        "outcome": "active",
+        "nextMove": "MOVE_NORTH",
+        "observedNext": "active",
+        "noWaitNext": "seen",
+        "otherSafeForLastWait": null
+      }
+    ],
+    "returnedAfterOneMeterExcursion": false,
+    "seeingAtTerminal": [
+      "R1"
+    ],
+    "mostVisitsToQuarterMeterCell": 3,
+    "firstDifferentAction": null,
+    "terminal": {
+      "clock": 1056,
+      "player": [
+        6.469999997499982,
+        4.910000002500003
+      ],
+      "heading": 1.5707963267948966,
+      "outcome": "seen"
+    }
+  },
+  {
+    "track": "B",
+    "id": "exploration-1",
+    "result": "seen",
+    "decisions": 6,
+    "moves": 5,
+    "blockedActive": 0,
+    "pathLength": 10.475000000000078,
+    "closestOnPath": 6.824633689803394,
+    "waits": [
+      {
+        "firstTurn": 2,
+        "start": 0.2,
+        "end": 1.2,
+        "reason": "Let the northbound patrol move safely ahead.",
+        "outcome": "active",
+        "nextMove": "MOVE_NORTH",
+        "observedNext": "active",
+        "noWaitNext": "active",
+        "otherSafeForLastWait": null
+      }
+    ],
+    "returnedAfterOneMeterExcursion": false,
+    "seeingAtTerminal": [
+      "R3"
+    ],
+    "mostVisitsToQuarterMeterCell": 2,
+    "firstDifferentAction": null,
+    "terminal": {
+      "clock": 519,
+      "player": [
+        5.975000000000019,
+        3.4999999999999383
+      ],
+      "heading": 0,
+      "outcome": "seen"
+    }
+  },
+  {
+    "track": "B",
+    "id": "exploration-2",
+    "result": "seen",
+    "decisions": 3,
+    "moves": 3,
+    "blockedActive": 0,
+    "pathLength": 4.2500000000000515,
+    "closestOnPath": 11.950418402717103,
+    "waits": [],
+    "returnedAfterOneMeterExcursion": false,
+    "seeingAtTerminal": [
+      "R1"
+    ],
+    "mostVisitsToQuarterMeterCell": 1,
+    "firstDifferentAction": 2,
+    "terminal": {
+      "clock": 170,
+      "player": [
+        1.0000000000000018,
+        4.749999999999947
+      ],
+      "heading": -1.5707963267948966,
+      "outcome": "seen"
+    }
+  },
+  {
+    "track": "B",
+    "id": "exploration-3",
+    "result": "token_budget",
+    "decisions": 17,
+    "moves": 13,
+    "blockedActive": 0,
+    "pathLength": 21.00000000000022,
+    "closestOnPath": 6.020797289396084,
+    "waits": [
+      {
+        "firstTurn": 2,
+        "start": 0.2,
+        "end": 2.2,
+        "reason": "Let the northbound patrol gain separation before following.",
+        "outcome": "active",
+        "nextMove": "MOVE_NORTH",
+        "observedNext": "active",
+        "noWaitNext": "active",
+        "otherSafeForLastWait": null
+      },
+      {
+        "firstTurn": 6,
+        "start": 3.7,
+        "end": 4.7,
+        "reason": "Let the southbound patrol gain separation before crossing behind it.",
+        "outcome": "active",
+        "nextMove": "MOVE_NORTH",
+        "observedNext": "active",
+        "noWaitNext": "active",
+        "otherSafeForLastWait": null
+      },
+      {
+        "firstTurn": 10,
+        "start": 6.7,
+        "end": 7.7,
+        "reason": "Let R3 continue north past this latitude before crossing east.",
+        "outcome": "active",
+        "nextMove": "MOVE_EAST",
+        "observedNext": "active",
+        "noWaitNext": "active",
+        "otherSafeForLastWait": null
+      }
+    ],
+    "returnedAfterOneMeterExcursion": true,
+    "seeingAtTerminal": [],
+    "mostVisitsToQuarterMeterCell": 3,
+    "firstDifferentAction": 2,
+    "terminal": {
+      "clock": 1240,
+      "player": [
+        6.500000000000027,
+        8.5
+      ],
+      "heading": 1.5707963267948966,
+      "outcome": "active"
+    }
+  },
+  {
+    "track": "B",
+    "id": "exploration-4",
+    "result": "seen",
+    "decisions": 8,
+    "moves": 8,
+    "blockedActive": 0,
+    "pathLength": 18.700000000000223,
+    "closestOnPath": 7.368174807915434,
+    "waits": [],
+    "returnedAfterOneMeterExcursion": false,
+    "seeingAtTerminal": [
+      "R3"
+    ],
+    "mostVisitsToQuarterMeterCell": 1,
+    "firstDifferentAction": 1,
+    "terminal": {
+      "clock": 748,
+      "player": [
+        10.20000000000008,
+        8.5
+      ],
+      "heading": 0,
+      "outcome": "seen"
+    }
+  },
+  {
+    "track": "B",
+    "id": "exploration-5",
+    "result": "seen",
+    "decisions": 12,
+    "moves": 11,
+    "blockedActive": 0,
+    "pathLength": 26.500000000000334,
+    "closestOnPath": 7,
+    "waits": [
+      {
+        "firstTurn": 8,
+        "start": 7,
+        "end": 7.2,
+        "reason": "Let R3 complete its turn before crossing the exposed eastbound lane.",
+        "outcome": "active",
+        "nextMove": "MOVE_EAST",
+        "observedNext": "active",
+        "noWaitNext": "seen",
+        "otherSafeForLastWait": null
+      }
+    ],
+    "returnedAfterOneMeterExcursion": true,
+    "seeingAtTerminal": [
+      "R4"
+    ],
+    "mostVisitsToQuarterMeterCell": 2,
+    "firstDifferentAction": 8,
+    "terminal": {
+      "clock": 1080,
+      "player": [
+        13.000000000000119,
+        8.5
+      ],
+      "heading": 0,
+      "outcome": "seen"
+    }
+  },
+  {
+    "track": "B",
+    "id": "exploration-6",
+    "result": "seen",
+    "decisions": 13,
+    "moves": 12,
+    "blockedActive": 0,
+    "pathLength": 23.675000000000296,
+    "closestOnPath": 6.67083203206319,
+    "waits": [
+      {
+        "firstTurn": 8,
+        "start": 7,
+        "end": 7.2,
+        "reason": "Use the previously successful timing before crossing east beneath the spine.",
+        "outcome": "active",
+        "nextMove": "MOVE_EAST",
+        "observedNext": "active",
+        "noWaitNext": "seen",
+        "otherSafeForLastWait": null
+      }
+    ],
+    "returnedAfterOneMeterExcursion": false,
+    "seeingAtTerminal": [
+      "R4"
+    ],
+    "mostVisitsToQuarterMeterCell": 2,
+    "firstDifferentAction": 11,
+    "terminal": {
+      "clock": 967,
+      "player": [
+        14.675000000000143,
+        7.999999999999993
+      ],
+      "heading": 0,
+      "outcome": "seen"
+    }
+  },
+  {
+    "track": "B",
+    "id": "exploration-7",
+    "result": "seen",
+    "decisions": 13,
+    "moves": 11,
+    "blockedActive": 1,
+    "pathLength": 23.119999997500276,
+    "closestOnPath": 6.553960637042337,
+    "waits": [
+      {
+        "firstTurn": 8,
+        "start": 7,
+        "end": 7.2,
+        "reason": "Let R3 turn away before the proven eastward crossing.",
+        "outcome": "active",
+        "nextMove": "MOVE_EAST",
+        "observedNext": "active",
+        "noWaitNext": "seen",
+        "otherSafeForLastWait": null
+      },
+      {
+        "firstTurn": 13,
+        "start": 9.6,
+        "end": 10.290000000000001,
+        "reason": "Hold behind the spine edge while R2 continues west past this position.",
+        "outcome": "seen",
+        "nextMove": null,
+        "observedNext": null,
+        "noWaitNext": null,
+        "otherSafeForLastWait": [
+          "MOVE_WEST"
+        ]
+      }
+    ],
+    "returnedAfterOneMeterExcursion": false,
+    "seeingAtTerminal": [
+      "R4"
+    ],
+    "mostVisitsToQuarterMeterCell": 3,
+    "firstDifferentAction": 12,
+    "terminal": {
+      "clock": 1029,
+      "player": [
+        14.000000000000133,
+        7.8800000025
+      ],
+      "heading": -1.5707963267948966,
+      "outcome": "seen"
+    }
+  },
+  {
+    "track": "B",
+    "id": "exploration-8",
+    "result": "token_budget",
+    "decisions": 13,
+    "moves": 11,
+    "blockedActive": 1,
+    "pathLength": 23.119999997500276,
+    "closestOnPath": 6.553960637042337,
+    "waits": [
+      {
+        "firstTurn": 8,
+        "start": 7,
+        "end": 7.2,
+        "reason": "Use the proven timing before crossing east behind R3.",
+        "outcome": "active",
+        "nextMove": "MOVE_EAST",
+        "observedNext": "active",
+        "noWaitNext": "seen",
+        "otherSafeForLastWait": null
+      },
+      {
+        "firstTurn": 13,
+        "start": 9.6,
+        "end": 10.1,
+        "reason": "Let R2 pass west while remaining sheltered at the spine edge.",
+        "outcome": "active",
+        "nextMove": null,
+        "observedNext": null,
+        "noWaitNext": null,
+        "otherSafeForLastWait": null
+      }
+    ],
+    "returnedAfterOneMeterExcursion": false,
+    "seeingAtTerminal": [],
+    "mostVisitsToQuarterMeterCell": 3,
+    "firstDifferentAction": 13,
+    "terminal": {
+      "clock": 1010,
+      "player": [
+        14.000000000000133,
+        7.8800000025
+      ],
+      "heading": -1.5707963267948966,
+      "outcome": "active"
+    }
+  },
+  {
+    "track": "B",
+    "id": "exploration-9",
+    "result": "token_budget",
+    "decisions": 13,
+    "moves": 12,
+    "blockedActive": 1,
+    "pathLength": 23.619999997500283,
+    "closestOnPath": 6.553960637042337,
+    "waits": [
+      {
+        "firstTurn": 8,
+        "start": 7,
+        "end": 7.2,
+        "reason": "Use the proven timing pause before crossing east behind R3.",
+        "outcome": "active",
+        "nextMove": "MOVE_EAST",
+        "observedNext": "active",
+        "noWaitNext": "seen",
+        "otherSafeForLastWait": null
+      }
+    ],
+    "returnedAfterOneMeterExcursion": false,
+    "seeingAtTerminal": [],
+    "mostVisitsToQuarterMeterCell": 2,
+    "firstDifferentAction": 13,
+    "terminal": {
+      "clock": 980,
+      "player": [
+        14.50000000000014,
+        7.8800000025
+      ],
+      "heading": 0,
+      "outcome": "active"
+    }
+  },
+  {
+    "track": "B",
+    "id": "exploration-10",
+    "result": "seen",
+    "decisions": 13,
+    "moves": 10,
+    "blockedActive": 0,
+    "pathLength": 23.000000000000284,
+    "closestOnPath": 6.67083203206319,
+    "waits": [
+      {
+        "firstTurn": 8,
+        "start": 7,
+        "end": 7.2,
+        "reason": "Use the proven timing pause before crossing east behind R3.",
+        "outcome": "active",
+        "nextMove": "MOVE_EAST",
+        "observedNext": "active",
+        "noWaitNext": "seen",
+        "otherSafeForLastWait": null
+      },
+      {
+        "firstTurn": 12,
+        "start": 9.4,
+        "end": 10.22,
+        "reason": "Hold at the spine’s east-edge cover while R2 continues its westward pass.",
+        "outcome": "seen",
+        "nextMove": null,
+        "observedNext": null,
+        "noWaitNext": null,
+        "otherSafeForLastWait": [
+          "MOVE_WEST"
+        ]
+      }
+    ],
+    "returnedAfterOneMeterExcursion": false,
+    "seeingAtTerminal": [
+      "R4"
+    ],
+    "mostVisitsToQuarterMeterCell": 3,
+    "firstDifferentAction": 12,
+    "terminal": {
+      "clock": 1022,
+      "player": [
+        14.000000000000133,
+        7.999999999999993
+      ],
+      "heading": -1.5707963267948966,
+      "outcome": "seen"
+    }
+  }
+]

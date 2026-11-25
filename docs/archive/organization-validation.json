@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-25",
+  "scope": "Documentation organization only; no API, experiment, simulator replay, tests/build, dependency install, or media regeneration",
+  "original_files_inventoried": 3058,
+  "original_files_missing": [],
+  "unexpected_original_changes": [],
+  "allowed_document_edits": [
+    "README.md",
+    "docs/core-info/MULTIROBOT_CORE_INFO.md"
+  ],
+  "original_small_text_hashes_verified": 2918,
+  "other_original_file_metadata_verified": 138,
+  "original_document_snapshot_hashes_verified": 2,
+  "new_current_document_local_links_checked": 149,
+  "broken_local_links": [],
+  "archive_stages": 8,
+  "prediction_successful_response_input_output_pairs_checked": 9,
+  "persisted_metric_vectors_arithmetically_checked": 14,
+  "temporal_counterfactual": "same current, equal history multisets, different ordered histories and all future points; T3 equals midpoint",
+  "limitations": [
+    "No binary or large-file content hashing/decoding; size/mtime only",
+    "Dependencies, caches, dist and .git skipped",
+    "P/T check reads existing data only; does not validate dynamics generation or rerun experiment",
+    "Frozen snapshots retain original-location relative links; historical handoff contains explicit correction",
+    "RQ mapping provisional; original formal definitions unavailable"
+  ]
+}

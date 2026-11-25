@@ -1,0 +1,13 @@
+{"id":"exploration-1","action":"MOVE_NORTH","duration":1,"reason":"Advance along the clear west corridor, outside R1's north-facing sight cone.","start":0,"end":1,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_WEST","duration":0.2,"reason":"Increase lateral separation from R1's north-facing sight cone before advancing.","start":1,"end":1.2,"feedback":"active"}
+{"id":"exploration-1","action":"WAIT","duration":1,"reason":"Let R1 pass northward so its sight faces away before advancing.","start":1.2,"end":2.2,"feedback":"active"}
+{"id":"exploration-1","action":"WAIT","duration":1,"reason":"Let R1 move farther north, opening a safe eastward crossing behind it.","start":2.2,"end":3.2,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_NORTH","duration":1,"reason":"Advance up the west corridor behind R1 and toward the clear route above the records wall.","start":3.2,"end":4.2,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_EAST","duration":1,"reason":"Cross east above the records wall while R1 faces south and remains blocked behind it.","start":4.2,"end":5.2,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_NORTH","duration":1,"reason":"Enter the narrow north passage to get around the divider.","start":5.2,"end":6.2,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_EAST","duration":1,"reason":"Continue through the north passage above the divider; patrols are distant or obstructed.","start":6.2,"end":7.2,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_NORTH","duration":0.2,"reason":"Shift into the narrow gap above the divider before continuing east.","start":7.2,"end":7.4,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_EAST","duration":1,"reason":"Continue east through the tight passage above the divider; R3 remains beyond sight range and obstructed.","start":7.4,"end":8.4,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_WEST","duration":0.5,"reason":"The divider blocks this narrow route; backtrack west to go around its south end.","start":8.4,"end":8.9,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_SOUTH","duration":1,"reason":"Descend west of the divider toward its south end; R3 is facing away.","start":8.9,"end":9.9,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_SOUTH","duration":1,"reason":"Move below the divider while remaining behind R3 and beyond R2's sight range.","start":9.9,"end":10.56,"feedback":"seen"}

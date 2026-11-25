@@ -1,0 +1,6 @@
+{
+  "agent": "oracle",
+  "memory": "M0",
+  "maxAttempts": 1,
+  "maxTime": 25
+}

@@ -1,0 +1,21 @@
+{
+  "input": "evidence/layout-transfer-1/scenes/A-N0-P1.replay.json",
+  "layout": "omniscient",
+  "timing": "simulation",
+  "frames": 900,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "seed": [
+    1
+  ],
+  "encoder": "OpenCV FFmpeg CPU mp4v",
+  "renderer": "Chromium ANGLE SwiftShader",
+  "command": [
+    "/home/jiaxuanren/interview/MultiRobotStealthArena/scripts/video.cjs",
+    "evidence/layout-transfer-1/scenes/A-N0-P1.replay.json",
+    "evidence/layout-transfer-1/scenes/A-N0-P1.mp4",
+    "omniscient",
+    "simulation"
+  ]
+}

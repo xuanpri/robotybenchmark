@@ -1,0 +1,1 @@
+{"agent":"local-1.7b","seed":1,"memory":"M0","protocol":"Same","maxAttempts":1,"maxActions":2,"maxTime":5,"tokenBudget":5500,"modelOutput":96,"currentHistory":1,"durations":[0.2,0.5,1],"masteryTrials":0,"transfer":[]}

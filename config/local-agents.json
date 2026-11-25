@@ -1,0 +1,34 @@
+{
+  "qwen-local": {
+    "model_id": "patrol-qwen3-1.7b",
+    "model_version": "local-Qwen3-1.7B-vllm",
+    "endpoint": "http://127.0.0.1:18347/v1",
+    "reasoning_mode": "nonthinking",
+    "temperature": 0,
+    "input_limit": 2496
+  },
+  "local-1.7b": {
+    "model_id": "adaptive-qwen3-1.7b",
+    "model_version": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "endpoint": "http://127.0.0.1:18350/v1",
+    "reasoning_mode": "nonthinking",
+    "temperature": 0,
+    "input_limit": 2496
+  },
+  "local-8b": {
+    "model_id": "adaptive-qwen3-8b",
+    "model_version": "b968826d9c46dd6066d109eabc6255188de91218",
+    "endpoint": "http://127.0.0.1:18351/v1",
+    "reasoning_mode": "nonthinking",
+    "temperature": 0,
+    "input_limit": 2496
+  },
+  "local-gpt-oss-20b": {
+    "model_id": "adaptive-gpt-oss-20b",
+    "model_version": "6cee5e81ee83917806bbde320786a8fb61efebee",
+    "endpoint": "http://127.0.0.1:18352/v1",
+    "reasoning_mode": "harmony-low",
+    "temperature": 0,
+    "input_limit": 2496
+  }
+}

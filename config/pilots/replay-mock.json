@@ -1,0 +1,1 @@
+{"agent":"replay","memory":"M0","replayFile":"results/pilot-film-mock/actions.jsonl","replayAttempt":"exploration-1","maxAttempts":1,"maxTime":3,"maxActions":100,"masteryTrials":0,"transfer":[]}

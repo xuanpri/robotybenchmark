@@ -1,0 +1,21 @@
+{
+  "input": "evidence/videos/oracle_without_wait.replay.json",
+  "layout": "omniscient",
+  "timing": "simulation",
+  "frames": 79,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "seed": [
+    1
+  ],
+  "encoder": "OpenCV FFmpeg CPU mp4v",
+  "renderer": "Chromium ANGLE SwiftShader",
+  "command": [
+    "/home/jiaxuanren/interview/MultiRobotStealthArena/scripts/video.cjs",
+    "evidence/videos/oracle_without_wait.replay.json",
+    "evidence/videos/oracle_without_wait.mp4",
+    "omniscient",
+    "simulation"
+  ]
+}

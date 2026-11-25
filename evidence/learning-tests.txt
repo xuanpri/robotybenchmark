@@ -1,0 +1,36 @@
+
+> multi-robot-stealth-arena@1.0.0 test
+> node --import tsx --test --test-isolation=none tests/*.test.ts
+
+✔ headless Oracle replay reaches exit with all four robots and both failure rules enabled (129.588932ms)
+✔ map has alternative routes through opposite sides of the central partition (2.669551ms)
+✔ seeded jitter and identical actions reproduce a complete episode; attempts capped (4.18158ms)
+✔ independent 24 × 16 room has four separately configured patrols and an enclosed perimeter (0.330047ms)
+✔ long actions stop on the first terminal substep, identical to short controls (3.80218ms)
+✔ HP charged once, memory conditions isolated, public requests exclude private frames, stable resume (44.362872ms)
+✔ invalid and uncertain interrupted responses are charged explicitly and never execute another policy (6.865646ms)
+✔ three reset protocols and whole-record memory cap (1.102473ms)
+✔ Oracle verification and transfer have independent budgets and protected success (715.57238ms)
+✔ loopback adapter receives public information and meters the model-selected action and reflection separately (100.015209ms)
+✔ provider-side refusal/truncation never becomes an executed action (8.780728ms)
+✔ resume reuses saved response, completes interrupted attempt, and preserves a sealed attempt (15.299296ms)
+✔ public history contains decision samples only; invalid granularity fails before any movement (1.59405ms)
+✔ time/action and token budget failures consume only one trial without silently moving (8.272088ms)
+✔ swept player cannot tunnel through a wall and can slide parallel (0.495693ms)
+✔ all patrol legs clear walls over a complete cycle and repeat (4.970431ms)
+✔ explicit longer cycle adds a dwell at the first waypoint while preserving leg speed (0.836685ms)
+✔ walls clip both player observation and the effective 90 degree vision cone (0.430961ms)
+✔ unobstructed vision ends vision/both runs, contact mode ignores it (0.680701ms)
+✔ contact in the middle of a fast action ends it before the endpoint (0.504746ms)
+✔ vision can discover the player mid-action with endpoints outside the cone (0.509481ms)
+✔ limited observations and their history omit hidden robots entirely while they move (1.826205ms)
+✔ switching views cannot advance time or change the world (0.679629ms)
+✔ wall hides a patrol from a nearby agent despite range; read-only observation is idempotent (0.761899ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1360.088308

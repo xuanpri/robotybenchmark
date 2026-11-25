@@ -1,0 +1,26 @@
+{
+  "name": "multi-robot-stealth-arena",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5186 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "test": "node --import tsx --test --test-isolation=none tests/*.test.ts",
+    "oracle": "node --import tsx scripts/oracle.ts",
+    "agent": "node --import tsx scripts/agent.ts",
+    "learn": "node --import tsx scripts/learn.ts",
+    "video": "node scripts/video.cjs",
+    "demo": "node --import tsx scripts/demo.ts"
+  },
+  "dependencies": {
+    "three": "0.178.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "@types/three": "0.178.1",
+    "typescript": "5.8.3",
+    "tsx": "4.20.5",
+    "vite": "6.3.6"
+  }
+}

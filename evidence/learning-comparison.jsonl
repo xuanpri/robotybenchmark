@@ -1,0 +1,7 @@
+{"agent":"heuristic","memory":"M0","sr1":0,"srK":0,"mastery":null,"transfer":null,"exactSequence":null,"spawnFailures":0,"srKImprovementOverRandom":0,"srKImprovementOverGoal":0}
+{"agent":"heuristic","memory":"M1","sr1":0,"srK":0,"mastery":null,"transfer":null,"exactSequence":null,"spawnFailures":0,"srKImprovementOverRandom":0,"srKImprovementOverGoal":0}
+{"agent":"heuristic","memory":"M2","sr1":0,"srK":0,"mastery":null,"transfer":null,"exactSequence":null,"spawnFailures":0,"srKImprovementOverRandom":0,"srKImprovementOverGoal":0}
+{"agent":"random","memory":"M0","sr1":0,"srK":0,"mastery":null,"transfer":null,"exactSequence":null,"spawnFailures":0,"srKImprovementOverRandom":0,"srKImprovementOverGoal":0}
+{"agent":"random","memory":"M1","sr1":0,"srK":0,"mastery":null,"transfer":null,"exactSequence":null,"spawnFailures":0,"srKImprovementOverRandom":0,"srKImprovementOverGoal":0}
+{"agent":"random","memory":"M2","sr1":0,"srK":0,"mastery":null,"transfer":null,"exactSequence":null,"spawnFailures":0,"srKImprovementOverRandom":0,"srKImprovementOverGoal":0}
+{"agent":"oracle","memory":"M0","sr1":1,"srK":1,"mastery":1,"transfer":0.5,"exactSequence":1,"spawnFailures":1,"srKImprovementOverRandom":null,"srKImprovementOverGoal":null}

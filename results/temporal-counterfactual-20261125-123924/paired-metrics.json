@@ -1,0 +1,9 @@
+{
+  "ordered_accuracy": 1.0,
+  "unordered_accuracy": 0.0,
+  "ordered_ADE": 0.0,
+  "unordered_ADE": 0.4583333333333333,
+  "temporal_hint_gain_pp": 100.0,
+  "temporal_ADE_gain": 0.4583333333333333,
+  "paired_counterfactual_accuracy": 1.0
+}

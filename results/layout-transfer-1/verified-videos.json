@@ -1,0 +1,174 @@
+[
+  {
+    "path": "evidence/layout-transfer-1/scenes/A-N0-P1.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/A-N2-P1.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/A-N2-P2.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/A-N4-P1.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/A-N4-P2.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/B-N0-P1.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/B-N2-P1.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/B-N2-P2.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/B-N4-P1.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/B-N4-P2.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/C-N0-P1.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/C-N2-P1.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/C-N2-P2.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/C-N4-P1.mp4",
+    "frames": 900
+  },
+  {
+    "path": "evidence/layout-transfer-1/scenes/C-N4-P2.mp4",
+    "frames": 900
+  },
+  {
+    "path": "results/layout-transfer-1/A-N0-G3-source/film-9-acquired-attempt-001.mp4",
+    "frames": 621
+  },
+  {
+    "path": "results/layout-transfer-1/A-N0-G3-source/film-9-acquired.mp4",
+    "frames": 621
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired-attempt-001.mp4",
+    "frames": 459
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired-attempt-002.mp4",
+    "frames": 852
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired-attempt-003.mp4",
+    "frames": 712
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired-attempt-004.mp4",
+    "frames": 812
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired-attempt-005.mp4",
+    "frames": 839
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired-attempt-006.mp4",
+    "frames": 844
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired-attempt-007.mp4",
+    "frames": 820
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired-attempt-008.mp4",
+    "frames": 790
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired-attempt-009.mp4",
+    "frames": 780
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired-attempt-010.mp4",
+    "frames": 842
+  },
+  {
+    "path": "results/layout-transfer-1/A-N2-G3-source/film-152-not_acquired.mp4",
+    "frames": 7750
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired-attempt-001.mp4",
+    "frames": 439
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired-attempt-002.mp4",
+    "frames": 663
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired-attempt-003.mp4",
+    "frames": 663
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired-attempt-004.mp4",
+    "frames": 751
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired-attempt-005.mp4",
+    "frames": 779
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired-attempt-006.mp4",
+    "frames": 663
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired-attempt-007.mp4",
+    "frames": 743
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired-attempt-008.mp4",
+    "frames": 743
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired-attempt-009.mp4",
+    "frames": 741
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired-attempt-010.mp4",
+    "frames": 767
+  },
+  {
+    "path": "results/layout-transfer-1/A-N4-G3-source/film-102-not_acquired.mp4",
+    "frames": 6952
+  },
+  {
+    "path": "results/layout-transfer-1/B-N0-G3-scratch/film-9-acquired-attempt-001.mp4",
+    "frames": 627
+  },
+  {
+    "path": "results/layout-transfer-1/B-N0-G3-scratch/film-9-acquired.mp4",
+    "frames": 627
+  },
+  {
+    "path": "results/layout-transfer-1/B-N0-G3-transfer/film-9-acquired-attempt-001.mp4",
+    "frames": 621
+  },
+  {
+    "path": "results/layout-transfer-1/B-N0-G3-transfer/film-9-acquired.mp4",
+    "frames": 621
+  }
+]

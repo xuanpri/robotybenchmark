@@ -1,0 +1,7 @@
+{
+  "agent": "heuristic",
+  "memory": "M2",
+  "memoryBudget": 4096,
+  "maxTime": 20,
+  "maxActions": 100
+}

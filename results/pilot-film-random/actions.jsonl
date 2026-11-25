@@ -1,0 +1,14 @@
+{"id":"exploration-1","index":1,"action":"MOVE_SOUTH","duration":1,"start":0,"end":1,"feedback":"active"}
+{"id":"exploration-1","index":2,"action":"MOVE_WEST","duration":0.1,"start":1,"end":1.1,"feedback":"active"}
+{"id":"exploration-1","index":3,"action":"MOVE_WEST","duration":1,"start":1.1,"end":2.1,"feedback":"active"}
+{"id":"exploration-1","index":4,"action":"MOVE_SOUTH","duration":1,"start":2.1,"end":3,"feedback":"timeout"}
+{"id":"exploration-2","index":1,"action":"MOVE_SOUTH","duration":0.2,"start":0,"end":0.2,"feedback":"active"}
+{"id":"exploration-2","index":2,"action":"MOVE_WEST","duration":0.5,"start":0.2,"end":0.7000000000000001,"feedback":"active"}
+{"id":"exploration-2","index":3,"action":"WAIT","duration":0.1,"start":0.7000000000000001,"end":0.8,"feedback":"active"}
+{"id":"exploration-2","index":4,"action":"MOVE_EAST","duration":1,"start":0.8,"end":1.8,"feedback":"active"}
+{"id":"exploration-2","index":5,"action":"MOVE_WEST","duration":0.2,"start":1.8,"end":2,"feedback":"active"}
+{"id":"exploration-2","index":6,"action":"MOVE_NORTH","duration":0.5,"start":2,"end":2.5,"feedback":"active"}
+{"id":"exploration-2","index":7,"action":"MOVE_EAST","duration":0.1,"start":2.5,"end":2.6,"feedback":"active"}
+{"id":"exploration-2","index":8,"action":"MOVE_NORTH","duration":0.1,"start":2.6,"end":2.7,"feedback":"active"}
+{"id":"exploration-2","index":9,"action":"MOVE_EAST","duration":0.1,"start":2.7,"end":2.8000000000000003,"feedback":"active"}
+{"id":"exploration-2","index":10,"action":"MOVE_NORTH","duration":1,"start":2.8000000000000003,"end":3,"feedback":"timeout"}

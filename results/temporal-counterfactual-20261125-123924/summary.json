@@ -1,0 +1,239 @@
+{
+  "T1_ordered": {
+    "answer": "{\"predictions\":[{\"time\":2.0,\"z\":2.5},{\"time\":2.5,\"z\":3.0},{\"time\":3.0,\"z\":3.5},{\"time\":5.0,\"z\":5.5},{\"time\":7.5,\"z\":5.0},{\"time\":9.0,\"z\":3.5}],\"inferred_dynamics\":{\"north_endpoint\":2.0,\"south_endpoint\":6.0,\"speed\":1.0,\"north_dwell_values\":[0.5,1.5],\"south_dwell\":1.0,\"last_north_dwell\":1.5,\"next_north_dwell\":0.5},\"uncertainty\":\"The ordered samples and current state uniquely determine the sampled patrol dynamics, including the alternating north-dwell phase.\"}",
+    "usage": {
+      "completion_tokens": 861,
+      "prompt_tokens": 645,
+      "total_tokens": 1506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 676,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.098288"
+    },
+    "model": "gpt-5.6-sol-2026-07-09",
+    "predictions": [
+      2.5,
+      3.0,
+      3.5,
+      5.5,
+      5.0,
+      3.5
+    ],
+    "inferred_dynamics": {
+      "north_endpoint": 2.0,
+      "south_endpoint": 6.0,
+      "speed": 1.0,
+      "north_dwell_values": [
+        0.5,
+        1.5
+      ],
+      "south_dwell": 1.0,
+      "last_north_dwell": 1.5,
+      "next_north_dwell": 0.5
+    },
+    "uncertainty": "The ordered samples and current state uniquely determine the sampled patrol dynamics, including the alternating north-dwell phase.",
+    "metrics_A": {
+      "ADE": 0.0,
+      "FDE": 0.0,
+      "RMSE": 0.0,
+      "accuracy_0.1m": 1.0,
+      "errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "metrics_B": {
+      "ADE": 0.9166666666666666,
+      "FDE": 1.0,
+      "RMSE": 0.9354143466934853,
+      "accuracy_0.1m": 0.0,
+      "errors": [
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "T2_ordered": {
+    "answer": "{\"predictions\":[{\"time\":2.0,\"z\":2.0},{\"time\":2.5,\"z\":2.0},{\"time\":3.0,\"z\":2.5},{\"time\":5.0,\"z\":4.5},{\"time\":7.5,\"z\":6.0},{\"time\":9.0,\"z\":4.5}],\"inferred_dynamics\":{\"north_endpoint\":2.0,\"south_endpoint\":6.0,\"speed\":1.0,\"north_dwell_values\":[0.5,1.5],\"south_dwell\":1.0,\"last_north_dwell\":0.5,\"next_north_dwell\":1.5},\"uncertainty\":\"The ordered history and current state uniquely determine the periodic motion and current alternation phase under the stated deterministic model.\"}",
+    "usage": {
+      "completion_tokens": 654,
+      "prompt_tokens": 645,
+      "total_tokens": 1299,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 474,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.077736"
+    },
+    "model": "gpt-5.6-sol-2026-07-09",
+    "predictions": [
+      2.0,
+      2.0,
+      2.5,
+      4.5,
+      6.0,
+      4.5
+    ],
+    "inferred_dynamics": {
+      "north_endpoint": 2.0,
+      "south_endpoint": 6.0,
+      "speed": 1.0,
+      "north_dwell_values": [
+        0.5,
+        1.5
+      ],
+      "south_dwell": 1.0,
+      "last_north_dwell": 0.5,
+      "next_north_dwell": 1.5
+    },
+    "uncertainty": "The ordered history and current state uniquely determine the periodic motion and current alternation phase under the stated deterministic model.",
+    "metrics_A": {
+      "ADE": 0.9166666666666666,
+      "FDE": 1.0,
+      "RMSE": 0.9354143466934853,
+      "accuracy_0.1m": 0.0,
+      "errors": [
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "metrics_B": {
+      "ADE": 0.0,
+      "FDE": 0.0,
+      "RMSE": 0.0,
+      "accuracy_0.1m": 1.0,
+      "errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "T3_unordered": {
+    "answer": "{\n  \"predictions\": [\n    {\n      \"time\": 2.0,\n      \"z\": 2.25\n    },\n    {\n      \"time\": 2.5,\n      \"z\": 2.5\n    },\n    {\n      \"time\": 3.0,\n      \"z\": 3.0\n    },\n    {\n      \"time\": 5.0,\n      \"z\": 5.0\n    },\n    {\n      \"time\": 7.5,\n      \"z\": 5.5\n    },\n    {\n      \"time\": 9.0,\n      \"z\": 4.0\n    }\n  ],\n  \"inferred_dynamics\": {\n    \"north_endpoint\": 2.0,\n    \"south_endpoint\": 6.0,\n    \"speed\": 1.0,\n    \"north_dwell_values\": [\n      0.5,\n      1.5\n    ],\n    \"south_dwell\": 1.0,\n    \"last_north_dwell\": null,\n    \"next_north_dwell\": null\n  },\n  \"uncertainty\": \"The unordered history identifies the patrol geometry and dwell values but not the north-dwell alternation phase. The next north dwell could be 0.5 or 1.5, producing different futures; predictions are equal-weight numerical averages of those two phases.\"\n}",
+    "model": "gpt-5.6-sol-2026-07-09",
+    "usage": {
+      "completion_tokens": 2757,
+      "prompt_tokens": 645,
+      "total_tokens": 3402,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2431,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.286522"
+    },
+    "predictions": [
+      2.25,
+      2.5,
+      3.0,
+      5.0,
+      5.5,
+      4.0
+    ],
+    "inferred_dynamics": {
+      "north_endpoint": 2.0,
+      "south_endpoint": 6.0,
+      "speed": 1.0,
+      "north_dwell_values": [
+        0.5,
+        1.5
+      ],
+      "south_dwell": 1.0,
+      "last_north_dwell": null,
+      "next_north_dwell": null
+    },
+    "uncertainty": "The unordered history identifies the patrol geometry and dwell values but not the north-dwell alternation phase. The next north dwell could be 0.5 or 1.5, producing different futures; predictions are equal-weight numerical averages of those two phases.",
+    "metrics_A": {
+      "ADE": 0.4583333333333333,
+      "FDE": 0.5,
+      "RMSE": 0.46770717334674267,
+      "accuracy_0.1m": 0.0,
+      "errors": [
+        0.25,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "metrics_B": {
+      "ADE": 0.4583333333333333,
+      "FDE": 0.5,
+      "RMSE": 0.46770717334674267,
+      "accuracy_0.1m": 0.0,
+      "errors": [
+        0.25,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

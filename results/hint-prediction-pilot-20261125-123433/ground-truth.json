@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "north_endpoint": 2.0,
+    "south_endpoint": 6.0,
+    "speed_m_per_s": 1.0,
+    "endpoint_pause_s": 0.5,
+    "turn_duration_s": 0.5,
+    "position_remains_fixed_during_pause_and_turn": true,
+    "current_motion_phase": "moving north"
+  },
+  "period": 10.0,
+  "query_times": [
+    0.5,
+    1.5,
+    2.5,
+    5.0,
+    6.5,
+    8.5,
+    10.5
+  ],
+  "positions": [
+    2.5,
+    2.0,
+    2.5,
+    5.0,
+    6.0,
+    4.5,
+    2.5
+  ]
+}

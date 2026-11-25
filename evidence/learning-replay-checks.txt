@@ -1,0 +1,22 @@
+results/pilot-film-mock
+Verified 2 attempts, 2 decisions and 12 synchronized samples.
+results/pilot-film-oracle
+Verified 1 attempts, 33 decisions and 119 synchronized samples.
+results/pilot-film-random
+Verified 2 attempts, 14 decisions and 62 synchronized samples.
+results/pilot-heuristic-M0
+Verified 10 attempts, 90 decisions and 180 synchronized samples.
+results/pilot-heuristic-M1
+Verified 10 attempts, 90 decisions and 180 synchronized samples.
+results/pilot-heuristic-M2
+Verified 10 attempts, 236 decisions and 478 synchronized samples.
+results/pilot-logged-replay
+Verified 1 attempts, 1 decisions and 6 synchronized samples.
+results/pilot-oracle-verification
+Verified 6 attempts, 199 decisions and 660 synchronized samples.
+results/pilot-random-M0
+Verified 10 attempts, 103 decisions and 473 synchronized samples.
+results/pilot-random-M1
+Verified 10 attempts, 103 decisions and 473 synchronized samples.
+results/pilot-random-M2
+Verified 10 attempts, 103 decisions and 473 synchronized samples.

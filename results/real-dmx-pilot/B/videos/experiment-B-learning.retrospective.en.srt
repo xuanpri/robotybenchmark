@@ -1,0 +1,20 @@
+1
+00:00:48,500 --> 00:00:50,100
+Post-run reflection (unavailable at reset): Next strategy: Repeat the verified opening to reach the area below the divider, but pause before entering R2's west-facing corridor. After R2 passes west, cross east behind it using short moves, go north around the divider's east side, and approach the exit from x greater than 8.9.
+
+2
+00:02:13,200 --> 00:02:14,800
+Post-run reflection (unavailable at reset): Next strategy: Replay the proven southern route and timed crossing, but do not wait at (14.0, 7.88). Use short northward moves immediately after reaching the spine's east end, aiming to pass north of the spine before R2 moves close, then turn west toward the exit.
+
+3
+00:02:25,900 --> 00:02:27,500
+Post-run reflection (unavailable at reset): Next strategy: Replay the proven southern route and timed crossing, then reach (14.0, 7.88). Use minimal short waits to let R2 continue west, then test northward progress in 0.2-second steps around the spine’s east end. Once north of the spine, move west toward x=12.5, then north to the exit while avoiding the divider.
+
+4
+00:02:38,300 --> 00:02:39,900
+Post-run reflection (unavailable at reset): Next strategy: From (14.5, 7.88), use 0.2-second north moves to pass the spine while monitoring R2. Once safely north of the spine, move west toward x between 8.9 and 12.5, then continue north around the divider and approach the exit at (12.5, 1.5). Wait under cover if R2 remains oriented toward the route.
+
+5
+00:02:51,133 --> 00:02:52,733
+Post-run reflection (unavailable at reset): Next strategy: replay the safe southern route and timed crossing, but after reaching (14.0, 8.0), continue north immediately with short 0.2-second moves rather than waiting for R2 to pass west; then turn west toward the exit only after clearing the spine.
+

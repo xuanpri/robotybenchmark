@@ -1,0 +1,54 @@
+{
+  "id": "chatcmpl-EnzKm5VDZIiiB7vRV1lIFtItn9x2o",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"predictions\": [\n    {\n      \"time\": 2.0,\n      \"z\": 2.25\n    },\n    {\n      \"time\": 2.5,\n      \"z\": 2.5\n    },\n    {\n      \"time\": 3.0,\n      \"z\": 3.0\n    },\n    {\n      \"time\": 5.0,\n      \"z\": 5.0\n    },\n    {\n      \"time\": 7.5,\n      \"z\": 5.5\n    },\n    {\n      \"time\": 9.0,\n      \"z\": 4.0\n    }\n  ],\n  \"inferred_dynamics\": {\n    \"north_endpoint\": 2.0,\n    \"south_endpoint\": 6.0,\n    \"speed\": 1.0,\n    \"north_dwell_values\": [\n      0.5,\n      1.5\n    ],\n    \"south_dwell\": 1.0,\n    \"last_north_dwell\": null,\n    \"next_north_dwell\": null\n  },\n  \"uncertainty\": \"The unordered history identifies the patrol geometry and dwell values but not the north-dwell alternation phase. The next north dwell could be 0.5 or 1.5, producing different futures; predictions are equal-weight numerical averages of those two phases.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795582548,
+  "model": "gpt-5.6-sol-2026-07-09",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 2757,
+    "prompt_tokens": 645,
+    "total_tokens": 3402,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2431,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0,
+    "cost": "¥0.286522"
+  },
+  "routing": {
+    "serving_pipereplica": "d20261117021551-8a31b798-prefill-r3-dp0-prefill"
+  }
+}

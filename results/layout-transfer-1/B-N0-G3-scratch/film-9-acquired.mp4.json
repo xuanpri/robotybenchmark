@@ -1,0 +1,22 @@
+{
+  "input": "results/layout-transfer-1/B-N0-G3-scratch/replay.json",
+  "layout": "split",
+  "timing": "simulation",
+  "frames": 627,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "seed": [
+    1
+  ],
+  "encoder": "OpenCV FFmpeg CPU mp4v",
+  "renderer": "Chromium ANGLE SwiftShader",
+  "command": [
+    "/home/jiaxuanren/interview/MultiRobotStealthArena/scripts/video.cjs",
+    "results/layout-transfer-1/B-N0-G3-scratch/replay.json",
+    "results/layout-transfer-1/B-N0-G3-scratch/film-9-acquired.mp4",
+    "split",
+    "simulation",
+    "parts"
+  ]
+}

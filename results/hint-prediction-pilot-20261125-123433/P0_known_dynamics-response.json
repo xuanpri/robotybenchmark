@@ -1,0 +1,54 @@
+{
+  "id": "chatcmpl-Enz0FWLtwi9AwR06Y1HcMscvMzLbh",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"predictions\": [\n    {\"time\": 0.5, \"z\": 2.5},\n    {\"time\": 1.5, \"z\": 2.0},\n    {\"time\": 2.5, \"z\": 2.5},\n    {\"time\": 5.0, \"z\": 5.0},\n    {\"time\": 6.5, \"z\": 6.0},\n    {\"time\": 8.5, \"z\": 4.5},\n    {\"time\": 10.5, \"z\": 2.5}\n  ],\n  \"inferred_dynamics\": \"Moves north at 1.0 m/s to z=2.0, pauses for 0.5 s, turns for 0.5 s, then moves south to z=6.0 and repeats.\",\n  \"uncertainty\": \"None; the current phase and all motion parameters are specified.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795581275,
+  "model": "gpt-5.6-sol-2026-07-09",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 366,
+    "prompt_tokens": 385,
+    "total_tokens": 751,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 157,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0,
+    "cost": "¥0.043982"
+  },
+  "routing": {
+    "serving_pipereplica": "d20261117143756-4dce1499-prefill-r5-dp0-prefill"
+  }
+}

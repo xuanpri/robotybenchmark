@@ -1,0 +1,281 @@
+{
+  "witnessSHA256": "e4edb68698831441cb2767baf56ef93bd4b9e90184755e4bd21019dee3c4c0dc",
+  "films": [
+    {
+      "film": "evidence/videos/oracle_success.mp4",
+      "sha256": "15d116048eeaccadc455ded56108e849996133771c5004a624c9620476f06f61",
+      "source": "evidence/videos/oracle_success.replay.json",
+      "sourceSHA256": "fee2cf5099930ab0c88a9b26cc2ab5fd21f4983f1bd9a2e32270632af045c7c0",
+      "agent": "Oracle",
+      "seed": [
+        1
+      ],
+      "command": [
+        "node",
+        "scripts/video.cjs",
+        "evidence/videos/oracle_success.replay.json",
+        "evidence/videos/oracle_success.mp4",
+        "omniscient",
+        "simulation"
+      ],
+      "settingsLocations": [
+        "attempts[0].config"
+      ],
+      "clips": [],
+      "frames": 401
+    },
+    {
+      "film": "evidence/videos/oracle_without_wait.mp4",
+      "sha256": "e9c9ade65859a9a6e74fe0d72192c371da718641ae886261eb231ddfad4072eb",
+      "source": "evidence/videos/oracle_without_wait.replay.json",
+      "sourceSHA256": "deb82c2201883ef3df481407017bfc2ec3860314946e5bdcee6fc7a07b8116d1",
+      "agent": "Oracle / WAIT removed",
+      "seed": [
+        1
+      ],
+      "command": [
+        "node",
+        "scripts/video.cjs",
+        "evidence/videos/oracle_without_wait.replay.json",
+        "evidence/videos/oracle_without_wait.mp4",
+        "omniscient",
+        "simulation"
+      ],
+      "settingsLocations": [
+        "attempts[0].config"
+      ],
+      "clips": [],
+      "frames": 79
+    },
+    {
+      "film": "evidence/videos/scene_demo.mp4",
+      "sha256": "ce2de61fff49c4e62eb0a5455d3b7cfd077dcd2895a33b28110ae955ea1fb123",
+      "source": "evidence/videos/scene_demo.replay.json",
+      "sourceSHA256": "0884fe0cafa20932e1d92e3ba6ffe09be121fddcec9a9cad279fb4ac86904c8a",
+      "agent": "Patrol Demo",
+      "seed": [
+        1
+      ],
+      "command": [
+        "node",
+        "scripts/video.cjs",
+        "evidence/videos/scene_demo.replay.json",
+        "evidence/videos/scene_demo.mp4",
+        "omniscient",
+        "simulation"
+      ],
+      "settingsLocations": [
+        "attempts[0].config"
+      ],
+      "clips": [],
+      "frames": 1200
+    },
+    {
+      "film": "results/pilot-film-mock/videos/learning.mp4",
+      "sha256": "f1d9a59a821eaa8128da9b1a2d06feed4260d13ee4c11d687b3dd6dfcec4eaa4",
+      "source": "results/pilot-film-mock/replay.json",
+      "sourceSHA256": "9dfff8fae8ae5cf1edf43744e884c79da7596d31b8ff7bd2b7b634ea81689d8d",
+      "agent": "mock",
+      "seed": [
+        1,
+        1
+      ],
+      "command": [
+        "node",
+        "scripts/video.cjs",
+        "results/pilot-film-mock/replay.json",
+        "results/pilot-film-mock/videos/learning.mp4",
+        "split",
+        "simulation",
+        "parts"
+      ],
+      "settingsLocations": [
+        "attempts[0].config",
+        "attempts[1].config"
+      ],
+      "clips": [
+        {
+          "file": "results/pilot-film-mock/videos/learning-attempt-001.mp4",
+          "sha256": "9e304de2cc52e150ae5cd49468fc017e851254401701046a4aad81da16641f43"
+        },
+        {
+          "file": "results/pilot-film-mock/videos/learning-attempt-002.mp4",
+          "sha256": "6aa9a7f8e6af9f5475655ce89c97e4b5a843e203aab94722309091cc2cf3acb7"
+        }
+      ],
+      "frames": 122
+    },
+    {
+      "film": "results/pilot-film-mock/videos/limited-wall-clock.mp4",
+      "sha256": "55d472a01cdb0f266ec03aa9462af1052ab9a99251eb0b9dc8536d3b1a330690",
+      "source": "results/pilot-film-mock/replay.json",
+      "sourceSHA256": "9dfff8fae8ae5cf1edf43744e884c79da7596d31b8ff7bd2b7b634ea81689d8d",
+      "agent": "mock",
+      "seed": [
+        1,
+        1
+      ],
+      "command": [
+        "node",
+        "scripts/video.cjs",
+        "results/pilot-film-mock/replay.json",
+        "results/pilot-film-mock/videos/limited-wall-clock.mp4",
+        "limited",
+        "wall-clock"
+      ],
+      "settingsLocations": [
+        "attempts[0].config",
+        "attempts[1].config"
+      ],
+      "clips": [],
+      "frames": 122
+    },
+    {
+      "film": "results/pilot-film-oracle/videos/learning.mp4",
+      "sha256": "eac645209ee5087cdfee7e986417cf89b6af4a2dab19e5cb0d39daf733df5743",
+      "source": "results/pilot-film-oracle/replay.json",
+      "sourceSHA256": "f74cca2bb33b71a09ed5dd37fa0cb7eb484702a1880550f9cb6e79a13a6e2aff",
+      "agent": "oracle",
+      "seed": [
+        1
+      ],
+      "command": [
+        "node",
+        "scripts/video.cjs",
+        "results/pilot-film-oracle/replay.json",
+        "results/pilot-film-oracle/videos/learning.mp4",
+        "split",
+        "simulation",
+        "parts"
+      ],
+      "settingsLocations": [
+        "attempts[0].config"
+      ],
+      "clips": [
+        {
+          "file": "results/pilot-film-oracle/videos/learning-attempt-001.mp4",
+          "sha256": "eac645209ee5087cdfee7e986417cf89b6af4a2dab19e5cb0d39daf733df5743"
+        }
+      ],
+      "frames": 401
+    },
+    {
+      "film": "results/pilot-film-random/videos/learning.mp4",
+      "sha256": "1a2e47b633846e52675d85a6ca0d1379dab10caa4606ed083c96b6fac4aa5744",
+      "source": "results/pilot-film-random/replay.json",
+      "sourceSHA256": "962c0feb143b6fc29f887a70bc23b01d334452d3f2684ade3ca475e30db87385",
+      "agent": "random",
+      "seed": [
+        1,
+        1
+      ],
+      "command": [
+        "node",
+        "scripts/video.cjs",
+        "results/pilot-film-random/replay.json",
+        "results/pilot-film-random/videos/learning.mp4",
+        "split",
+        "simulation",
+        "parts"
+      ],
+      "settingsLocations": [
+        "attempts[0].config",
+        "attempts[1].config"
+      ],
+      "clips": [
+        {
+          "file": "results/pilot-film-random/videos/learning-attempt-001.mp4",
+          "sha256": "89a9d0b453817da22addc00aca1cffee51de19495a8d4da26ddc17dfa1789ec3"
+        },
+        {
+          "file": "results/pilot-film-random/videos/learning-attempt-002.mp4",
+          "sha256": "d00098207e9e7a1c4b8e4043c0952ca80c29e25b6599b867613009ccdf9452dd"
+        }
+      ],
+      "frames": 276
+    },
+    {
+      "film": "results/pilot-heuristic-M2/videos/learning.mp4",
+      "sha256": "46677bb90199606108b891df51fd876e44a636a8d1ed17409ee17be683f0a22c",
+      "source": "results/pilot-heuristic-M2/replay.json",
+      "sourceSHA256": "5f7aee97ba152a77c4518667e2a6708018bac2749a6fda33d69389f61f4a1947",
+      "agent": "heuristic",
+      "seed": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "command": [
+        "node",
+        "scripts/video.cjs",
+        "results/pilot-heuristic-M2/replay.json",
+        "results/pilot-heuristic-M2/videos/learning.mp4",
+        "split",
+        "simulation",
+        "parts"
+      ],
+      "settingsLocations": [
+        "attempts[0].config",
+        "attempts[1].config",
+        "attempts[2].config",
+        "attempts[3].config",
+        "attempts[4].config",
+        "attempts[5].config",
+        "attempts[6].config",
+        "attempts[7].config",
+        "attempts[8].config",
+        "attempts[9].config"
+      ],
+      "clips": [
+        {
+          "file": "results/pilot-heuristic-M2/videos/learning-attempt-001.mp4",
+          "sha256": "2fdadb3e7b119a6b67ed7fc5d2e3658770d509c2b294eb054c1e8b7da79b34e4"
+        },
+        {
+          "file": "results/pilot-heuristic-M2/videos/learning-attempt-002.mp4",
+          "sha256": "f95fa4f099add11df1356c92d9eb540adfe7ff30bdabdd97cbeccd483317c053"
+        },
+        {
+          "file": "results/pilot-heuristic-M2/videos/learning-attempt-003.mp4",
+          "sha256": "fe4391e03c14d6ad435e77bbf836d13e418c53affabe8088cf3d19d2b3b4a477"
+        },
+        {
+          "file": "results/pilot-heuristic-M2/videos/learning-attempt-004.mp4",
+          "sha256": "a0f0e5100426f07672d060139d17724b353a39467c3dddb53ba62c4179ee46d7"
+        },
+        {
+          "file": "results/pilot-heuristic-M2/videos/learning-attempt-005.mp4",
+          "sha256": "3737ebab4946fd3b8459383a5327fa8f4933202025d66d4ffe432b5d922a8b39"
+        },
+        {
+          "file": "results/pilot-heuristic-M2/videos/learning-attempt-006.mp4",
+          "sha256": "179dd80c565b3807651ca877033ef10097082fdd75e0dbe85926b46eed5f6ef1"
+        },
+        {
+          "file": "results/pilot-heuristic-M2/videos/learning-attempt-007.mp4",
+          "sha256": "c30494c48943cb1dfdccd5454a90d7cdade29892ce08167fceac6003ed4da15c"
+        },
+        {
+          "file": "results/pilot-heuristic-M2/videos/learning-attempt-008.mp4",
+          "sha256": "238738bcbc13912629edeef9054c778ca5a3eee2c654d78b121ba589ff774603"
+        },
+        {
+          "file": "results/pilot-heuristic-M2/videos/learning-attempt-009.mp4",
+          "sha256": "dd25fa5120f1b5c95e9fd1718c2c265e40b18a46407abe30fb747cb423cff3a3"
+        },
+        {
+          "file": "results/pilot-heuristic-M2/videos/learning-attempt-010.mp4",
+          "sha256": "08ca2865e7678a5f2a5651a5fb076a0814763e99196e47d8dabc25e83ed91c4c"
+        }
+      ],
+      "frames": 1874
+    }
+  ]
+}

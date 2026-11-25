@@ -1,0 +1,2517 @@
+{
+  "design": "layout-transfer-1",
+  "seed": 1,
+  "models": [
+    "gpt-5.6-sol-2026-07-09"
+  ],
+  "activeGroup": "G3",
+  "jobs": [
+    {
+      "id": "A-N0-G1-source",
+      "n": 0,
+      "group": "G1",
+      "layout": "A",
+      "arm": "source",
+      "status": "deferred_full_memory",
+      "pause": null,
+      "first": null,
+      "budget": 10,
+      "hpUsed": null,
+      "decisions": null,
+      "memoryOut": null,
+      "requests": 0,
+      "knownCNY": 0.0,
+      "costUnknown": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "latencySeconds": 0,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 0,
+      "acquired": null
+    },
+    {
+      "id": "A-N0-G2-source",
+      "n": 0,
+      "group": "G2",
+      "layout": "A",
+      "arm": "source",
+      "status": "deferred_full_memory",
+      "pause": null,
+      "first": null,
+      "budget": 10,
+      "hpUsed": null,
+      "decisions": null,
+      "memoryOut": null,
+      "requests": 0,
+      "knownCNY": 0.0,
+      "costUnknown": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "latencySeconds": 0,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 0,
+      "acquired": null
+    },
+    {
+      "id": "A-N0-G3-source",
+      "n": 0,
+      "group": "G3",
+      "layout": "A",
+      "arm": "source",
+      "status": "acquired",
+      "pause": null,
+      "first": 1,
+      "budget": 10,
+      "hpUsed": 0,
+      "decisions": 9,
+      "memoryOut": 397,
+      "requests": 10,
+      "knownCNY": 0.34419,
+      "costUnknown": 0,
+      "inputTokens": 9389,
+      "outputTokens": 1514,
+      "latencySeconds": 33.22,
+      "failuresBeforeFirstSuccess": 0,
+      "formalFailures": 0,
+      "acquired": true
+    },
+    {
+      "id": "B-N0-G3-transfer",
+      "n": 0,
+      "group": "G3",
+      "layout": "B",
+      "arm": "transfer",
+      "status": "acquired",
+      "pause": null,
+      "first": 1,
+      "budget": 1,
+      "hpUsed": 0,
+      "decisions": 9,
+      "memoryOut": 793,
+      "requests": 10,
+      "knownCNY": 0.365768,
+      "costUnknown": 0,
+      "inputTokens": 10611,
+      "outputTokens": 1199,
+      "latencySeconds": 25.03,
+      "failuresBeforeFirstSuccess": 0,
+      "formalFailures": 0,
+      "acquired": true
+    },
+    {
+      "id": "B-N0-G3-scratch",
+      "n": 0,
+      "group": "G3",
+      "layout": "B",
+      "arm": "scratch",
+      "status": "acquired",
+      "pause": null,
+      "first": 1,
+      "budget": 1,
+      "hpUsed": 0,
+      "decisions": 9,
+      "memoryOut": 433,
+      "requests": 10,
+      "knownCNY": 0.382176,
+      "costUnknown": 0,
+      "inputTokens": 9690,
+      "outputTokens": 1576,
+      "latencySeconds": 38.83,
+      "failuresBeforeFirstSuccess": 0,
+      "formalFailures": 0,
+      "acquired": true
+    },
+    {
+      "id": "A-N2-G1-source",
+      "n": 2,
+      "group": "G1",
+      "layout": "A",
+      "arm": "source",
+      "status": "deferred_full_memory",
+      "pause": null,
+      "first": null,
+      "budget": 10,
+      "hpUsed": null,
+      "decisions": null,
+      "memoryOut": null,
+      "requests": 0,
+      "knownCNY": 0.0,
+      "costUnknown": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "latencySeconds": 0,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 0,
+      "acquired": null
+    },
+    {
+      "id": "A-N2-G2-source",
+      "n": 2,
+      "group": "G2",
+      "layout": "A",
+      "arm": "source",
+      "status": "deferred_full_memory",
+      "pause": null,
+      "first": null,
+      "budget": 10,
+      "hpUsed": null,
+      "decisions": null,
+      "memoryOut": null,
+      "requests": 0,
+      "knownCNY": 0.0,
+      "costUnknown": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "latencySeconds": 0,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 0,
+      "acquired": null
+    },
+    {
+      "id": "A-N2-G3-source",
+      "n": 2,
+      "group": "G3",
+      "layout": "A",
+      "arm": "source",
+      "status": "not_acquired",
+      "pause": null,
+      "first": null,
+      "budget": 10,
+      "hpUsed": 100,
+      "decisions": 152,
+      "memoryOut": 5913,
+      "requests": 162,
+      "knownCNY": 12.0698,
+      "costUnknown": 0,
+      "inputTokens": 321527,
+      "outputTokens": 41458,
+      "latencySeconds": 792.15,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 10,
+      "acquired": false
+    },
+    {
+      "id": "B-N2-G3-transfer",
+      "n": 2,
+      "group": "G3",
+      "layout": "B",
+      "arm": "transfer",
+      "status": "source_not_acquired",
+      "pause": null,
+      "first": null,
+      "budget": null,
+      "hpUsed": null,
+      "decisions": null,
+      "memoryOut": null,
+      "requests": 0,
+      "knownCNY": 0.0,
+      "costUnknown": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "latencySeconds": 0,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 0,
+      "acquired": null
+    },
+    {
+      "id": "B-N2-G3-scratch",
+      "n": 2,
+      "group": "G3",
+      "layout": "B",
+      "arm": "scratch",
+      "status": "source_not_acquired",
+      "pause": null,
+      "first": null,
+      "budget": null,
+      "hpUsed": null,
+      "decisions": null,
+      "memoryOut": null,
+      "requests": 0,
+      "knownCNY": 0.0,
+      "costUnknown": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "latencySeconds": 0,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 0,
+      "acquired": null
+    },
+    {
+      "id": "A-N4-G1-source",
+      "n": 4,
+      "group": "G1",
+      "layout": "A",
+      "arm": "source",
+      "status": "deferred_full_memory",
+      "pause": null,
+      "first": null,
+      "budget": 10,
+      "hpUsed": null,
+      "decisions": null,
+      "memoryOut": null,
+      "requests": 0,
+      "knownCNY": 0.0,
+      "costUnknown": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "latencySeconds": 0,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 0,
+      "acquired": null
+    },
+    {
+      "id": "A-N4-G2-source",
+      "n": 4,
+      "group": "G2",
+      "layout": "A",
+      "arm": "source",
+      "status": "deferred_full_memory",
+      "pause": null,
+      "first": null,
+      "budget": 10,
+      "hpUsed": null,
+      "decisions": null,
+      "memoryOut": null,
+      "requests": 0,
+      "knownCNY": 0.0,
+      "costUnknown": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "latencySeconds": 0,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 0,
+      "acquired": null
+    },
+    {
+      "id": "A-N4-G3-source",
+      "n": 4,
+      "group": "G3",
+      "layout": "A",
+      "arm": "source",
+      "status": "not_acquired",
+      "pause": null,
+      "first": null,
+      "budget": 10,
+      "hpUsed": 100,
+      "decisions": 102,
+      "memoryOut": 5233,
+      "requests": 112,
+      "knownCNY": 7.698154,
+      "costUnknown": 0,
+      "inputTokens": 215960,
+      "outputTokens": 23901,
+      "latencySeconds": 460.3,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 10,
+      "acquired": false
+    },
+    {
+      "id": "B-N4-G3-transfer",
+      "n": 4,
+      "group": "G3",
+      "layout": "B",
+      "arm": "transfer",
+      "status": "source_not_acquired",
+      "pause": null,
+      "first": null,
+      "budget": null,
+      "hpUsed": null,
+      "decisions": null,
+      "memoryOut": null,
+      "requests": 0,
+      "knownCNY": 0.0,
+      "costUnknown": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "latencySeconds": 0,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 0,
+      "acquired": null
+    },
+    {
+      "id": "B-N4-G3-scratch",
+      "n": 4,
+      "group": "G3",
+      "layout": "B",
+      "arm": "scratch",
+      "status": "source_not_acquired",
+      "pause": null,
+      "first": null,
+      "budget": null,
+      "hpUsed": null,
+      "decisions": null,
+      "memoryOut": null,
+      "requests": 0,
+      "knownCNY": 0.0,
+      "costUnknown": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "latencySeconds": 0,
+      "failuresBeforeFirstSuccess": null,
+      "formalFailures": 0,
+      "acquired": null
+    }
+  ],
+  "attempts": [
+    {
+      "job": "A-N0-G3-source",
+      "attempt": 1,
+      "result": "escaped",
+      "hpBefore": 100,
+      "hpAfter": 100,
+      "time": 7.07,
+      "actions": 9,
+      "closest": 0.6269968101992167,
+      "remaining": 0.6269968101992167,
+      "memoryInBytes": 2,
+      "waits": 0,
+      "lesson": {
+        "layout": "A",
+        "attempt": 1,
+        "result": "escaped",
+        "summary": {
+          "observations": "Escaped on attempt 1 in 7.07 seconds with 100 HP; no robots appeared.",
+          "failure": "No failure occurred.",
+          "next": "Repeat the route: north to y=6, east to x=11.5, north, align near x=12.75, then enter the exit from the south.",
+          "uncertainty": "The route was safe in this run, but future robot presence or movement is unknown."
+        }
+      },
+      "closestNavigableMeters": 0,
+      "endNavigableMeters": 0,
+      "repeatWithin075m": false,
+      "endPosition": [
+        12.750000000000115,
+        2.0749999999999433
+      ],
+      "firstDifferentDecision": null,
+      "path": [
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          0.5
+        ],
+        [
+          "MOVE_EAST",
+          0.5
+        ],
+        [
+          "MOVE_NORTH",
+          0.2
+        ]
+      ],
+      "memoryInputCount": 0,
+      "requests": 10,
+      "knownCNY": 0.34419,
+      "costUnknown": 0,
+      "inputTokens": 9389,
+      "outputTokens": 1514,
+      "latencySeconds": 33.22
+    },
+    {
+      "job": "B-N0-G3-transfer",
+      "attempt": 1,
+      "result": "escaped",
+      "hpBefore": 100,
+      "hpAfter": 100,
+      "time": 7.07,
+      "actions": 9,
+      "closest": 0.6269968101992167,
+      "remaining": 0.6269968101992167,
+      "memoryInBytes": 397,
+      "waits": 0,
+      "lesson": {
+        "layout": "B",
+        "attempt": 1,
+        "result": "escaped",
+        "summary": {
+          "observations": "Escaped on attempt 1 in 7.07 seconds with 100 HP; no robots were present.",
+          "failure": "No failure occurred.",
+          "next": "Repeat: north to y=6, east to x=11.5, north to y=2.25, east to x=12.75, then north into the exit.",
+          "uncertainty": "Hypothesis: this route remains safe if no robots appear; future robot presence is unknown."
+        }
+      },
+      "closestNavigableMeters": 0,
+      "endNavigableMeters": 0,
+      "repeatWithin075m": false,
+      "endPosition": [
+        12.750000000000115,
+        2.0749999999999433
+      ],
+      "firstDifferentDecision": null,
+      "path": [
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          0.5
+        ],
+        [
+          "MOVE_EAST",
+          0.5
+        ],
+        [
+          "MOVE_NORTH",
+          0.2
+        ]
+      ],
+      "memoryInputCount": 1,
+      "requests": 10,
+      "knownCNY": 0.365768,
+      "costUnknown": 0,
+      "inputTokens": 10611,
+      "outputTokens": 1199,
+      "latencySeconds": 25.03
+    },
+    {
+      "job": "B-N0-G3-scratch",
+      "attempt": 1,
+      "result": "escaped",
+      "hpBefore": 100,
+      "hpAfter": 100,
+      "time": 7.2700000000000005,
+      "actions": 9,
+      "closest": 0.6269968101991275,
+      "remaining": 0.6269968101991275,
+      "memoryInBytes": 2,
+      "waits": 0,
+      "lesson": {
+        "layout": "B",
+        "attempt": 1,
+        "result": "escaped",
+        "summary": {
+          "observations": "Escaped on attempt 1 in 7.27 seconds with 100 HP; no robots were present.",
+          "failure": "None; every move remained active until the final escape.",
+          "next": "Repeat: west to x=1, north to y=6, east to x=11, north, then align near x=12.25 and enter the exit.",
+          "uncertainty": "The route appears reliable, though exact collision margins and movement timing may vary."
+        }
+      },
+      "closestNavigableMeters": 0,
+      "endNavigableMeters": 0,
+      "repeatWithin075m": false,
+      "endPosition": [
+        12.250000000000108,
+        2.0749999999999433
+      ],
+      "firstDifferentDecision": null,
+      "path": [
+        [
+          "MOVE_WEST",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          0.5
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 0,
+      "requests": 10,
+      "knownCNY": 0.382176,
+      "costUnknown": 0,
+      "inputTokens": 9690,
+      "outputTokens": 1576,
+      "latencySeconds": 38.83
+    },
+    {
+      "job": "A-N2-G3-source",
+      "attempt": 1,
+      "result": "seen",
+      "hpBefore": 100,
+      "hpAfter": 90,
+      "time": 1.7,
+      "actions": 4,
+      "closest": 11.884864324004699,
+      "remaining": 11.950418402717103,
+      "memoryInBytes": 2,
+      "waits": 0,
+      "lesson": {
+        "layout": "A",
+        "attempt": 1,
+        "result": "seen",
+        "summary": {
+          "observations": "Moving north along the west edge was safe until time 1.4 at (1.0,5.5); R1 was moving north near x=3.1.",
+          "failure": "The final 1-second north move triggered 'seen' at time 1.7 near (1.0,4.75), with R1 near (3.1,6.86).",
+          "next": "Hypothesis: avoid continuing north while R1 faces north; wait behind cover or move south until its heading changes, then advance in short 0.2-second steps.",
+          "uncertainty": "R1's vision range, cone width, and patrol-turn timing are unknown."
+        }
+      },
+      "closestNavigableMeters": 14.749999999999964,
+      "endNavigableMeters": 16.00000000000005,
+      "repeatWithin075m": false,
+      "endPosition": [
+        1.0000000000000018,
+        4.749999999999947
+      ],
+      "firstDifferentDecision": null,
+      "path": [
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 0,
+      "requests": 5,
+      "knownCNY": 0.277708,
+      "costUnknown": 0,
+      "inputTokens": 4738,
+      "outputTokens": 1728,
+      "latencySeconds": 28.74
+    },
+    {
+      "job": "A-N2-G3-source",
+      "attempt": 2,
+      "result": "seen",
+      "hpBefore": 90,
+      "hpAfter": 80,
+      "time": 13.790000000000001,
+      "actions": 19,
+      "closest": 6.083132413440434,
+      "remaining": 9.94788545018116,
+      "memoryInBytes": 537,
+      "waits": 4,
+      "lesson": {
+        "layout": "A",
+        "attempt": 2,
+        "result": "seen",
+        "summary": {
+          "observations": "Waiting for R1 to turn south enabled a safe west-wall route, then crossing above the records wall and moving below the divider remained safe through time 13.7.",
+          "failure": "Moving east from (5.88,9.12) triggered 'seen' almost immediately at time 13.79; R1 was turning east near (3.1,6.2), while R2 remained near (10,5.2).",
+          "next": "Hypothesis: stay still or retreat behind the west elbow until R1 turns away, then cross east below the spine using 0.2-second moves.",
+          "uncertainty": "It is unclear whether R1 or R2 detected the player, and the robots' exact vision range, cone width, and wall occlusion are unknown."
+        }
+      },
+      "closestNavigableMeters": 8.869999999999951,
+      "endNavigableMeters": 13.264999995000068,
+      "repeatWithin075m": false,
+      "endPosition": [
+        6.105000002500003,
+        9.11999999750007
+      ],
+      "firstDifferentDecision": 1,
+      "path": [
+        [
+          "MOVE_WEST",
+          0.5
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          0.5
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          0.5
+        ],
+        [
+          "MOVE_EAST",
+          0.5
+        ],
+        [
+          "MOVE_SOUTH",
+          0.5
+        ],
+        [
+          "WAIT",
+          0.2
+        ],
+        [
+          "MOVE_WEST",
+          0.5
+        ],
+        [
+          "MOVE_SOUTH",
+          0.5
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ]
+      ],
+      "memoryInputCount": 1,
+      "requests": 20,
+      "knownCNY": 1.355524,
+      "costUnknown": 0,
+      "inputTokens": 29439,
+      "outputTokens": 6379,
+      "latencySeconds": 105.44
+    },
+    {
+      "job": "A-N2-G3-source",
+      "attempt": 3,
+      "result": "seen",
+      "hpBefore": 80,
+      "hpAfter": 70,
+      "time": 9.11,
+      "actions": 10,
+      "closest": 4.819297147925139,
+      "remaining": 4.819297147925139,
+      "memoryInBytes": 1220,
+      "waits": 2,
+      "lesson": {
+        "layout": "A",
+        "attempt": 3,
+        "result": "seen",
+        "summary": {
+          "observations": "Observation: The west-edge route, crossing above records, passing below the divider, and reaching (8.5,6.0) stayed safe through time 8.2.",
+          "failure": "Observation: Moving east toward (10.78,6.0) triggered 'seen' at time 9.11; R2 was at (15.70,5.20) facing west.",
+          "next": "Hypothesis: wait behind the divider or spine until R2 turns away, then cross its sightline with 0.2-second moves.",
+          "uncertainty": "It is unknown whether R2 caused detection or exactly how its vision range, cone, and wall occlusion work."
+        }
+      },
+      "closestNavigableMeters": 5.474999999999877,
+      "endNavigableMeters": 5.474999999999877,
+      "repeatWithin075m": false,
+      "endPosition": [
+        10.775000000000087,
+        5.9999999999999645
+      ],
+      "firstDifferentDecision": 1,
+      "path": [
+        [
+          "MOVE_WEST",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ]
+      ],
+      "memoryInputCount": 2,
+      "requests": 11,
+      "knownCNY": 0.718082,
+      "costUnknown": 0,
+      "inputTokens": 16888,
+      "outputTokens": 3058,
+      "latencySeconds": 52.08
+    },
+    {
+      "job": "A-N2-G3-source",
+      "attempt": 4,
+      "result": "seen",
+      "hpBefore": 70,
+      "hpAfter": 60,
+      "time": 12.46,
+      "actions": 14,
+      "closest": 7.9120730517608315,
+      "remaining": 7.9120730517608315,
+      "memoryInBytes": 1798,
+      "waits": 2,
+      "lesson": {
+        "layout": "A",
+        "attempt": 4,
+        "result": "seen",
+        "summary": {
+          "observations": "The southern corridor route stayed safe through time 11.7, reaching (7.78,9.75); R1 was visible to the west.",
+          "failure": "A north move from (7.78,9.75) triggered 'seen' at time 12.46 near (7.78,7.85), when R1 faced north and R2 faced west.",
+          "next": "Hypothesis: remain below the spine, wait for R2 to face away, then advance north in 0.2-second steps using walls as cover.",
+          "uncertainty": "It is unknown which robot detected the player and how their vision range, cone, and wall occlusion work."
+        }
+      },
+      "closestNavigableMeters": 10.319999997499998,
+      "endNavigableMeters": 10.319999997499998,
+      "repeatWithin075m": false,
+      "endPosition": [
+        7.7800000024999925,
+        7.849999999999991
+      ],
+      "firstDifferentDecision": 1,
+      "path": [
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          0.5
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 3,
+      "requests": 15,
+      "knownCNY": 1.036632,
+      "costUnknown": 0,
+      "inputTokens": 23959,
+      "outputTokens": 4454,
+      "latencySeconds": 80.83
+    },
+    {
+      "job": "A-N2-G3-source",
+      "attempt": 5,
+      "result": "seen",
+      "hpBefore": 60,
+      "hpAfter": 50,
+      "time": 13.35,
+      "actions": 15,
+      "closest": 6.4999999999999805,
+      "remaining": 9.301377586142802,
+      "memoryInBytes": 2362,
+      "waits": 3,
+      "lesson": {
+        "layout": "A",
+        "attempt": 5,
+        "result": "seen",
+        "summary": {
+          "observations": "Waiting for R1 to turn south enabled safe travel up the west side, above records, below the divider, and to (6.0,8.5).",
+          "failure": "Moving east from (6.0,8.5) triggered 'seen' almost immediately at time 13.35; R1 faced north and R2 faced west.",
+          "next": "Hypothesis: wait near (6.0,8.5) until both robots face away, then test the eastward crossing with 0.2-second moves.",
+          "uncertainty": "The detecting robot and the exact vision range, cone width, and wall occlusion remain unknown."
+        }
+      },
+      "closestNavigableMeters": 9.750000000000023,
+      "endNavigableMeters": 12.374999999999975,
+      "repeatWithin075m": true,
+      "endPosition": [
+        6.375000000000025,
+        8.5
+      ],
+      "firstDifferentDecision": 1,
+      "path": [
+        [
+          "MOVE_WEST",
+          0.2
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ]
+      ],
+      "memoryInputCount": 4,
+      "requests": 16,
+      "knownCNY": 1.08517,
+      "costUnknown": 0,
+      "inputTokens": 30027,
+      "outputTokens": 3426,
+      "latencySeconds": 74.81
+    },
+    {
+      "job": "A-N2-G3-source",
+      "attempt": 6,
+      "result": "seen",
+      "hpBefore": 50,
+      "hpAfter": 40,
+      "time": 13.52,
+      "actions": 22,
+      "closest": 5.0062460986251525,
+      "remaining": 5.856833615529747,
+      "memoryInBytes": 2913,
+      "waits": 6,
+      "lesson": {
+        "layout": "A",
+        "attempt": 6,
+        "result": "seen",
+        "summary": {
+          "observations": "The route reached (7.5,1.75) safely at time 12.4, north of the divider and near the exit corridor.",
+          "failure": "Backtracking south ended in detection at (7.5,4.55) at time 13.52; R1 was at (3.1,6.2) and turning northwest.",
+          "next": "Hypothesis: from (7.5,1.75), continue east around the divider’s north end toward the exit instead of moving south.",
+          "uncertainty": "The detecting robot and exact vision range, cone width, and wall occlusion remain unknown."
+        }
+      },
+      "closestNavigableMeters": 6.499999999999892,
+      "endNavigableMeters": 9.200000000000097,
+      "repeatWithin075m": false,
+      "endPosition": [
+        7.500000000000041,
+        4.549999999999944
+      ],
+      "firstDifferentDecision": 1,
+      "path": [
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          0.5
+        ],
+        [
+          "WAIT",
+          0.2
+        ],
+        [
+          "WAIT",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          0.5
+        ],
+        [
+          "MOVE_EAST",
+          0.2
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          0.2
+        ],
+        [
+          "MOVE_EAST",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          0.2
+        ],
+        [
+          "MOVE_WEST",
+          0.5
+        ],
+        [
+          "MOVE_WEST",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          0.5
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          0.5
+        ]
+      ],
+      "memoryInputCount": 5,
+      "requests": 23,
+      "knownCNY": 1.763538,
+      "costUnknown": 0,
+      "inputTokens": 46775,
+      "outputTokens": 6073,
+      "latencySeconds": 118.47
+    },
+    {
+      "job": "A-N2-G3-source",
+      "attempt": 7,
+      "result": "seen",
+      "hpBefore": 40,
+      "hpAfter": 30,
+      "time": 12.72,
+      "actions": 16,
+      "closest": 4.836941184281653,
+      "remaining": 7.79669802249327,
+      "memoryInBytes": 3439,
+      "waits": 4,
+      "lesson": {
+        "layout": "A",
+        "attempt": 7,
+        "result": "seen",
+        "summary": {
+          "observations": "Waiting for R1 enabled safe travel to (7.72,0.76), but eastward movement there was blocked; retreating to (5.97,5.76) remained safe until time 12.70.",
+          "failure": "Waiting at (5.97,5.76) caused detection at time 12.72 while R1 faced north nearby and R2 faced west across the corridor.",
+          "next": "Hypothesis: avoid waiting at (5.97,5.76); use short moves and cover while both robots face away, and do not retry the blocked north gap.",
+          "uncertainty": "The detecting robot, vision geometry, wall occlusion, and whether any north-side crossing is passable remain unknown."
+        }
+      },
+      "closestNavigableMeters": 9.790000005000035,
+      "endNavigableMeters": 10.040000005000039,
+      "repeatWithin075m": false,
+      "endPosition": [
+        5.969999997499975,
+        5.760000002500015
+      ],
+      "firstDifferentDecision": 4,
+      "path": [
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          0.5
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          0.5
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          0.2
+        ],
+        [
+          "MOVE_WEST",
+          0.5
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "WAIT",
+          0.5
+        ]
+      ],
+      "memoryInputCount": 6,
+      "requests": 17,
+      "knownCNY": 1.199868,
+      "costUnknown": 0,
+      "inputTokens": 35257,
+      "outputTokens": 3274,
+      "latencySeconds": 70.54
+    },
+    {
+      "job": "A-N2-G3-source",
+      "attempt": 8,
+      "result": "seen",
+      "hpBefore": 30,
+      "hpAfter": 20,
+      "time": 11.73,
+      "actions": 18,
+      "closest": 5.543545797492753,
+      "remaining": 6.513334401001887,
+      "memoryInBytes": 4074,
+      "waits": 7,
+      "lesson": {
+        "layout": "A",
+        "attempt": 8,
+        "result": "seen",
+        "summary": {
+          "observations": "Waiting for R1 to turn south enabled safe travel up the west corridor, above records, and along the divider’s west side to (7.25,3.28).",
+          "failure": "Moving south from (7.25,3.28) triggered detection at time 11.73 near (7.25,5.36); R1 faced north and R2 faced west.",
+          "next": "Hypothesis: from (7.25,3.28), continue north toward the divider’s north end instead of backtracking south, then approach the exit with short moves.",
+          "uncertainty": "Which robot detected the player, the vision geometry, and whether the north-side route is passable remain unknown."
+        }
+      },
+      "closestNavigableMeters": 7.999999999999998,
+      "endNavigableMeters": 8.644999997499962,
+      "repeatWithin075m": false,
+      "endPosition": [
+        7.250000000000037,
+        5.3550000025000015
+      ],
+      "firstDifferentDecision": 3,
+      "path": [
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          0.2
+        ],
+        [
+          "WAIT",
+          0.2
+        ],
+        [
+          "WAIT",
+          0.2
+        ],
+        [
+          "WAIT",
+          0.2
+        ],
+        [
+          "WAIT",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          0.5
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          0.2
+        ],
+        [
+          "MOVE_SOUTH",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 7,
+      "requests": 19,
+      "knownCNY": 1.45469,
+      "costUnknown": 0,
+      "inputTokens": 43705,
+      "outputTokens": 3729,
+      "latencySeconds": 66.48
+    },
+    {
+      "job": "A-N2-G3-source",
+      "attempt": 9,
+      "result": "seen",
+      "hpBefore": 20,
+      "hpAfter": 10,
+      "time": 11.4,
+      "actions": 13,
+      "closest": 5.181544173689901,
+      "remaining": 6.396162914114967,
+      "memoryInBytes": 4702,
+      "waits": 5,
+      "lesson": {
+        "layout": "A",
+        "attempt": 9,
+        "result": "seen",
+        "summary": {
+          "observations": "Waiting for R1 to move south enabled safe travel up the west corridor, above records, and along the divider’s west side to (7.72,3.50).",
+          "failure": "Moving south around the divider triggered detection near (7.72,5.75) at time 11.4; R2 was at (12.68,5.20) facing west.",
+          "next": "Hypothesis: from (7.72,3.50), move north and seek an upper route toward the exit instead of entering R2’s west-facing corridor.",
+          "uncertainty": "The detecting robot, exact vision geometry, wall occlusion, and passability of the upper route remain unknown."
+        }
+      },
+      "closestNavigableMeters": 8.030000002500042,
+      "endNavigableMeters": 8.28000000249996,
+      "repeatWithin075m": true,
+      "endPosition": [
+        7.7199999974999995,
+        5.749999999999961
+      ],
+      "firstDifferentDecision": 3,
+      "path": [
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          0.5
+        ],
+        [
+          "WAIT",
+          0.5
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          0.5
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 8,
+      "requests": 14,
+      "knownCNY": 1.19195,
+      "costUnknown": 0,
+      "inputTokens": 33576,
+      "outputTokens": 3614,
+      "latencySeconds": 71.9
+    },
+    {
+      "job": "A-N2-G3-source",
+      "attempt": 10,
+      "result": "seen",
+      "hpBefore": 10,
+      "hpAfter": 0,
+      "time": 13.46,
+      "actions": 21,
+      "closest": 5.250085713600265,
+      "remaining": 6.271156194606348,
+      "memoryInBytes": 5309,
+      "waits": 5,
+      "lesson": {
+        "layout": "A",
+        "attempt": 10,
+        "result": "seen",
+        "summary": {
+          "observations": "Waiting for R1 to turn enabled safe travel via the west corridor to the divider’s west side; the upper gap was blocked.",
+          "failure": "Moving south to (7.25,4.93) triggered detection at time 13.46; R1 was near (3.1,6.2) and R2 near (10,5.2) facing west.",
+          "next": "Hypothesis: avoid the blocked upper gap and wait behind cover until R2 no longer faces west before rounding the divider in 0.2-second steps.",
+          "uncertainty": "It remains unknown which robot detected the player and what their exact vision geometry and wall occlusion are."
+        }
+      },
+      "closestNavigableMeters": 7.999999999999998,
+      "endNavigableMeters": 9.069999997499966,
+      "repeatWithin075m": true,
+      "endPosition": [
+        7.250000000000037,
+        4.9300000024999955
+      ],
+      "firstDifferentDecision": 4,
+      "path": [
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "WAIT",
+          0.5
+        ],
+        [
+          "WAIT",
+          0.2
+        ],
+        [
+          "WAIT",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          0.5
+        ],
+        [
+          "MOVE_SOUTH",
+          0.5
+        ],
+        [
+          "MOVE_EAST",
+          0.5
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          0.5
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          0.5
+        ],
+        [
+          "MOVE_SOUTH",
+          0.2
+        ],
+        [
+          "MOVE_SOUTH",
+          0.5
+        ],
+        [
+          "MOVE_SOUTH",
+          0.2
+        ]
+      ],
+      "memoryInputCount": 9,
+      "requests": 22,
+      "knownCNY": 1.986638,
+      "costUnknown": 0,
+      "inputTokens": 57163,
+      "outputTokens": 5723,
+      "latencySeconds": 122.85
+    },
+    {
+      "job": "A-N4-G3-source",
+      "attempt": 1,
+      "result": "seen",
+      "hpBefore": 100,
+      "hpAfter": 90,
+      "time": 1.01,
+      "actions": 2,
+      "closest": 11.875421045167185,
+      "remaining": 11.875421045167185,
+      "memoryInBytes": 2,
+      "waits": 0,
+      "lesson": {
+        "layout": "A",
+        "attempt": 1,
+        "result": "seen",
+        "summary": {
+          "observations": "Moving north for 1 second reached (1.5, 6.0) while R1 moved north near x=3.1; the run was still active.",
+          "failure": "A second north move triggered 'seen' almost immediately at (1.5, 5.975), with 90 HP remaining.",
+          "next": "Try moving south or waiting first to alter timing, then use shorter 0.2-second moves near the west corridor.",
+          "uncertainty": "Hypothesis: R1 had line of sight around the records wall; its exact vision range and patrol limits are unknown."
+        }
+      },
+      "closestNavigableMeters": 14.724999999999964,
+      "endNavigableMeters": 14.724999999999964,
+      "repeatWithin075m": false,
+      "endPosition": [
+        1.5,
+        5.974999999999964
+      ],
+      "firstDifferentDecision": null,
+      "path": [
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 0,
+      "requests": 3,
+      "knownCNY": 0.115522,
+      "costUnknown": 0,
+      "inputTokens": 2228,
+      "outputTokens": 718,
+      "latencySeconds": 14.13
+    },
+    {
+      "job": "A-N4-G3-source",
+      "attempt": 2,
+      "result": "seen",
+      "hpBefore": 90,
+      "hpAfter": 80,
+      "time": 7.48,
+      "actions": 8,
+      "closest": 7.368174807915434,
+      "remaining": 7.368174807915434,
+      "memoryInBytes": 530,
+      "waits": 0,
+      "lesson": {
+        "layout": "A",
+        "attempt": 2,
+        "result": "seen",
+        "summary": {
+          "observations": "The south-and-east route to (9.0,13.5), then north to (9.0,8.5), remained active.",
+          "failure": "Moving east beneath the spine triggered 'seen' at (10.2,8.5) when R3 turned east near (7.65,5.95).",
+          "next": "Repeat the lower route, then wait or use 0.2-second moves near the spine until R3 is facing away.",
+          "uncertainty": "Hypothesis: R3 gained line of sight through the spine’s western opening; its exact vision range and turn timing are unknown."
+        }
+      },
+      "closestNavigableMeters": 9.750000000000062,
+      "endNavigableMeters": 10.95000000000008,
+      "repeatWithin075m": false,
+      "endPosition": [
+        10.20000000000008,
+        8.5
+      ],
+      "firstDifferentDecision": 1,
+      "path": [
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ]
+      ],
+      "memoryInputCount": 1,
+      "requests": 9,
+      "knownCNY": 0.432102,
+      "costUnknown": 0,
+      "inputTokens": 10597,
+      "outputTokens": 1835,
+      "latencySeconds": 36.95
+    },
+    {
+      "job": "A-N4-G3-source",
+      "attempt": 3,
+      "result": "seen",
+      "hpBefore": 80,
+      "hpAfter": 70,
+      "time": 7.48,
+      "actions": 8,
+      "closest": 6.7742158217759325,
+      "remaining": 6.7742158217759325,
+      "memoryInBytes": 1045,
+      "waits": 0,
+      "lesson": {
+        "layout": "A",
+        "attempt": 3,
+        "result": "seen",
+        "summary": {
+          "observations": "The lower route to (9.0,8.5) stayed active; R3 then turned east near (7.65,5.95).",
+          "failure": "Continuing north triggered 'seen' at (9.0,7.3) at time 7.48, leaving 70 HP.",
+          "next": "Repeat the lower route, then wait before the final north approach and use 0.2-second moves when R3 faces away.",
+          "uncertainty": "Hypothesis: R3 can see through the opening west of the spine when facing east; its range and turn schedule remain unknown."
+        }
+      },
+      "closestNavigableMeters": 8.550000000000045,
+      "endNavigableMeters": 8.550000000000045,
+      "repeatWithin075m": false,
+      "endPosition": [
+        9.000000000000062,
+        7.299999999999983
+      ],
+      "firstDifferentDecision": 8,
+      "path": [
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 2,
+      "requests": 9,
+      "knownCNY": 0.438462,
+      "costUnknown": 0,
+      "inputTokens": 11959,
+      "outputTokens": 1471,
+      "latencySeconds": 36.34
+    },
+    {
+      "job": "A-N4-G3-source",
+      "attempt": 4,
+      "result": "seen",
+      "hpBefore": 70,
+      "hpAfter": 60,
+      "time": 10.41,
+      "actions": 11,
+      "closest": 5.151543459867107,
+      "remaining": 5.151543459867107,
+      "memoryInBytes": 1546,
+      "waits": 0,
+      "lesson": {
+        "layout": "A",
+        "attempt": 4,
+        "result": "seen",
+        "summary": {
+          "observations": "The lower route reached (9.0,6.0) safely; R3 was moving east ahead while R2 appeared near (14.53,5.2) facing west.",
+          "failure": "Moving north from (9.0,6.0) triggered 'seen' at (9.0,5.28) around time 10.41.",
+          "next": "Repeat the safe route, then wait at (9.0,6.0) and use 0.2-second north moves only after R2 turns away or leaves.",
+          "uncertainty": "Hypothesis: west-facing R2 saw across the upper corridor; R2's vision range and patrol timing remain unknown."
+        }
+      },
+      "closestNavigableMeters": 6.530000002499938,
+      "endNavigableMeters": 6.530000002499938,
+      "repeatWithin075m": false,
+      "endPosition": [
+        9.000000000000062,
+        5.2800000025000005
+      ],
+      "firstDifferentDecision": 8,
+      "path": [
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 3,
+      "requests": 12,
+      "knownCNY": 0.736066,
+      "costUnknown": 0,
+      "inputTokens": 18979,
+      "outputTokens": 2721,
+      "latencySeconds": 51.12
+    },
+    {
+      "job": "A-N4-G3-source",
+      "attempt": 5,
+      "result": "seen",
+      "hpBefore": 60,
+      "hpAfter": 50,
+      "time": 11.35,
+      "actions": 14,
+      "closest": 5.151543459867107,
+      "remaining": 6.070494215374856,
+      "memoryInBytes": 2071,
+      "waits": 1,
+      "lesson": {
+        "layout": "A",
+        "attempt": 5,
+        "result": "seen",
+        "summary": {
+          "observations": "The lower route to (9.0,6.0) was safe; retreating west to (7.75,5.78) also remained active.",
+          "failure": "Moving north stopped near (7.75,5.28) and triggered 'seen' while R2 was at (12.75,5.2) facing west.",
+          "next": "Repeat the route, retreat farther west than x=7.75, then move north along the divider using 0.2-second steps.",
+          "uncertainty": "Hypothesis: R2 detected the player at roughly 5 m range; the exact vision boundary is unknown."
+        }
+      },
+      "closestNavigableMeters": 6.530000002499938,
+      "endNavigableMeters": 8.219999997499954,
+      "repeatWithin075m": false,
+      "endPosition": [
+        7.750000000000044,
+        5.2800000025000005
+      ],
+      "firstDifferentDecision": 8,
+      "path": [
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          0.2
+        ],
+        [
+          "MOVE_WEST",
+          0.5
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 4,
+      "requests": 15,
+      "knownCNY": 1.0893,
+      "costUnknown": 0,
+      "inputTokens": 27677,
+      "outputTokens": 4055,
+      "latencySeconds": 73.16
+    },
+    {
+      "job": "A-N4-G3-source",
+      "attempt": 6,
+      "result": "seen",
+      "hpBefore": 50,
+      "hpAfter": 40,
+      "time": 7.48,
+      "actions": 8,
+      "closest": 6.7742158217759325,
+      "remaining": 6.7742158217759325,
+      "memoryInBytes": 2577,
+      "waits": 0,
+      "lesson": {
+        "layout": "A",
+        "attempt": 6,
+        "result": "seen",
+        "summary": {
+          "observations": "The lower route to (9.0,8.5) remained active; R3 was near (7.6,5.95) and turned east.",
+          "failure": "Moving north triggered 'seen' at (9.0,7.3) at time 7.48.",
+          "next": "Repeat the lower route, wait at (9.0,8.5), then use 0.2-second moves after R3 turns away.",
+          "uncertainty": "Hypothesis: east-facing R3 can see through the spine’s western opening; its exact range and timing are unknown."
+        }
+      },
+      "closestNavigableMeters": 8.550000000000045,
+      "endNavigableMeters": 8.550000000000045,
+      "repeatWithin075m": true,
+      "endPosition": [
+        9.000000000000062,
+        7.299999999999983
+      ],
+      "firstDifferentDecision": 8,
+      "path": [
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 5,
+      "requests": 9,
+      "knownCNY": 0.521012,
+      "costUnknown": 0,
+      "inputTokens": 15997,
+      "outputTokens": 1250,
+      "latencySeconds": 28.38
+    },
+    {
+      "job": "A-N4-G3-source",
+      "attempt": 7,
+      "result": "seen",
+      "hpBefore": 40,
+      "hpAfter": 30,
+      "time": 10.16,
+      "actions": 11,
+      "closest": 5.700877125495624,
+      "remaining": 7.26704891960962,
+      "memoryInBytes": 3033,
+      "waits": 1,
+      "lesson": {
+        "layout": "A",
+        "attempt": 7,
+        "result": "seen",
+        "summary": {
+          "observations": "The lower route, a wait at (9.0,8.5), north to (9.0,6.0), and west to (6.5,6.0) all remained active.",
+          "failure": "Moving north from (6.5,6.0) triggered 'seen' almost immediately at (6.5,5.6), time 10.16.",
+          "next": "Repeat the safe route, then wait at (6.5,6.0) for patrol timing to change and test north with 0.2-second steps.",
+          "uncertainty": "Hypothesis: an unlisted or occluded patrol saw the gap west of the divider; the observer and exact vision boundary are unknown."
+        }
+      },
+      "closestNavigableMeters": 7.249999999999902,
+      "endNavigableMeters": 9.349999999999932,
+      "repeatWithin075m": false,
+      "endPosition": [
+        6.500000000000027,
+        5.599999999999959
+      ],
+      "firstDifferentDecision": 8,
+      "path": [
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ]
+      ],
+      "memoryInputCount": 6,
+      "requests": 12,
+      "knownCNY": 0.858322,
+      "costUnknown": 0,
+      "inputTokens": 24229,
+      "outputTokens": 2590,
+      "latencySeconds": 58.77
+    },
+    {
+      "job": "A-N4-G3-source",
+      "attempt": 8,
+      "result": "seen",
+      "hpBefore": 30,
+      "hpAfter": 20,
+      "time": 10.16,
+      "actions": 11,
+      "closest": 5.700877125495624,
+      "remaining": 7.823681997627422,
+      "memoryInBytes": 3573,
+      "waits": 1,
+      "lesson": {
+        "layout": "A",
+        "attempt": 8,
+        "result": "seen",
+        "summary": {
+          "observations": "The lower route, waiting at (9.0,8.5), reaching (9.0,6.0), and moving west to (6.5,6.0) stayed active.",
+          "failure": "A 0.2-second west move from (6.5,6.0) triggered 'seen' near (6.1,6.0) at time 10.16.",
+          "next": "Repeat the safe route, stop at (6.5,6.0), wait for patrol timing to change, then test north or west in 0.2-second steps.",
+          "uncertainty": "Hypothesis: R1 or another occluded patrol could see the area west of x=6.5; the detecting robot and exact boundary are unknown."
+        }
+      },
+      "closestNavigableMeters": 7.249999999999902,
+      "endNavigableMeters": 10.149999999999944,
+      "repeatWithin075m": true,
+      "endPosition": [
+        6.100000000000021,
+        5.9999999999999645
+      ],
+      "firstDifferentDecision": 11,
+      "path": [
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          1
+        ],
+        [
+          "MOVE_WEST",
+          0.2
+        ]
+      ],
+      "memoryInputCount": 7,
+      "requests": 12,
+      "knownCNY": 0.843652,
+      "costUnknown": 0,
+      "inputTokens": 26110,
+      "outputTokens": 1972,
+      "latencySeconds": 37.31
+    },
+    {
+      "job": "A-N4-G3-source",
+      "attempt": 9,
+      "result": "seen",
+      "hpBefore": 20,
+      "hpAfter": 10,
+      "time": 10.07,
+      "actions": 15,
+      "closest": 4.825805634181674,
+      "remaining": 5.370942656766563,
+      "memoryInBytes": 4119,
+      "waits": 1,
+      "lesson": {
+        "layout": "A",
+        "attempt": 9,
+        "result": "seen",
+        "summary": {
+          "observations": "The lower route to (9.0,8.5), one-second wait, and northward advance to the divider remained safe through time 10.0.",
+          "failure": "The second 0.2-second south move triggered 'seen' near (9.5,5.96), with R2 west-facing at (14.44,5.2) and R3 east-facing at (11.66,5.95).",
+          "next": "Repeat the safe route, but do not retreat south from (9.5,5.28); instead wait behind cover for R2 to turn or leave before advancing.",
+          "uncertainty": "Hypothesis: R2 detected the player across the upper corridor; the detecting robot, sight boundary, and safer timing remain uncertain."
+        }
+      },
+      "closestNavigableMeters": 6.030000002499931,
+      "endNavigableMeters": 6.705000002499941,
+      "repeatWithin075m": false,
+      "endPosition": [
+        9.50000000000007,
+        5.95500000250001
+      ],
+      "firstDifferentDecision": 10,
+      "path": [
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          0.2
+        ],
+        [
+          "MOVE_EAST",
+          0.2
+        ],
+        [
+          "MOVE_SOUTH",
+          0.2
+        ],
+        [
+          "MOVE_SOUTH",
+          0.2
+        ]
+      ],
+      "memoryInputCount": 8,
+      "requests": 16,
+      "knownCNY": 1.424406,
+      "costUnknown": 0,
+      "inputTokens": 39067,
+      "outputTokens": 4583,
+      "latencySeconds": 73.67
+    },
+    {
+      "job": "A-N4-G3-source",
+      "attempt": 10,
+      "result": "seen",
+      "hpBefore": 10,
+      "hpAfter": 0,
+      "time": 10.96,
+      "actions": 14,
+      "closest": 2.860943900183918,
+      "remaining": 2.860943900183918,
+      "memoryInBytes": 4750,
+      "waits": 1,
+      "lesson": {
+        "layout": "A",
+        "attempt": 10,
+        "result": "seen",
+        "summary": {
+          "observations": "The lower route, wait at (9.0,8.5), and climb to (9.5,1.75) remained active.",
+          "failure": "Moving east toward the exit triggered 'seen' near (9.65,1.75) at time 10.96.",
+          "next": "Repeat the route, then wait at (9.5,1.75) for patrol timing to change before testing east with 0.2-second moves.",
+          "uncertainty": "Hypothesis: west-facing R2 detected the eastward move; the exact observer and sight boundary are unknown."
+        }
+      },
+      "closestNavigableMeters": 2.349999999999984,
+      "endNavigableMeters": 2.349999999999984,
+      "repeatWithin075m": false,
+      "endPosition": [
+        9.650000000000071,
+        1.7499999999999445
+      ],
+      "firstDifferentDecision": 11,
+      "path": [
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_SOUTH",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "WAIT",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          0.2
+        ],
+        [
+          "MOVE_EAST",
+          0.2
+        ],
+        [
+          "MOVE_NORTH",
+          1
+        ],
+        [
+          "MOVE_NORTH",
+          0.5
+        ],
+        [
+          "MOVE_EAST",
+          1
+        ]
+      ],
+      "memoryInputCount": 9,
+      "requests": 15,
+      "knownCNY": 1.23931,
+      "costUnknown": 0,
+      "inputTokens": 39117,
+      "outputTokens": 2706,
+      "latencySeconds": 50.46
+    }
+  ],
+  "transfer": [
+    {
+      "n": 0,
+      "transferSuccess": true,
+      "scratchSuccess": true,
+      "transferTargetCNY": 0.365768,
+      "scratchTargetCNY": 0.382176,
+      "sourceCNY": 0.34419,
+      "sourceStatus": "acquired",
+      "sourceFirst": 1,
+      "budget": 1,
+      "transfer": 1,
+      "scratch": 1,
+      "transferStatus": "acquired",
+      "scratchStatus": "acquired",
+      "firstAttemptTransfer": true,
+      "retentionOnly": true,
+      "hpTransfer": 0,
+      "hpScratch": 0,
+      "memoryTransferInput": 397,
+      "memoryScratchInput": 2,
+      "memoryTransferEnd": 793,
+      "memoryScratchEnd": 433,
+      "combinedTransferCNY": 0.709958,
+      "combinedScratchCNY": 0.726366
+    },
+    {
+      "n": 2,
+      "transferSuccess": null,
+      "scratchSuccess": null,
+      "transferTargetCNY": 0.0,
+      "scratchTargetCNY": 0.0,
+      "sourceCNY": 12.0698,
+      "sourceStatus": "not_acquired",
+      "sourceFirst": null,
+      "budget": null,
+      "transfer": null,
+      "scratch": null,
+      "transferStatus": "source_not_acquired",
+      "scratchStatus": "source_not_acquired",
+      "firstAttemptTransfer": null,
+      "retentionOnly": null,
+      "hpTransfer": null,
+      "hpScratch": null,
+      "memoryTransferInput": null,
+      "memoryScratchInput": null,
+      "memoryTransferEnd": null,
+      "memoryScratchEnd": null,
+      "combinedTransferCNY": null,
+      "combinedScratchCNY": null
+    },
+    {
+      "n": 4,
+      "transferSuccess": null,
+      "scratchSuccess": null,
+      "transferTargetCNY": 0.0,
+      "scratchTargetCNY": 0.0,
+      "sourceCNY": 7.698154,
+      "sourceStatus": "not_acquired",
+      "sourceFirst": null,
+      "budget": null,
+      "transfer": null,
+      "scratch": null,
+      "transferStatus": "source_not_acquired",
+      "scratchStatus": "source_not_acquired",
+      "firstAttemptTransfer": null,
+      "retentionOnly": null,
+      "hpTransfer": null,
+      "hpScratch": null,
+      "memoryTransferInput": null,
+      "memoryScratchInput": null,
+      "memoryTransferEnd": null,
+      "memoryScratchEnd": null,
+      "combinedTransferCNY": null,
+      "combinedScratchCNY": null
+    }
+  ],
+  "commonHorizon": [
+    {
+      "k": 1,
+      "pairs": 1,
+      "transfer": 1,
+      "scratch": 1
+    }
+  ],
+  "usage": {
+    "requests": 304,
+    "knownCNY": 20.860088,
+    "costUnknown": 0,
+    "inputTokens": 567177,
+    "outputTokens": 69648,
+    "latencySeconds": 1349.52
+  }
+}

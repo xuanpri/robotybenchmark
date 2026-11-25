@@ -1,0 +1,30 @@
+{
+  "input": "results/real-dmx-pilot/B/replay.json",
+  "layout": "split",
+  "timing": "simulation",
+  "frames": 5182,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "seed": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "encoder": "OpenCV FFmpeg CPU mp4v",
+  "renderer": "Chromium ANGLE SwiftShader",
+  "command": [
+    "/home/jiaxuanren/interview/MultiRobotStealthArena/scripts/video.cjs",
+    "results/real-dmx-pilot/B/replay.json",
+    "results/real-dmx-pilot/B/videos/experiment-B-learning.mp4",
+    "split",
+    "simulation"
+  ]
+}

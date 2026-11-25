@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.6-sol",
+  "messages": [
+    {
+      "role": "system",
+      "content": "\nYou are observing a deterministic robot moving back\nand forth along a one-dimensional z-axis.\n\nThe motion parameters remain fixed.\nThe robot may pause and turn at patrol endpoints.\n\nNegative z direction means north.\nPositive z direction means south.\n\nTime t=0 is the current observation time.\nNo new observations will be available after t=0.\n\nIf history is ordered, its positions are consecutive\nsamples in chronological order, ending one sample\ninterval before the current observation.\n\nIf history is unordered, the positions are samples\ncollected before t=0, but their temporal order has\nbeen removed.\n\nPredict the robot's future z-position at every\nrequested time using only the supplied information.\n\nReturn your best numerical predictions even if\nsome predictions are uncertain.\n\nUse the following JSON format:\n\n{\n  \"predictions\": [\n    {\"time\": \"<requested time>\", \"z\": \"<predicted position>\"}\n  ],\n  \"inferred_dynamics\": \"brief description\",\n  \"uncertainty\": \"brief description\"\n}\n\nInclude exactly one prediction for each query time.\nThe numerical values in the format example are\nillustrative only, not additional observations.\n\nReturn plain JSON, without markdown.\n"
+    },
+    {
+      "role": "user",
+      "content": "{\"current\": {\"time\": 0, \"z\": 3.0, \"heading\": \"north\"}, \"query_times\": [0.5, 1.5, 2.5, 5.0, 6.5, 8.5, 10.5], \"history\": {\"sample_interval\": 0.5, \"ordered\": true, \"positions\": [5.0, 4.5, 4.0, 3.5]}}"
+    }
+  ]
+}

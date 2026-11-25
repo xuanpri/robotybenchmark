@@ -1,0 +1,67 @@
+{
+  "control": {
+    "answer": "{\"action\":\"MOVE_NORTH\",\"duration\":1,\"reason\":\"Continue north while staying west of the patrol; the records wall will block its view.\"}",
+    "outcome": "seen",
+    "failure_time": 2.56
+  },
+  "A_known_dynamics": {
+    "answer": "{\"action\":\"MOVE_WEST\",\"duration\":0.2,\"reason\":\"Increase lateral separation before the patrol reaches its north endpoint and turns.\"}",
+    "usage": {
+      "completion_tokens": 1130,
+      "prompt_tokens": 2287,
+      "total_tokens": 3417,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1081,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.157598"
+    },
+    "added_prompt": "\nAdditional patrol dynamics:\nR1 patrols back and forth between (3.1, 6.2)\nand (3.1, 10.3).\nIts movement speed is 1.05 m/s.\nAt each endpoint, it pauses for 0.55 seconds\nwhile retaining its previous heading.\nTurning takes 0.8 seconds.\n"
+  },
+  "B_risk_reasoning": {
+    "answer": "{\"action\":\"MOVE_NORTH\",\"duration\":1,\"reason\":\"Continue north along the west wall; the records barrier blocks the patrol's view as it approaches.\"}",
+    "usage": {
+      "completion_tokens": 426,
+      "prompt_tokens": 2276,
+      "total_tokens": 2702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.087486"
+    },
+    "added_prompt": "\nBefore choosing an action, evaluate collision\nand detection risks throughout its entire duration,\nnot just at the final position.\n\nConsider possible changes in patrol movement,\nheading, and wall occlusion.\n\nIf safety is uncertain, prefer a shorter action\nthat allows another observation before committing.\n\nReturn the same JSON format.\n"
+  }
+}

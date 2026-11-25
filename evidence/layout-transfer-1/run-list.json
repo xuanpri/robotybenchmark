@@ -1,0 +1,68 @@
+{
+  "seed": 1,
+  "sourceOrder": [
+    "A-N0-G1",
+    "A-N0-G2",
+    "A-N0-G3",
+    "A-N2-G1",
+    "A-N2-G2",
+    "A-N2-G3",
+    "A-N4-G1",
+    "A-N4-G2",
+    "A-N4-G3"
+  ],
+  "targetOrder": [
+    "transfer",
+    "scratch"
+  ],
+  "targetAfter": "source acquisition phase",
+  "sceneHashes": {
+    "A-N0-P1": "c7e3b97f30c4e107ee5a8c272ed22740ba6492c8a15528b046fd0b079c4712c9",
+    "A-N2-P1": "1775796d49f57244e8ea45c2c5d7464cd57c44c4ef3bc04ce60f606fb3b9f5d4",
+    "A-N2-P2": "6a377660ed921950bee210a835c5e3aa206b2f6061562715225dff09a5bce8aa",
+    "A-N4-P1": "8fec019d33c72a97fdcc180e3803c8392a7da71868ab9a17f9646ed582689bab",
+    "A-N4-P2": "1680ae6b7a1a561b3cf0801c5d299849153d4250b6136d163e262aba64cd417e",
+    "B-N0-P1": "feb7c9b8457766f409bfcd0c0c6c58822a59c12e96e028d68fc28a301759cf7e",
+    "B-N2-P1": "a060567c50d62aea28b5105d5c2ac3a783ab58045125ed821f842bb6ac7be7a5",
+    "B-N2-P2": "f9b8121ed1671c68faa2d0b83eef815d01abc4e38a24b8c6b7a35c5f51613781",
+    "B-N4-P1": "0f2bb4e8140069347ef72e619393f58e6cf6525974a409eec2cdfe90c7fc3b3c",
+    "B-N4-P2": "bcda72f3a3ff072ce6a27ec63efba7456fdf8725048b8b7b1dc9701630cafc58",
+    "C-N0-P1": "ea8d45e3060090076a4b368c99ffb548db9c1c4fcf75a36691d3cb87af1b7808",
+    "C-N2-P1": "38cb27fc04a3b93f1d79689094847088d753fbf845ef7c148cc8e5a72d0c80db",
+    "C-N2-P2": "0742407ab19594d31b732a265617e601f0cdc06e620f21f4e420a6a5e06a9387",
+    "C-N4-P1": "88eb46d2b02f0366dfcf2f32444b9893475783e6d5fd751e04f1d3d2c056d5a3",
+    "C-N4-P2": "1de4617f1cd03d4bb8146e1cab5bf82474405830f6e7868dacea44d2cd898f7f"
+  },
+  "pilotRequests": 129,
+  "usageKnown": 129,
+  "inputTokens": 263795,
+  "outputTokens": 31130,
+  "pilotCNY": 9.611518,
+  "meanCNY": 0.07450789147286822,
+  "pilotActionsPerAttempt": 11.272727272727273,
+  "scenarios": [
+    {
+      "sourceAttemptsEach": 1,
+      "allSourcesAcquired": true,
+      "targetAttemptsPerArm": 1,
+      "requests": 313,
+      "referenceCNY": 23.32
+    },
+    {
+      "sourceAttemptsEach": 5,
+      "allSourcesAcquired": true,
+      "targetAttemptsPerArm": 4,
+      "requests": 1358,
+      "referenceCNY": 101.18
+    },
+    {
+      "sourceAttemptsEach": 10,
+      "allSourcesAcquired": false,
+      "targetAttemptsPerArm": 0,
+      "requests": 1045,
+      "referenceCNY": 77.86
+    }
+  ],
+  "maxGameRequests": 15204,
+  "limitations": "Pilot had short M0/M2 memory and censored attempts. Price extrapolation at pilot mean is not a cap or an upper bound. Full raw history can materially increase token usage and price."
+}

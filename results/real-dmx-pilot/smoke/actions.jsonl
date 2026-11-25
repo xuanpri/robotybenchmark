@@ -1,0 +1,2 @@
+{"id":"exploration-1","action":"MOVE_NORTH","duration":1,"reason":"Move up the clear west lane while staying beside the patrol's sight cone.","start":0,"end":1,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_NORTH","duration":1,"reason":"Continue north outside the patrol cone toward the clear upper route.","start":1,"end":1.01,"feedback":"seen"}

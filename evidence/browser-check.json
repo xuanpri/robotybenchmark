@@ -1,0 +1,22 @@
+{
+  "browser": "HeadlessChrome/138.0.7204.0",
+  "viewport": [
+    1440,
+    900
+  ],
+  "webgl": 2,
+  "screens": [
+    "omniscient",
+    "limited",
+    "debug"
+  ],
+  "checks": [
+    "view switch",
+    "vision toggle",
+    "debug state removal",
+    "keyboard and single tick",
+    "speed buttons",
+    "start/pause/reset"
+  ],
+  "pageErrors": []
+}

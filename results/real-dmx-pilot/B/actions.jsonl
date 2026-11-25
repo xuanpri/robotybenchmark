@@ -1,0 +1,111 @@
+{"id":"exploration-1","action":"MOVE_WEST","duration":0.2,"reason":"Increase separation from the northbound patrol before advancing.","start":0,"end":0.2,"feedback":"active"}
+{"id":"exploration-1","action":"WAIT","duration":1,"reason":"Let the northbound patrol move safely ahead.","start":0.2,"end":1.2,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_NORTH","duration":1,"reason":"Follow behind the northbound patrol while staying outside its forward sight cone.","start":1.2,"end":2.2,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_NORTH","duration":1,"reason":"Advance above the records wall while remaining west of the patrol's sight cone.","start":2.2,"end":3.2,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_EAST","duration":1,"reason":"Advance east while the records wall shields the patrol's sight.","start":3.2,"end":4.2,"feedback":"active"}
+{"id":"exploration-1","action":"MOVE_EAST","duration":1,"reason":"Approach the divider before routing around its south end.","start":4.2,"end":5.19,"feedback":"seen"}
+{"id":"exploration-2","action":"MOVE_WEST","duration":0.2,"reason":"Create separation from R1 before heading north along the west wall.","start":0,"end":0.2,"feedback":"active"}
+{"id":"exploration-2","action":"MOVE_NORTH","duration":1,"reason":"Advance north along the west wall while remaining outside R1's sight cone.","start":0.2,"end":1.2,"feedback":"active"}
+{"id":"exploration-2","action":"MOVE_NORTH","duration":1,"reason":"Continue north along the west wall to the known safe position above the records wall.","start":1.2,"end":1.7,"feedback":"seen"}
+{"id":"exploration-3","action":"MOVE_WEST","duration":0.2,"reason":"Create lateral separation from the northbound patrol.","start":0,"end":0.2,"feedback":"active"}
+{"id":"exploration-3","action":"WAIT","duration":1,"reason":"Let the northbound patrol gain separation before following.","start":0.2,"end":1.2,"feedback":"active"}
+{"id":"exploration-3","action":"WAIT","duration":1,"reason":"Let the northbound patrol gain more separation before following.","start":1.2,"end":2.2,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_NORTH","duration":1,"reason":"Follow north after the patrol has gained safe separation.","start":2.2,"end":3.2,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_NORTH","duration":0.5,"reason":"Advance while remaining behind the eastbound patrol's view.","start":3.2,"end":3.7,"feedback":"active"}
+{"id":"exploration-3","action":"WAIT","duration":1,"reason":"Let the southbound patrol gain separation before crossing behind it.","start":3.7,"end":4.7,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_NORTH","duration":0.5,"reason":"Advance north while the southbound patrol is moving away and facing opposite.","start":4.7,"end":5.2,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_EAST","duration":1,"reason":"Move to known-safe cover north of the records wall while R1 travels south.","start":5.2,"end":6.2,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_EAST","duration":0.5,"reason":"Advance within cover north of the records wall without exposing its east edge.","start":6.2,"end":6.7,"feedback":"active"}
+{"id":"exploration-3","action":"WAIT","duration":1,"reason":"Let R3 continue north past this latitude before crossing east.","start":6.7,"end":7.7,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_EAST","duration":0.5,"reason":"Pass the records wall's east edge while R3 faces and moves away to the east.","start":7.7,"end":8.2,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_SOUTH","duration":0.5,"reason":"Approach the divider's south end while R3 faces east and moves away.","start":8.2,"end":8.700000000000001,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_SOUTH","duration":0.5,"reason":"Move below the divider while staying behind R3's east-facing patrol sight.","start":8.700000000000001,"end":9.200000000000001,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_EAST","duration":1,"reason":"Cross below the divider while remaining behind R3's east-facing sight.","start":9.200000000000001,"end":10.200000000000001,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_WEST","duration":1,"reason":"Retreat beyond R2's approaching west-facing 5 m sight, then cross after it passes.","start":10.200000000000001,"end":11.200000000000001,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_EAST","duration":0.2,"reason":"Advance cautiously below the divider while keeping beyond R2's 5 m sight.","start":11.200000000000001,"end":11.4,"feedback":"active"}
+{"id":"exploration-3","action":"MOVE_SOUTH","duration":1,"reason":"Drop out of R2's west-facing corridor before it approaches, then cross behind it.","start":11.4,"end":12.4,"feedback":"active"}
+{"id":"exploration-4","action":"MOVE_SOUTH","duration":1,"reason":"Move behind the northbound patrol and create safe separation.","start":0,"end":1,"feedback":"active"}
+{"id":"exploration-4","action":"MOVE_SOUTH","duration":1,"reason":"Go south to clear the west elbow while staying behind the north-facing patrol.","start":1,"end":2,"feedback":"active"}
+{"id":"exploration-4","action":"MOVE_EAST","duration":1,"reason":"Cross east below the west elbow while the known patrol remains far north.","start":2,"end":3,"feedback":"active"}
+{"id":"exploration-4","action":"MOVE_EAST","duration":1,"reason":"Continue east below the west-foot wall through the clear lower corridor.","start":3,"end":4,"feedback":"active"}
+{"id":"exploration-4","action":"MOVE_EAST","duration":1,"reason":"Continue east below the west-foot wall to reach its open eastern side.","start":4,"end":5,"feedback":"active"}
+{"id":"exploration-4","action":"MOVE_NORTH","duration":1,"reason":"Advance north west of the east-foot wall while remaining behind the north-facing patrol.","start":5,"end":6,"feedback":"active"}
+{"id":"exploration-4","action":"MOVE_NORTH","duration":1,"reason":"Advance behind the northbound patrol through the narrow west side of the spine.","start":6,"end":7,"feedback":"active"}
+{"id":"exploration-4","action":"MOVE_EAST","duration":1,"reason":"Move away from the nearby patrol and toward the spine's eastern opening.","start":7,"end":7.48,"feedback":"seen"}
+{"id":"exploration-5","action":"MOVE_SOUTH","duration":1,"reason":"Take the previously safe southern route while R1 moves north away.","start":0,"end":1,"feedback":"active"}
+{"id":"exploration-5","action":"MOVE_SOUTH","duration":1,"reason":"Continue to the safe southern corridor below the west-foot wall.","start":1,"end":2,"feedback":"active"}
+{"id":"exploration-5","action":"MOVE_EAST","duration":1,"reason":"Proceed east through the clear southern corridor below the west-foot wall.","start":2,"end":3,"feedback":"active"}
+{"id":"exploration-5","action":"MOVE_EAST","duration":1,"reason":"Continue east through the clear southern corridor below the west-foot wall.","start":3,"end":4,"feedback":"active"}
+{"id":"exploration-5","action":"MOVE_EAST","duration":1,"reason":"Continue along the previously safe southern route to x=9 before turning north.","start":4,"end":5,"feedback":"active"}
+{"id":"exploration-5","action":"MOVE_NORTH","duration":1,"reason":"Advance up the safe x=9 corridor while R3 is facing north away from us.","start":5,"end":6,"feedback":"active"}
+{"id":"exploration-5","action":"MOVE_NORTH","duration":1,"reason":"Continue north behind R3 to the previously safe staging point near z=8.5.","start":6,"end":7,"feedback":"active"}
+{"id":"exploration-5","action":"WAIT","duration":0.2,"reason":"Let R3 complete its turn before crossing the exposed eastbound lane.","start":7,"end":7.2,"feedback":"active"}
+{"id":"exploration-5","action":"MOVE_EAST","duration":1,"reason":"Cross east while R3 faces northeast; the spine should soon block its sightline.","start":7.2,"end":8.2,"feedback":"active"}
+{"id":"exploration-5","action":"MOVE_EAST","duration":1,"reason":"Continue east toward the spine’s open end while R3 remains out of sight.","start":8.2,"end":9.200000000000001,"feedback":"active"}
+{"id":"exploration-5","action":"MOVE_WEST","duration":1,"reason":"Retreat behind the spine, which should block R2’s west-facing sightline and avoid approaching R4.","start":9.200000000000001,"end":10.200000000000001,"feedback":"active"}
+{"id":"exploration-5","action":"MOVE_EAST","duration":1,"reason":"Return to the spine’s east end after allowing R2 time to move away.","start":10.200000000000001,"end":10.8,"feedback":"seen"}
+{"id":"exploration-6","action":"MOVE_SOUTH","duration":1,"reason":"Take the previously safe southern route while R1 faces away.","start":0,"end":1,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_SOUTH","duration":1,"reason":"Continue the previously safe southern route to z=13.5.","start":1,"end":2,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_EAST","duration":1,"reason":"Continue along the previously safe southern route below the west elbow.","start":2,"end":3,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_EAST","duration":1,"reason":"Continue the proven safe southern route toward x=9.","start":3,"end":4,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_EAST","duration":1,"reason":"Continue the proven southern route to x=9 before turning north.","start":4,"end":5,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_NORTH","duration":1,"reason":"Follow the proven safe route north toward the timed crossing.","start":5,"end":6,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_NORTH","duration":1,"reason":"Continue the proven safe route to the timed crossing point at z=8.5.","start":6,"end":7,"feedback":"active"}
+{"id":"exploration-6","action":"WAIT","duration":0.2,"reason":"Use the previously successful timing before crossing east beneath the spine.","start":7,"end":7.2,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_EAST","duration":1,"reason":"Begin the previously successful timed crossing beneath the spine.","start":7.2,"end":8.2,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_EAST","duration":1,"reason":"Complete the proven timed crossing to the spine’s east end.","start":8.2,"end":9.200000000000001,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_NORTH","duration":0.2,"reason":"Advance cautiously around the spine while remaining outside R2's west-facing sight cone.","start":9.200000000000001,"end":9.4,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_EAST","duration":0.2,"reason":"Clear the spine’s east edge while staying beyond R4’s sight range.","start":9.4,"end":9.6,"feedback":"active"}
+{"id":"exploration-6","action":"MOVE_EAST","duration":0.5,"reason":"Move behind R2 before heading north, using the east baffle as a stopping boundary.","start":9.6,"end":9.67,"feedback":"seen"}
+{"id":"exploration-7","action":"MOVE_SOUTH","duration":1,"reason":"Take the proven safe southern route while staying behind R1.","start":0,"end":1,"feedback":"active"}
+{"id":"exploration-7","action":"MOVE_SOUTH","duration":1,"reason":"Continue the proven safe southern route to z=13.5.","start":1,"end":2,"feedback":"active"}
+{"id":"exploration-7","action":"MOVE_EAST","duration":1,"reason":"Continue the proven safe southern route toward x=9.","start":2,"end":3,"feedback":"active"}
+{"id":"exploration-7","action":"MOVE_EAST","duration":1,"reason":"Continue the proven safe southern route toward x=9.","start":3,"end":4,"feedback":"active"}
+{"id":"exploration-7","action":"MOVE_EAST","duration":1,"reason":"Continue the proven safe southern route to x=9.","start":4,"end":5,"feedback":"active"}
+{"id":"exploration-7","action":"MOVE_NORTH","duration":1,"reason":"Follow the proven safe route north to z=11.","start":5,"end":6,"feedback":"active"}
+{"id":"exploration-7","action":"MOVE_NORTH","duration":1,"reason":"Continue the proven safe route north to z=8.5.","start":6,"end":7,"feedback":"active"}
+{"id":"exploration-7","action":"WAIT","duration":0.2,"reason":"Let R3 turn away before the proven eastward crossing.","start":7,"end":7.2,"feedback":"active"}
+{"id":"exploration-7","action":"MOVE_EAST","duration":1,"reason":"Begin the previously safe timed crossing toward the spine’s east end.","start":7.2,"end":8.2,"feedback":"active"}
+{"id":"exploration-7","action":"MOVE_EAST","duration":1,"reason":"Complete the proven timed crossing to the spine’s east end.","start":8.2,"end":9.200000000000001,"feedback":"active"}
+{"id":"exploration-7","action":"MOVE_NORTH","duration":0.2,"reason":"Move to the previously safe holding point at the spine’s east edge.","start":9.200000000000001,"end":9.4,"feedback":"active"}
+{"id":"exploration-7","action":"MOVE_NORTH","duration":0.2,"reason":"Advance briefly around the spine while remaining outside R2's west-facing sight cone.","start":9.4,"end":9.6,"feedback":"active"}
+{"id":"exploration-7","action":"WAIT","duration":1,"reason":"Hold behind the spine edge while R2 continues west past this position.","start":9.6,"end":10.290000000000001,"feedback":"seen"}
+{"id":"exploration-8","action":"MOVE_SOUTH","duration":1,"reason":"Take the proven safe southern route away from R1.","start":0,"end":1,"feedback":"active"}
+{"id":"exploration-8","action":"MOVE_SOUTH","duration":1,"reason":"Continue the proven safe southern route to z=13.5.","start":1,"end":2,"feedback":"active"}
+{"id":"exploration-8","action":"MOVE_EAST","duration":1,"reason":"Follow the proven safe southern route toward x=9.","start":2,"end":3,"feedback":"active"}
+{"id":"exploration-8","action":"MOVE_EAST","duration":1,"reason":"Continue along the proven safe southern route toward x=9.","start":3,"end":4,"feedback":"active"}
+{"id":"exploration-8","action":"MOVE_EAST","duration":1,"reason":"Continue the proven safe southern route to x=9.","start":4,"end":5,"feedback":"active"}
+{"id":"exploration-8","action":"MOVE_NORTH","duration":1,"reason":"Continue the proven safe route north toward the timed crossing point at (9,8.5).","start":5,"end":6,"feedback":"active"}
+{"id":"exploration-8","action":"MOVE_NORTH","duration":1,"reason":"Continue the proven route to the safe crossing point at (9,8.5).","start":6,"end":7,"feedback":"active"}
+{"id":"exploration-8","action":"WAIT","duration":0.2,"reason":"Use the proven timing before crossing east behind R3.","start":7,"end":7.2,"feedback":"active"}
+{"id":"exploration-8","action":"MOVE_EAST","duration":1,"reason":"Begin the proven timed crossing east behind R3.","start":7.2,"end":8.2,"feedback":"active"}
+{"id":"exploration-8","action":"MOVE_EAST","duration":1,"reason":"Complete the proven timed crossing to x=14 before leaving the exposed lane.","start":8.2,"end":9.200000000000001,"feedback":"active"}
+{"id":"exploration-8","action":"MOVE_NORTH","duration":0.2,"reason":"Take the proven short move north into cover at the spine’s east edge.","start":9.200000000000001,"end":9.4,"feedback":"active"}
+{"id":"exploration-8","action":"MOVE_NORTH","duration":0.2,"reason":"Advance cautiously around the spine while remaining outside R2's west-facing sight cone.","start":9.4,"end":9.6,"feedback":"active"}
+{"id":"exploration-8","action":"WAIT","duration":0.5,"reason":"Let R2 pass west while remaining sheltered at the spine edge.","start":9.6,"end":10.1,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_SOUTH","duration":1,"reason":"Take the previously safe southern route away from R1's north-facing sight.","start":0,"end":1,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_SOUTH","duration":1,"reason":"Continue the proven safe southern route to z=13.5.","start":1,"end":2,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_EAST","duration":1,"reason":"Follow the proven safe southern route toward x=9.","start":2,"end":3,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_EAST","duration":1,"reason":"Continue along the proven safe southern route toward x=9.","start":3,"end":4,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_EAST","duration":1,"reason":"Continue the proven safe southern route to x=9.","start":4,"end":5,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_NORTH","duration":1,"reason":"Continue the proven safe route north toward the timed crossing point.","start":5,"end":6,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_NORTH","duration":1,"reason":"Continue the proven safe route to the timed crossing point at z=8.5.","start":6,"end":7,"feedback":"active"}
+{"id":"exploration-9","action":"WAIT","duration":0.2,"reason":"Use the proven timing pause before crossing east behind R3.","start":7,"end":7.2,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_EAST","duration":1,"reason":"Begin the proven timed crossing east behind R3.","start":7.2,"end":8.2,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_EAST","duration":1,"reason":"Complete the proven timed crossing to x=14 before leaving the exposed lane.","start":8.2,"end":9.200000000000001,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_NORTH","duration":0.2,"reason":"Move just north toward the spine’s east-edge cover on the proven safe path.","start":9.200000000000001,"end":9.4,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_NORTH","duration":0.2,"reason":"Continue north in short steps around the spine while outside R2’s west-facing cone.","start":9.4,"end":9.6,"feedback":"active"}
+{"id":"exploration-9","action":"MOVE_EAST","duration":0.2,"reason":"Clear the spine’s east edge with the previously safe short move.","start":9.6,"end":9.8,"feedback":"active"}
+{"id":"exploration-10","action":"MOVE_SOUTH","duration":1,"reason":"Take the proven safe southern route while R1 moves north away.","start":0,"end":1,"feedback":"active"}
+{"id":"exploration-10","action":"MOVE_SOUTH","duration":1,"reason":"Continue the proven safe southern route to pass below the west elbow.","start":1,"end":2,"feedback":"active"}
+{"id":"exploration-10","action":"MOVE_EAST","duration":1,"reason":"Follow the proven safe southern route below the west elbow.","start":2,"end":3,"feedback":"active"}
+{"id":"exploration-10","action":"MOVE_EAST","duration":1,"reason":"Continue the proven safe southern route below the west foot.","start":3,"end":4,"feedback":"active"}
+{"id":"exploration-10","action":"MOVE_EAST","duration":1,"reason":"Continue the proven safe southern route toward x=9.","start":4,"end":5,"feedback":"active"}
+{"id":"exploration-10","action":"MOVE_NORTH","duration":1,"reason":"Continue the proven safe route north toward the timed crossing at z=8.5.","start":5,"end":6,"feedback":"active"}
+{"id":"exploration-10","action":"MOVE_NORTH","duration":1,"reason":"Continue the proven safe route to the timed crossing point at (9, 8.5).","start":6,"end":7,"feedback":"active"}
+{"id":"exploration-10","action":"WAIT","duration":0.2,"reason":"Use the proven timing pause before crossing east behind R3.","start":7,"end":7.2,"feedback":"active"}
+{"id":"exploration-10","action":"MOVE_EAST","duration":1,"reason":"Begin the proven timed crossing east behind R3.","start":7.2,"end":8.2,"feedback":"active"}
+{"id":"exploration-10","action":"MOVE_EAST","duration":1,"reason":"Complete the proven timed crossing to x=14 before leaving the exposed lane.","start":8.2,"end":9.200000000000001,"feedback":"active"}
+{"id":"exploration-10","action":"MOVE_NORTH","duration":0.2,"reason":"Move to the proven safe position just beyond the spine’s east edge.","start":9.200000000000001,"end":9.4,"feedback":"active"}
+{"id":"exploration-10","action":"WAIT","duration":0.2,"reason":"Hold at the spine’s east-edge cover while R2 continues its westward pass.","start":9.4,"end":9.6,"feedback":"active"}
+{"id":"exploration-10","action":"WAIT","duration":1,"reason":"Stay in cover until R2 passes west, opening a safer northward route behind it.","start":9.6,"end":10.22,"feedback":"seen"}

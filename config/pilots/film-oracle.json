@@ -1,0 +1,9 @@
+{
+  "agent": "oracle",
+  "memory": "M2",
+  "maxAttempts": 1,
+  "maxTime": 20,
+  "maxActions": 100,
+  "masteryTrials": 0,
+  "transfer": []
+}

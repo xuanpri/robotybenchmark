@@ -1,0 +1,2 @@
+{"id":"exploration-1","condition":"M2","generated":{"observations":"Terminal position [2.574999999999996,8.5]","failure":"contact","next":"Avoid repeating MOVE_EAST near [1.5,8.5]","uncertainty":"Only locally observed positions are known."},"error":null}
+{"id":"exploration-2","condition":"M2","generated":{"observations":"Terminal position [2.574999999999996,8.5]","failure":"contact","next":"Avoid repeating MOVE_EAST near [1.5,8.5]","uncertainty":"Only locally observed positions are known."},"error":null}

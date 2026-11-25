@@ -1,0 +1,262 @@
+{
+  "results/pilot-film-mock": {
+    "exploration": {
+      "trials": 2,
+      "successes": 0,
+      "hpCharged": 20,
+      "meanSurvival": 0.43,
+      "meanRemainingDistance": 12.145189376868524,
+      "decisions": 2,
+      "acceptedActions": 2,
+      "reflectionCalls": 2,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.002114303999999947,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 191
+    }
+  },
+  "results/pilot-film-oracle": {
+    "exploration": {
+      "trials": 1,
+      "successes": 1,
+      "hpCharged": 0,
+      "meanSurvival": 11.75,
+      "meanRemainingDistance": 0.624999999999897,
+      "decisions": 33,
+      "acceptedActions": 33,
+      "reflectionCalls": 1,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.009628353000000062,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 0
+    }
+  },
+  "results/pilot-film-random": {
+    "exploration": {
+      "trials": 2,
+      "successes": 0,
+      "hpCharged": 20,
+      "meanSurvival": 3,
+      "meanRemainingDistance": 13.681483635973832,
+      "decisions": 14,
+      "acceptedActions": 14,
+      "reflectionCalls": 2,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.005761524999999892,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 226
+    }
+  },
+  "results/pilot-heuristic-M0": {
+    "exploration": {
+      "trials": 10,
+      "successes": 0,
+      "hpCharged": 100,
+      "meanSurvival": 1.7,
+      "meanRemainingDistance": 11.950418402717103,
+      "decisions": 90,
+      "acceptedActions": 90,
+      "reflectionCalls": 0,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.02381184500000052,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 0
+    }
+  },
+  "results/pilot-heuristic-M1": {
+    "exploration": {
+      "trials": 10,
+      "successes": 0,
+      "hpCharged": 100,
+      "meanSurvival": 1.7,
+      "meanRemainingDistance": 11.866145035332634,
+      "decisions": 90,
+      "acceptedActions": 90,
+      "reflectionCalls": 0,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.03686699699999985,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 4089
+    }
+  },
+  "results/pilot-heuristic-M2": {
+    "exploration": {
+      "trials": 10,
+      "successes": 0,
+      "hpCharged": 100,
+      "meanSurvival": 4.638,
+      "meanRemainingDistance": 13.280331319861304,
+      "decisions": 236,
+      "acceptedActions": 236,
+      "reflectionCalls": 10,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.06579032300000057,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 1867
+    }
+  },
+  "results/pilot-logged-replay": {
+    "exploration": {
+      "trials": 1,
+      "successes": 0,
+      "hpCharged": 10,
+      "meanSurvival": 0.43,
+      "meanRemainingDistance": 12.145189376868524,
+      "decisions": 1,
+      "acceptedActions": 1,
+      "reflectionCalls": 0,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.0007649589999999762,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 0
+    }
+  },
+  "results/pilot-oracle-verification": {
+    "exploration": {
+      "trials": 1,
+      "successes": 1,
+      "hpCharged": 0,
+      "meanSurvival": 11.75,
+      "meanRemainingDistance": 0.624999999999897,
+      "decisions": 33,
+      "acceptedActions": 33,
+      "reflectionCalls": 0,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.011979780000000006,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 0
+    },
+    "mastery": {
+      "trials": 3,
+      "successes": 3,
+      "hpCharged": 0,
+      "meanSurvival": 11.75,
+      "meanRemainingDistance": 0.624999999999897,
+      "decisions": 99,
+      "acceptedActions": 99,
+      "reflectionCalls": 0,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.023327708999999572,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 0
+    },
+    "transfer-PhaseShift": {
+      "trials": 1,
+      "successes": 0,
+      "hpCharged": 10,
+      "meanSurvival": 0,
+      "meanRemainingDistance": 13.038404810405298,
+      "decisions": 0,
+      "acceptedActions": 0,
+      "reflectionCalls": 0,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0,
+      "modelSeconds": 0,
+      "memoryUnit": null,
+      "peakMemoryUnits": 0
+    },
+    "transfer-FreshDynamics": {
+      "trials": 1,
+      "successes": 1,
+      "hpCharged": 0,
+      "meanSurvival": 18.150000000000002,
+      "meanRemainingDistance": 0.6249999999999432,
+      "decisions": 67,
+      "acceptedActions": 67,
+      "reflectionCalls": 0,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.01563829799999985,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 0
+    }
+  },
+  "results/pilot-random-M0": {
+    "exploration": {
+      "trials": 10,
+      "successes": 0,
+      "hpCharged": 100,
+      "meanSurvival": 4.577,
+      "meanRemainingDistance": 12.612017605223969,
+      "decisions": 103,
+      "acceptedActions": 103,
+      "reflectionCalls": 0,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.023757778999999913,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 0
+    }
+  },
+  "results/pilot-random-M1": {
+    "exploration": {
+      "trials": 10,
+      "successes": 0,
+      "hpCharged": 100,
+      "meanSurvival": 4.577,
+      "meanRemainingDistance": 12.612017605223969,
+      "decisions": 103,
+      "acceptedActions": 103,
+      "reflectionCalls": 0,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.04271423899999968,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 4049
+    }
+  },
+  "results/pilot-random-M2": {
+    "exploration": {
+      "trials": 10,
+      "successes": 0,
+      "hpCharged": 100,
+      "meanSurvival": 4.577,
+      "meanRemainingDistance": 12.612017605223969,
+      "decisions": 103,
+      "acceptedActions": 103,
+      "reflectionCalls": 10,
+      "llmCalls": 0,
+      "promptTokens": 0,
+      "outputTokens": 0,
+      "pipelineSeconds": 0.033072163000000106,
+      "modelSeconds": 0,
+      "memoryUnit": "utf8-byte",
+      "peakMemoryUnits": 2027
+    }
+  }
+}

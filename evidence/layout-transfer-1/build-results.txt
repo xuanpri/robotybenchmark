@@ -1,0 +1,44 @@
+
+> multi-robot-stealth-arena@1.0.0 build
+> tsc --noEmit && vite build
+
+vite v6.3.6 building for production...
+transforming...
+✓ 38 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                0.48 kB │ gzip:   0.31 kB
+dist/studio.html                               1.62 kB │ gzip:   0.85 kB
+dist/assets/B-N2-P1.replay-BYpyubQ5.json      93.66 kB │ gzip:   6.58 kB
+dist/assets/C-N2-P1.replay-CeLk9Nx9.json      93.66 kB │ gzip:   6.59 kB
+dist/assets/A-N2-P1.replay-qPwM8Hx7.json      93.72 kB │ gzip:   6.63 kB
+dist/assets/B-N2-P2.replay-CQ-wmg6b.json      94.16 kB │ gzip:   6.53 kB
+dist/assets/C-N2-P2.replay-BrFP_yeK.json      94.16 kB │ gzip:   6.55 kB
+dist/assets/A-N2-P2.replay-3B8oG3bk.json      94.22 kB │ gzip:   6.59 kB
+dist/assets/B-N4-P1.replay-C5VB3Ic2.json     133.61 kB │ gzip:  10.95 kB
+dist/assets/C-N4-P1.replay-CzcUs3TZ.json     133.61 kB │ gzip:  10.96 kB
+dist/assets/A-N4-P1.replay-C0pysgcq.json     133.67 kB │ gzip:  11.00 kB
+dist/assets/B-N4-P2.replay-B-wKdZy4.json     134.97 kB │ gzip:  10.93 kB
+dist/assets/C-N4-P2.replay-CpdE0Dq8.json     134.97 kB │ gzip:  10.94 kB
+dist/assets/A-N4-P2.replay-CwX8TGGv.json     135.03 kB │ gzip:  10.98 kB
+dist/assets/scene_demo.replay-B2QhNGJf.json  713.33 kB │ gzip:  40.67 kB
+dist/assets/arena-BNq--8Tu.css                 4.59 kB │ gzip:   1.74 kB
+dist/assets/A-N2-P1.replay-B08e8gDz.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/A-N2-P2.replay-B5Z2gxc_.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/A-N4-P1.replay-SeNJxa4x.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/A-N4-P2.replay-CIQ753gk.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/B-N2-P1.replay-BR1Tw7kB.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/B-N2-P2.replay-Cy1SNtHS.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/B-N4-P1.replay-D-wa5fgI.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/B-N4-P2.replay-BUSW1J1a.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/C-N2-P1.replay-CphkURCg.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/C-N2-P2.replay-C4_hdd0a.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/C-N4-P1.replay-DHPknAa4.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/C-N4-P2.replay-DZCYDojY.js         0.07 kB │ gzip:   0.09 kB
+dist/assets/B-N0-P1.replay-Chu4Yodk.js         1.71 kB │ gzip:   0.95 kB
+dist/assets/C-N0-P1.replay-DBna1vWA.js         1.71 kB │ gzip:   0.96 kB
+dist/assets/A-N0-P1.replay-Bd38Yybc.js         1.79 kB │ gzip:   1.01 kB
+dist/assets/studio-BtsmH-AA.js                 8.76 kB │ gzip:   3.60 kB
+dist/assets/arena-BklTnG2I.js                 12.81 kB │ gzip:   5.38 kB
+dist/assets/render-AjfPjwEp.js               489.96 kB │ gzip: 124.78 kB
+✓ built in 1.73s

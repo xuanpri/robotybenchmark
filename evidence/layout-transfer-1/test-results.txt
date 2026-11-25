@@ -1,0 +1,47 @@
+
+> multi-robot-stealth-arena@1.0.0 test
+> node --import tsx --test --test-isolation=none tests/*.test.ts
+
+✔ remote adapter logs only a redacted response on auth failure and preserves HP/clock (92.114865ms)
+✔ combined A/B cap and smoke cap count physical calls before dispatch (15.244062ms)
+✔ same saved response is reused; mismatched task cannot replace a billed request (2.272823ms)
+✔ omniscient and limited tracks receive the corresponding current projection and no private patrol parameters (12.454341ms)
+✔ a frozen replay cannot send a request, and manual recovery retains the failed reservation (4.331525ms)
+✔ persistent throttling stops after two metered requests and no world step (1506.478618ms)
+✔ headless Oracle replay reaches exit with all four robots and both failure rules enabled (141.751495ms)
+✔ map has alternative routes through opposite sides of the central partition (2.180868ms)
+✔ seeded jitter and identical actions reproduce a complete episode; attempts capped (2.382445ms)
+✔ independent 24 × 16 room has four separately configured patrols and an enclosed perimeter (0.328426ms)
+✔ long actions stop on the first terminal substep, identical to short controls (2.045221ms)
+✔ HP charged once, memory conditions isolated, public requests exclude private frames, stable resume (30.369569ms)
+✔ invalid and uncertain interrupted responses are charged explicitly and never execute another policy (5.793506ms)
+✔ three reset protocols and whole-record memory cap (0.83744ms)
+✔ Oracle verification and transfer have independent budgets and protected success (711.768044ms)
+✔ loopback adapter receives public information and meters the model-selected action and reflection separately (11.141714ms)
+✔ provider-side refusal/truncation never becomes an executed action (9.446828ms)
+✔ resume reuses saved response, completes interrupted attempt, and preserves a sealed attempt (11.278048ms)
+✔ public history contains decision samples only; invalid granularity fails before any movement (1.05633ms)
+✔ time/action and token budget failures consume only one trial without silently moving (6.581719ms)
+✔ swept player cannot tunnel through a wall and can slide parallel (0.391962ms)
+✔ all patrol legs clear walls over a complete cycle and repeat (2.734468ms)
+✔ explicit longer cycle adds a dwell at the first waypoint while preserving leg speed (0.66815ms)
+✔ walls clip both player observation and the effective 90 degree vision cone (0.386324ms)
+✔ unobstructed vision ends vision/both runs, contact mode ignores it (0.375321ms)
+✔ contact in the middle of a fast action ends it before the endpoint (0.33648ms)
+✔ vision can discover the player mid-action with endpoints outside the cone (0.435707ms)
+✔ 15 registered scenes reproduce real outcomes with model-legal actions, including N0 (36.42763ms)
+✔ provider interruption freezes elapsed time and HP (3.00572ms)
+✔ 60 waits survive arbitrarily high cumulative tokens; online lesson reaches next reset and success snapshot (99.304957ms)
+✔ interrupted mandatory reflection preserves actual terminal failure but never starts a new attempt (2.865501ms)
+✔ receipt replay uses recorded model response and rejects mismatched or unknown in-flight calls (2.558864ms)
+✔ limited observations and their history omit hidden robots entirely while they move (1.431789ms)
+✔ switching views cannot advance time or change the world (0.527615ms)
+✔ wall hides a patrol from a nearby agent despite range; read-only observation is idempotent (0.722938ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3029.772796

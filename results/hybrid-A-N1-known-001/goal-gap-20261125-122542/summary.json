@@ -1,0 +1,122 @@
+{
+  "S00_control": {
+    "answer": "{\"action\":\"MOVE_NORTH\",\"duration\":1,\"reason\":\"Advance up the west corridor; the records wall will block patrol vision as you move ahead.\"}",
+    "usage": {
+      "completion_tokens": 539,
+      "prompt_tokens": 2455,
+      "total_tokens": 2994,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 498,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.102258"
+    },
+    "added_prompt": ""
+  },
+  "S10_safety_only": {
+    "answer": "{\"action\":\"MOVE_NORTH\",\"duration\":0.5,\"reason\":\"Advance safely toward the records wall while remaining outside the patrol's vision cone.\"}",
+    "usage": {
+      "completion_tokens": 1588,
+      "prompt_tokens": 2468,
+      "total_tokens": 4056,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1536,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.206662"
+    },
+    "added_prompt": "Safety throughout the entire action is mandatory."
+  },
+  "S01_progress_only": {
+    "answer": "{\"action\":\"MOVE_NORTH\",\"duration\":1,\"reason\":\"Maximum northward advance; lateral separation and the records wall prevent patrol contact and vision.\"}",
+    "usage": {
+      "completion_tokens": 552,
+      "prompt_tokens": 2469,
+      "total_tokens": 3021,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.103828"
+    },
+    "added_prompt": "Among safe actions, maximize northward displacement."
+  },
+  "S11_safety_and_progress": {
+    "answer": "{\"action\":\"MOVE_NORTH\",\"duration\":1,\"reason\":\"Maximum safe northward advance; the records wall blocks the patrol's vision as its cone aligns.\"}",
+    "usage": {
+      "completion_tokens": 521,
+      "prompt_tokens": 2477,
+      "total_tokens": 2998,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 479,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0,
+      "cost": "¥0.100908"
+    },
+    "added_prompt": "Safety throughout the entire action is mandatory.\nAmong safe actions, maximize northward displacement."
+  }
+}

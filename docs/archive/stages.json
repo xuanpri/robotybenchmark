@@ -1,0 +1,116 @@
+{
+  "00-environment": {
+    "date": "2026-11-24",
+    "title": "仿真、权限与可解性验收",
+    "original_paths": [
+      "evidence/oracle-seed-1.json",
+      "evidence/tests.txt",
+      "evidence/browser-check.json",
+      "evidence/omniscient.png",
+      "evidence/limited.png",
+      "evidence/debug.png",
+      "evidence/videos",
+      "src/sim",
+      "src/view",
+      "tests/motion.test.ts",
+      "tests/visibility.test.ts",
+      "tests/episode.test.ts"
+    ],
+    "archive_mode": "in-place-index"
+  },
+  "01-programmatic-learning": {
+    "date": "2026-11-24",
+    "title": "程序化记忆、重试、掌握与导出验收",
+    "original_paths": [
+      "config/pilots",
+      "config/learning.json",
+      "results/pilot-random-M0",
+      "results/pilot-random-M1",
+      "results/pilot-random-M2",
+      "results/pilot-heuristic-M0",
+      "results/pilot-heuristic-M1",
+      "results/pilot-heuristic-M2",
+      "results/pilot-oracle-verification",
+      "results/pilot-logged-replay",
+      "results/pilot-film-mock",
+      "results/pilot-film-random",
+      "results/pilot-film-oracle",
+      "evidence/learning-comparison.jsonl",
+      "evidence/learning-stage-stats.json",
+      "evidence/learning-replay-checks.txt",
+      "evidence/learning-tests.txt",
+      "evidence/video-verification.json",
+      "evidence/film-manifest.json",
+      "LEARNING.md",
+      "LEARNING-REPORT.md"
+    ],
+    "archive_mode": "in-place-index"
+  },
+  "02-real-model-navigation": {
+    "date": "2026-11-24",
+    "title": "真实模型 smoke/A/B 导航与事后反思",
+    "original_paths": [
+      "config/dmx-pilot.json",
+      "results/real-dmx-pilot",
+      "REAL-AGENT-PILOT.md",
+      "scripts/dmx-pilot-findings.md"
+    ],
+    "archive_mode": "in-place-index"
+  },
+  "03-layout-transfer": {
+    "date": "2026-11-24",
+    "title": "多布局 G3 源学习与迁移",
+    "original_paths": [
+      "config/study/design.json",
+      "results/layout-transfer-1",
+      "evidence/layout-transfer-1",
+      "EXPERIMENT-PROTOCOL.md",
+      "SCENE-REGISTRY.md",
+      "ACQUISITION-RESULTS.md",
+      "TRANSFER-RESULTS.md",
+      "MEMORY-ANALYSIS.md",
+      "MULTI-SCENE-LEARNING-STUDY.md",
+      "VIDEO-INDEX.md"
+    ],
+    "archive_mode": "in-place-index"
+  },
+  "04-rule-audit": {
+    "date": "2026-11-24",
+    "title": "规则缺项、失败重放与 D0–D5 题目草稿",
+    "original_paths": [
+      "scripts/rule-audit.ts",
+      "evidence/rule-audit",
+      "GAME-RULE-AND-FAILURE-AUDIT.md"
+    ],
+    "archive_mode": "in-place-index"
+  },
+  "05-hybrid-diagnostics": {
+    "date": "2026-11-25",
+    "title": "单机器人混合输入与预测/风险/目标拆解",
+    "original_paths": [
+      "config/study/hybrid-single.json",
+      "config/study/hybrid-known.json",
+      "scripts/hybrid-single.ts",
+      "scripts/hybrid-single.ts.bak",
+      "results/hybrid-A-N1-001",
+      "results/hybrid-A-N1-known-001"
+    ],
+    "archive_mode": "in-place-index"
+  },
+  "06-hint-prediction-P": {
+    "date": "2026-11-25",
+    "title": "Hint-based Future Prediction：P0–P5",
+    "original_paths": [
+      "results/hint-prediction-pilot-20261125-123433"
+    ],
+    "archive_mode": "in-place-index"
+  },
+  "07-temporal-counterfactual-T": {
+    "date": "2026-11-25",
+    "title": "Hint-based Future Prediction：T1–T3 时间顺序反事实",
+    "original_paths": [
+      "results/temporal-counterfactual-20261125-123924"
+    ],
+    "archive_mode": "in-place-index"
+  }
+}

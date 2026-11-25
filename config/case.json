@@ -1,0 +1,1 @@
+{"robotCount":4,"robotRadius":0.34,"playerRadius":0.28,"playerSpeed":2.5,"visionDegrees":90,"visionRange":5,"playerRange":6,"failure":"both","observation":"limited","publishRules":false,"phaseJitter":0,"maxTime":90,"maxAttempts":1}

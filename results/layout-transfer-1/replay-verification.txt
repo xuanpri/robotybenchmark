@@ -1,0 +1,5 @@
+A-N0-G3-source confirmed 1 replayed attempt(s) and all associated prompt projections
+A-N2-G3-source confirmed 10 replayed attempt(s) and all associated prompt projections
+A-N4-G3-source confirmed 10 replayed attempt(s) and all associated prompt projections
+B-N0-G3-scratch confirmed 1 replayed attempt(s) and all associated prompt projections
+B-N0-G3-transfer confirmed 1 replayed attempt(s) and all associated prompt projections

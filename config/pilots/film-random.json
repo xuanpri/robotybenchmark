@@ -1,0 +1,9 @@
+{
+  "agent": "random",
+  "memory": "M2",
+  "maxAttempts": 2,
+  "maxTime": 3,
+  "maxActions": 100,
+  "masteryTrials": 0,
+  "transfer": []
+}

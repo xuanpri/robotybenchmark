@@ -1,0 +1,4 @@
+n,transferSuccess,scratchSuccess,transferTargetCNY,scratchTargetCNY,sourceCNY,sourceStatus,sourceFirst,budget,transfer,scratch,transferStatus,scratchStatus,firstAttemptTransfer,retentionOnly,hpTransfer,hpScratch,memoryTransferInput,memoryScratchInput,memoryTransferEnd,memoryScratchEnd,combinedTransferCNY,combinedScratchCNY
+0,True,True,0.365768,0.382176,0.34419,acquired,1,1,1,1,acquired,acquired,True,True,0,0,397,2,793,433,0.709958,0.726366
+2,,,0.0,0.0,12.0698,not_acquired,,,,,source_not_acquired,source_not_acquired,,,,,,,,,,
+4,,,0.0,0.0,7.698154,not_acquired,,,,,source_not_acquired,source_not_acquired,,,,,,,,,,

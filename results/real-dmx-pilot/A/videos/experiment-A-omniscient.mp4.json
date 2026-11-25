@@ -1,0 +1,21 @@
+{
+  "input": "results/real-dmx-pilot/A/replay.json",
+  "layout": "omniscient",
+  "timing": "simulation",
+  "frames": 365,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "seed": [
+    1
+  ],
+  "encoder": "OpenCV FFmpeg CPU mp4v",
+  "renderer": "Chromium ANGLE SwiftShader",
+  "command": [
+    "/home/jiaxuanren/interview/MultiRobotStealthArena/scripts/video.cjs",
+    "results/real-dmx-pilot/A/replay.json",
+    "results/real-dmx-pilot/A/videos/experiment-A-omniscient.mp4",
+    "omniscient",
+    "simulation"
+  ]
+}

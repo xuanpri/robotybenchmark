@@ -1,0 +1,107 @@
+{
+  "videos": {
+    "evidence/videos/oracle_success.mp4": {
+      "frames": 401,
+      "seconds": 13.366666666666667
+    },
+    "evidence/videos/oracle_without_wait.mp4": {
+      "frames": 79,
+      "seconds": 2.6333333333333333
+    },
+    "evidence/videos/scene_demo.mp4": {
+      "frames": 1200,
+      "seconds": 40.0
+    },
+    "results/pilot-film-mock/videos/learning-attempt-001.mp4": {
+      "frames": 61,
+      "seconds": 2.033333333333333
+    },
+    "results/pilot-film-mock/videos/learning-attempt-002.mp4": {
+      "frames": 61,
+      "seconds": 2.033333333333333
+    },
+    "results/pilot-film-mock/videos/learning.mp4": {
+      "frames": 122,
+      "seconds": 4.066666666666666
+    },
+    "results/pilot-film-mock/videos/limited-wall-clock.mp4": {
+      "frames": 122,
+      "seconds": 4.066666666666666
+    },
+    "results/pilot-film-oracle/videos/learning-attempt-001.mp4": {
+      "frames": 401,
+      "seconds": 13.366666666666667
+    },
+    "results/pilot-film-oracle/videos/learning.mp4": {
+      "frames": 401,
+      "seconds": 13.366666666666667
+    },
+    "results/pilot-film-random/videos/learning-attempt-001.mp4": {
+      "frames": 138,
+      "seconds": 4.6
+    },
+    "results/pilot-film-random/videos/learning-attempt-002.mp4": {
+      "frames": 138,
+      "seconds": 4.6
+    },
+    "results/pilot-film-random/videos/learning.mp4": {
+      "frames": 276,
+      "seconds": 9.2
+    },
+    "results/pilot-heuristic-M2/videos/learning-attempt-001.mp4": {
+      "frames": 99,
+      "seconds": 3.3
+    },
+    "results/pilot-heuristic-M2/videos/learning-attempt-002.mp4": {
+      "frames": 99,
+      "seconds": 3.3
+    },
+    "results/pilot-heuristic-M2/videos/learning-attempt-003.mp4": {
+      "frames": 119,
+      "seconds": 3.966666666666667
+    },
+    "results/pilot-heuristic-M2/videos/learning-attempt-004.mp4": {
+      "frames": 161,
+      "seconds": 5.366666666666666
+    },
+    "results/pilot-heuristic-M2/videos/learning-attempt-005.mp4": {
+      "frames": 182,
+      "seconds": 6.066666666666666
+    },
+    "results/pilot-heuristic-M2/videos/learning-attempt-006.mp4": {
+      "frames": 202,
+      "seconds": 6.733333333333333
+    },
+    "results/pilot-heuristic-M2/videos/learning-attempt-007.mp4": {
+      "frames": 223,
+      "seconds": 7.433333333333334
+    },
+    "results/pilot-heuristic-M2/videos/learning-attempt-008.mp4": {
+      "frames": 244,
+      "seconds": 8.133333333333333
+    },
+    "results/pilot-heuristic-M2/videos/learning-attempt-009.mp4": {
+      "frames": 264,
+      "seconds": 8.8
+    },
+    "results/pilot-heuristic-M2/videos/learning-attempt-010.mp4": {
+      "frames": 281,
+      "seconds": 9.366666666666667
+    },
+    "results/pilot-heuristic-M2/videos/learning.mp4": {
+      "frames": 1874,
+      "seconds": 62.46666666666667
+    }
+  },
+  "mock_hp_pixels": [
+    180,
+    162,
+    162,
+    144
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30
+}
