@@ -1,0 +1,375 @@
+{
+  "attempt": 1,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 4,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 5,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 6,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 7,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 8,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 9,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 10,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 11,
+      "player": [
+        6,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 12,
+      "player": [
+        7,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 13,
+      "player": [
+        8,
+        3
+      ],
+      "outcome": "success",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Robot moves south from [5,1] to [5,2]. Player advances safely to [2,3], outside its forward vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Robot moves south one cell to [5,3]. Player advances to [3,3], avoiding collision, edge swap, and the robot's south-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "With all counters zero, the robot moves south to [5,4]. The player advances to [4,3], avoiding collision, edge swap, and the robot's south-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "Robot moves south to [5,5] and immediately reverses to N at the zero-pause endpoint. Moving RIGHT to [5,3] would enter its updated north-facing vision ray, so waiting at [4,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "The robot's northbound cooldown is 1, so it remains at [5,5] facing N while the cooldown decrements. Moving RIGHT to [5,3] would enter its updated north-facing vision ray; waiting at [4,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "With cooldown zero, the robot moves north to [5,4] and sets northbound cooldown to 1. Its updated north-facing vision covers [5,3], so crossing the door now would be fatal; waiting at [4,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "The positive northbound cooldown decrements from 1 to 0, so the robot remains at [5,4] facing N. Its vision covers [5,3], making a RIGHT move fatal; waiting at [4,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "With cooldown zero, the robot moves north to [5,3] and sets cooldown to 1. Moving RIGHT would cause a same-cell collision, so waiting at [4,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "The positive northbound cooldown decrements from 1 to 0, so the robot remains at [5,3] facing N. Moving RIGHT would cause a same-cell collision; waiting at [4,3] is safe."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "With cooldown zero, the robot moves north from [5,3] to [5,2] and sets cooldown to 1. The player crosses the opaque door to [5,3], with no same-cell collision or edge swap, and remains behind the robot outside its updated north-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The robot's positive northbound cooldown decrements from 1 to 0, so it stays at [5,2] facing N. Moving RIGHT to [6,3] avoids collision and lies outside its north-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "With all counters zero, the robot moves north to [5,1] and sets its northbound cooldown to 1. The player advances to [7,3], avoiding collision, edge swap, and the robot's north-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The positive northbound cooldown decrements from 1 to 0, so the robot remains at [5,1] facing N. The player moves right to the exit at [8,3], avoiding collision, edge swap, and the robot's north-facing vision ray."
+    }
+  ],
+  "failureReason": null
+}

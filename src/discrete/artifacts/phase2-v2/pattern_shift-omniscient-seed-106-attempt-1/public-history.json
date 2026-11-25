@@ -1,0 +1,213 @@
+{
+  "attempt": 1,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 4,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 5,
+      "player": [
+        6,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 6,
+      "player": [
+        7,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    },
+    {
+      "tick": 7,
+      "player": [
+        8,
+        3
+      ],
+      "outcome": "success",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "source": "global"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Robot moves south one cell; advancing to [2,3] remains outside its forward vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "With zero counters, the robot moves south to [5,2]. Moving to [3,3] avoids collision and its south-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The robot moves south to [5,3]. Advancing to [4,3] avoids collision and is behind its south-facing vision ray; the opaque door also blocks sight across the [4,3]-[5,3] edge."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The robot moves south to [5,4]. Crossing the opaque door to [5,3] avoids collision and is behind its south-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The robot moves south to [5,5] and immediately reverses to N at the endpoint. Moving east to [6,3] avoids its north-facing vision ray and advances toward the exit."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The positive cooldown decrements, so the robot remains at [5,5] facing north. Moving to [7,3] avoids its north-facing vision ray and advances toward the exit."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "With all counters at zero, the robot moves north to [5,4] and sets its northbound cooldown. Moving right reaches the exit at [8,3] without collision, edge swap, or entering its vision ray."
+    }
+  ],
+  "failureReason": null
+}

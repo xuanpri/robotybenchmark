@@ -1,0 +1,22 @@
+{
+  passed: true,
+  runs: 105,
+  requests: 848,
+  hiddenRequestsMutationChecked: 650,
+  checks: [
+    'seed/attempt world reconstruction',
+    'private state replay',
+    'exact wire reconstruction',
+    'public-only historical memory',
+    'hidden truth and mode noninterference',
+    'prediction/visibility/age metrics',
+    'one-step counterfactual attribution'
+  ]
+}
+(node:4146333) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+replay pure_random-partial-unknown-passive-seed-102-attempt-5 195 frames
+replay identical_loop-partial-unknown-interactive-seed-101-attempt-1 165 frames
+replay parametric_shift-partial-unknown-interactive-seed-102-attempt-3 225 frames
+replay pattern_shift-partial-unknown-interactive-seed-102-attempt-2 165 frames
+replay pure_random-partial-unknown-passive-seed-101-attempt-2 150 frames

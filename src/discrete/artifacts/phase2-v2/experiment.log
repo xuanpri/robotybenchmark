@@ -1,0 +1,1228 @@
+✔ asymmetric loop: north reverses on arrival; south stays three transitions before reversing (3.502509ms)
+✔ all four modes replay identically for each (seed,attempt), with action-independent robot futures (22.269037ms)
+✔ identical reuses the same phase and future; shifted modes resample or cycle patterns (4.943029ms)
+✔ asymmetric speed, alternating endpoint pauses and midline stutter have exact transitions (0.405457ms)
+✔ random transition is legal; stays preserve heading and moves set heading (9.605916ms)
+✔ same corridor and opaque passable door; extended patrol endpoints only (0.497579ms)
+✔ zero-cost gates solve all 90 predictable instances and defeat all three shortcut policies (38.737608ms)
+✔ unknown prompts and cross-attempt memories are invariant to arbitrary private mode/seed/state (12.517071ms)
+✔ PEEK yields exactly one current sighting and is rejected in noninteractive schema (0.713526ms)
+✔ Omniscient exception supplies rules and counters but no mode labels or future states (0.950513ms)
+✔ finite-horizon random probabilities are in range and match independent blind-rush enumeration (1.725381ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 308.718829
+(node:4072379) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Zero-cost gates 90/90 [
+  [ 'Blind-Rush', 0 ],
+  [ 'Memoryless-Reactive', 0 ],
+  [ 'Symmetric-Prior-Heuristic', 2 ]
+]
+(node:4072347) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+pattern_shift Omniscient seed 102 attempt 1 tick 1 RIGHT running
+pattern_shift Omniscient seed 103 attempt 1 tick 1 RIGHT running
+pattern_shift Omniscient seed 101 attempt 1 tick 1 RIGHT running
+pattern_shift Omniscient seed 106 attempt 1 tick 1 RIGHT running
+pattern_shift Omniscient seed 104 attempt 1 tick 1 RIGHT running
+pattern_shift Omniscient seed 105 attempt 1 tick 1 RIGHT running
+pattern_shift Omniscient seed 106 attempt 1 tick 2 RIGHT running
+pattern_shift Omniscient seed 102 attempt 1 tick 2 RIGHT running
+pattern_shift Omniscient seed 101 attempt 1 tick 2 RIGHT running
+pattern_shift Omniscient seed 105 attempt 1 tick 2 RIGHT running
+pattern_shift Omniscient seed 104 attempt 1 tick 2 RIGHT running
+pattern_shift Omniscient seed 103 attempt 1 tick 2 RIGHT running
+pattern_shift Omniscient seed 104 attempt 1 tick 3 RIGHT running
+pattern_shift Omniscient seed 102 attempt 1 tick 3 RIGHT running
+pattern_shift Omniscient seed 105 attempt 1 tick 3 RIGHT running
+pattern_shift Omniscient seed 106 attempt 1 tick 3 RIGHT running
+pattern_shift Omniscient seed 103 attempt 1 tick 3 RIGHT running
+pattern_shift Omniscient seed 101 attempt 1 tick 3 RIGHT running
+pattern_shift Omniscient seed 106 attempt 1 tick 4 RIGHT running
+pattern_shift Omniscient seed 101 attempt 1 tick 4 RIGHT running
+pattern_shift Omniscient seed 103 attempt 1 tick 4 WAIT running
+pattern_shift Omniscient seed 104 attempt 1 tick 4 RIGHT running
+pattern_shift Omniscient seed 102 attempt 1 tick 4 WAIT running
+pattern_shift Omniscient seed 105 attempt 1 tick 4 RIGHT running
+pattern_shift Omniscient seed 104 attempt 1 tick 5 RIGHT running
+pattern_shift Omniscient seed 106 attempt 1 tick 5 RIGHT running
+pattern_shift Omniscient seed 103 attempt 1 tick 5 RIGHT running
+pattern_shift Omniscient seed 101 attempt 1 tick 5 RIGHT running
+pattern_shift Omniscient seed 105 attempt 1 tick 5 RIGHT running
+pattern_shift Omniscient seed 104 attempt 1 tick 6 RIGHT running
+pattern_shift Omniscient seed 102 attempt 1 tick 5 WAIT running
+pattern_shift Omniscient seed 103 attempt 1 tick 6 RIGHT running
+pattern_shift Omniscient seed 104 attempt 1 tick 7 RIGHT success
+pattern_shift Omniscient seed 106 attempt 1 tick 6 RIGHT running
+pattern_shift Omniscient seed 105 attempt 1 tick 6 RIGHT running
+pattern_shift Omniscient seed 101 attempt 1 tick 6 RIGHT running
+pattern_shift Omniscient seed 103 attempt 1 tick 7 RIGHT running
+pattern_shift Omniscient seed 101 attempt 1 tick 7 RIGHT success
+pattern_shift Omniscient seed 102 attempt 1 tick 6 WAIT running
+pattern_shift Omniscient seed 106 attempt 1 tick 7 RIGHT success
+pattern_shift Omniscient seed 105 attempt 1 tick 7 RIGHT success
+pattern_shift Omniscient seed 103 attempt 1 tick 8 RIGHT success
+pattern_shift Omniscient seed 102 attempt 1 tick 7 WAIT running
+pattern_shift Omniscient seed 102 attempt 1 tick 8 WAIT running
+pattern_shift Omniscient seed 102 attempt 1 tick 9 WAIT running
+pattern_shift Omniscient seed 102 attempt 1 tick 10 RIGHT running
+pattern_shift Omniscient seed 102 attempt 1 tick 11 RIGHT running
+pattern_shift Omniscient seed 102 attempt 1 tick 12 RIGHT running
+pattern_shift Omniscient seed 102 attempt 1 tick 13 RIGHT success
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 1 tick 4 RIGHT vision
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 101 attempt 1 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 4 RIGHT collision
+identical_loop Partial-unknown-passive seed 102 attempt 1 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 5 WAIT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 5 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 1 tick 5 RIGHT collision
+identical_loop Partial-unknown-passive seed 103 attempt 2 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 1 tick 5 RIGHT vision
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 6 WAIT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 6 WAIT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 7 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 2 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 7 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 1 WAIT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 8 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 8 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 2 WAIT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 9 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 3 WAIT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 10 RIGHT success
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 9 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 2 tick 3 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 4 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 10 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 5 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 11 RIGHT success
+identical_loop Partial-unknown-passive seed 103 attempt 2 tick 4 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 5 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 6 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 6 WAIT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 5 WAIT running
+identical_loop Partial-unknown-passive seed 103 attempt 2 tick 5 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 7 WAIT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 6 WAIT running
+identical_loop Partial-unknown-passive seed 103 attempt 2 tick 6 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 7 WAIT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 8 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 2 tick 7 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 7 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 8 RIGHT vision
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 9 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 2 tick 8 RIGHT success
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 10 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 1 WAIT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 8 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 2 WAIT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 11 RIGHT success
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 9 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 4 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 5 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 10 RIGHT success
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 6 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 7 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 8 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 9 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 10 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 11 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 12 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 13 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 14 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 15 RIGHT success
+identical_loop Partial-unknown-interactive seed 105 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-interactive seed 101 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-interactive seed 106 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-interactive seed 103 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-interactive seed 105 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-interactive seed 101 attempt 1 tick 2 PEEK running
+identical_loop Partial-unknown-interactive seed 106 attempt 1 tick 2 PEEK running
+identical_loop Partial-unknown-interactive seed 102 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-interactive seed 105 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-interactive seed 106 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-interactive seed 103 attempt 1 tick 2 PEEK running
+identical_loop Partial-unknown-interactive seed 101 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-interactive seed 103 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-interactive seed 105 attempt 1 tick 4 PEEK running
+identical_loop Partial-unknown-interactive seed 106 attempt 1 tick 4 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 1 tick 4 RIGHT vision
+identical_loop Partial-unknown-interactive seed 101 attempt 1 tick 4 PEEK running
+identical_loop Partial-unknown-interactive seed 106 attempt 1 tick 5 WAIT running
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 1 RIGHT running
+identical_loop Partial-unknown-interactive seed 103 attempt 1 tick 4 RIGHT running
+identical_loop Partial-unknown-interactive seed 105 attempt 1 tick 5 WAIT running
+identical_loop Partial-unknown-interactive seed 102 attempt 1 tick 4 RIGHT vision
+identical_loop Partial-unknown-interactive seed 101 attempt 1 tick 5 RIGHT running
+identical_loop Partial-unknown-interactive seed 106 attempt 1 tick 6 RIGHT running
+identical_loop Partial-unknown-interactive seed 103 attempt 1 tick 5 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 2 PEEK running
+identical_loop Partial-unknown-interactive seed 105 attempt 1 tick 6 WAIT running
+identical_loop Partial-unknown-interactive seed 106 attempt 1 tick 7 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 3 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 2 tick 1 PEEK running
+identical_loop Partial-unknown-interactive seed 103 attempt 1 tick 6 RIGHT running
+identical_loop Partial-unknown-interactive seed 105 attempt 1 tick 7 RIGHT running
+identical_loop Partial-unknown-interactive seed 106 attempt 1 tick 8 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 2 tick 2 PEEK running
+identical_loop Partial-unknown-interactive seed 103 attempt 1 tick 7 RIGHT running
+identical_loop Partial-unknown-interactive seed 106 attempt 1 tick 9 RIGHT success
+identical_loop Partial-unknown-interactive seed 105 attempt 1 tick 8 RIGHT running
+identical_loop Partial-unknown-interactive seed 101 attempt 1 tick 6 PEEK running
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 4 PEEK running
+identical_loop Partial-unknown-interactive seed 103 attempt 1 tick 8 RIGHT success
+identical_loop Partial-unknown-interactive seed 105 attempt 1 tick 9 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 2 tick 3 PEEK running
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 5 RIGHT running
+identical_loop Partial-unknown-interactive seed 105 attempt 1 tick 10 RIGHT success
+identical_loop Partial-unknown-interactive seed 101 attempt 1 tick 7 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 2 tick 4 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 6 PEEK running
+identical_loop Partial-unknown-interactive seed 101 attempt 1 tick 8 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 7 WAIT running
+identical_loop Partial-unknown-interactive seed 101 attempt 1 tick 9 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 2 tick 5 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 8 RIGHT running
+identical_loop Partial-unknown-interactive seed 101 attempt 1 tick 10 RIGHT success
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 9 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 2 tick 6 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 10 RIGHT running
+identical_loop Partial-unknown-interactive seed 104 attempt 2 tick 11 RIGHT success
+identical_loop Partial-unknown-interactive seed 102 attempt 2 tick 7 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 2 tick 8 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 2 tick 9 RIGHT running
+identical_loop Partial-unknown-interactive seed 102 attempt 2 tick 10 RIGHT success
+parametric_shift Partial-unknown-passive seed 105 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 101 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 103 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 101 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 103 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 101 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 103 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 1 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 1 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 1 tick 4 RIGHT collision
+parametric_shift Partial-unknown-passive seed 103 attempt 1 tick 4 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 1 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 101 attempt 1 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 2 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 1 tick 6 WAIT running
+parametric_shift Partial-unknown-passive seed 104 attempt 1 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 103 attempt 1 tick 5 RIGHT running
+parametric_shift Partial-unknown-passive seed 101 attempt 1 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 1 tick 4 RIGHT vision
+parametric_shift Partial-unknown-passive seed 105 attempt 1 tick 7 RIGHT vision
+parametric_shift Partial-unknown-passive seed 101 attempt 1 tick 6 RIGHT running
+parametric_shift Partial-unknown-passive seed 103 attempt 1 tick 6 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 2 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 2 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 101 attempt 1 tick 7 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 1 tick 6 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 2 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 2 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 103 attempt 1 tick 7 RIGHT success
+parametric_shift Partial-unknown-passive seed 101 attempt 1 tick 8 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 2 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 1 tick 7 RIGHT vision
+parametric_shift Partial-unknown-passive seed 106 attempt 2 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 2 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 101 attempt 1 tick 9 RIGHT success
+parametric_shift Partial-unknown-passive seed 104 attempt 2 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 2 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 104 attempt 2 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 2 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 2 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 2 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 2 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 2 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 2 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 2 tick 6 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 2 tick 6 RIGHT collision
+parametric_shift Partial-unknown-passive seed 105 attempt 2 tick 7 RIGHT collision
+parametric_shift Partial-unknown-passive seed 105 attempt 3 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 2 tick 4 RIGHT vision
+parametric_shift Partial-unknown-passive seed 105 attempt 3 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 2 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 2 tick 6 RIGHT collision
+parametric_shift Partial-unknown-passive seed 105 attempt 3 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 3 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 3 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 3 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 104 attempt 3 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 3 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 3 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 3 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 3 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 3 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 3 tick 6 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 3 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 104 attempt 3 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 3 tick 7 WAIT running
+parametric_shift Partial-unknown-passive seed 104 attempt 3 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 3 tick 6 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 3 tick 8 RIGHT vision
+parametric_shift Partial-unknown-passive seed 102 attempt 3 tick 7 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 3 tick 6 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 3 tick 8 RIGHT vision
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 104 attempt 3 tick 7 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 6 LEFT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 104 attempt 3 tick 8 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 104 attempt 3 tick 9 RIGHT success
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 6 LEFT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 7 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 6 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 7 LEFT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 8 LEFT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 8 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 7 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 9 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 10 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 9 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 11 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 12 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 8 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 10 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 13 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 11 WAIT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 14 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 9 WAIT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 10 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 12 LEFT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 15 LEFT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 13 LEFT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 16 LEFT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 14 LEFT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 11 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 17 LEFT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 15 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 16 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 18 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 12 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 19 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 17 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 13 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 20 RIGHT running
+parametric_shift Partial-unknown-passive seed 102 attempt 4 tick 14 RIGHT success
+parametric_shift Partial-unknown-passive seed 106 attempt 3 tick 18 RIGHT collision
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 21 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 22 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 23 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 4 LEFT running
+parametric_shift Partial-unknown-passive seed 105 attempt 4 tick 24 RIGHT vision
+parametric_shift Partial-unknown-passive seed 105 attempt 5 tick 1 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 5 tick 2 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 5 tick 3 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 5 tick 4 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 5 LEFT running
+parametric_shift Partial-unknown-passive seed 105 attempt 5 tick 5 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 6 LEFT running
+parametric_shift Partial-unknown-passive seed 105 attempt 5 tick 6 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 7 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 8 RIGHT running
+parametric_shift Partial-unknown-passive seed 105 attempt 5 tick 7 RIGHT vision
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 9 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 10 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 11 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 12 WAIT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 13 LEFT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 14 LEFT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 15 LEFT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 16 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 17 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 18 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 19 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 20 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 21 RIGHT running
+parametric_shift Partial-unknown-passive seed 106 attempt 4 tick 22 RIGHT success
+parametric_shift Partial-unknown-interactive seed 101 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-interactive seed 103 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-interactive seed 106 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-interactive seed 104 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-interactive seed 105 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 1 tick 1 RIGHT running
+parametric_shift Partial-unknown-interactive seed 106 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-interactive seed 103 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-interactive seed 101 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-interactive seed 104 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-interactive seed 105 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 1 tick 2 RIGHT running
+parametric_shift Partial-unknown-interactive seed 103 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-interactive seed 106 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-interactive seed 101 attempt 1 tick 3 PEEK running
+parametric_shift Partial-unknown-interactive seed 105 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-interactive seed 104 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 1 tick 3 RIGHT running
+parametric_shift Partial-unknown-interactive seed 106 attempt 1 tick 4 RIGHT collision
+parametric_shift Partial-unknown-interactive seed 103 attempt 1 tick 4 RIGHT running
+parametric_shift Partial-unknown-interactive seed 101 attempt 1 tick 4 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 1 tick 4 WAIT running
+parametric_shift Partial-unknown-interactive seed 105 attempt 1 tick 4 PEEK running
+parametric_shift Partial-unknown-interactive seed 103 attempt 1 tick 5 RIGHT running
+parametric_shift Partial-unknown-interactive seed 106 attempt 2 tick 1 RIGHT running
+parametric_shift Partial-unknown-interactive seed 101 attempt 1 tick 5 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 1 tick 5 RIGHT vision
+parametric_shift Partial-unknown-interactive seed 105 attempt 1 tick 5 WAIT running
+parametric_shift Partial-unknown-interactive seed 103 attempt 1 tick 6 RIGHT running
+parametric_shift Partial-unknown-interactive seed 101 attempt 1 tick 6 RIGHT running
+parametric_shift Partial-unknown-interactive seed 103 attempt 1 tick 7 RIGHT success
+parametric_shift Partial-unknown-interactive seed 102 attempt 2 tick 1 RIGHT running
+parametric_shift Partial-unknown-interactive seed 101 attempt 1 tick 7 RIGHT running
+parametric_shift Partial-unknown-interactive seed 105 attempt 1 tick 6 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 2 tick 2 RIGHT running
+parametric_shift Partial-unknown-interactive seed 106 attempt 2 tick 2 PEEK running
+parametric_shift Partial-unknown-interactive seed 101 attempt 1 tick 8 RIGHT success
+parametric_shift Partial-unknown-interactive seed 105 attempt 1 tick 7 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 2 tick 3 RIGHT running
+parametric_shift Partial-unknown-interactive seed 106 attempt 2 tick 3 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 2 tick 4 WAIT running
+parametric_shift Partial-unknown-interactive seed 105 attempt 1 tick 8 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 2 tick 5 WAIT running
+parametric_shift Partial-unknown-interactive seed 105 attempt 1 tick 9 RIGHT success
+parametric_shift Partial-unknown-interactive seed 106 attempt 2 tick 4 RIGHT running
+parametric_shift Partial-unknown-interactive seed 106 attempt 2 tick 5 PEEK running
+parametric_shift Partial-unknown-interactive seed 106 attempt 2 tick 6 PEEK running
+parametric_shift Partial-unknown-interactive seed 102 attempt 2 tick 6 PEEK running
+parametric_shift Partial-unknown-interactive seed 106 attempt 2 tick 7 RIGHT running
+parametric_shift Partial-unknown-interactive seed 106 attempt 2 tick 8 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 2 tick 7 PEEK running
+parametric_shift Partial-unknown-interactive seed 104 attempt 1 tick 4 PEEK running
+parametric_shift Partial-unknown-interactive seed 106 attempt 2 tick 9 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 2 tick 8 RIGHT vision
+parametric_shift Partial-unknown-interactive seed 104 attempt 1 tick 5 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 1 RIGHT running
+parametric_shift Partial-unknown-interactive seed 106 attempt 2 tick 10 RIGHT success
+parametric_shift Partial-unknown-interactive seed 104 attempt 1 tick 6 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 2 RIGHT running
+parametric_shift Partial-unknown-interactive seed 104 attempt 1 tick 7 RIGHT running
+parametric_shift Partial-unknown-interactive seed 104 attempt 1 tick 8 RIGHT success
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 3 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 4 WAIT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 5 WAIT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 6 PEEK running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 7 PEEK running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 8 PEEK running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 9 PEEK running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 10 PEEK running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 11 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 12 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 13 RIGHT running
+parametric_shift Partial-unknown-interactive seed 102 attempt 3 tick 14 RIGHT success
+pattern_shift Partial-unknown-passive seed 105 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 104 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 103 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 101 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 105 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 104 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 105 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 101 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 103 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 104 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 101 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 105 attempt 1 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 103 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 1 tick 4 RIGHT vision
+pattern_shift Partial-unknown-passive seed 104 attempt 1 tick 4 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 1 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 101 attempt 1 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 105 attempt 1 tick 5 WAIT running
+pattern_shift Partial-unknown-passive seed 103 attempt 1 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 104 attempt 1 tick 5 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 1 tick 5 RIGHT vision
+pattern_shift Partial-unknown-passive seed 103 attempt 1 tick 5 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 2 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 105 attempt 1 tick 6 WAIT running
+pattern_shift Partial-unknown-passive seed 101 attempt 1 tick 5 WAIT running
+pattern_shift Partial-unknown-passive seed 104 attempt 1 tick 6 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 2 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 105 attempt 1 tick 7 WAIT running
+pattern_shift Partial-unknown-passive seed 103 attempt 1 tick 6 RIGHT running
+pattern_shift Partial-unknown-passive seed 104 attempt 1 tick 7 RIGHT success
+pattern_shift Partial-unknown-passive seed 106 attempt 2 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 103 attempt 1 tick 7 RIGHT running
+pattern_shift Partial-unknown-passive seed 101 attempt 1 tick 6 WAIT running
+pattern_shift Partial-unknown-passive seed 105 attempt 1 tick 8 RIGHT collision
+pattern_shift Partial-unknown-passive seed 102 attempt 2 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 2 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 103 attempt 1 tick 8 RIGHT running
+pattern_shift Partial-unknown-passive seed 105 attempt 2 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 101 attempt 1 tick 7 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 2 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 103 attempt 1 tick 9 RIGHT success
+pattern_shift Partial-unknown-passive seed 105 attempt 2 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 101 attempt 1 tick 8 RIGHT vision
+pattern_shift Partial-unknown-passive seed 105 attempt 2 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 2 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 101 attempt 2 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 2 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 2 tick 5 RIGHT collision
+pattern_shift Partial-unknown-passive seed 101 attempt 2 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 105 attempt 2 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 101 attempt 2 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 3 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 2 tick 5 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 3 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 101 attempt 2 tick 4 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 2 tick 6 WAIT running
+pattern_shift Partial-unknown-passive seed 105 attempt 2 tick 5 WAIT running
+pattern_shift Partial-unknown-passive seed 101 attempt 2 tick 5 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 3 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 2 tick 7 RIGHT collision
+pattern_shift Partial-unknown-passive seed 101 attempt 2 tick 6 RIGHT running
+pattern_shift Partial-unknown-passive seed 101 attempt 2 tick 7 RIGHT success
+pattern_shift Partial-unknown-passive seed 102 attempt 3 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 105 attempt 2 tick 6 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 3 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 3 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 105 attempt 2 tick 7 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 3 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 105 attempt 2 tick 8 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 3 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 105 attempt 2 tick 9 RIGHT success
+pattern_shift Partial-unknown-passive seed 106 attempt 3 tick 5 RIGHT collision
+pattern_shift Partial-unknown-passive seed 102 attempt 3 tick 5 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 3 tick 6 WAIT running
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 3 tick 7 WAIT running
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 3 tick 8 RIGHT collision
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 4 tick 1 WAIT running
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 5 WAIT running
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 6 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 4 tick 2 WAIT running
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 7 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 4 tick 3 WAIT running
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 8 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 4 tick 4 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 4 tick 5 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 4 tick 6 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 9 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 4 tick 7 RIGHT vision
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 10 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 11 RIGHT running
+pattern_shift Partial-unknown-passive seed 106 attempt 4 tick 12 RIGHT success
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 1 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 2 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 3 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 4 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 5 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 6 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 7 WAIT running
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 8 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 9 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 10 RIGHT running
+pattern_shift Partial-unknown-passive seed 102 attempt 5 tick 11 RIGHT success
+pattern_shift Partial-unknown-interactive seed 102 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-interactive seed 104 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-interactive seed 103 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-interactive seed 101 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-interactive seed 106 attempt 1 tick 1 RIGHT running
+pattern_shift Partial-unknown-interactive seed 102 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-interactive seed 104 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-interactive seed 101 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-interactive seed 103 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-interactive seed 106 attempt 1 tick 2 RIGHT running
+pattern_shift Partial-unknown-interactive seed 102 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-interactive seed 104 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-interactive seed 103 attempt 1 tick 3 PEEK running
+pattern_shift Partial-unknown-interactive seed 106 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-interactive seed 101 attempt 1 tick 3 RIGHT running
+pattern_shift Partial-unknown-interactive seed 102 attempt 1 tick 4 RIGHT vision
+pattern_shift Partial-unknown-interactive seed 104 attempt 1 tick 4 RIGHT running
+pattern_shift Partial-unknown-interactive seed 106 attempt 1 tick 4 RIGHT running
+pattern_shift Partial-unknown-interactive seed 103 attempt 1 tick 4 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 1 tick 4 PEEK running
+pattern_shift Partial-unknown-interactive seed 101 attempt 1 tick 4 PEEK running
+pattern_shift Partial-unknown-interactive seed 103 attempt 1 tick 5 RIGHT running
+pattern_shift Partial-unknown-interactive seed 106 attempt 1 tick 5 RIGHT running
+pattern_shift Partial-unknown-interactive seed 102 attempt 2 tick 1 PEEK running
+pattern_shift Partial-unknown-interactive seed 104 attempt 1 tick 5 RIGHT running
+pattern_shift Partial-unknown-interactive seed 103 attempt 1 tick 6 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 1 tick 5 RIGHT vision
+pattern_shift Partial-unknown-interactive seed 104 attempt 1 tick 6 RIGHT running
+pattern_shift Partial-unknown-interactive seed 101 attempt 1 tick 5 RIGHT running
+pattern_shift Partial-unknown-interactive seed 106 attempt 1 tick 6 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 2 tick 1 RIGHT running
+pattern_shift Partial-unknown-interactive seed 103 attempt 1 tick 7 RIGHT running
+pattern_shift Partial-unknown-interactive seed 102 attempt 2 tick 2 RIGHT running
+pattern_shift Partial-unknown-interactive seed 106 attempt 1 tick 7 RIGHT success
+pattern_shift Partial-unknown-interactive seed 101 attempt 1 tick 6 RIGHT running
+pattern_shift Partial-unknown-interactive seed 104 attempt 1 tick 7 RIGHT success
+pattern_shift Partial-unknown-interactive seed 105 attempt 2 tick 2 RIGHT running
+pattern_shift Partial-unknown-interactive seed 103 attempt 1 tick 8 RIGHT success
+pattern_shift Partial-unknown-interactive seed 101 attempt 1 tick 7 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 2 tick 3 RIGHT running
+pattern_shift Partial-unknown-interactive seed 102 attempt 2 tick 3 PEEK running
+pattern_shift Partial-unknown-interactive seed 101 attempt 1 tick 8 RIGHT success
+pattern_shift Partial-unknown-interactive seed 102 attempt 2 tick 4 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 2 tick 4 PEEK running
+pattern_shift Partial-unknown-interactive seed 102 attempt 2 tick 5 PEEK running
+pattern_shift Partial-unknown-interactive seed 105 attempt 2 tick 5 RIGHT running
+pattern_shift Partial-unknown-interactive seed 102 attempt 2 tick 6 RIGHT running
+pattern_shift Partial-unknown-interactive seed 102 attempt 2 tick 7 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 2 tick 6 RIGHT running
+pattern_shift Partial-unknown-interactive seed 102 attempt 2 tick 8 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 2 tick 7 RIGHT running
+pattern_shift Partial-unknown-interactive seed 102 attempt 2 tick 9 RIGHT running
+pattern_shift Partial-unknown-interactive seed 105 attempt 2 tick 8 RIGHT success
+pattern_shift Partial-unknown-interactive seed 102 attempt 2 tick 10 RIGHT success
+pure_random Partial-unknown-passive seed 101 attempt 1 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 1 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 1 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 1 tick 1 WAIT running
+pure_random Partial-unknown-passive seed 106 attempt 1 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 1 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 1 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 1 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 1 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 1 tick 2 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 1 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 1 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 1 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 1 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 1 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 1 tick 4 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 1 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 105 attempt 1 tick 4 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 1 tick 4 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 1 tick 4 RIGHT collision
+pure_random Partial-unknown-passive seed 102 attempt 1 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 1 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 105 attempt 1 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 2 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 102 attempt 1 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 1 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 1 tick 6 WAIT running
+pure_random Partial-unknown-passive seed 105 attempt 1 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 2 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 6 WAIT running
+pure_random Partial-unknown-passive seed 102 attempt 1 tick 7 RIGHT success
+pure_random Partial-unknown-passive seed 103 attempt 1 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 1 tick 7 WAIT running
+pure_random Partial-unknown-passive seed 105 attempt 1 tick 7 RIGHT success
+pure_random Partial-unknown-passive seed 106 attempt 2 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 2 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 1 tick 7 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 2 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 2 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 7 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 1 tick 8 RIGHT vision
+pure_random Partial-unknown-passive seed 105 attempt 2 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 2 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 103 attempt 1 tick 8 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 2 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 8 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 2 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 1 tick 9 RIGHT success
+pure_random Partial-unknown-passive seed 101 attempt 2 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 9 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 2 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 2 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 105 attempt 2 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 2 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 10 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 2 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 1 tick 11 RIGHT success
+pure_random Partial-unknown-passive seed 102 attempt 2 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 105 attempt 2 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 2 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 2 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 2 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 2 tick 6 WAIT running
+pure_random Partial-unknown-passive seed 106 attempt 2 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 2 tick 6 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 2 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 104 attempt 2 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 2 tick 4 RIGHT vision
+pure_random Partial-unknown-passive seed 101 attempt 2 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 102 attempt 2 tick 7 RIGHT vision
+pure_random Partial-unknown-passive seed 105 attempt 2 tick 7 RIGHT collision
+pure_random Partial-unknown-passive seed 103 attempt 3 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 2 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 2 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 3 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 3 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 3 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 2 tick 7 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 3 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 2 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 102 attempt 3 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 3 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 2 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 2 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 106 attempt 2 tick 8 RIGHT success
+pure_random Partial-unknown-passive seed 105 attempt 3 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 3 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 2 tick 6 WAIT running
+pure_random Partial-unknown-passive seed 103 attempt 3 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 106 attempt 3 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 3 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 102 attempt 3 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 104 attempt 2 tick 7 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 2 tick 7 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 3 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 3 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 103 attempt 3 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 104 attempt 2 tick 8 RIGHT vision
+pure_random Partial-unknown-passive seed 102 attempt 3 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 3 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 3 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 3 tick 6 WAIT running
+pure_random Partial-unknown-passive seed 105 attempt 3 tick 6 RIGHT vision
+pure_random Partial-unknown-passive seed 101 attempt 2 tick 8 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 3 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 3 tick 4 RIGHT collision
+pure_random Partial-unknown-passive seed 104 attempt 3 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 3 tick 7 WAIT running
+pure_random Partial-unknown-passive seed 102 attempt 3 tick 7 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 2 tick 9 RIGHT success
+pure_random Partial-unknown-passive seed 105 attempt 4 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 3 tick 8 RIGHT success
+pure_random Partial-unknown-passive seed 106 attempt 4 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 4 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 3 tick 8 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 3 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 4 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 4 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 3 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 3 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 4 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 4 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 3 tick 9 RIGHT collision
+pure_random Partial-unknown-passive seed 106 attempt 4 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 3 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 4 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 3 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 105 attempt 4 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 103 attempt 4 tick 1 WAIT running
+pure_random Partial-unknown-passive seed 105 attempt 4 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 104 attempt 3 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 4 tick 4 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 3 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 103 attempt 4 tick 2 WAIT running
+pure_random Partial-unknown-passive seed 106 attempt 4 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 3 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 4 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 3 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 4 tick 3 WAIT running
+pure_random Partial-unknown-passive seed 106 attempt 4 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 3 tick 7 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 4 tick 6 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 3 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 4 tick 7 RIGHT success
+pure_random Partial-unknown-passive seed 103 attempt 4 tick 4 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 3 tick 8 RIGHT success
+pure_random Partial-unknown-passive seed 102 attempt 4 tick 5 RIGHT vision
+pure_random Partial-unknown-passive seed 106 attempt 5 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 3 tick 7 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 4 tick 7 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 4 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 4 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 3 tick 8 RIGHT success
+pure_random Partial-unknown-passive seed 106 attempt 5 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 4 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 4 tick 8 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 4 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 5 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 4 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 4 tick 9 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 4 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 4 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 4 tick 4 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 4 tick 10 RIGHT success
+pure_random Partial-unknown-passive seed 106 attempt 5 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 104 attempt 4 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 4 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 105 attempt 5 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 4 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 5 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 4 tick 4 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 5 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 4 tick 7 RIGHT success
+pure_random Partial-unknown-passive seed 101 attempt 4 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 5 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 4 tick 7 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 4 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 4 tick 7 RIGHT success
+pure_random Partial-unknown-passive seed 106 attempt 5 tick 6 WAIT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 5 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 5 tick 4 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 5 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 4 tick 8 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 5 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 5 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 5 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 5 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 5 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 4 tick 9 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 5 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 101 attempt 5 tick 4 RIGHT running
+pure_random Partial-unknown-passive seed 105 attempt 5 tick 7 RIGHT success
+pure_random Partial-unknown-passive seed 104 attempt 5 tick 4 WAIT running
+pure_random Partial-unknown-passive seed 106 attempt 5 tick 7 WAIT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 6 WAIT running
+pure_random Partial-unknown-passive seed 104 attempt 5 tick 5 WAIT running
+pure_random Partial-unknown-passive seed 103 attempt 4 tick 10 RIGHT success
+pure_random Partial-unknown-passive seed 101 attempt 5 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 106 attempt 5 tick 8 RIGHT vision
+pure_random Partial-unknown-passive seed 101 attempt 5 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 5 tick 1 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 5 tick 6 WAIT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 7 WAIT running
+pure_random Partial-unknown-passive seed 101 attempt 5 tick 7 RIGHT success
+pure_random Partial-unknown-passive seed 103 attempt 5 tick 2 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 8 WAIT running
+pure_random Partial-unknown-passive seed 104 attempt 5 tick 7 RIGHT running
+pure_random Partial-unknown-passive seed 103 attempt 5 tick 3 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 9 WAIT running
+pure_random Partial-unknown-passive seed 103 attempt 5 tick 4 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 5 tick 8 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 10 WAIT running
+pure_random Partial-unknown-passive seed 103 attempt 5 tick 5 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 5 tick 9 RIGHT running
+pure_random Partial-unknown-passive seed 104 attempt 5 tick 10 RIGHT success
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 11 WAIT running
+pure_random Partial-unknown-passive seed 103 attempt 5 tick 6 RIGHT running
+pure_random Partial-unknown-passive seed 102 attempt 5 tick 12 RIGHT collision
+pure_random Partial-unknown-passive seed 103 attempt 5 tick 7 RIGHT success
+Audit {"passed":true,"runs":105,"requests":848,"hiddenRequestsMutationChecked":650,"checks":["seed/attempt world reconstruction","private state replay","exact wire reconstruction","public-only historical memory","hidden truth and mode noninterference","prediction/visibility/age metrics","one-step counterfactual attribution"]}
+{
+  "complete": true,
+  "runs": 105,
+  "requests": 848,
+  "groups": [
+    {
+      "mode": "pattern_shift",
+      "condition": "Omniscient",
+      "pass": [
+        {
+          "k": 1,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        }
+      ],
+      "visible": {
+        "correct": 49,
+        "total": 49,
+        "accuracy": 1
+      },
+      "occluded": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      }
+    },
+    {
+      "mode": "identical_loop",
+      "condition": "Partial-unknown-passive",
+      "pass": [
+        {
+          "k": 1,
+          "success": 2,
+          "total": 6,
+          "rate": 0.3333333333333333
+        },
+        {
+          "k": 2,
+          "success": 5,
+          "total": 6,
+          "rate": 0.8333333333333334
+        },
+        {
+          "k": 3,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 4,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 5,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        }
+      ],
+      "visible": {
+        "correct": 11,
+        "total": 16,
+        "accuracy": 0.6875
+      },
+      "occluded": {
+        "correct": 30,
+        "total": 75,
+        "accuracy": 0.4
+      }
+    },
+    {
+      "mode": "identical_loop",
+      "condition": "Partial-unknown-interactive",
+      "pass": [
+        {
+          "k": 1,
+          "success": 4,
+          "total": 6,
+          "rate": 0.6666666666666666
+        },
+        {
+          "k": 2,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 3,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 4,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 5,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        }
+      ],
+      "visible": {
+        "correct": 13,
+        "total": 20,
+        "accuracy": 0.65
+      },
+      "occluded": {
+        "correct": 22,
+        "total": 46,
+        "accuracy": 0.4782608695652174
+      }
+    },
+    {
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "pass": [
+        {
+          "k": 1,
+          "success": 2,
+          "total": 6,
+          "rate": 0.3333333333333333
+        },
+        {
+          "k": 2,
+          "success": 2,
+          "total": 6,
+          "rate": 0.3333333333333333
+        },
+        {
+          "k": 3,
+          "success": 3,
+          "total": 6,
+          "rate": 0.5
+        },
+        {
+          "k": 4,
+          "success": 5,
+          "total": 6,
+          "rate": 0.8333333333333334
+        },
+        {
+          "k": 5,
+          "success": 5,
+          "total": 6,
+          "rate": 0.8333333333333334
+        }
+      ],
+      "visible": {
+        "correct": 15,
+        "total": 23,
+        "accuracy": 0.6521739130434783
+      },
+      "occluded": {
+        "correct": 35,
+        "total": 148,
+        "accuracy": 0.23648648648648649
+      }
+    },
+    {
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "pass": [
+        {
+          "k": 1,
+          "success": 4,
+          "total": 6,
+          "rate": 0.6666666666666666
+        },
+        {
+          "k": 2,
+          "success": 5,
+          "total": 6,
+          "rate": 0.8333333333333334
+        },
+        {
+          "k": 3,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 4,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 5,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        }
+      ],
+      "visible": {
+        "correct": 17,
+        "total": 22,
+        "accuracy": 0.7727272727272727
+      },
+      "occluded": {
+        "correct": 22,
+        "total": 51,
+        "accuracy": 0.43137254901960786
+      }
+    },
+    {
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "pass": [
+        {
+          "k": 1,
+          "success": 2,
+          "total": 6,
+          "rate": 0.3333333333333333
+        },
+        {
+          "k": 2,
+          "success": 4,
+          "total": 6,
+          "rate": 0.6666666666666666
+        },
+        {
+          "k": 3,
+          "success": 4,
+          "total": 6,
+          "rate": 0.6666666666666666
+        },
+        {
+          "k": 4,
+          "success": 5,
+          "total": 6,
+          "rate": 0.8333333333333334
+        },
+        {
+          "k": 5,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        }
+      ],
+      "visible": {
+        "correct": 11,
+        "total": 18,
+        "accuracy": 0.6111111111111112
+      },
+      "occluded": {
+        "correct": 28,
+        "total": 94,
+        "accuracy": 0.2978723404255319
+      }
+    },
+    {
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "pass": [
+        {
+          "k": 1,
+          "success": 4,
+          "total": 6,
+          "rate": 0.6666666666666666
+        },
+        {
+          "k": 2,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 3,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 4,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 5,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        }
+      ],
+      "visible": {
+        "correct": 9,
+        "total": 15,
+        "accuracy": 0.6
+      },
+      "occluded": {
+        "correct": 18,
+        "total": 42,
+        "accuracy": 0.42857142857142855
+      }
+    },
+    {
+      "mode": "pure_random",
+      "condition": "Partial-unknown-passive",
+      "pass": [
+        {
+          "k": 1,
+          "success": 4,
+          "total": 6,
+          "rate": 0.6666666666666666
+        },
+        {
+          "k": 2,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 3,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 4,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        },
+        {
+          "k": 5,
+          "success": 6,
+          "total": 6,
+          "rate": 1
+        }
+      ],
+      "visible": {
+        "correct": 10,
+        "total": 35,
+        "accuracy": 0.2857142857142857
+      },
+      "occluded": {
+        "correct": 15,
+        "total": 194,
+        "accuracy": 0.07731958762886598
+      }
+    }
+  ]
+}

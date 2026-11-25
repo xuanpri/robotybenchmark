@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "unitTests": 11,
+  "regressionTests": 56,
+  "typescript": "passed",
+  "protectedFiles": 698,
+  "modelRuns": 105,
+  "pureRandomRuns": 30,
+  "modelRequests": 848,
+  "allPublicHistoriesMatch": true,
+  "frozenCoreSourceHashesMatch": true,
+  "videoCount": 50,
+  "everyFailureHasVideo": true,
+  "figures": [
+    "random-drift.svg",
+    "pass-curves.svg",
+    "prediction-age.svg"
+  ]
+}

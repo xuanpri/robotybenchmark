@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "model": "gpt-5.6-sol",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "matrix": [
+    {
+      "mode": "pattern_shift",
+      "condition": "Omniscient"
+    },
+    {
+      "mode": "identical_loop",
+      "condition": "Partial-unknown-passive"
+    },
+    {
+      "mode": "identical_loop",
+      "condition": "Partial-unknown-interactive"
+    },
+    {
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive"
+    },
+    {
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive"
+    },
+    {
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive"
+    },
+    {
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive"
+    },
+    {
+      "mode": "pure_random",
+      "condition": "Partial-unknown-passive"
+    }
+  ],
+  "sources": [
+    {
+      "name": "world.ts",
+      "hash": "b4b155e20b73cdc56e28e50d38d5a09d6e54064c08749929ff0743dc2fccf635"
+    },
+    {
+      "name": "protocol.ts",
+      "hash": "9962e517195c643a817dba9aaaaa9fbf55fad910c8fcc850243269d49620a212"
+    },
+    {
+      "name": "preflight.ts",
+      "hash": "a82fac3876bef096882f4d654a00d796d96e592ccf66e25f47ed83a99b9ccc76"
+    },
+    {
+      "name": "experiment.ts",
+      "hash": "5a2edbd7d552b2a3d742af8a04faa286ffaffaf7378c1c0e6e88d28646061451"
+    }
+  ],
+  "cap": 5,
+  "randomEarlyStop": false,
+  "optionalRandomInteractive": false,
+  "phaseStratification": [
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+  ],
+  "randomKernel": "uniform over legal N/S/STAY; heading persists on STAY",
+  "randomBaselineSeeds": [
+    1001,
+    1100
+  ],
+  "waitRandomRange": [
+    0,
+    10
+  ],
+  "prng": "domain-separated mulberry32 integer seed/attempt mix",
+  "fingerprint": "f67dda02ac89505db38137f8927384874f91a55df015cb210ca06b72b37eb020"
+}

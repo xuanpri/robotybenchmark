@@ -1,0 +1,189 @@
+{
+  "attempt": 4,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 1,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 2,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 3,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 4,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 5,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 6,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 7,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "vision",
+      "robot": null,
+      "source": "occluded"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Remain at the window to obtain another legal sighting and identify this attempt's behavior before approaching the crossing. The north-facing robot is blocked by the boundary, so predict it stays at [5,0] and reverses to south; its vertical vision ray cannot reach [1,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "action": "WAIT",
+      "reason": "The robot remained at [5,0] facing north through the last update rather than reversing, so predict it remains stationary with the same heading for another tick. Wait at the window for another legal observation; its north-facing ray cannot reach [1,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The robot stayed at the northern boundary facing north for one update, then turned south at tick 2. Predict it now advances to [5,1] facing south. Wait at the window to verify this attempt's timing; the robot's vertical vision ray cannot reach [1,3]."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The robot has begun moving south from the northern endpoint, so predict it advances from [5,1] to [5,2] facing south. Move east to [2,3], outside its vertical vision ray and with no collision or edge swap."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "From the last window sighting at [5,1] facing south and the inferred tick-4 position [5,2], predict the robot advances to [5,3]. Move east to [3,3], outside its vertical vision ray and with no collision or edge swap."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Predict the robot continues south from [5,3] to [5,4]. Move east to [4,3]; there is no collision or edge swap, and the opaque door blocks sight across the [4,3]-[5,3] edge."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "From the last observed southward motion and inferred positions [5,2], [5,3], and [5,4], predict the robot advances to [5,5] still facing south. Cross the opaque door to [5,3]; there is no collision or edge swap, and its updated south-facing ray ends at the boundary."
+    }
+  ],
+  "failureReason": "vision"
+}

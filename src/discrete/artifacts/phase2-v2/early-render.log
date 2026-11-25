@@ -1,0 +1,9 @@
+(node:4085737) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+replay identical_loop-partial-unknown-interactive-seed-102-attempt-1 75 frames
+replay identical_loop-partial-unknown-interactive-seed-104-attempt-1 75 frames
+replay identical_loop-partial-unknown-passive-seed-101-attempt-1 90 frames
+replay identical_loop-partial-unknown-passive-seed-102-attempt-1 90 frames
+replay identical_loop-partial-unknown-passive-seed-102-attempt-2 135 frames
+replay identical_loop-partial-unknown-passive-seed-103-attempt-1 75 frames
+replay identical_loop-partial-unknown-passive-seed-104-attempt-1 75 frames

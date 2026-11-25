@@ -1,0 +1,103 @@
+✔ memory off hides real attempt and has empty cross-attempt history (3.575331ms)
+✔ real seed/attempt directories prevent local cache collapse; same attempt resumes (75.038753ms)
+✔ Markov transition probabilities normalized; boundary and heading persistence (0.777192ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 307.264733
+{
+  pass: [ 3, 3, 3, 3, 3 ],
+  successfulSeeds: 3,
+  restrictedMeanAt5: 3,
+  meanSuccessAttempt: 1,
+  visible: { correct: 15, total: 22, accuracy: 0.6818181818181818 },
+  occluded: { correct: 13, total: 75, accuracy: 0.17333333333333334 },
+  failures: [
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-101-attempt-1',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-101-attempt-2',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-101-attempt-3',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-101-attempt-4',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-101-attempt-5',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-102-attempt-1',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-102-attempt-2',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-102-attempt-3',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-102-attempt-4',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-102-attempt-5',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-104-attempt-1',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-104-attempt-2',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-104-attempt-3',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-104-attempt-4',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-104-attempt-5',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    }
+  ],
+  completedRuns: 18,
+  requests: 97,
+  costRMB: 3.885898000000001,
+  firstSuccess: [ null, null, 1, null, 1, 1 ],
+  complete: true
+}
+(node:206056) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

@@ -1,0 +1,348 @@
+{
+  "attempt": 3,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 4,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 5,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 6,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "source": "peek"
+    },
+    {
+      "tick": 7,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "source": "peek"
+    },
+    {
+      "tick": 8,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "source": "peek"
+    },
+    {
+      "tick": 9,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "source": "peek"
+    },
+    {
+      "tick": 10,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "source": "peek"
+    },
+    {
+      "tick": 11,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 12,
+      "player": [
+        6,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 13,
+      "player": [
+        7,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 14,
+      "player": [
+        8,
+        3
+      ],
+      "outcome": "success",
+      "robot": null,
+      "source": "occluded"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "From [5,2] heading north, the robot should advance to [5,1] and retain its heading. Moving east to [2,3] stays outside its updated north-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "From the last observed [5,2] heading north, the robot should continue to [5,0] via [5,1]. Moving east to [3,3] remains outside its north-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "From the inferred [5,0] facing north, the robot should reverse in place at its patrol endpoint. Move to [4,3], remaining safely behind the opaque door."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The robot is inferred at [5,0] facing north at tick 3 and should reverse in place to face south. Waiting at [4,3] behind the opaque door avoids its updated south-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The robot should have reversed at [5,0] on tick 3, advanced to [5,1] on tick 4, and now advance south to [5,2]. Crossing to [5,3] would enter its updated south-facing vision ray, so wait behind the opaque door."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "PEEK",
+      "reason": "The robot is inferred at [5,2] heading south and should advance to [5,3]. Remaining at [4,3] behind the opaque door avoids collision and vision, while PEEK confirms its state."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "PEEK",
+      "reason": "From the observed [5,3] heading south, the robot should advance to [5,4] while retaining its heading. Crossing now is unsafe because the robot appears to pause and reverse at [5,4] on the following tick; PEEK safely confirms this endpoint state from behind the opaque door."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "PEEK",
+      "reason": "The prior crossing from this exact observed state caused vision, showing that the robot reverses in place at [5,4] to face north rather than advancing to [5,5]. Stay behind the opaque door and PEEK to confirm the reversal."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "action": "PEEK",
+      "reason": "From the observed [5,5] facing north, the robot should advance to [5,4] facing north. Crossing to [5,3] now would enter its updated north-facing vision ray, so remain behind the opaque door and verify its state."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "action": "PEEK",
+      "reason": "From the observed [5,4] heading north, the robot should advance to [5,3]. Crossing now would cause a same-cell collision, so remain at [4,3] behind the opaque door and verify the state."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "From observed [5,3] heading north, the robot advances to [5,2]. Cross the opaque door to [5,3]; this avoids collision and is behind the robot's updated north-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "From the last observed [5,3] heading north, the robot advanced to [5,2] at tick 11 and should now continue to [5,1]. Move east to [6,3], outside its updated north-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The robot is inferred at [5,1] heading north and should advance to [5,0]. Move east to [7,3], outside its updated north-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The robot is inferred at [5,0] facing north and should reverse in place to face south. Move east to the exit at [8,3], safely outside its updated vision ray."
+    }
+  ],
+  "failureReason": null
+}

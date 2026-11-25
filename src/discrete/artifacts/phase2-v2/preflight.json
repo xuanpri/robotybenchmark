@@ -1,0 +1,4998 @@
+{
+  "passed": true,
+  "oracleSolved": 90,
+  "oracleTotal": 90,
+  "antiPrior": [
+    {
+      "policy": "Blind-Rush",
+      "success": 0,
+      "total": 6,
+      "runs": [
+        {
+          "seed": 101,
+          "attempt": 1,
+          "policy": "Blind-Rush",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 3,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 102,
+          "attempt": 1,
+          "policy": "Blind-Rush",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 3,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 103,
+          "attempt": 1,
+          "policy": "Blind-Rush",
+          "outcome": "collision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "collision"
+            }
+          ]
+        },
+        {
+          "seed": 104,
+          "attempt": 1,
+          "policy": "Blind-Rush",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  0
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 105,
+          "attempt": 1,
+          "policy": "Blind-Rush",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  0
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 106,
+          "attempt": 1,
+          "policy": "Blind-Rush",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  0
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "policy": "Memoryless-Reactive",
+      "success": 0,
+      "total": 6,
+      "runs": [
+        {
+          "seed": 101,
+          "attempt": 1,
+          "policy": "Memoryless-Reactive",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 3,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 102,
+          "attempt": 1,
+          "policy": "Memoryless-Reactive",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 3,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 103,
+          "attempt": 1,
+          "policy": "Memoryless-Reactive",
+          "outcome": "collision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "collision"
+            }
+          ]
+        },
+        {
+          "seed": 104,
+          "attempt": 1,
+          "policy": "Memoryless-Reactive",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  0
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 105,
+          "attempt": 1,
+          "policy": "Memoryless-Reactive",
+          "outcome": "vision",
+          "actions": [
+            "WAIT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  0
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 5,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 106,
+          "attempt": 1,
+          "policy": "Memoryless-Reactive",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  0
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "policy": "Symmetric-Prior-Heuristic",
+      "success": 2,
+      "total": 6,
+      "runs": [
+        {
+          "seed": 101,
+          "attempt": 1,
+          "policy": "Symmetric-Prior-Heuristic",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "WAIT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 3,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 5,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 102,
+          "attempt": 1,
+          "policy": "Symmetric-Prior-Heuristic",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 3,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 103,
+          "attempt": 1,
+          "policy": "Symmetric-Prior-Heuristic",
+          "outcome": "collision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "collision"
+            }
+          ]
+        },
+        {
+          "seed": 104,
+          "attempt": 1,
+          "policy": "Symmetric-Prior-Heuristic",
+          "outcome": "vision",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  0
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "vision"
+            }
+          ]
+        },
+        {
+          "seed": 105,
+          "attempt": 1,
+          "policy": "Symmetric-Prior-Heuristic",
+          "outcome": "success",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "WAIT",
+            "WAIT",
+            "WAIT",
+            "WAIT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  0
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 5,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 6,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 7,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 8,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 3,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 9,
+              "player": [
+                6,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 10,
+              "player": [
+                7,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 11,
+              "player": [
+                8,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "success"
+            }
+          ]
+        },
+        {
+          "seed": 106,
+          "attempt": 1,
+          "policy": "Symmetric-Prior-Heuristic",
+          "outcome": "success",
+          "actions": [
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "WAIT",
+            "WAIT",
+            "WAIT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT"
+          ],
+          "states": [
+            {
+              "tick": 0,
+              "player": [
+                1,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 1,
+              "player": [
+                2,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 2,
+              "player": [
+                3,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  0
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 3,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  1
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 4,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  2
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 5,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  3
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 6,
+              "player": [
+                4,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  4
+                ],
+                "heading": "S",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 7,
+              "player": [
+                5,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 3,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 8,
+              "player": [
+                6,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 2,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 9,
+              "player": [
+                7,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "S",
+                "pauseRemaining": 1,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "running"
+            },
+            {
+              "tick": 10,
+              "player": [
+                8,
+                3
+              ],
+              "robot": {
+                "pos": [
+                  5,
+                  5
+                ],
+                "heading": "N",
+                "pauseRemaining": 0,
+                "cooldown": 0,
+                "stutterRemaining": 0,
+                "altNext": 0
+              },
+              "outcome": "success"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "oracle": [
+    {
+      "mode": "identical_loop",
+      "seed": 101,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 4,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 101,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 4,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 101,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 4,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 101,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 4,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 101,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 4,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 102,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 5,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 102,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 5,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 102,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 5,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 102,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 5,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 102,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 5,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 103,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 6,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 103,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 6,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 103,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 6,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 103,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 6,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 103,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 6,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 104,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 9,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 104,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 9,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 104,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 9,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 104,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 9,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 104,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 9,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 105,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 10,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 105,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 10,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 105,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 10,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 105,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 10,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 105,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 10,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 106,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 11,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 106,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 11,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 106,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 11,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 106,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 11,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "identical_loop",
+      "seed": 106,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 11,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 101,
+      "attempt": 1,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 1,
+        "southPause": 2,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 2,
+      "period": 9,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 101,
+      "attempt": 2,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 2,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 3,
+      "period": 8,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 101,
+      "attempt": 3,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 2,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 3,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 101,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 2,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 17,
+      "period": 22,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 101,
+      "attempt": 5,
+      "params": {
+        "min": 1,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 2,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 0,
+      "period": 19,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 102,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 2,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 20,
+      "period": 22,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 102,
+      "attempt": 2,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 1,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 13,
+      "period": 14,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 102,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 1,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 8,
+      "period": 11,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 102,
+      "attempt": 4,
+      "params": {
+        "min": 1,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 2,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 14,
+      "period": 19,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 102,
+      "attempt": 5,
+      "params": {
+        "min": 1,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 1,
+        "southPause": 2,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 16,
+      "period": 19,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 103,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 0,
+      "period": 11,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 103,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 2,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 14,
+      "period": 22,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 103,
+      "attempt": 3,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 3,
+      "period": 6,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 103,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 2,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 0,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 103,
+      "attempt": 5,
+      "params": {
+        "min": 1,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 1,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 4,
+      "period": 9,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 104,
+      "attempt": 1,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 1,
+        "southPause": 2,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 7,
+      "period": 9,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 104,
+      "attempt": 2,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 4,
+      "period": 7,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 104,
+      "attempt": 3,
+      "params": {
+        "min": 1,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 2,
+      "period": 17,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 104,
+      "attempt": 4,
+      "params": {
+        "min": 1,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 2,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 6,
+      "period": 18,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 104,
+      "attempt": 5,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 1,
+        "southPause": 2,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 6,
+      "period": 9,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 105,
+      "attempt": 1,
+      "params": {
+        "min": 1,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 1,
+      "period": 8,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 105,
+      "attempt": 2,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 1,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 11,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 105,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 9,
+      "period": 11,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 105,
+      "attempt": 4,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 2,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 4,
+      "period": 14,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 105,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 6,
+      "period": 20,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 106,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 2,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 11,
+      "period": 22,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 106,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 2,
+        "southPause": 2,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 11,
+      "period": 14,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 106,
+      "attempt": 3,
+      "params": {
+        "min": 1,
+        "max": 5,
+        "southSpeed": 2,
+        "northSpeed": 2,
+        "northPause": 2,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 6,
+      "period": 19,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 106,
+      "attempt": 4,
+      "params": {
+        "min": 1,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 1,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 0,
+      "period": 10,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "parametric_shift",
+      "seed": 106,
+      "attempt": 5,
+      "params": {
+        "min": 1,
+        "max": 4,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 2,
+        "southPause": 1,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": null,
+      "phase": 3,
+      "period": 9,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 101,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_speed",
+      "phase": 9,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 101,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": true,
+        "stutter": false
+      },
+      "pattern": "alt_pause",
+      "phase": 5,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 101,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": true
+      },
+      "pattern": "mid_stutter",
+      "phase": 7,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 101,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_pause",
+      "phase": 3,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 101,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_speed",
+      "phase": 11,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 102,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_speed",
+      "phase": 1,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 102,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_pause",
+      "phase": 5,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 102,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": true
+      },
+      "pattern": "mid_stutter",
+      "phase": 0,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 102,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": true,
+        "stutter": false
+      },
+      "pattern": "alt_pause",
+      "phase": 10,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 102,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_speed",
+      "phase": 11,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 103,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": true,
+        "stutter": false
+      },
+      "pattern": "alt_pause",
+      "phase": 3,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 103,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": true
+      },
+      "pattern": "mid_stutter",
+      "phase": 1,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 103,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_pause",
+      "phase": 7,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 103,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_speed",
+      "phase": 4,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 103,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": true,
+        "stutter": false
+      },
+      "pattern": "alt_pause",
+      "phase": 11,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 104,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": true,
+        "stutter": false
+      },
+      "pattern": "alt_pause",
+      "phase": 6,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 104,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": true
+      },
+      "pattern": "mid_stutter",
+      "phase": 6,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 104,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_pause",
+      "phase": 10,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 104,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_speed",
+      "phase": 12,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 104,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": true,
+        "stutter": false
+      },
+      "pattern": "alt_pause",
+      "phase": 5,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 105,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_speed",
+      "phase": 10,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 105,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": true,
+        "stutter": false
+      },
+      "pattern": "alt_pause",
+      "phase": 4,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 105,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": true
+      },
+      "pattern": "mid_stutter",
+      "phase": 3,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 105,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_pause",
+      "phase": 8,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 105,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_speed",
+      "phase": 2,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 106,
+      "attempt": 1,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_speed",
+      "phase": 0,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 106,
+      "attempt": 2,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": true
+      },
+      "pattern": "mid_stutter",
+      "phase": 1,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 106,
+      "attempt": 3,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": true,
+        "stutter": false
+      },
+      "pattern": "alt_pause",
+      "phase": 10,
+      "period": 12,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 106,
+      "attempt": 4,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 1,
+        "northPause": 0,
+        "southPause": 3,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_pause",
+      "phase": 10,
+      "period": 13,
+      "solvable": true,
+      "path": [
+        "WAIT",
+        "WAIT",
+        "WAIT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "mode": "pattern_shift",
+      "seed": 106,
+      "attempt": 5,
+      "params": {
+        "min": 0,
+        "max": 5,
+        "southSpeed": 1,
+        "northSpeed": 2,
+        "northPause": 0,
+        "southPause": 0,
+        "alt": false,
+        "stutter": false
+      },
+      "pattern": "asym_speed",
+      "phase": 9,
+      "period": 15,
+      "solvable": true,
+      "path": [
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    }
+  ]
+}

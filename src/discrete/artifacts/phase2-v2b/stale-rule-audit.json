@@ -1,0 +1,5288 @@
+{
+  "definition": "Primary: apply previous parameters to actual current full internal state; outside previous range is null. This is an oracle-assisted counterfactual diagnostic, not evidence the model knew internal state. Also report marginal support over compatible old latent phases and same-elapsed-tick old trajectory. Matching is association, not proof of reliance.",
+  "wrongSteps": 165,
+  "applicable": 152,
+  "matches": 3,
+  "rows": [
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From [5,1] heading north, the robot is expected to advance to [5,0] while retaining its heading. Moving east to [2,3] is outside its updated vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot likely reached [5,0] heading north at tick 1 and now reverses to south while staying at the boundary. Moving to [3,3] remains outside its updated vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot should advance south from [5,0] to [5,1]. Moving to [4,3] remains outside its updated south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The prior failure indicates the robot likely reaches [5,4] and reverses to face north, making an immediate crossing visible. Staying behind the opaque door is safe while PEEK verifies its updated state.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The observed robot should advance south from [5,4] to [5,5]. Crossing the opaque door to [5,3] avoids collision and lies behind its updated south-facing vision ray.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-102-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 3,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is inferred at [5,0] facing north at tick 3 and should reverse in place to face south. Waiting at [4,3] behind the opaque door avoids its updated south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-102-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 3,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The prior crossing from this exact observed state caused vision, showing that the robot reverses in place at [5,4] to face north rather than advancing to [5,5]. Stay behind the opaque door and PEEK to confirm the reversal.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-106-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot likely reached the north boundary at [5,0] and now reverses to face south while remaining there. PEEK from [2,3] is outside its sightline and obtains a fresh sighting before approaching the door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-106-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot remained at the north boundary facing north through the latest PEEK, so predict it stays at [5,0] with heading N. Move east to [3,3], safely outside collision and its clipped north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-106-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The latest sighting showed the robot stationary at [5,0] facing north, consistent with remaining blocked at the boundary. Move to [4,3], west of the opaque door and outside its clipped north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-106-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The latest sighting showed the robot blocked at [5,0] facing north, and subsequent hidden ticks give no evidence of a change. PEEK safely from [4,3], protected from any x=5 sightline by the opaque door, before crossing.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From [5,1] heading north, the robot should advance to [5,0]. Moving to [2,3] remains west of the opaque door and outside its vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The prior failure suggests boundary reversal consumes a tick: after reaching [5,0], the robot turns south in place, then advances to [5,1] next. Moving to [4,3] remains west of the opaque door and outside its vertical vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot should advance south from [5,3] to [5,4]. Crossing to [5,3] avoids collision and is behind its updated south-facing vision ray.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 3,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected to advance south from [5,4] to [5,5]. Crossing to [5,3] avoids its cell and lies behind its updated south-facing vision ray.",
+      "fatal": true,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot should continue north from [5,2] to [5,1]. Moving east to [3,3] remains west of the opaque door and outside its north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 2,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot should continue north from [5,1] to [5,0]. Moving to [4,3] remains west of the opaque door, which blocks its vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 1,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected at [5,0] facing north; the boundary should make it turn south in place. Waiting at [4,3] remains shielded by the opaque door and avoids the robot's south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected to advance south from [5,1] to [5,2]. Its updated forward vision includes [5,3], so crossing the door now would be fatal; waiting at [4,3] remains shielded by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Projecting continued southward motion, the robot advances from [5,2] to [5,3]. Crossing now risks a same-cell collision, while waiting at [4,3] remains protected by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot should move south from [5,4] to the endpoint [5,5] and turn north. The prior attempt showed that crossing on this tick enters its north-facing vision ray, so waiting at [4,3] remains safe behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 8,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected at the south endpoint [5,5] facing north and should advance to [5,4]. Crossing to [5,3] would place the player in its updated north-facing vision ray, so waiting behind the opaque door is safest.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 9,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Projecting from the tick-0 window sighting, the robot is moving north from [5,4] to [5,3]. Crossing now would cause a same-cell collision, so waiting at [4,3] stays protected by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 10,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected to continue north from [5,3] to [5,2]. Crossing to [5,3] avoids collision and is behind its updated north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 11,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected at [5,2] heading north at tick 11, so it advances to [5,1]. Moving east to [6,3] avoids its cell and lies behind its north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 12,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected to continue north from [5,1] to [5,0]. Moving east to [7,3] avoids its cell and remains outside its north-facing vision ray, setting up the exit on the next tick.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 13,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected at the north boundary [5,0] facing north, so it turns south in place. Moving right reaches the exit at [8,3], outside the robot's south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected to continue north from [5,2] to [5,1]. Advance to [4,3], where the opaque door blocks its sight and no collision or edge swap occurs.",
+      "fatal": false,
+      "matches_prev_attempt_rule": true,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 2,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Projecting the current sighting forward, the robot moves north from [5,1] to [5,0]. Cross the opaque door to [5,3]; the robot faces north, so its updated vision extends away from the player, with no collision or edge swap.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 3,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot advances south to [5,3] and continues facing south; its updated vision extends toward increasing z, so moving east to [2,3] is safe.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 3,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the last legal sighting, the robot moved south to [5,3] at tick 1 and is projected to continue south to [5,4]. Move east to [3,3]; this avoids collision and edge swap, and the robot's south-facing vision does not cover that cell.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 3,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Projecting the current southward motion places the robot at [5,5]. Advance to [4,3], remaining west of the opaque door with no collision, edge swap, or exposure to its south-facing vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 3,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot reached [5,5] at tick 3 and reversed north, so it advances to [5,4]. Its north-facing vision covers [5,3], making a door crossing fatal; waiting at [4,3] remains protected by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 3,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected to continue north from [5,4] to [5,3]. Crossing RIGHT would cause a same-cell collision, while waiting at [4,3] is safe behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 3,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-0 sighting, the robot is projected to have reversed after reaching the south boundary and now move north from [5,3] to [5,2]. Cross to [5,3] behind it; this avoids collision and edge swap, and its north-facing vision points away from the player.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 3,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected to continue north from [5,2] to [5,1]. Move east to [6,3], avoiding collision and edge swap; its north-facing vision extends away from the player.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 3,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected to continue north from [5,1] to [5,0]. Move east to [7,3]; this avoids collision and edge swap, and the robot's north-facing vision is clipped by the boundary.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 104,
+      "attempt": 3,
+      "tick": 8,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected to reverse at the north boundary and move south to [5,1]. Move RIGHT to the exit at [8,3]; this avoids collision and edge swap and lies outside the robot's south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue north from [5,1] to [5,0]. Move east to [3,3], outside its north-facing vision ray and toward the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to remain at the northern boundary and turn south. Move to [4,3], staying protected from its south-facing vision by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to move south from [5,0] to [5,1]. Its south-facing vision reaches [5,3], so crossing the opaque door would be fatal; wait safely at [4,3].",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to move south from [5,3] to [5,4]. Cross the opaque door to [5,3], behind its updated south-facing vision ray and without collision.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 3,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the latest legal sighting at [5,2] heading north, predict continued northward movement to [5,0] by tick 2. Move to [3,3], outside the robot's north-facing ray and toward the door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 3,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot reaches the north boundary and turns south while remaining at [5,0]. Move to [4,3], where the opaque door blocks its south-facing vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 3,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot moves south from [5,0] to [5,1]. Its south-facing vision can reach [5,3], so remain at [4,3], protected by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 3,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot continues south from [5,1] to [5,2]. Its forward ray reaches [5,3], so remain at [4,3] behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 3,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot continues south from [5,2] to [5,3]. Crossing the opaque door would risk a same-cell collision, so remain safely at [4,3].",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 3,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict southward movement from [5,3] to [5,4], but the prior same-start attempt showed this timing may include a hidden pause. Wait at [4,3] behind the opaque door rather than risk collision while crossing.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 3,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The prior same-start collision implies the robot was likely one tick behind the earlier estimate, at [5,3] on tick 7. Predict it now moves south to [5,4]; cross to [5,3], behind its south-facing vision and without collision.",
+      "fatal": true,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the current legal window sighting, predict the robot continues south to [5,4]. Move east to [2,3], which is outside its south-facing vision ray and advances toward the door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-0 sighting at [5,3] heading south, predict continued southward movement through [5,4] to [5,5]. Move east to [3,3], avoiding collision and the robot's south-facing vision while advancing toward the door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot turns north while remaining at the southern boundary. Move to [4,3], staying behind the opaque door and outside its north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot continues north from [5,4] to [5,3]. Crossing the opaque door would risk a same-cell collision, so wait safely at [4,3].",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot continues north from [5,3] to [5,2]. Prior attempts show hidden timing is unreliable, so retreat toward the window for a fresh legal sighting rather than risk crossing the door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot continues north from [5,2] to [5,1]. Move west to [2,3], safely away from its column and toward the window for a fresh legal sighting.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot continues north from [5,1] to [5,0]. Move west to the window at [1,3] to obtain a fresh legal sighting while remaining safely outside the robot's column.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 8,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The fresh window sighting shows the robot at [5,2] heading north, so predict it advances to [5,1]. Move to [2,3], safely outside its vision column and toward the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 9,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the fresh tick-8 window sighting at [5,2] heading north, predict continued northward movement through [5,1] to [5,0] at tick 10. Move east to [3,3], outside the robot's vision column and toward the door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 10,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-8 window sighting, predict the robot has reached the north boundary and now turns south while remaining at [5,0]. Move to [4,3], where the opaque door blocks its south-facing vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 11,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-8 sighting, predict the robot moves south from the north boundary to [5,1]. Its south-facing vision reaches [5,3], so remain at [4,3] behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 14,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Best estimate from the tick-8 sighting is southward movement to [5,4], but hidden pauses remain uncertain. Retreat to [3,3] to seek another window sighting instead of risking the door crossing.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 15,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-8 window sighting, the robot is predicted to continue south from [5,4] to [5,5]. Move west to [2,3] toward the window for a fresh legal sighting; there is still enough time to reach the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 16,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-8 sighting, predict the robot has reached [5,5] and turns north while remaining there. Move left to the window at [1,3] for a fresh legal sighting, with enough time remaining to reach the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 17,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The fresh window sighting shows the robot at [5,4] heading south, so predict it advances to [5,5]. Move east to [2,3], safely outside its vision column and toward the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 18,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-17 sighting, the robot reached the southern boundary at tick 18 and is predicted to remain at [5,5] while turning north. Move east to [3,3], safely outside its vision column and toward the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 19,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-17 window sighting at [5,4] heading south, predict the robot reached [5,5], turned north, and now moves to [5,4]. Move to [4,3], where the opaque door blocks its north-facing vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 22,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict continued northward movement from [5,2] to [5,1]. Hidden pauses could leave the robot dangerously near [5,3], so wait behind the opaque door; four moves remain sufficient to reach the exit before timeout.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 4,
+      "tick": 23,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-17 sighting and the observed intermittent hidden pauses, predict the robot is continuing north to [5,1]. Cross the opaque door now to [5,3], behind its north-facing vision; four eastward moves reach the exit before timeout.",
+      "fatal": true,
+      "matches_prev_attempt_rule": true,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-5",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 5,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the window sighting at [5,3] heading south, predict the robot advances to [5,4]. Move east to [2,3], safely outside its column and toward the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-5",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 5,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-0 window sighting at [5,3] heading south and the tick-1 prediction at [5,4], predict continued southward movement to [5,5]. Move east to [3,3], safely outside the robot's vision column and toward the door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-5",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 5,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-0 sighting, predict the robot has reached the southern boundary and now turns north while remaining at [5,5]. Move to [4,3], protected by the opaque door and positioned to cross later.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-5",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 5,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot's tick-4 pause has ended, so predict it moves north from [5,5] to [5,4]. Its updated north-facing vision reaches [5,3], so remain at [4,3] behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-5",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 5,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Following the inferred tick-4 pause, predict the robot continues north from [5,4] to [5,3]. Crossing the door would cause a same-cell collision, so wait safely at [4,3] behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": null,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-5",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 5,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot continues north from [5,3] to [5,2] at tick 7. Cross the opaque door to [5,3], behind its north-facing vision ray and without collision.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot likely reached the northern boundary at [5,0] last tick and now reverses to face south while remaining there. Move east to [3,3], safely west of the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "After reversing at the northern boundary, the robot is predicted to move south to [5,1]. Move to [4,3], remaining protected from its sight by the opaque door and avoiding collision or edge swap.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue south to [5,2], whose forward vision reaches [5,3]. Crossing the door now would be fatal, so wait at [4,3] behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue south from [5,2] to [5,3]. Wait at [4,3]; the opaque door blocks its east-west sight, and crossing now would collide with it.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-2",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue south from [5,3] to [5,4]. Cross the opaque door to [5,3]; there is no collision or edge swap, and its updated south-facing vision points away from the player.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the south-facing robot advances from [5,4] to [5,5]. Move east to [2,3], remaining far west of the opaque door and outside collision and vision hazards.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to reverse heading at the southern boundary while remaining at [5,5]. Move east to [3,3], outside its north-facing vision ray and clear of collision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to move north from [5,5] to [5,4]. Move east to [4,3], avoiding collision and remaining outside its north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue north from [5,4] to [5,3]. Wait at [4,3] behind the opaque door; crossing now would cause a same-cell collision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue north from [5,3] to [5,2]. Wait behind the opaque door to avoid repeating the previously fatal crossing timing; the door blocks its vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          4,
+          3
+        ],
+        "heading": "W"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot likely turned west in place at [5,3] on tick 5 and will move to [4,3]. Retreat to [3,3] to avoid same-cell collision and an edge swap.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          7,
+          3
+        ],
+        "heading": "E"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Survival at [3,3] rules out the predicted westward robot at [4,3], whose vision would have been fatal. The robot most likely turned east at the junction and reached [6,3] on tick 6, so it should advance to [7,3]. Move to [4,3], remaining behind the opaque door and outside its east-facing vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot most likely continued its vertical patrol north to [5,0] by tick 7 and now reverses south in place. Wait at [4,3] behind the opaque door; crossing to [5,3] would enter its updated south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 8,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to move south from [5,0] to [5,1]. Its forward vision reaches [5,3], so remain at [4,3] behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 9,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot continues south from [5,1] to [5,2]. Its forward vision would include [5,3], so wait at [4,3] behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 10,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 2,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Project the robot south from [5,2] to [5,3]. Remain at [4,3] because crossing the opaque door now risks a same-cell collision; the closed sight line keeps [4,3] safe.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 11,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 1,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is projected to continue south from [5,3] to [5,4]. Retreat to [3,3] rather than repeat the previously fatal crossing timing; this also begins a return to the window for a legal fresh observation with enough time remaining to reach the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 12,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Continue the vertical-patrol estimate: from [5,4] heading south, the robot should advance to [5,5]. Move left to [2,3] toward the window for a fresh legal observation while remaining safely west of the door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 13,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to reverse north at the southern boundary while remaining at [5,5]. Move left to the window at [1,3] for a fresh legal observation, with enough time remaining to reach the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 15,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-14 window sighting at [5,1] heading south, the robot should advance from its estimated tick-15 position [5,2] to [5,3]. Move east to [3,3], safely west of the opaque door and clear of collision and its south-facing vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 16,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-14 sighting at [5,1] heading south, the robot is estimated at [5,3] on tick 16 and should advance to [5,4]. Move to [4,3], staying behind the opaque door and avoiding collision, edge swap, and its south-facing vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 17,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-14 sighting at [5,1] heading south, the robot should advance to [5,5] at tick 18. Cross the opaque door to [5,3]; this avoids collision and edge swap, and the robot's south-facing vision points toward the boundary.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          4,
+          3
+        ],
+        "heading": "W"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The repeated collision timing indicates the robot reached [5,3], turned west in place, and now moves through the door to [4,3]. Retreat to [3,3] to avoid both a same-cell collision and an edge swap.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Survival at [3,3] rules out the prior estimate of [4,3] facing west, whose vision would have been fatal. Repeated crossing collisions indicate the robot lingers at the junction [5,3], so retreat toward the window while remaining protected by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 10,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-6 sighting at [5,4] heading north, the robot advances through [5,3], [5,2], [5,1], and [5,0] by tick 10, then reverses in place to face south at tick 11. Wait behind the opaque door because its updated south-facing vision reaches [5,3].",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 11,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-6 sighting, the robot reached [5,0], reversed south, and should now advance to [5,1]. Its updated south-facing vision includes [5,3], so wait at [4,3] behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 12,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-6 sighting at [5,4] facing north, the best-supported vertical patrol estimate places the robot at [5,1] facing south on tick 12 and [5,2] facing south next. Move left to [3,3] to begin returning to the window for a fresh legal observation rather than risk another uncertain door crossing.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 13,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-6 sighting at [5,4] facing north, the robot reaches [5,0], reverses south, and is estimated at [5,2] on tick 13, advancing to [5,3] next. Move left to [2,3] toward the window, safely west of the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 14,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is estimated at [5,3] facing south on tick 14 and should advance to [5,4]. Move left to the window at [1,3] for a fresh legal observation, with enough time remaining to reach the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 19,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-15 window sighting at [5,5] heading north, the robot is estimated at [5,1] on tick 19 and should advance to [5,0] next. Move right to [6,3]; this avoids collision and edge swap, and the robot's north-facing vision points away from the player.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 20,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-15 sighting, the robot reached [5,0] facing north at tick 20 and should reverse in place to face south. Move right to [7,3], outside its south-facing vision ray and one step from the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 21,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-15 window sighting, the robot reached [5,0], reversed south at tick 21, and should advance to [5,1] next. Move right to the exit at [8,3], outside its south-facing vision ray and clear of collision or edge swap.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "At the south endpoint, the robot is expected to reverse and move north to [5,4]. Peeking from [1,3] safely confirms its updated patrol state.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot remained at the south boundary facing south for one tick, so it likely turns north next. Moving to [2,3] stays outside its column and vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "After remaining at [5,5] facing south, the robot likely used the next tick to reverse north and should now advance to [5,4]. PEEK from [2,3] obtains a legal sighting while remaining protected from sight by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the confirmed northbound sighting at [5,3] on tick 5, the robot should continue through [5,2], [5,1], then reach [5,0] next tick. Move east to [6,3], outside its cell and north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 8,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot should have reached the north endpoint at [5,0] facing north and remain there for its endpoint pause. Move to [7,3], safely outside its position and north-facing vision ray, leaving one step to the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 9,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot should turn south at the north endpoint while remaining at [5,0]. Move right to the exit at [8,3], which is outside its vertical vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 2
+      },
+      "reason": "The robot should advance south from [5,4] to [5,5]. Moving east to [2,3] avoids collision and its south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 2
+      },
+      "reason": "After reaching the south boundary at [5,5], the robot is expected to reverse to north without moving. Move east to [3,3], outside its vertical vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 2
+      },
+      "reason": "The robot is expected to advance north from [5,5] to [5,4]. Move east to [4,3], where the opaque door blocks its north-facing sightline.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 2
+      },
+      "reason": "The robot is predicted to continue north from [5,4] to [5,3], making an immediate crossing fatal by same-cell collision. Stay at [4,3] behind the opaque door and PEEK to confirm its state.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot should advance north from [5,1] to [5,0] and reverse south at the endpoint. Move east to [6,3] to leave its south-facing vision ray on x=5.",
+      "fatal": false,
+      "matches_prev_attempt_rule": true,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is expected to turn south in place at the north boundary. Move east to [7,3], remaining off its x=5 vision ray and one step from the exit.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the confirmed [5,2] north at tick 4, the robot advances to [5,1], then [5,0], reverses and moves south to [5,1], and next reaches [5,2] south. Move right to the exit at [8,3], safely off its x=5 vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-101-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 101,
+      "attempt": 2,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to turn south at the north boundary while remaining at [5,0]. Moving east to [7,3] avoids collision and its south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-101-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 101,
+      "attempt": 2,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to move south from [5,0] to [5,1]. Moving east to the exit at [8,3] avoids collision, edge swap, and its south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Move east to [2,3]. The robot is facing the southern boundary, so predict it remains at [5,5] and reverses to north; its vertical vision ray cannot reach [2,3].",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Continue east to [3,3]. From the window sighting at [5,5] facing south, the robot was predicted to reverse in place at tick 1 and now advance north to [5,4]; its north-facing ray remains on x=5 and cannot reach [3,3].",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Advance to [4,3]. Continuing the inferred boundary reversal, the robot moves north from [5,4] to [5,3]; there is no collision, and the opaque door blocks its sight toward [4,3].",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Wait at [4,3] to avoid entering the robot's predicted current cell [5,3]. Predict it continues north to [5,2]; the opaque door blocks sight across the [4,3]-[5,3] edge.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 2,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Cross the opaque door to [5,3] after waiting for the robot to clear the corridor. Predict it continues north from [5,2] to [5,1]; its north-facing vision points away from the player, and there is no collision or edge swap.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-3",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 3,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The last legal sighting placed the robot at [5,0] facing south, and the surviving observations support continued southward movement, so predict [5,4] facing south next. Wait at [4,3] rather than entering its path; the opaque door blocks sight across the edge.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-3",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 3,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Wait behind the opaque door. The robot is predicted to move south from [5,4] into the boundary cell [5,5] and reverse to north; crossing now to [5,3] would place the player in its north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-3",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 3,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot moves north from [5,5] to [5,4]. Wait at [4,3] behind the opaque door; crossing to [5,3] now would enter its updated north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-3",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 3,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot continues north from [5,4] to [5,3]. Wait at [4,3] to avoid a same-cell collision; the opaque door blocks its north-facing sight across the door edge.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-3",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 3,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 1,
+        "altNext": 0
+      },
+      "reason": "Predict the robot continues north from [5,3] to [5,2]. Cross the opaque door to [5,3]; there is no collision or edge swap, and the robot's updated north-facing vision points away from the player.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Remain at the window to obtain another legal sighting and identify this attempt's behavior before approaching the crossing. The north-facing robot is blocked by the boundary, so predict it stays at [5,0] and reverses to south; its vertical vision ray cannot reach [1,3].",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot remained at [5,0] facing north through the last update rather than reversing, so predict it remains stationary with the same heading for another tick. Wait at the window for another legal observation; its north-facing ray cannot reach [1,3].",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 4,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 2
+      },
+      "reason": "From the last observed southward motion and inferred positions [5,2], [5,3], and [5,4], predict the robot advances to [5,5] still facing south. Cross the opaque door to [5,3]; there is no collision or edge swap, and its updated south-facing ray ends at the boundary.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-5",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 5,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is observed moving north from [5,2], so predict it advances to [5,1] while retaining its heading. Move east to [2,3], outside its vertical vision ray and with no collision or edge swap.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-5",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 5,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-0 sighting at [5,2] facing north, predict continued northward movement through [5,1] to [5,0]. Move east to [3,3], outside the robot's vertical vision ray with no collision or edge swap.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-5",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 5,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is inferred to have reached the north boundary at tick 2. Prior legal observations show it can remain there facing north for one tick before turning, so predict it stays at [5,0] heading north. Move to [4,3], safely behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-5",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 5,
+      "tick": 8,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Predict the robot continues south from [5,4] to [5,5]. Move east to [6,3]; this avoids collision and leaves the robot's vertical forward ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-5",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 5,
+      "tick": 9,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is inferred at the southern boundary facing south and may pause before turning, so predict it remains at [5,5] heading south. Move east to [7,3], outside its vertical vision ray and without collision or edge swap.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-5",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 102,
+      "attempt": 5,
+      "tick": 10,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 1,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is inferred to have paused one tick at the southern boundary facing south, so predict it turns north in place at tick 11. Move east to the exit at [8,3], outside its vertical vision ray and with no collision or edge swap.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 2
+      },
+      "reason": "From the observed [5,4] south heading, the robot is predicted to advance to [5,5]. Moving east to [2,3] avoids its cell, movement edge, and south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 2
+      },
+      "reason": "The robot likely reached [5,5] at tick 1 and now turns north at the south boundary. Moving east to [3,3] remains outside its cell, movement edge, and north-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 2
+      },
+      "reason": "The robot is predicted to move north from [5,5] to [5,4]. Moving to [4,3] avoids collision and remains protected from its vision by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 2
+      },
+      "reason": "The robot is predicted to continue north from [5,4] to [5,3]. Moving right would cause a same-cell collision, while waiting at [4,3] remains safe behind the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 2
+      },
+      "reason": "Accounting for a two-tick turnaround at the south dead end, the robot is predicted to move north from [5,4] to [5,3]. Entering [5,3] would cause a same-cell collision; waiting at [4,3] remains protected by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-105-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 105,
+      "attempt": 2,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N",
+        "pauseRemaining": 2,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "From the tick-0 sighting, a boundary turnaround and continued northward patrol place the robot at [5,2] now and [5,1] next. Moving through the opaque door to [5,3] avoids its cell and edge and remains behind its north-facing vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Continuing from the observed [5,1] southward patrol predicts [5,4] at tick 3. Moving to [4,3] stays outside the robot's south-facing ray and behind the opaque door edge.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The current attempt's window sighting supports continued southward movement from [5,4] to [5,5]. Waiting at [4,3] remains protected from the robot's vertical sightline by the opaque door and avoids a risky crossing.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot likely reached the south end at [5,5] and now reverses north to [5,4]. Waiting at [4,3] remains protected by the opaque door and avoids crossing into its north-facing vision.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue north from [5,4] to [5,3]. Crossing now would cause a same-cell collision, while waiting at [4,3] remains protected by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-2",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 2,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 1,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue north from [5,3] to [5,2]. Moving through the door to [5,3] enters the cell it vacates without an edge swap and remains behind its north-facing vision ray.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 2,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 0,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "At the north boundary, the robot is expected to reverse heading in place before moving south. Moving to [2,3] avoids its cell and its forward vision ray along x=5.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 1,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "After reversing at the north boundary, the robot is predicted to advance south to [5,1]. Moving east to [3,3] avoids its cell and south-facing vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "After reversing at the north boundary and advancing to [5,1], the robot is predicted to continue south to [5,2]. Moving to [4,3] avoids collision and its south-facing vision ray; the opaque door blocks sight across the next edge.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue south from [5,2] to [5,3]. Waiting at [4,3] avoids a same-cell collision, while the opaque door blocks its sight across the edge.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-3",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 3,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue south from [5,3] to [5,4]. Crossing the opaque door into [5,3] avoids collision and is behind its updated south-facing vision ray.",
+      "fatal": true,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 2,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Continuing the observed northward patrol predicts the robot advances from [5,1] to [5,0]. Moving to [4,3] avoids collision and edge swap and remains outside its forward vision ray.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": true,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 3,
+      "predicted": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot has reached the north boundary and should reverse south in place. Waiting at [4,3] avoids collision and remains protected by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 4,
+      "predicted": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "After reversing at the north boundary, the robot is predicted to advance south to [5,1]. Its forward ray would include [5,3], so crossing the opaque door now would be fatal; waiting at [4,3] remains protected.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 5,
+      "predicted": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue south from [5,1] to [5,2]. Its updated south-facing vision ray includes [5,3], so crossing the opaque door would be fatal; waiting at [4,3] remains shielded.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 6,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "Continuing its southward patrol, the robot is predicted to move from [5,2] to [5,3]. Crossing the door would cause a same-cell collision, while waiting at [4,3] remains shielded by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 7,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 3,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot should continue south from [5,3] to [5,4]. Waiting at [4,3] avoids entering its just-vacated cell and remains shielded by the opaque door.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 9,
+      "predicted": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 1,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to reverse north in place at the south boundary. Moving east to [6,3] avoids collision and leaves the robot's north-facing vision ray along x=5.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 10,
+      "predicted": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to advance north from [5,5] to [5,4]. Moving east to [7,3] avoids collision and edge swap and remains outside its north-facing vision ray along x=5.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 0,
+      "matchesPreviousElapsedTrajectory": false
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-4",
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "seed": 106,
+      "attempt": 4,
+      "tick": 11,
+      "predicted": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "N"
+      },
+      "truth": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0,
+        "cooldown": 0,
+        "stutterRemaining": 0,
+        "altNext": 0
+      },
+      "reason": "The robot is predicted to continue north from [5,4] to [5,3]. Moving east to the exit at [8,3] avoids collision and edge swap and remains outside its north-facing vision ray along x=5.",
+      "fatal": false,
+      "matches_prev_attempt_rule": false,
+      "previousRuleCompatibleLatentSupport": false,
+      "compatibleLatentStates": 1,
+      "matchesPreviousElapsedTrajectory": false
+    }
+  ]
+}

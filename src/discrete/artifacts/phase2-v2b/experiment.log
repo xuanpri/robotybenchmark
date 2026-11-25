@@ -1,0 +1,198 @@
+✔ memory off hides real attempt and has empty cross-attempt history (3.516421ms)
+✔ real seed/attempt directories prevent local cache collapse; same attempt resumes (76.670013ms)
+✔ Markov transition probabilities normalized; boundary and heading persistence (0.813987ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 318.194218
+(node:187790) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+identical_loop Partial-unknown-passive seed 101 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 1 tick 4 RIGHT vision
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 101 attempt 2 tick 5 RIGHT vision
+identical_loop Partial-unknown-passive seed 101 attempt 3 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 3 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 3 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 3 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 101 attempt 3 tick 5 RIGHT vision
+identical_loop Partial-unknown-passive seed 101 attempt 4 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 4 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 4 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 4 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 101 attempt 4 tick 5 RIGHT vision
+identical_loop Partial-unknown-passive seed 101 attempt 5 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 5 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 5 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 101 attempt 5 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 101 attempt 5 tick 5 RIGHT vision
+identical_loop Partial-unknown-passive seed 102 attempt 1 tick 1 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 1 tick 4 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 1 tick 5 RIGHT collision
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 1 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 4 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 2 tick 5 RIGHT collision
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 3 tick 5 RIGHT collision
+identical_loop Partial-unknown-passive seed 102 attempt 4 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 4 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 4 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 4 tick 4 RIGHT vision
+identical_loop Partial-unknown-passive seed 102 attempt 5 tick 1 WAIT running
+identical_loop Partial-unknown-passive seed 102 attempt 5 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 5 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 5 tick 4 RIGHT running
+identical_loop Partial-unknown-passive seed 102 attempt 5 tick 5 RIGHT collision
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 1 WAIT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 4 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 5 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 6 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 7 RIGHT running
+identical_loop Partial-unknown-passive seed 103 attempt 1 tick 8 RIGHT success
+identical_loop Partial-unknown-passive seed 104 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 1 tick 4 RIGHT vision
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 2 tick 4 RIGHT vision
+identical_loop Partial-unknown-passive seed 104 attempt 3 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 3 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 3 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 3 tick 4 RIGHT vision
+identical_loop Partial-unknown-passive seed 104 attempt 4 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 4 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 4 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 4 tick 4 RIGHT vision
+identical_loop Partial-unknown-passive seed 104 attempt 5 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 5 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 5 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 104 attempt 5 tick 4 RIGHT vision
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 5 WAIT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 6 WAIT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 7 WAIT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 8 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 9 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 10 RIGHT running
+identical_loop Partial-unknown-passive seed 105 attempt 1 tick 11 RIGHT success
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 1 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 2 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 3 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 4 WAIT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 5 WAIT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 6 WAIT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 7 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 8 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 9 RIGHT running
+identical_loop Partial-unknown-passive seed 106 attempt 1 tick 10 RIGHT success
+{
+  pass: [ 3, 3, 3, 3, 3 ],
+  meanSuccessAttempt: 1,
+  visible: { correct: 15, total: 22, accuracy: 0.6818181818181818 },
+  occluded: { correct: 13, total: 75, accuracy: 0.17333333333333334 },
+  failures: [
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-101-attempt-1',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-101-attempt-2',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-101-attempt-3',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-101-attempt-4',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-101-attempt-5',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-102-attempt-1',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-102-attempt-2',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-102-attempt-3',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-102-attempt-4',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-102-attempt-5',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-104-attempt-1',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-104-attempt-2',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-104-attempt-3',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-104-attempt-4',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    },
+    {
+      id: 'identical_loop-partial-unknown-passive-seed-104-attempt-5',
+      category: 'Prediction Error',
+      evidence: 'Replacing the next robot truth with the reported prediction removes the immediate fatal event for the same action.'
+    }
+  ],
+  completedRuns: 18,
+  requests: 97,
+  costRMB: 3.885898000000001,
+  firstSuccess: [ null, null, 1, null, 1, 1 ],
+  complete: true
+}

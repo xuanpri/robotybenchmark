@@ -1,0 +1,70 @@
+{
+  "label": "Immediate Counterfactual Attribution",
+  "scope": "Only immediate fatal step; does not rule out earlier risk-management errors.",
+  "rows": [
+    {
+      "mode": "pattern_shift",
+      "condition": "Omniscient",
+      "Format Error": 0,
+      "Prediction Error": 0,
+      "Action/Planning Error": 0,
+      "Stochastic Realization Error": 0
+    },
+    {
+      "mode": "identical_loop",
+      "condition": "Partial-unknown-passive",
+      "Format Error": 0,
+      "Prediction Error": 5,
+      "Action/Planning Error": 0,
+      "Stochastic Realization Error": 0
+    },
+    {
+      "mode": "identical_loop",
+      "condition": "Partial-unknown-interactive",
+      "Format Error": 0,
+      "Prediction Error": 2,
+      "Action/Planning Error": 0,
+      "Stochastic Realization Error": 0
+    },
+    {
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-passive",
+      "Format Error": 0,
+      "Prediction Error": 13,
+      "Action/Planning Error": 0,
+      "Stochastic Realization Error": 0
+    },
+    {
+      "mode": "parametric_shift",
+      "condition": "Partial-unknown-interactive",
+      "Format Error": 0,
+      "Prediction Error": 3,
+      "Action/Planning Error": 0,
+      "Stochastic Realization Error": 0
+    },
+    {
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-passive",
+      "Format Error": 0,
+      "Prediction Error": 9,
+      "Action/Planning Error": 0,
+      "Stochastic Realization Error": 0
+    },
+    {
+      "mode": "pattern_shift",
+      "condition": "Partial-unknown-interactive",
+      "Format Error": 0,
+      "Prediction Error": 2,
+      "Action/Planning Error": 0,
+      "Stochastic Realization Error": 0
+    },
+    {
+      "mode": "pure_random",
+      "condition": "Partial-unknown-passive",
+      "Format Error": 0,
+      "Prediction Error": 0,
+      "Action/Planning Error": 0,
+      "Stochastic Realization Error": 12
+    }
+  ]
+}

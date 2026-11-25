@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "runs": 105,
+  "requests": 848,
+  "hiddenRequestsMutationChecked": 650,
+  "checks": [
+    "seed/attempt world reconstruction",
+    "private state replay",
+    "exact wire reconstruction",
+    "public-only historical memory",
+    "hidden truth and mode noninterference",
+    "prediction/visibility/age metrics",
+    "one-step counterfactual attribution"
+  ]
+}

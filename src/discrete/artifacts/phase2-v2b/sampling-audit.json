@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "wireReceipts": 97,
+  "uniqueResponseIDs": 97,
+  "responseIDDuplicates": 0,
+  "allPromptAttemptsFixedToOne": true,
+  "allCrossAttemptHistoriesEmpty": true,
+  "realSeedAttemptInEveryReceiptPath": true,
+  "sameAttemptResumeOnly": true
+}

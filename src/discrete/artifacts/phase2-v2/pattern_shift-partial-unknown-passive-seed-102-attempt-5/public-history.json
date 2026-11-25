@@ -1,0 +1,255 @@
+{
+  "attempt": 5,
+  "observations": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "outcome": "running",
+      "robot": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "N"
+      },
+      "source": "window"
+    },
+    {
+      "tick": 1,
+      "player": [
+        2,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 2,
+      "player": [
+        3,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 3,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 4,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 5,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 6,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 7,
+      "player": [
+        4,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 8,
+      "player": [
+        5,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 9,
+      "player": [
+        6,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 10,
+      "player": [
+        7,
+        3
+      ],
+      "outcome": "running",
+      "robot": null,
+      "source": "occluded"
+    },
+    {
+      "tick": 11,
+      "player": [
+        8,
+        3
+      ],
+      "outcome": "success",
+      "robot": null,
+      "source": "occluded"
+    }
+  ],
+  "decisions": [
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The robot is observed moving north from [5,2], so predict it advances to [5,1] while retaining its heading. Move east to [2,3], outside its vertical vision ray and with no collision or edge swap."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "From the tick-0 sighting at [5,2] facing north, predict continued northward movement through [5,1] to [5,0]. Move east to [3,3], outside the robot's vertical vision ray with no collision or edge swap."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The robot is inferred to have reached the north boundary at tick 2. Prior legal observations show it can remain there facing north for one tick before turning, so predict it stays at [5,0] heading north. Move to [4,3], safely behind the opaque door."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          0
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The robot is inferred to have reached [5,0] at tick 2 and remained there facing north at tick 3, matching the observed one-tick boundary pause before turning south. Predict it turns south in place at tick 4. Wait at [4,3] behind the opaque door, since crossing to [5,3] would enter its updated south-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          1
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "The robot is inferred to have turned south at [5,0] on tick 4, so predict it advances to [5,1]. Wait at [4,3] behind the opaque door; crossing to [5,3] would enter its south-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          2
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Predict the robot advances south from [5,1] to [5,2]. Wait at [4,3] behind the opaque door, since crossing to [5,3] would enter its updated south-facing vision ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          3
+        ],
+        "heading": "S"
+      },
+      "action": "WAIT",
+      "reason": "Predict the robot continues south from [5,2] to [5,3]. Wait at [4,3] behind the opaque door to avoid entering its updated cell; the door blocks its sight."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          4
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Predict the robot advances south from [5,3] to [5,4]. Cross the opaque door to [5,3]; the robot moves away, so there is no collision or edge swap, and its updated south-facing vision ray points away from the player."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "Predict the robot continues south from [5,4] to [5,5]. Move east to [6,3]; this avoids collision and leaves the robot's vertical forward ray."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "S"
+      },
+      "action": "RIGHT",
+      "reason": "The robot is inferred at the southern boundary facing south and may pause before turning, so predict it remains at [5,5] heading south. Move east to [7,3], outside its vertical vision ray and without collision or edge swap."
+    },
+    {
+      "predicted_next": {
+        "pos": [
+          5,
+          5
+        ],
+        "heading": "N"
+      },
+      "action": "RIGHT",
+      "reason": "The robot is inferred to have paused one tick at the southern boundary facing south, so predict it turns north in place at tick 11. Move east to the exit at [8,3], outside its vertical vision ray and with no collision or edge swap."
+    }
+  ],
+  "failureReason": null
+}

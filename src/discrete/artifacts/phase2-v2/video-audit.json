@@ -1,0 +1,308 @@
+{
+  "passed": true,
+  "videos": 50,
+  "decodedFrames": 6030,
+  "statePNGs": 402,
+  "runs": [
+    {
+      "id": "identical_loop-partial-unknown-interactive-seed-102-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "identical_loop-partial-unknown-interactive-seed-104-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "identical_loop-partial-unknown-passive-seed-101-attempt-1",
+      "frames": 90,
+      "pngStates": 6,
+      "passed": true
+    },
+    {
+      "id": "identical_loop-partial-unknown-passive-seed-102-attempt-1",
+      "frames": 90,
+      "pngStates": 6,
+      "passed": true
+    },
+    {
+      "id": "identical_loop-partial-unknown-passive-seed-102-attempt-2",
+      "frames": 135,
+      "pngStates": 9,
+      "passed": true
+    },
+    {
+      "id": "identical_loop-partial-unknown-passive-seed-103-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "identical_loop-partial-unknown-passive-seed-104-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-102-attempt-1",
+      "frames": 90,
+      "pngStates": 6,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "frames": 135,
+      "pngStates": 9,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-106-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-2",
+      "frames": 105,
+      "pngStates": 7,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-102-attempt-3",
+      "frames": 135,
+      "pngStates": 9,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-1",
+      "frames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-104-attempt-2",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-1",
+      "frames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-2",
+      "frames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-3",
+      "frames": 135,
+      "pngStates": 9,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-4",
+      "frames": 375,
+      "pngStates": 25,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-105-attempt-5",
+      "frames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-2",
+      "frames": 105,
+      "pngStates": 7,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-passive-seed-106-attempt-3",
+      "frames": 285,
+      "pngStates": 19,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-102-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-105-attempt-1",
+      "frames": 90,
+      "pngStates": 6,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-101-attempt-1",
+      "frames": 135,
+      "pngStates": 9,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-2",
+      "frames": 90,
+      "pngStates": 6,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-3",
+      "frames": 135,
+      "pngStates": 9,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-102-attempt-4",
+      "frames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-105-attempt-1",
+      "frames": 135,
+      "pngStates": 9,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-1",
+      "frames": 90,
+      "pngStates": 6,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-2",
+      "frames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-passive-seed-106-attempt-3",
+      "frames": 90,
+      "pngStates": 6,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-101-attempt-1",
+      "frames": 135,
+      "pngStates": 9,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-102-attempt-2",
+      "frames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-102-attempt-4",
+      "frames": 90,
+      "pngStates": 6,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-102-attempt-5",
+      "frames": 195,
+      "pngStates": 13,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-103-attempt-2",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-103-attempt-3",
+      "frames": 150,
+      "pngStates": 10,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-104-attempt-2",
+      "frames": 135,
+      "pngStates": 9,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-105-attempt-2",
+      "frames": 120,
+      "pngStates": 8,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-105-attempt-3",
+      "frames": 105,
+      "pngStates": 7,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-106-attempt-1",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-106-attempt-3",
+      "frames": 75,
+      "pngStates": 5,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-106-attempt-5",
+      "frames": 135,
+      "pngStates": 9,
+      "passed": true
+    },
+    {
+      "id": "identical_loop-partial-unknown-interactive-seed-101-attempt-1",
+      "frames": 165,
+      "pngStates": 11,
+      "passed": true
+    },
+    {
+      "id": "parametric_shift-partial-unknown-interactive-seed-102-attempt-3",
+      "frames": 225,
+      "pngStates": 15,
+      "passed": true
+    },
+    {
+      "id": "pattern_shift-partial-unknown-interactive-seed-102-attempt-2",
+      "frames": 165,
+      "pngStates": 11,
+      "passed": true
+    },
+    {
+      "id": "pure_random-partial-unknown-passive-seed-101-attempt-2",
+      "frames": 150,
+      "pngStates": 10,
+      "passed": true
+    }
+  ]
+}
