@@ -1,0 +1,523 @@
+{
+  "id": "oracle-phase-1",
+  "condition": "Oracle",
+  "phase": 1,
+  "states": [
+    {
+      "tick": 0,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          1
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 1,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          2
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 2,
+      "player": [
+        1,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          3
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 3,
+      "player": [
+        2,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          4
+        ],
+        "heading": "S",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 4,
+      "player": [
+        3,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          5
+        ],
+        "heading": "S",
+        "pauseRemaining": 2
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 5,
+      "player": [
+        4,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          5
+        ],
+        "pauseRemaining": 1,
+        "heading": "S"
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 6,
+      "player": [
+        5,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          5
+        ],
+        "pauseRemaining": 0,
+        "heading": "N"
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 7,
+      "player": [
+        6,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          4
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 8,
+      "player": [
+        7,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          3
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "running"
+    },
+    {
+      "tick": 9,
+      "player": [
+        8,
+        3
+      ],
+      "robot": {
+        "pos": [
+          2,
+          2
+        ],
+        "heading": "N",
+        "pauseRemaining": 0
+      },
+      "outcome": "success"
+    }
+  ],
+  "steps": [
+    {
+      "before": {
+        "tick": 0,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            1
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "action": "WAIT",
+        "reason": "BFS shortest path"
+      }
+    },
+    {
+      "before": {
+        "tick": 1,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            2
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "action": "WAIT",
+        "reason": "BFS shortest path"
+      }
+    },
+    {
+      "before": {
+        "tick": 2,
+        "player": [
+          1,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            3
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 3,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "action": "RIGHT",
+        "reason": "BFS shortest path"
+      }
+    },
+    {
+      "before": {
+        "tick": 3,
+        "player": [
+          2,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            4
+          ],
+          "heading": "S",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 4,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 2
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "action": "RIGHT",
+        "reason": "BFS shortest path"
+      }
+    },
+    {
+      "before": {
+        "tick": 4,
+        "player": [
+          3,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            5
+          ],
+          "heading": "S",
+          "pauseRemaining": 2
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            5
+          ],
+          "pauseRemaining": 1,
+          "heading": "S"
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "action": "RIGHT",
+        "reason": "BFS shortest path"
+      }
+    },
+    {
+      "before": {
+        "tick": 5,
+        "player": [
+          4,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            5
+          ],
+          "pauseRemaining": 1,
+          "heading": "S"
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 6,
+        "player": [
+          5,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            5
+          ],
+          "pauseRemaining": 0,
+          "heading": "N"
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "action": "RIGHT",
+        "reason": "BFS shortest path"
+      }
+    },
+    {
+      "before": {
+        "tick": 6,
+        "player": [
+          5,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            5
+          ],
+          "pauseRemaining": 0,
+          "heading": "N"
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 7,
+        "player": [
+          6,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "action": "RIGHT",
+        "reason": "BFS shortest path"
+      }
+    },
+    {
+      "before": {
+        "tick": 7,
+        "player": [
+          6,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            4
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 8,
+        "player": [
+          7,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "decision": {
+        "action": "RIGHT",
+        "reason": "BFS shortest path"
+      }
+    },
+    {
+      "before": {
+        "tick": 8,
+        "player": [
+          7,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            3
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "running"
+      },
+      "after": {
+        "tick": 9,
+        "player": [
+          8,
+          3
+        ],
+        "robot": {
+          "pos": [
+            2,
+            2
+          ],
+          "heading": "N",
+          "pauseRemaining": 0
+        },
+        "outcome": "success"
+      },
+      "decision": {
+        "action": "RIGHT",
+        "reason": "BFS shortest path"
+      }
+    }
+  ],
+  "actions": [
+    "WAIT",
+    "WAIT",
+    "RIGHT",
+    "RIGHT",
+    "RIGHT",
+    "RIGHT",
+    "RIGHT",
+    "RIGHT",
+    "RIGHT"
+  ],
+  "outcome": "success"
+}

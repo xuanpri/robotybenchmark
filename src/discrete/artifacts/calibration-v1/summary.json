@@ -1,0 +1,36 @@
+{
+  "passed": false,
+  "complete": false,
+  "summary": [
+    {
+      "condition": "Oracle",
+      "completed": 5,
+      "success": 5,
+      "total": 5,
+      "predictionCorrect": 0,
+      "predictionTotal": 0,
+      "predictionAccuracy": null
+    },
+    {
+      "condition": "Future-known",
+      "completed": 5,
+      "success": 5,
+      "total": 5,
+      "predictionCorrect": 0,
+      "predictionTotal": 0,
+      "predictionAccuracy": null
+    },
+    {
+      "condition": "Omniscient",
+      "completed": 1,
+      "success": 1,
+      "total": 5,
+      "predictionCorrect": 10,
+      "predictionTotal": 10,
+      "predictionAccuracy": 1
+    }
+  ],
+  "failures": [],
+  "predictionMetric": "Exact joint position AND heading accuracy over schema-valid Omniscient actions; format responses are separately counted.",
+  "attributionPolicy": "Prediction Error requires a wrong terminal prediction and a one-step counterfactual removing collision/swap/vision death. Other decision failures and timeouts are Action/Planning Error; invalid JSON/schema is Format Error. Infrastructure interruptions remain incomplete, never scored as model failures."
+}
